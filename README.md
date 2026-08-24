@@ -2,13 +2,14 @@
 
 ## At a glance
 
-This thesis tests whether **microbiome** and **metabolome** case-control signatures for **inflammatory bowel disease (IBD)** and **colorectal cancer (CRC)** transport across independently processed cohorts: **Franzosa**, **iHMP/IBDMDB** (IBD), **Sinha**, **Yachida** (CRC).
+This thesis tests whether **microbiome** and **metabolome** case-control signatures for **inflammatory bowel disease (IBD)** and **colorectal cancer (CRC)** transport across independently processed cohorts: **Franzosa**, **iHMP/IBDMDB** (IBD, both shotgun metagenomics), **Sinha** (CRC, 16S + metabolomics), **Yachida** (CRC, shotgun + metabolomics, disease-stage-ordered). **All four cohorts contribute both microbiome and metabolome data.**
 
 - **Final analysis**: [`final_analysis/`](final_analysis/) (Stage 4 predictive/integration) + [`analyses/03_cross_cohort_replication/`](analyses/03_cross_cohort_replication/) (Stage 2/3 biological replication). Start with [`final_analysis/README.md`](final_analysis/README.md) for what's authoritative.
 - **Microbiome-only and metabolome-only are the two co-primary single-omic analyses** — neither is secondary to the other (early integration is a separate comparator; see §9 below).
 - **Sensitivity / exploratory / historical work is clearly segregated**: [`results/sensitivity/`](results/sensitivity/) (post-freeze CRC representation checks) vs. [`exploratory/`](exploratory/) (alternative approaches and the pre-correction pipeline — **not final results**, see its warning README).
-- **Data**: no raw/third-party cohort data is redistributed here — see [`data/README.md`](data/README.md) for exact sources, accessions, and retrieval instructions.
+- **Data**: no raw/third-party cohort data is redistributed here — see [`data/README.md`](data/README.md) for exact sources, accessions, and retrieval instructions. **Participant-level clinical metadata (age, BMI, medication flags, disease stage, etc.) is deliberately withheld** even though sample IDs are de-identified — see `data/README.md` for what's included vs. withheld and how to regenerate it locally.
 - **Reproduce it**: see [`docs/reproducibility.md`](docs/reproducibility.md) for exact commands.
+- **Limitations**: cross-cohort metabolomics quantitative-scale equivalence unverified; CRC microbiome platform (16S vs. shotgun) confounded with cohort — see [`docs/limitations.md`](docs/limitations.md).
 - **Every number's source**: [`docs/file_provenance_map.csv`](docs/file_provenance_map.csv) and, for the thesis's exact figures/tables, [`final_analysis/tables/final_stage4_figure_source_values.csv`](final_analysis/tables/final_stage4_figure_source_values.csv) / [`analyses/03_cross_cohort_replication/manifests/stage2_3_manuscript_claim_provenance.csv`](analyses/03_cross_cohort_replication/manifests/stage2_3_manuscript_claim_provenance.csv).
 
 Full detail in the 20 sections below.
@@ -33,10 +34,10 @@ Do microbiome-only and metabolome-only case-control signatures, and their combin
 |---|---|---|---|
 | Franzosa et al. | IBD (CD/UC/Control) | Shotgun metagenomics | LC-MS |
 | iHMP / IBDMDB | IBD (CD/UC/Control) | Shotgun metagenomics | LC-MS, multi-method |
-| Sinha et al. | CRC (CRC/Control) | 16S rRNA amplicon | — (microbiome only in this analysis) |
-| Yachida et al. | CRC (CRC/Control), staged | Shotgun metagenomics | CE-TOFMS / LC-MS |
+| Sinha et al. | CRC (CRC/Control) | 16S rRNA amplicon (V3–V4) | Non-targeted LC/GC-MS/MS (Metabolon) |
+| Yachida et al. | CRC (CRC/Control), staged | Shotgun metagenomics | CE-TOFMS |
 
-Sinha (16S) vs. Yachida (shotgun) is platform-confounded with cohort for CRC — this limitation is carried through the analysis and reporting, not resolved by scaling.
+Sinha contributes **both** microbiome and metabolomics data to this analysis and is used in the CRC microbiome-only, metabolome-only, and early-integration representations (see `final_analysis/tables/final_stage4/table1_cohort_and_assay_overview.csv` for the authoritative per-cohort assay/sample counts). Sinha (16S) vs. Yachida (shotgun) remains platform-confounded with cohort for CRC **microbiome** transfer specifically — this limitation is carried through the analysis and reporting, not resolved by scaling. The two cohorts also use different metabolomics platforms (LC/GC-MS/MS vs. CE-TOFMS); cross-cohort metabolomics quantitative-scale equivalence was not established for either disease pair (see `docs/limitations.md`).
 
 ## 5. IBD and CRC study design
 
@@ -121,11 +122,11 @@ See `CITATION.cff`.
 
 ## 18. Thesis citation placeholder
 
-> [Author]. (2026). *[Thesis title]*. MSc thesis, [Institution]. [DOI/URL once available.]
+> Doshi, B. (2026). *[Thesis title — not yet verified against a frozen final title page]*. MSc thesis, University of Birmingham. [DOI/URL once available.]
 
 ## 19. Contact / author
 
-[Author name / contact email — to be filled in by the author before publication.]
+Bhakti Doshi ([contact email — to be added by the author before publication]).
 
 ## 20. Licence / data-licence disclaimer
 

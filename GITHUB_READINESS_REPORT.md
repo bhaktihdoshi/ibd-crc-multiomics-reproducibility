@@ -2,7 +2,7 @@
 
 Curated repository: `github_ibd_crc_multiomics/` (142MB working tree + 44MB local `.git`, 1,306 tracked files). Source project (`thesis_preprocessing_workflow/`, 788MB) confirmed untouched throughout — zero files modified during the entire curation process.
 
-**Update (2026-08-25): the four pre-publication review items have been resolved.** This supersedes the previous version of this report, which left two manual-review items open.
+**Update (2026-08-24): the four pre-publication review items have been resolved.** This supersedes the previous version of this report, which left two manual-review items open.
 
 ## Resolution of the four review items
 

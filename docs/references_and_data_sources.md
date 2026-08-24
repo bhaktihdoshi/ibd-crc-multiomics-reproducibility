@@ -6,7 +6,7 @@ This repository does not include literature-review or source-paper PDFs (see rep
 
 - Franzosa, E. A., et al. "Gut microbiome structure and metabolic activity in inflammatory bowel disease." *Nature Microbiology* (2019).
 - Integrative Human Microbiome Project (iHMP) / IBDMDB. Multi-omics data on inflammatory bowel disease. Data portal: https://ibdmdb.org/
-- Sinha, R., et al. Colorectal cancer 16S rRNA microbiome cohort (see original publication for exact citation).
+- Sinha, R., et al. Colorectal cancer cohort with paired 16S rRNA (V3–V4) stool microbiome and non-targeted LC/GC-MS/MS (Metabolon) metabolomics (see original publication for exact citation).
 - Yachida, S., et al. "Metagenomic and metabolomic analyses reveal distinct stage-specific phenotypes of the gut microbiota in colorectal cancer." *Nature Medicine* (2019).
 
 ## Reference databases

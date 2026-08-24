@@ -3,20 +3,20 @@ message: "If you use this code, please cite the associated MSc thesis (citation 
 type: software
 title: "IBD and CRC Multi-Omics Transportability — MSc Thesis Analysis Repository"
 authors:
-  - family-names: "[Author surname — fill in]"
-    given-names: "[Author given name — fill in]"
-    affiliation: "[Institution — fill in]"
+  - family-names: "Doshi"
+    given-names: "Bhakti"
+    affiliation: "University of Birmingham"
 version: "1.0.0"
 date-released: "2026-08-24"
 license: MIT
-repository-code: "[GitHub URL once published]"
+repository-code: "https://github.com/bhaktihdoshi/ibd-crc-multiomics-reproducibility"
 preferred-citation:
   type: thesis
-  title: "[Thesis title — fill in]"
+  title: "[Thesis title — NOT YET VERIFIED against a frozen final title page; do not treat as final until confirmed]"
   authors:
-    - family-names: "[Author surname — fill in]"
-      given-names: "[Author given name — fill in]"
+    - family-names: "Doshi"
+      given-names: "Bhakti"
   institution:
-    name: "[Institution — fill in]"
+    name: "University of Birmingham"
   year: 2026
   thesis-type: "MSc thesis"
