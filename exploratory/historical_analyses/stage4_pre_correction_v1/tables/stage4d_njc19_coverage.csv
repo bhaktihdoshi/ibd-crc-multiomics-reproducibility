@@ -1,0 +1,3 @@
+disease,matched_genera,total_stage4_genera,genera_with_eligible_stage4_metabolite_edge,matched_metabolites,total_stage4_metabolites,expected_crossomic_edge_count,coverage_percent,coverage_grade
+IBD,37,50,37,38,166,205,74.0,GOOD
+CRC,39,52,38,48,109,257,73.07692307692307,GOOD

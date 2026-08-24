@@ -1,0 +1,5 @@
+disease,cohort,frozen_metabolomics_n,matched_multiomics_n,retention_fraction,class_counts,matching_rule,notes
+IBD,Franzosa,172,137,0.7965,"{'Control': 56, 'CD': 45, 'UC': 36}",exact sample_id intersection of frozen metabolomics population and canonical microbiome matrix,
+IBD,iHMP,91,91,1.0,"{'CD': 39, 'UC': 26, 'Control': 26}",exact sample_id intersection of frozen metabolomics population and canonical microbiome matrix,
+CRC,Sinha,131,131,1.0,"{'Control/Healthy': 89, 'CRC': 42}",exact sample_id intersection of frozen metabolomics population and canonical microbiome matrix,
+CRC,Yachida,277,252,0.9097,"{'Control/Healthy': 127, 'CRC': 125}",exact sample_id intersection of frozen metabolomics population and canonical microbiome matrix,Yachida excludes 25 ambiguous duplicated subjects under the documented deterministic policy.

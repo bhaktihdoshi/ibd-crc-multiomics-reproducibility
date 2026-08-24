@@ -1,0 +1,8 @@
+analysis_component,IBD_policy,CRC_stage2_policy
+primary_models,"ridge logistic; elastic-net logistic; random forest; Extra Trees; sklearn GradientBoostingClassifier","same five predefined model families"
+primary_feature_sets,"clinical; metabolomics; integrated","clinical; metabolomics; integrated"
+shared_clinical_covariates,"audited shared metadata only; fold-local preprocessing","age_years, sex and BMI recovered from source-level Sinha metadata and Yachida official S2-2-derived metadata; cohort-specific variables retained separately"
+external_validation,"bidirectional cohort transfer","Sinha->Yachida and Yachida->Sinha"
+threshold_selection,"training-only nested OOF Youden J","training-only nested OOF Youden J"
+calibration,"assessment-only; no recalibration","assessment-only; no recalibration"
+postrun_diagnostics,"positive class, feature order, threshold, Brier, convergence, calibration policy","same safeguards implemented before CRC execution"

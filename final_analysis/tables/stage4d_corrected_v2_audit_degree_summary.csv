@@ -1,0 +1,13 @@
+disease,graph_mode,node_type,n_nodes,median_degree,q1_degree,q3_degree,p95_degree,max_degree,iqr_degree
+CRC,identity,metabolite,109,0.0,0.0,0.0,0.0,0,0.0
+CRC,identity,microbe,52,0.0,0.0,0.0,0.0,0,0.0
+CRC,kegg_njc19,metabolite,109,90.0,89.0,94.0,99.6,118,5.0
+CRC,kegg_njc19,microbe,52,2.0,0.0,7.0,18.89999999999999,36,7.0
+CRC,kegg_only,metabolite,109,90.0,89.0,91.0,92.0,92,2.0
+CRC,kegg_only,microbe,52,0.0,0.0,0.0,0.0,0,0.0
+IBD,identity,metabolite,166,0.0,0.0,0.0,0.0,0,0.0
+IBD,identity,microbe,50,0.0,0.0,0.0,0.0,0,0.0
+IBD,kegg_njc19,metabolite,166,99.0,2.25,103.0,109.75,130,100.75
+IBD,kegg_njc19,microbe,50,3.0,0.25,5.0,13.549999999999997,29,4.75
+IBD,kegg_only,metabolite,166,99.0,2.25,101.0,106.75,109,98.75
+IBD,kegg_only,microbe,50,0.0,0.0,0.0,0.0,0,0.0

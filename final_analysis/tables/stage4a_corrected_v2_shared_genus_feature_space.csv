@@ -1,0 +1,3 @@
+disease,cohort_a,cohort_b,cohort_a_authoritative_genus_p,cohort_b_authoritative_genus_p,shared_authoritative_genus_p,shared_feature_order_deterministic,notes
+IBD,Franzosa,iHMP,57,126,50,True,Shared schema is defined by feature availability only; target outcomes and target abundance distributions are not used for fitting decisions.
+CRC,Sinha,Yachida,57,1941,52,True,Shared schema is defined by feature availability only; target outcomes and target abundance distributions are not used for fitting decisions.

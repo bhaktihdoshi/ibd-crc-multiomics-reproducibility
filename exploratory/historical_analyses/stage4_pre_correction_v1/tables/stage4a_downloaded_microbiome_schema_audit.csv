@@ -1,0 +1,6 @@
+cohort,source_matrix,rows_orientation,sample_n,feature_p,taxonomic_rank,sample_id_field,duplicate_sample_ids,duplicate_taxa,abundance_scale_classification,overall_zero_fraction,overall_missing_fraction,median_row_sum,row_sum_interpretation
+Franzosa,41564_2018_306_MOESM6_ESM.xlsx,samples,220,202,species,sample_id,0.0,0.0,relative abundance,0.6496849684968496,0.0049504950495049506,0.9898541,approximately_1
+iHMP,hmp2_metadata_2018-08-20.csv,samples_or_assays_metadata,5533,490,not a taxonomic abundance matrix,External ID; Participant ID,,,metadata only,,0.7053456625737228,,not_applicable
+Yachida,Table_S7-1 Species profile derived from SILVA LTP,samples,588,8367,species,sample_id,0.0,0.0,relative abundance,0.8507291765756141,0.0,1.0000000000000022,approximately_1
+Yachida,Table_S7-2 Genus profile derived from SILVA LTP,samples,588,1941,genus,sample_id,0.0,0.0,percentage_or_scaled relative abundance,0.808875430646241,0.0,82877.50000002937,neither_or_mixed
+Sinha,sinha_s3_microbes.csv,samples,131,220,mixed_taxonomic_tree,sample_id,0.0,0.0,as supplied,0.5423317140874393,0.0,5.993325910000001,neither_or_mixed

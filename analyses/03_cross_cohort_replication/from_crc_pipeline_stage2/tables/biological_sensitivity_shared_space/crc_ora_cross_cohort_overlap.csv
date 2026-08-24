@@ -1,0 +1,3 @@
+pathway_id,pathway_name,sinha_fdr,yachida_fdr,sinha_fold_enrichment,yachida_fold_enrichment,sinha_significant,yachida_significant,shared_significant,direction_set,shared_metabolites_if_any,replication_definition
+map01230,Biosynthesis of amino acids,,0.06665491095044966,,3.8214285714285716,False,False,False,all_fdr_significant,,same pathway BH-FDR < 0.05 in both Sinha and Yachida under same direction-set
+map01230,Biosynthesis of amino acids,,0.06665491095044966,,3.8214285714285716,False,False,False,higher_in_disease,,same pathway BH-FDR < 0.05 in both Sinha and Yachida under same direction-set

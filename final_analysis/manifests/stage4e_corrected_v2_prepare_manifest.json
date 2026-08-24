@@ -1,0 +1,27 @@
+{
+  "status": "dry_run_complete",
+  "full_gcn_fit_executed": false,
+  "ridge_comparator_fit_executed": false,
+  "graph_modes": [
+    "identity",
+    "kegg_only",
+    "kegg_njc19",
+    "conservative_kegg_njc19"
+  ],
+  "primary_seeds": [
+    20260813,
+    20260814,
+    20260815,
+    20260816,
+    20260817
+  ],
+  "outer_folds": 5,
+  "architecture_hpo_inner_folds": 0,
+  "early_stopping_validation_fraction": 0.2,
+  "min_epochs_before_early_stopping": 20,
+  "configuration_grid_rows": 8,
+  "architecture_scope": "sensitivities",
+  "architecture_hpo_performed": false,
+  "configuration_grid_hash": "5891d715f4157b5b04ac5c7bc1a59400abda06ec32978c5a139ea962eaa61a7a",
+  "stages_4b_to_4d_modified": false
+}

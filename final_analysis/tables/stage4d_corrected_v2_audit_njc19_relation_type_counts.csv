@@ -1,0 +1,5 @@
+disease,relation_class,n_prepared_candidate_records
+CRC,consumption_or_import,174
+CRC,production_or_export,83
+IBD,consumption_or_import,121
+IBD,production_or_export,84

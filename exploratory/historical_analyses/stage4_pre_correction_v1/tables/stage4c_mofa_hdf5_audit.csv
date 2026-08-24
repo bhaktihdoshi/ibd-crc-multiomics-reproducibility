@@ -1,0 +1,17 @@
+disease,path,test,status,notes
+IBD,/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/stage4_multiomics_integration/models/stage4c_mofa_ibd_k8.hdf5,groups,pass,Franzosa;iHMP
+IBD,/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/stage4_multiomics_integration/models/stage4c_mofa_ibd_k8.hdf5,views,pass,metabolome;microbiome
+IBD,/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/stage4_multiomics_integration/models/stage4c_mofa_ibd_k8.hdf5,likelihoods,pass,gaussian;gaussian
+IBD,/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/stage4_multiomics_integration/models/stage4c_mofa_ibd_k8.hdf5,Z_Franzosa,pass,"samples=137;Z_shape=(8, 137)"
+IBD,/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/stage4_multiomics_integration/models/stage4c_mofa_ibd_k8.hdf5,Z_iHMP,pass,"samples=91;Z_shape=(8, 91)"
+IBD,/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/stage4_multiomics_integration/models/stage4c_mofa_ibd_k8.hdf5,W_metabolome,pass,"features=166;W_shape=(8, 166)"
+IBD,/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/stage4_multiomics_integration/models/stage4c_mofa_ibd_k8.hdf5,W_microbiome,pass,"features=50;W_shape=(8, 50)"
+IBD,/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/stage4_multiomics_integration/models/stage4c_mofa_ibd_k8.hdf5,training_stats,pass,elbo_len=81
+CRC,/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/stage4_multiomics_integration/models/stage4c_mofa_crc_k8.hdf5,groups,pass,Sinha;Yachida
+CRC,/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/stage4_multiomics_integration/models/stage4c_mofa_crc_k8.hdf5,views,pass,metabolome;microbiome
+CRC,/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/stage4_multiomics_integration/models/stage4c_mofa_crc_k8.hdf5,likelihoods,pass,gaussian;gaussian
+CRC,/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/stage4_multiomics_integration/models/stage4c_mofa_crc_k8.hdf5,Z_Sinha,pass,"samples=131;Z_shape=(8, 131)"
+CRC,/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/stage4_multiomics_integration/models/stage4c_mofa_crc_k8.hdf5,Z_Yachida,pass,"samples=252;Z_shape=(8, 252)"
+CRC,/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/stage4_multiomics_integration/models/stage4c_mofa_crc_k8.hdf5,W_metabolome,pass,"features=109;W_shape=(8, 109)"
+CRC,/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/stage4_multiomics_integration/models/stage4c_mofa_crc_k8.hdf5,W_microbiome,pass,"features=52;W_shape=(8, 52)"
+CRC,/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/stage4_multiomics_integration/models/stage4c_mofa_crc_k8.hdf5,training_stats,pass,elbo_len=84

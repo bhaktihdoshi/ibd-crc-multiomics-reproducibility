@@ -1,0 +1,23 @@
+# CRC Stage 2 Modelling Checklist
+
+- Read frozen Stage 1 inputs only.
+- Never modify Stage 1 release files.
+- Do not preprocess the full dataset before CV.
+- Do not scale before CV.
+- Do not impute before CV.
+- Do not filter missingness before CV except inside training folds.
+- Do not remove constant or low-variance features outside CV.
+- Do not select features outside CV.
+- Do not fit PCA, latent models or other dimensionality reduction outside CV.
+- Use nested CV for model development.
+- Tune hyperparameters using training-only inner CV.
+- Select thresholds using training-only out-of-fold predictions.
+- Freeze preprocessing, selected hyperparameters and threshold before external validation.
+- Use shared HMDB/KEGG identifier-backed metabolites for cross-cohort external validation.
+- Keep Sinha binary CRC vs Control only unless new deterministic participant-level stage metadata are recovered.
+- Keep Yachida stage-specific tasks separate from shared external-validation modelling.
+- Do not treat MP as CRC in the primary task.
+- Do not treat HS as Healthy in the primary task.
+- Treat antibiotic/steroid/treatment metadata as unavailable, not as non-exposure.
+- Report ROC-AUC, PR-AUC, balanced accuracy, sensitivity, specificity, calibration and confidence intervals where feasible.
+- Preserve random seeds, package versions and all model artifacts for reproducibility.

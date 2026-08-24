@@ -1,0 +1,15 @@
+stage_source_raw,stage_normalized,stage_major,n
+0,Stage 0,Stage 0,27
+I,Stage I,Stage I,44
+IIA,Stage II,Stage II,24
+IIC,Stage II,Stage II,1
+IIIA,Stage III,Stage III,8
+IIIB,Stage III,Stage III,22
+IIIC,Stage III,Stage III,4
+IVA,Stage IV,Stage IV,12
+IVB,Stage IV,Stage IV,6
+Iva,Stage IV,Stage IV,1
+Ivb,Stage IV,Stage IV,1
+,HS,HS,30
+,Healthy,Healthy,127
+,MP,MP,40

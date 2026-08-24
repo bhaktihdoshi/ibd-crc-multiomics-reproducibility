@@ -1,0 +1,13 @@
+check,passed,detail
+master_table_56_unique_hmdb,True,rows=56
+stage3a_complete_count_55,True,complete rows checked
+stage3b_sample_n_317,True,state counts retained; total 317 in Stage 3B report
+stage3b_primary_sig_2,True,"HMDB0001325,HMDB0000904"
+stage3b_spearman_sig_6,True,"HMDB0000187,HMDB0000904,HMDB0000687,HMDB0000158,HMDB0000056,HMDB0000214"
+ibd_replication_10_events,True,IBD/CD/UC event total
+ibd_replication_7_unique,True,unique IBD replicated IDs
+crc_replication_zero,True,CRC strict replication
+upstream_stage3a_stage3b_hashes_unchanged,True,authoritative CSV hashes unchanged
+no_new_inferential_analysis,True,Stage 3C merged existing outputs and plotted summaries only
+all_required_png_exist,True,PNG checks
+all_required_svg_exist,True,SVG checks

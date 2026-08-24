@@ -1,0 +1,3 @@
+source_name,disease_space,edge_type,microbial_genera_with_crossomic_edge,total_microbe_nodes,microbial_coverage_percent,metabolites_with_crossomic_edge,total_metabolite_nodes,microbe_metabolite_edge_count,total_augmented_edges,provenance
+NJC19,IBD,MICROBE_METABOLITE,37,50,74.0,38,166,205,2968,Lim et al. Scientific Data 2020; Dryad doi:10.5061/dryad.dr7sqv9v8
+NJC19,CRC,MICROBE_METABOLITE,38,52,73.07692307692307,48,109,257,4271,Lim et al. Scientific Data 2020; Dryad doi:10.5061/dryad.dr7sqv9v8

@@ -1,0 +1,12 @@
+comparison,n_metabolites,notes
+Franzosa,166,cohort-specific HMDB IDs from frozen upstream mapping/effect tables
+iHMP,166,cohort-specific HMDB IDs from frozen upstream mapping/effect tables
+Sinha,353,cohort-specific HMDB IDs from frozen upstream mapping/effect tables
+Yachida,418,cohort-specific HMDB IDs from frozen upstream mapping/effect tables
+Franzosa ∩ iHMP,166,IBD within-disease shared HMDB IDs
+Sinha ∩ Yachida,110,CRC within-disease shared HMDB IDs
+Franzosa ∩ iHMP ∩ Sinha,79,three-way HMDB overlap
+Franzosa ∩ iHMP ∩ Yachida,80,three-way HMDB overlap
+Franzosa ∩ Sinha ∩ Yachida,56,three-way HMDB overlap
+iHMP ∩ Sinha ∩ Yachida,56,three-way HMDB overlap
+Franzosa ∩ iHMP ∩ Sinha ∩ Yachida,56,four-cohort HMDB overlap; no name-only matching

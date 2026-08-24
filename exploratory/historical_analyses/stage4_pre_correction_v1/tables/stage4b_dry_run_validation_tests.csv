@@ -1,0 +1,6 @@
+test,status,notes
+stage4a_final_gate,pass,FOUR_COHORT_MULTIOMICS_READY
+task_direction_representation_count,pass,24
+real_label_cv_split_feasibility,pass,5x5 feasible for every task/cohort checked
+external_schema_alignment,pass,all train/external feature orders deterministic
+no_model_fit_in_dry_run,pass,pipelines cloned/instantiated only

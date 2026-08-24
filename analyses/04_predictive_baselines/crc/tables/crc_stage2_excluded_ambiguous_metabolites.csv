@@ -1,0 +1,2 @@
+cohort,feature,conflict_type,canonical_ids,default_action
+Yachida,C02567_N1-Acetylspermine;C02567_N1-Acetylspermine_div,multiple_features_one_canonical_id,HMDB:HMDB0001186,exclude_ambiguous_cross_namespace_mapping_until_reviewed

@@ -1,0 +1,5 @@
+cohort,disease,microbiome_assay,metabolomics_assay,eligible_participants_stage4e,case_n,control_n,authoritative_genus_features_before_shared_filter,shared_genus_features,metabolite_features_stage4,special_rule_or_caveat,metabolomics_scale_caveat
+Franzosa,IBD,shotgun metagenomics,LC-MS,137,81,56,57,50,166,Franzosa species aggregated to genus,Metabolomics values are cohort-local; cross-cohort absolute scales are not treated as comparable.
+iHMP,IBD,shotgun metagenomics,LC-MS multi-method,91,65,26,126,50,166,first available/one-visit matched representation for iHMP,Metabolomics values are cohort-local; cross-cohort absolute scales are not treated as comparable.
+Sinha,CRC,16S rRNA,LC/GC-MS/MS,131,42,89,57,52,109,16S versus Yachida shotgun caveat,Metabolomics values are cohort-local; cross-cohort absolute scales are not treated as comparable.
+Yachida,CRC,shotgun metagenomics,CE-TOFMS,252,125,127,1941,52,109,shotgun versus Sinha 16S caveat,Metabolomics values are cohort-local; cross-cohort absolute scales are not treated as comparable.

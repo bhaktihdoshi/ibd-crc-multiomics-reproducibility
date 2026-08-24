@@ -1,0 +1,17 @@
+disease,cohort_pair,criterion,passed,evidence,blocking_if_failed,all_acceptance_criteria_passed
+IBD,Franzosa<->iHMP,deterministic_sample_matching,True,At least one local matrix per cohort matches the corrected-v2 sample population.,True,False
+IBD,Franzosa<->iHMP,deterministic_metabolite_identity_matching,True,HMDB-level matching exists for current canonical matrices and/or map-backed source matrices.,True,False
+IBD,Franzosa<->iHMP,verified_compatible_measurement_semantics,False,No local evidence verifies compatible units/measurement semantics across the paired cohorts.,True,False
+IBD,Franzosa<->iHMP,identical_mathematical_preprocessing_can_be_applied,False,"A shared mathematical function can be coded, but compatibility of upstream response scales is not verified; same log does not solve arbitrary LC-MS response scales.",True,False
+IBD,Franzosa<->iHMP,no_target_outcomes_used,True,Feasibility audit does not require outcome labels.,False,False
+IBD,Franzosa<->iHMP,no_target_cohort_distribution_used_for_source_model_deployment,True,"Frozen source-model deployment can avoid target distribution, but only if representation is otherwise comparable.",False,False
+IBD,Franzosa<->iHMP,no_multi_order_transformed_shift_like_v2b,False,Existing v2b diagnostics showed multi-order transformed shift/saturation for metabolomics transfer.,True,False
+IBD,Franzosa<->iHMP,scientifically_interpretable_meaning,False,As-supplied intensity values do not have a verified shared quantitative meaning across cohorts.,True,False
+CRC,Sinha<->Yachida,deterministic_sample_matching,True,At least one local matrix per cohort matches the corrected-v2 sample population.,True,False
+CRC,Sinha<->Yachida,deterministic_metabolite_identity_matching,True,HMDB-level matching exists for current canonical matrices and/or map-backed source matrices.,True,False
+CRC,Sinha<->Yachida,verified_compatible_measurement_semantics,False,No local evidence verifies compatible units/measurement semantics across the paired cohorts.,True,False
+CRC,Sinha<->Yachida,identical_mathematical_preprocessing_can_be_applied,False,"A shared mathematical function can be coded, but compatibility of upstream response scales is not verified; same log does not solve arbitrary LC-MS response scales.",True,False
+CRC,Sinha<->Yachida,no_target_outcomes_used,True,Feasibility audit does not require outcome labels.,False,False
+CRC,Sinha<->Yachida,no_target_cohort_distribution_used_for_source_model_deployment,True,"Frozen source-model deployment can avoid target distribution, but only if representation is otherwise comparable.",False,False
+CRC,Sinha<->Yachida,no_multi_order_transformed_shift_like_v2b,False,Existing v2b diagnostics showed multi-order transformed shift/saturation for metabolomics transfer.,True,False
+CRC,Sinha<->Yachida,scientifically_interpretable_meaning,False,As-supplied intensity values do not have a verified shared quantitative meaning across cohorts.,True,False

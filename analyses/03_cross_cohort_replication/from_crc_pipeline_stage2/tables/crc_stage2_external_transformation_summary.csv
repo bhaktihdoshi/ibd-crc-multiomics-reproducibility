@@ -1,0 +1,7 @@
+train_cohort,external_cohort,feature_set,model,n_external_samples,n_transformed_features,nonfinite_total,features_with_abs_gt_5,features_with_abs_gt_10,max_abs_transformed_value,transformation_status
+Sinha,Yachida,clinical,ridge_logistic,277,4,0,0,0,2.840769208873765,preprocessing_applied_correctly_domain_shift_possible
+Sinha,Yachida,integrated,ridge_logistic,277,114,0,109,109,1038301.4645304249,preprocessing_applied_correctly_domain_shift_possible
+Sinha,Yachida,metabolomics,ridge_logistic,277,110,0,109,109,1038301.4645304249,preprocessing_applied_correctly_domain_shift_possible
+Yachida,Sinha,clinical,extra_trees,131,4,0,1,0,5.413191044745652,preprocessing_applied_correctly_domain_shift_possible
+Yachida,Sinha,integrated,ridge_logistic,131,113,0,1,0,5.413191044745652,preprocessing_applied_correctly_domain_shift_possible
+Yachida,Sinha,metabolomics,ridge_logistic,131,109,0,0,0,1.9888988180668001,preprocessing_applied_correctly_domain_shift_possible

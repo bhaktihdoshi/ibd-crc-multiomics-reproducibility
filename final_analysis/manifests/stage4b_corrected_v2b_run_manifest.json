@@ -1,0 +1,6 @@
+{
+  "status": "complete",
+  "runtime_seconds": 104.03,
+  "script_sha256": "ecf5031481bbec7f462ec1da14bfdff116e22040df290dc2a5941f94bbfa169a",
+  "ranking_metric_score_column": "decision_score"
+}

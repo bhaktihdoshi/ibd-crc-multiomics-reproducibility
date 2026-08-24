@@ -1,0 +1,72 @@
+{
+  "overall_status": "PASS",
+  "checks": {
+    "pytest_suites": {
+      "ok": true,
+      "suites": [
+        {
+          "suite": "/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/stage4_multiomics_integration/corrected_v2/tests/test_corrected_v2_integrity.py",
+          "status": "PASS",
+          "tail": [
+            "",
+            "-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html",
+            "50 passed, 1 warning in 10.60s"
+          ]
+        }
+      ]
+    },
+    "authoritative_files_unmutated": {
+      "ok": true,
+      "n_checked": 29,
+      "missing": [],
+      "mutated_since_freeze": []
+    },
+    "no_duplicate_participants_and_reclosure": {
+      "ok": true,
+      "issues": []
+    },
+    "cohort_counts_match_metadata": {
+      "ok": true,
+      "mismatches": []
+    },
+    "non_finite_values": {
+      "ok": true,
+      "n_files_checked": 15,
+      "issues": []
+    },
+    "feature_order_identical_at_transfer": {
+      "ok": true,
+      "issues": []
+    },
+    "fixed_seed_reproducibility": {
+      "ok": true,
+      "note": "same seed refit twice; decision scores must be bit-identical"
+    },
+    "figure_source_provenance": {
+      "ok": true,
+      "n_rows": 7,
+      "source_columns_checked": [
+        "source_file"
+      ],
+      "missing_referenced_csvs": []
+    },
+    "final_reporting_validation_table": {
+      "ok": true,
+      "n_checks": 9,
+      "failing_rows": []
+    },
+    "load_bearing_code_hashes_recorded": {
+      "ok": true,
+      "missing_scripts": [],
+      "sha256": {
+        "stage4_corrected_v2_common.py": "08d51201a7fd9b65c23aa8e12be39895a294a1f8002a05cd3f0056c970b4386c",
+        "run_stage4a_corrected_v2.py": "02e1fcf9d53dbcf036419be10ad917e1a2097767f5d5f8c9abc744303781e7b9",
+        "run_stage4b_corrected_v2b.py": "ecf5031481bbec7f462ec1da14bfdff116e22040df290dc2a5941f94bbfa169a",
+        "run_stage4c_corrected_v2.py": "c339a52bd3f46aedc6b918b80a9728ed62a11ffb4ed684cb34ec48731264362d",
+        "run_stage4d_corrected_v2_graph.py": "5e944a7bc399d0d86458ec35e45aefda2dc2415af1dafd4ab73d29ec38dd99b7",
+        "run_stage4e_gcn_corrected_v2.py": "770ddd57d455e44cd8f4646bcc62f88eafe68ebda2a155916ff3e43c33bda137",
+        "freeze_final_stage4_results.py": "f6e9e4d6ca63e9694ab0b2f5afcafec7b6b5924e1ed14d182e75caa8e15c6120"
+      }
+    }
+  }
+}

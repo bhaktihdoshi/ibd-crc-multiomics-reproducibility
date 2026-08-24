@@ -1,0 +1,8 @@
+stage,artifact_scope,status,interpretation_constraint
+4B,microbiome_only_external_transfer,principal_transportable_molecular_analysis,retain Sinha 16S versus Yachida shotgun caveat
+4B,metabolome_only_external_transfer,stress_test_only,do not present as common-scale external metabolomics validation
+4B,early_integration_external_transfer,stress_test_only,inherits metabolomics measurement-scale incompatibility
+4C_MOFA,latent_factor_analysis,descriptive_structural_analysis_to_be_rerun,cohort-local preprocessing; no external projection; pooled phenotype annotation only
+4C_sCCA,cross_view_association,independent_cohort_fits_to_be_rerun,held-out correlations separate from final refit; no phenotype in fitting/tuning
+4D,prior_graph,three_modes_to_be_constructed,"identity, KEGG-only, KEGG+NJC19; unsigned undirected binary graph"
+4E,GCN,primary_within_cohort_topology_evaluation_to_be_run,external mode secondary stress test only

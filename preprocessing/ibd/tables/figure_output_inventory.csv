@@ -1,0 +1,11 @@
+figure,png_exists,svg_exists,status
+cohort_selection_flow,True,True,generated from code
+sample_counts_by_cohort_and_subtype,True,True,generated from code
+age_years_distribution,True,True,generated from code
+bmi_distribution,True,True,generated from code
+log_calprotectin_distribution,True,True,generated from code
+pca_by_cohort_primary_hmdb,True,True,generated from code
+pca_by_ibd_status_primary_hmdb,True,True,generated from code
+external_roc_ibd_vs_control,True,True,generated from code
+external_roc_cd_vs_control,True,True,generated from code
+external_roc_uc_vs_control,True,True,generated from code

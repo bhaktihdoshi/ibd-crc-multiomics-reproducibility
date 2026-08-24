@@ -1,0 +1,5 @@
+analysis,expected_fits,runtime_estimate,ram_estimate,disk_estimate,likely_bottleneck
+MOFA_IBD_group_aware,1,minutes to <1 hour if mofapy2 installed,"low to moderate; p=216, n=228 across two groups",small HDF5 plus CSV outputs,MOFA2 dependency/API and factor convergence
+MOFA_CRC_group_aware,1,minutes to <1 hour if mofapy2 installed,"low to moderate; p=161, n=383 across two groups after one Yachida zero-variance metabolite is removed from the common valid schema",small HDF5 plus CSV outputs,MOFA2 dependency/API and factor convergence
+sCCA_IBD_separate_cohort_reproducibility,14,seconds to minutes,low; two standardized matrices per cohort,CSV loadings and summaries,sparsity penalty stability
+sCCA_CRC_separate_cohort_reproducibility,14,seconds to minutes,low; two standardized matrices per cohort,CSV loadings and summaries,sparsity penalty stability

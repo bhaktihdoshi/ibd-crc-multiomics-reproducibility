@@ -1,0 +1,32 @@
+{
+  "repository_version": "1.0.0",
+  "creation_timestamp": "2026-08-24T16:16:50.156150+00:00",
+  "source_project_root": "/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow",
+  "final_analysis_status": "FROZEN_AND_VERIFIED (20 August authority freeze; post-freeze hardening, sensitivity, equivalence, and co-primary reporting addendum verified as of repository curation date)",
+  "authority_manifest_reference": "final_analysis/manifests/FINAL_STAGE4_AUTHORITY_MANIFEST.json",
+  "post_freeze_manifest_reference": "final_analysis/manifests/POST_FREEZE_CODE_PATCH_MANIFEST.json",
+  "co_primary_policy_reference": "final_analysis/manifests/POST_FREEZE_ANALYSIS_ROLE_ADDENDUM.json",
+  "qa_reference": "final_analysis/reports/final_stage4_qa_report.json",
+  "equivalence_reference": "final_analysis/manifests/stage4_post_freeze_equivalence_check.json",
+  "stage2_3_provenance_reference": "final_analysis/provenance/stage2_3_manuscript_claim_provenance.csv",
+  "environment_reference": "docs/software_environment.md; docs/software_environment_stage4.md",
+  "included_file_count": 1417,
+  "excluded_file_count": 528,
+  "large_file_count": 12,
+  "total_repository_size": "152M",
+  "critical_file_sha256": {
+    "final_analysis/manifests/FINAL_STAGE4_AUTHORITY_MANIFEST.json": "48bddcd6404f6107bb7ac8987423685777130bf6917b9299f9e12983fd6a1d51",
+    "final_analysis/manifests/POST_FREEZE_CODE_PATCH_MANIFEST.json": "acab3da72637e7c4114eadeccecf47486d0a1748e4ba32cb5b6053d0bd25c627",
+    "final_analysis/manifests/POST_FREEZE_ANALYSIS_ROLE_ADDENDUM.json": "2a83546df234793316bc5109a4634821bfd2fbfcd58dfae4a63f7dcf4a94f4f3",
+    "final_analysis/reports/final_stage4_qa_report.json": "def396986a09c87324cd7dd003edd2cf297fe0e877531553e3e1f0c113384888",
+    "final_analysis/manifests/stage4_post_freeze_equivalence_check.json": "de7026803a4d17b697552ef465517386624d53f7ffb9c02e626ed268928f8fcc",
+    "final_analysis/manifests/FINAL_REPRODUCIBILITY_BUNDLE.json": "dff7ed021706d957cff8d7f6efd20086f9a3b999ba79af2a13949cb1027919d1",
+    "final_analysis/tables/final_stage4_authoritative_files.csv": "e381118b2f8046fce60d2ec2be2cd251913cef37ab6a7163c266e987cce2cfc0",
+    "final_analysis/provenance/stage2_3_manuscript_claim_provenance.csv": "62c65b9cbdc93050aaa4f39d40f6c947fd69722501b660de8f39d3d7221fc656",
+    "docs/file_provenance_map.csv": "d47fc30df771271629770b2a86db829acf7d32fef935c1eea8ce05ebf6eb06a0",
+    "docs/analysis_file_classification.csv": "5404fbd4cc9148e3afdc8c67a2d68361d4721913bbf0658fdb95bb27214852ec",
+    "docs/large_file_audit.csv": "007459dbd991e789e8099d7612d1cf85d9a1e87827f0cd15f2cfe8e5541adb86"
+  },
+  "critical_files_missing": [],
+  "notes": "This repository was curated by copying/reorganising material from a read-only source project; the source project was not modified, rerun, or reordered in the process. No numerical result was recomputed or altered during curation. See GITHUB_READINESS_REPORT.md for the full audit summary and required manual actions before publishing."
+}

@@ -1,0 +1,7 @@
+requested_covariate,compatible_column_found,source_column,non_missing_n,decision
+age_years,False,,0,unavailable_in_stage3b_source_table
+sex,False,,0,unavailable_in_stage3b_source_table
+bmi,False,,0,unavailable_in_stage3b_source_table
+alcohol,False,,0,unavailable_in_stage3b_source_table
+brinkman_index,False,,0,unavailable_in_stage3b_source_table
+tumor_location,False,,0,unavailable_in_stage3b_source_table

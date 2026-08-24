@@ -1,0 +1,5 @@
+task,cohort,eligible_labels,excluded_labels,external_validation,recommended_status,model_family_note
+Yachida internal CRC stage multiclass,Yachida,"Stage 0, I, II, III, IV","Healthy, MP, HS",not permitted in Sinha because Sinha has no deterministic participant-level stage labels,secondary_internal_only,multiclass versions of the primary supervised learners where sample size supports folds
+Yachida internal ordered stage analysis,Yachida,"Stage 0, I, II, III, IV","Healthy, MP, HS",not permitted in Sinha,exploratory_cross_sectional_ordinal,"treat as ordered cross-sectional severity, not longitudinal disease trajectory"
+Yachida non-cancer condition descriptive analysis,Yachida,"MP, HS",not part of primary CRC vs Control,not applicable,descriptive_or_sensitivity_only,do not map MP to CRC and do not map HS to Healthy
+Yachida Stage III/IV substage descriptive analysis,Yachida,"IIIA, IIIB, IIIC, IVA, IVB",all other groups,not permitted in Sinha,descriptive_only_due_small_counts,preserve raw Iva/Ivb and normalized IVA/IVB in separate fields

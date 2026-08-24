@@ -1,0 +1,5 @@
+cohort,exclusion_reason,n
+Franzosa,antibiotic_exposure_recorded,9
+Franzosa,antibiotic_exposure_recorded; systemic_steroid_exposure_recorded,9
+Franzosa,systemic_steroid_exposure_recorded,30
+iHMP,antibiotic_exposure_recorded,14

@@ -1,0 +1,5 @@
+direction,disease,train_n,external_n,nodes,train_tensor_shape,external_tensor_shape,finite_values_after_preprocessing_simulation,outer_folds,hyperparameter_grid_size,graph_edge_count
+IBD_IBD_vs_Control_Franzosa_to_iHMP,IBD,137,91,216,"(137, 216, 2)","(91, 216, 2)",True,5,16,2968
+IBD_IBD_vs_Control_iHMP_to_Franzosa,IBD,91,137,216,"(91, 216, 2)","(137, 216, 2)",True,5,16,2968
+CRC_CRC_vs_Control_Sinha_to_Yachida,CRC,131,252,161,"(131, 161, 2)","(252, 161, 2)",True,5,16,4271
+CRC_CRC_vs_Control_Yachida_to_Sinha,CRC,252,131,161,"(252, 161, 2)","(131, 161, 2)",True,5,16,4271

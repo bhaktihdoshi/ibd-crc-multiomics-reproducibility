@@ -1,0 +1,6 @@
+model,search_method,complete_grid_size,planned_configurations_evaluated,random_seed,scoring,note
+ridge_logistic,GridSearchCV,11,11,,roc_auc,Grid search retained for manageable logistic grids; seeded randomized search used for larger ensemble spaces.
+elastic_net_logistic,GridSearchCV,63,63,,roc_auc,Grid search retained for manageable logistic grids; seeded randomized search used for larger ensemble spaces.
+random_forest,RandomizedSearchCV,900,75,42,roc_auc,Grid search retained for manageable logistic grids; seeded randomized search used for larger ensemble spaces.
+extra_trees,RandomizedSearchCV,900,75,42,roc_auc,Grid search retained for manageable logistic grids; seeded randomized search used for larger ensemble spaces.
+gradient_boosting,RandomizedSearchCV,2160,75,42,roc_auc,Grid search retained for manageable logistic grids; seeded randomized search used for larger ensemble spaces.

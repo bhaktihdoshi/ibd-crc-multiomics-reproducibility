@@ -1,0 +1,6 @@
+unit,status,files_present,files_expected,model_path
+MOFA_IBD,COMPLETE_VALID,4,4,/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/stage4_multiomics_integration/models/stage4c_mofa_ibd_k8.hdf5
+MOFA_CRC,COMPLETE_VALID,4,4,/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/stage4_multiomics_integration/models/stage4c_mofa_crc_k8.hdf5
+sCCA_IBD,COMPLETE_VALID,6,6,
+sCCA_CRC,COMPLETE_VALID,6,6,
+FINALIZE,NOT_STARTED,0,1,

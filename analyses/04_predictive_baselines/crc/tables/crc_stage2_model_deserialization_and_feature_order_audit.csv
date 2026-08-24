@@ -1,0 +1,7 @@
+train_cohort,external_cohort,feature_set,model,model_path,model_load_success,estimator_classes,positive_class_policy,fitted_masks_inspectable,selected_logistic_convergence_status,error
+Sinha,Yachida,clinical,ridge_logistic,stage2/models/crc_stage2_selected_Sinha_to_Yachida_clinical_ridge_logistic.joblib,True,"0,1","classes_[1] must be CRC/disease probability when classes_=[0,1]",False,converged,
+Sinha,Yachida,integrated,ridge_logistic,stage2/models/crc_stage2_selected_Sinha_to_Yachida_integrated_ridge_logistic.joblib,True,"0,1","classes_[1] must be CRC/disease probability when classes_=[0,1]",True,converged,
+Sinha,Yachida,metabolomics,ridge_logistic,stage2/models/crc_stage2_selected_Sinha_to_Yachida_metabolomics_ridge_logistic.joblib,True,"0,1","classes_[1] must be CRC/disease probability when classes_=[0,1]",True,converged,
+Yachida,Sinha,clinical,extra_trees,stage2/models/crc_stage2_selected_Yachida_to_Sinha_clinical_extra_trees.joblib,True,"0,1","classes_[1] must be CRC/disease probability when classes_=[0,1]",False,not_applicable,
+Yachida,Sinha,integrated,ridge_logistic,stage2/models/crc_stage2_selected_Yachida_to_Sinha_integrated_ridge_logistic.joblib,True,"0,1","classes_[1] must be CRC/disease probability when classes_=[0,1]",True,converged,
+Yachida,Sinha,metabolomics,ridge_logistic,stage2/models/crc_stage2_selected_Yachida_to_Sinha_metabolomics_ridge_logistic.joblib,True,"0,1","classes_[1] must be CRC/disease probability when classes_=[0,1]",True,converged,

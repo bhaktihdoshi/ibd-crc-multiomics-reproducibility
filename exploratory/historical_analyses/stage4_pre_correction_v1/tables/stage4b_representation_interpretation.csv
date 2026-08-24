@@ -1,0 +1,9 @@
+disease,task,training_cohort,external_cohort,highest_internal_representation,highest_internal_roc_auc,highest_external_representation,highest_external_roc_auc,early_minus_metabolome_external_auc,early_minus_microbiome_external_auc,early_vs_metabolome_category,early_vs_microbiome_category,internal_winner_remains_external_winner
+CRC,CRC_vs_Control,Sinha,Yachida,METABOLOME,0.7146786492374727,EARLY_INTEGRATION,0.5496377952755905,0.07250393700787405,0.07505511811023624,potentially meaningful,potentially meaningful,False
+CRC,CRC_vs_Control,Yachida,Sinha,METABOLOME,0.72528,MICROBIOME,0.5636704119850188,-0.011235955056179803,-0.16292134831460686,small,potentially meaningful,False
+IBD,CD_vs_Control,Franzosa,iHMP,MICROBIOME,0.9685185185185183,EARLY_INTEGRATION,0.6730769230769231,0.012820512820512775,0.009368836291913318,small,essentially negligible,False
+IBD,CD_vs_Control,iHMP,Franzosa,EARLY_INTEGRATION,0.6754761904761905,METABOLOME,0.896031746031746,-0.15396825396825398,-0.06666666666666676,potentially meaningful,potentially meaningful,False
+IBD,IBD_vs_Control,Franzosa,iHMP,EARLY_INTEGRATION,0.9254010695187166,EARLY_INTEGRATION,0.676923076923077,0.019230769230769273,0.0461538461538461,small,modest,True
+IBD,IBD_vs_Control,iHMP,Franzosa,EARLY_INTEGRATION,0.7164102564102566,METABOLOME,0.8458994708994709,-0.1457231040564375,0.15189594356261027,potentially meaningful,potentially meaningful,False
+IBD,UC_vs_Control,Franzosa,iHMP,MICROBIOME,0.8952380952380953,EARLY_INTEGRATION,0.6309171597633136,0.026627218934911268,0.11612426035502965,small,potentially meaningful,False
+IBD,UC_vs_Control,iHMP,Franzosa,METABOLOME,0.8466666666666667,METABOLOME,0.8154761904761905,-0.17113095238095233,0.34970238095238104,potentially meaningful,potentially meaningful,True

@@ -1,0 +1,5 @@
+disease,cohort,matched_n,microbial_rank,microbial_p,shared_microbial_p,metabolite_p,shared_metabolite_p,notes
+IBD,Franzosa,137,genus,65,50,166,166,Franzosa shotgun microbiome plus frozen high-confidence HMDB metabolomics.
+IBD,iHMP,91,genus,126,50,166,166,iHMP recovered official MetaPhlAn 3.0 profiles.
+CRC,Sinha,131,genus,57,52,110,110,Sinha 16S genus representation.
+CRC,Yachida,252,genus,1941,52,110,110,Yachida shotgun profiles aggregated/compared at genus for 16S compatibility.

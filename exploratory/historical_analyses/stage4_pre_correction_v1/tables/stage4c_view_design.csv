@@ -1,0 +1,4 @@
+view,role,preprocessing,label_use
+microbiome,primary_omic_view,CLR + scaling,none
+metabolome,primary_omic_view,median imputation + scaling,none
+clinical,annotation_only,not included as MOFA/sCCA molecular view,post-hoc descriptive annotation only

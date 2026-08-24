@@ -1,0 +1,15 @@
+Study.Group,yachida_stage_source_raw,yachida_stage_source_faithful_label,yachida_stage_harmonized_label,trajectory_eligible,n
+HS,-,HS,Post-surgical control,False,30
+Healthy,-,Healthy,Healthy,True,127
+MP,-,MP,Precursor lesion,True,40
+Stage_0,0,Stage 0,Non-invasive CRC,True,27
+Stage_III_IV,IIIA,Stage IIIA,Regional CRC,True,8
+Stage_III_IV,IIIB,Stage IIIB,Regional CRC,True,22
+Stage_III_IV,IIIC,Stage IIIC,Regional CRC,True,4
+Stage_III_IV,IVA,Stage IVA,Metastatic CRC,True,12
+Stage_III_IV,IVB,Stage IVB,Metastatic CRC,True,6
+Stage_III_IV,Iva,Stage IVA,Metastatic CRC,True,1
+Stage_III_IV,Ivb,Stage IVB,Metastatic CRC,True,1
+Stage_I_II,I,Stage I,Localized CRC,True,44
+Stage_I_II,IIA,Stage IIA,Localized CRC,True,24
+Stage_I_II,IIC,Stage IIC,Localized CRC,True,1

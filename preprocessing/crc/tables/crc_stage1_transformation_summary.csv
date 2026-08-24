@@ -1,0 +1,3 @@
+cohort,n_values,min,p01,median,mean,p99,max,zero_fraction,negative_fraction,recommended_exploratory_transform,modeling_note
+Sinha,69430,-6.725433722,-2.866459938,-0.009545413,-0.03918718378255798,2.913414167560002,7.613389768,0.005934034279130059,0.5088290364395794,none; values appear already transformed/standardized,any transformation choice must be inside the training-fold sklearn pipeline
+Yachida,156150,0.0,0.0,0.0,690.5977813253772,14929.587549400101,665180.5917,0.6033237271853986,0.0,log1p for exploratory plots only; raw non-negative abundances are zero-inflated,any transformation choice must be inside the training-fold sklearn pipeline

@@ -1,0 +1,3 @@
+disease,model_path,status
+IBD,/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/stage4_multiomics_integration/models/stage4c_mofa_ibd_k8.hdf5,EXTRACTED_VALID
+CRC,/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/stage4_multiomics_integration/models/stage4c_mofa_crc_k8.hdf5,ABSENT_OR_INVALID

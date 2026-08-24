@@ -1,0 +1,29 @@
+cohort,field,available,n_missing,missing_fraction,n_unique_nonmissing
+Sinha,Sample,True,0,0.0,131
+Sinha,Subject,True,0,0.0,131
+Sinha,Study.Group,True,0,0.0,2
+Sinha,Age,True,0,0.0,51
+Sinha,Gender,True,0,0.0,2
+Sinha,BMI,True,0,0.0,119
+Sinha,Stage,False,131,1.0,0
+Sinha,Brinkman Index,False,131,1.0,0
+Sinha,Alcohol,False,131,1.0,0
+Sinha,Tumor location,False,131,1.0,0
+Sinha,race,True,0,0.0,2
+Sinha,hosp1,True,0,0.0,2
+Sinha,hosp2,True,0,0.0,2
+Sinha,Shared.w.ERAWIJANTARI_2020,False,131,1.0,0
+Yachida,Sample,True,0,0.0,347
+Yachida,Subject,True,0,0.0,347
+Yachida,Study.Group,True,0,0.0,6
+Yachida,Age,True,0,0.0,44
+Yachida,Gender,True,0,0.0,2
+Yachida,BMI,True,0,0.0,288
+Yachida,Stage,True,0,0.0,12
+Yachida,Brinkman Index,True,0,0.0,108
+Yachida,Alcohol,True,0,0.0,128
+Yachida,Tumor location,True,0,0.0,7
+Yachida,race,False,347,1.0,0
+Yachida,hosp1,False,347,1.0,0
+Yachida,hosp2,False,347,1.0,0
+Yachida,Shared.w.ERAWIJANTARI_2020,True,0,0.0,2

@@ -1,0 +1,7 @@
+test,status,notes
+mofa_ibd_hdf5_valid,pass,/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/stage4_multiomics_integration/models/stage4c_mofa_ibd_k8.hdf5
+mofa_crc_hdf5_valid,pass,/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/stage4_multiomics_integration/models/stage4c_mofa_crc_k8.hdf5
+factor_scores_both_diseases,pass,"{('CRC', 'Sinha'): 131, ('CRC', 'Yachida'): 252, ('IBD', 'Franzosa'): 137, ('IBD', 'iHMP'): 91}"
+loadings_both_diseases,pass,"{('CRC', 'metabolome'): 872, ('CRC', 'microbiome'): 416, ('IBD', 'metabolome'): 1328, ('IBD', 'microbiome'): 400}"
+associations_created,pass,rows=96
+reproducibility_created,pass,rows=16

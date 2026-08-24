@@ -1,0 +1,7 @@
+test,status,observed,expected,notes
+franzosa_exact_frozen_sample_matches,partial,137,172,CD=45; Control=56; UC=36; unmatched=35
+ihmp_taxonomic_matrix_is_gzip,fail,downloaded_not_gzip_html_or_text,downloaded,"Metadata was acquired, but the attempted merged taxonomic profile URL returned HTML/text rather than a gzip matrix."
+yachida_exact_unambiguous_frozen_sample_matches,partial,252,277,CRC=150; Control=127; ambiguous_duplicate_ids_excluded=28
+yachida_duplicate_microbiome_sample_ids,fail,28,0,Repeated subject columns=28; conflicting duplicate groups=28; conflicting IDs were excluded from the clean handoff matrix.
+sinha_local_microbiome_available,pass,131,131,Pre-existing local Sinha S3 microbial table retained.
+taxonomy_crosswalk_created,pass,10730,>0,Canonical taxonomy table built using deterministic label parsing only.

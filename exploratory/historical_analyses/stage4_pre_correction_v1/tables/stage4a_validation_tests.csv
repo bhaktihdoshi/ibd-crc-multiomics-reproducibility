@@ -1,0 +1,5 @@
+check,passed,detail
+stage4_dirs_exist,True,
+sinha_microbiome_available,True,single local microbiome matrix
+cross_cohort_multiomics_not_defensible,True,only Sinha paired data available locally
+no_full_models_run,True,Stage 4A only inventories/counts/sparsity and plots

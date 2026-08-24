@@ -1,0 +1,5 @@
+disease,cohort,control_n,pooled_ibd_n,cd_n_descriptive_only,uc_n_descriptive_only,subtype_modelling_status,crc_n
+IBD,Franzosa,56,116,62,54,not_modelled_in_corrected_v2,
+IBD,iHMP,26,65,39,26,not_modelled_in_corrected_v2,
+CRC,Sinha,89,0,0,0,not_applicable,42.0
+CRC,Yachida,127,0,0,0,not_applicable,150.0

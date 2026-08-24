@@ -1,0 +1,110 @@
+[2026-08-13 01:56:40] ============================================================
+[2026-08-13 01:56:40] STAGE 4B FULL MODEL EXECUTION STARTING
+[2026-08-13 01:56:40] Execution units: 24
+[2026-08-13 01:56:40] Completed valid units before resume: 0
+[2026-08-13 01:56:40] Remaining units: 24
+[2026-08-13 01:56:40] Expected model fits if rerun from scratch: 3024
+[2026-08-13 01:56:40] ============================================================
+[2026-08-13 01:56:41] [1/24] IBD | IBD_vs_Control | Franzosa->iHMP | METABOLOME | status=STALE_HASH
+[2026-08-13 01:56:45] [1/24] nested CV complete; outer folds=5; selected Cs=[0.1, 0.1, 0.1, 0.01, 0.1]
+[2026-08-13 01:56:46] [1/24] final selected C=0.01; external validation complete
+[2026-08-13 01:56:46] [1/24] unit complete in 5.1s
+[2026-08-13 01:56:46] [2/24] IBD | IBD_vs_Control | Franzosa->iHMP | MICROBIOME | status=STALE_HASH
+[2026-08-13 01:56:47] [2/24] nested CV complete; outer folds=5; selected Cs=[0.01, 0.01, 0.01, 0.01, 0.01]
+[2026-08-13 01:56:47] [2/24] final selected C=0.01; external validation complete
+[2026-08-13 01:56:47] [2/24] unit complete in 1.2s
+[2026-08-13 01:56:48] [3/24] IBD | IBD_vs_Control | Franzosa->iHMP | EARLY_INTEGRATION | status=STALE_HASH
+[2026-08-13 01:56:54] [3/24] nested CV complete; outer folds=5; selected Cs=[0.01, 0.1, 0.01, 0.1, 0.01]
+[2026-08-13 01:56:55] [3/24] final selected C=0.01; external validation complete
+[2026-08-13 01:56:55] [3/24] unit complete in 7.1s
+[2026-08-13 01:56:56] [4/24] IBD | IBD_vs_Control | iHMP->Franzosa | METABOLOME | status=STALE_HASH
+[2026-08-13 01:57:01] [4/24] nested CV complete; outer folds=5; selected Cs=[0.01, 0.01, 0.01, 0.01, 0.01]
+[2026-08-13 01:57:02] [4/24] final selected C=0.01; external validation complete
+[2026-08-13 01:57:02] [4/24] unit complete in 6.2s
+[2026-08-13 01:57:02] [5/24] IBD | IBD_vs_Control | iHMP->Franzosa | MICROBIOME | status=STALE_HASH
+[2026-08-13 01:57:03] [5/24] nested CV complete; outer folds=5; selected Cs=[0.01, 0.01, 0.01, 1.0, 0.01]
+[2026-08-13 01:57:04] [5/24] final selected C=0.01; external validation complete
+[2026-08-13 01:57:04] [5/24] unit complete in 1.2s
+[2026-08-13 01:57:04] [6/24] IBD | IBD_vs_Control | iHMP->Franzosa | EARLY_INTEGRATION | status=STALE_HASH
+[2026-08-13 01:57:10] [6/24] nested CV complete; outer folds=5; selected Cs=[0.01, 0.01, 0.1, 0.01, 0.01]
+[2026-08-13 01:57:11] [6/24] final selected C=0.01; external validation complete
+[2026-08-13 01:57:11] [6/24] unit complete in 6.9s
+[2026-08-13 01:57:12] [7/24] IBD | CD_vs_Control | Franzosa->iHMP | METABOLOME | status=STALE_HASH
+[2026-08-13 01:57:16] [7/24] nested CV complete; outer folds=5; selected Cs=[0.1, 0.1, 0.1, 0.1, 0.1]
+[2026-08-13 01:57:17] [7/24] final selected C=0.1; external validation complete
+[2026-08-13 01:57:17] [7/24] unit complete in 5.1s
+[2026-08-13 01:57:17] [8/24] IBD | CD_vs_Control | Franzosa->iHMP | MICROBIOME | status=STALE_HASH
+[2026-08-13 01:57:18] [8/24] nested CV complete; outer folds=5; selected Cs=[0.01, 0.01, 0.01, 0.01, 0.01]
+[2026-08-13 01:57:18] [8/24] final selected C=0.01; external validation complete
+[2026-08-13 01:57:18] [8/24] unit complete in 1.2s
+[2026-08-13 01:57:19] [9/24] IBD | CD_vs_Control | Franzosa->iHMP | EARLY_INTEGRATION | status=STALE_HASH
+[2026-08-13 01:57:25] [9/24] nested CV complete; outer folds=5; selected Cs=[0.01, 0.01, 0.01, 1.0, 0.01]
+[2026-08-13 01:57:27] [9/24] final selected C=0.1; external validation complete
+[2026-08-13 01:57:27] [9/24] unit complete in 7.6s
+[2026-08-13 01:57:27] [10/24] IBD | CD_vs_Control | iHMP->Franzosa | METABOLOME | status=STALE_HASH
+[2026-08-13 01:57:32] [10/24] nested CV complete; outer folds=5; selected Cs=[0.01, 0.01, 0.01, 0.01, 0.01]
+[2026-08-13 01:57:33] [10/24] final selected C=0.01; external validation complete
+[2026-08-13 01:57:33] [10/24] unit complete in 5.5s
+[2026-08-13 01:57:33] [11/24] IBD | CD_vs_Control | iHMP->Franzosa | MICROBIOME | status=STALE_HASH
+[2026-08-13 01:57:34] [11/24] nested CV complete; outer folds=5; selected Cs=[0.01, 0.01, 0.01, 0.01, 0.01]
+[2026-08-13 01:57:34] [11/24] final selected C=0.01; external validation complete
+[2026-08-13 01:57:34] [11/24] unit complete in 1.2s
+[2026-08-13 01:57:35] [12/24] IBD | CD_vs_Control | iHMP->Franzosa | EARLY_INTEGRATION | status=STALE_HASH
+[2026-08-13 01:57:41] [12/24] nested CV complete; outer folds=5; selected Cs=[0.01, 0.01, 0.01, 0.1, 0.01]
+[2026-08-13 01:57:42] [12/24] final selected C=0.01; external validation complete
+[2026-08-13 01:57:42] [12/24] unit complete in 6.9s
+[2026-08-13 01:57:42] [13/24] IBD | UC_vs_Control | Franzosa->iHMP | METABOLOME | status=STALE_HASH
+[2026-08-13 01:57:47] [13/24] nested CV complete; outer folds=5; selected Cs=[0.01, 0.1, 0.1, 0.01, 0.01]
+[2026-08-13 01:57:48] [13/24] final selected C=0.01; external validation complete
+[2026-08-13 01:57:48] [13/24] unit complete in 5.1s
+[2026-08-13 01:57:48] [14/24] IBD | UC_vs_Control | Franzosa->iHMP | MICROBIOME | status=STALE_HASH
+[2026-08-13 01:57:49] [14/24] nested CV complete; outer folds=5; selected Cs=[0.01, 0.01, 0.01, 0.01, 0.01]
+[2026-08-13 01:57:49] [14/24] final selected C=0.01; external validation complete
+[2026-08-13 01:57:49] [14/24] unit complete in 1.2s
+[2026-08-13 01:57:50] [15/24] IBD | UC_vs_Control | Franzosa->iHMP | EARLY_INTEGRATION | status=STALE_HASH
+[2026-08-13 01:57:55] [15/24] nested CV complete; outer folds=5; selected Cs=[0.01, 0.01, 0.01, 0.01, 0.01]
+[2026-08-13 01:57:56] [15/24] final selected C=0.01; external validation complete
+[2026-08-13 01:57:56] [15/24] unit complete in 6.6s
+[2026-08-13 01:57:57] [16/24] IBD | UC_vs_Control | iHMP->Franzosa | METABOLOME | status=STALE_HASH
+[2026-08-13 01:58:02] [16/24] nested CV complete; outer folds=5; selected Cs=[0.01, 0.01, 0.1, 0.01, 0.01]
+[2026-08-13 01:58:02] [16/24] final selected C=0.01; external validation complete
+[2026-08-13 01:58:02] [16/24] unit complete in 5.5s
+[2026-08-13 01:58:03] [17/24] IBD | UC_vs_Control | iHMP->Franzosa | MICROBIOME | status=STALE_HASH
+[2026-08-13 01:58:04] [17/24] nested CV complete; outer folds=5; selected Cs=[1.0, 1.0, 1.0, 0.1, 0.1]
+[2026-08-13 01:58:04] [17/24] final selected C=1.0; external validation complete
+[2026-08-13 01:58:04] [17/24] unit complete in 1.1s
+[2026-08-13 01:58:05] [18/24] IBD | UC_vs_Control | iHMP->Franzosa | EARLY_INTEGRATION | status=STALE_HASH
+[2026-08-13 01:58:11] [18/24] nested CV complete; outer folds=5; selected Cs=[10.0, 0.01, 0.01, 0.01, 0.01]
+[2026-08-13 01:58:12] [18/24] final selected C=0.01; external validation complete
+[2026-08-13 01:58:12] [18/24] unit complete in 7.4s
+[2026-08-13 01:58:13] [19/24] CRC | CRC_vs_Control | Sinha->Yachida | METABOLOME | status=STALE_HASH
+[2026-08-13 01:58:16] [19/24] nested CV complete; outer folds=5; selected Cs=[1.0, 1.0, 1.0, 0.1, 0.1]
+[2026-08-13 01:58:16] [19/24] final selected C=0.1; external validation complete
+[2026-08-13 01:58:16] [19/24] unit complete in 3.6s
+[2026-08-13 01:58:17] [20/24] CRC | CRC_vs_Control | Sinha->Yachida | MICROBIOME | status=STALE_HASH
+[2026-08-13 01:58:18] [20/24] nested CV complete; outer folds=5; selected Cs=[0.1, 0.1, 0.01, 10.0, 0.01]
+[2026-08-13 01:58:18] [20/24] final selected C=0.1; external validation complete
+[2026-08-13 01:58:18] [20/24] unit complete in 1.2s
+[2026-08-13 01:58:19] [21/24] CRC | CRC_vs_Control | Sinha->Yachida | EARLY_INTEGRATION | status=STALE_HASH
+[2026-08-13 01:58:23] [21/24] nested CV complete; outer folds=5; selected Cs=[0.1, 0.1, 10.0, 10.0, 0.01]
+[2026-08-13 01:58:24] [21/24] final selected C=0.1; external validation complete
+[2026-08-13 01:58:24] [21/24] unit complete in 5.1s
+[2026-08-13 01:58:24] [22/24] CRC | CRC_vs_Control | Yachida->Sinha | METABOLOME | status=STALE_HASH
+[2026-08-13 01:58:27] [22/24] nested CV complete; outer folds=5; selected Cs=[0.01, 0.01, 0.01, 0.01, 0.01]
+[2026-08-13 01:58:28] [22/24] final selected C=0.01; external validation complete
+[2026-08-13 01:58:28] [22/24] unit complete in 3.9s
+[2026-08-13 01:58:29] [23/24] CRC | CRC_vs_Control | Yachida->Sinha | MICROBIOME | status=STALE_HASH
+[2026-08-13 01:58:30] [23/24] nested CV complete; outer folds=5; selected Cs=[0.01, 0.01, 0.01, 0.01, 0.01]
+[2026-08-13 01:58:30] [23/24] final selected C=0.01; external validation complete
+[2026-08-13 01:58:30] [23/24] unit complete in 1.3s
+[2026-08-13 01:58:30] [24/24] CRC | CRC_vs_Control | Yachida->Sinha | EARLY_INTEGRATION | status=STALE_HASH
+[2026-08-13 01:58:35] [24/24] nested CV complete; outer folds=5; selected Cs=[0.01, 0.01, 0.01, 0.01, 0.01]
+[2026-08-13 01:58:36] [24/24] final selected C=0.01; external validation complete
+[2026-08-13 01:58:36] [24/24] unit complete in 5.5s
+[2026-08-13 01:58:37] STAGE4B_COMPLETE
+[2026-08-13 01:58:37] Execution units completed: 24/24
+[2026-08-13 01:58:37] Completed in this invocation: 24; skipped as valid cache: 0
+[2026-08-13 01:58:37] Internal prediction rows: 2763
+[2026-08-13 01:58:37] External prediction rows: 2763
+[2026-08-13 01:58:37] Runtime: 131.5s
+[2026-08-13 01:58:37] Results written to: /Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/stage4_multiomics_integration/tables and /Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/stage4_multiomics_integration/predictions

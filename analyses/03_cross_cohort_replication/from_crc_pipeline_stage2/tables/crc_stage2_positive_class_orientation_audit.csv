@@ -1,0 +1,7 @@
+train_cohort,external_cohort,feature_set,model,classes_,predict_proba_column_for_crc,stored_true_label_values,control_label_value,crc_label_value,cohort_external_label_counts,orientation_status,note
+Sinha,Yachida,clinical,ridge_logistic,"0,1",column_index_1,"0,1",0,1,"{1: 150, 0: 127}",passed,"0=Control/Healthy, 1=CRC; probabilities are predict_proba[:, class 1]. No flipping performed."
+Sinha,Yachida,integrated,ridge_logistic,"0,1",column_index_1,"0,1",0,1,"{1: 150, 0: 127}",passed,"0=Control/Healthy, 1=CRC; probabilities are predict_proba[:, class 1]. No flipping performed."
+Sinha,Yachida,metabolomics,ridge_logistic,"0,1",column_index_1,"0,1",0,1,"{1: 150, 0: 127}",passed,"0=Control/Healthy, 1=CRC; probabilities are predict_proba[:, class 1]. No flipping performed."
+Yachida,Sinha,clinical,extra_trees,"0,1",column_index_1,"0,1",0,1,"{0: 89, 1: 42}",passed,"0=Control/Healthy, 1=CRC; probabilities are predict_proba[:, class 1]. No flipping performed."
+Yachida,Sinha,integrated,ridge_logistic,"0,1",column_index_1,"0,1",0,1,"{0: 89, 1: 42}",passed,"0=Control/Healthy, 1=CRC; probabilities are predict_proba[:, class 1]. No flipping performed."
+Yachida,Sinha,metabolomics,ridge_logistic,"0,1",column_index_1,"0,1",0,1,"{0: 89, 1: 42}",passed,"0=Control/Healthy, 1=CRC; probabilities are predict_proba[:, class 1]. No flipping performed."

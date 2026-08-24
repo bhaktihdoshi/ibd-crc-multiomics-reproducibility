@@ -1,0 +1,8 @@
+stage,policy,claim_text
+Stage4B,Allowed,"Microbiome-only and metabolome-only were prespecified single-omic representations evaluated under the same modelling and external-validation protocol. In the final thesis reporting framework, they are treated as co-primary single-omic analyses, while the metabolomic analysis retains an additional cross-assay quantitative-scale limitation."
+Stage4B,Allowed,Metabolome showed the reported external ROC-AUC/PR-AUC under the supplied cohort-specific processed matrices.
+Stage4B,Allowed,Early integration is a separate comparative-integration analysis testing whether combining both co-primary molecular layers improves on either single-omic representation; it is not itself a third co-primary analysis.
+Stage4B,Disallowed,Metabolomic values were quantitatively harmonised across assays.
+Stage4B,Disallowed,Z-scoring made the metabolomic assays equivalent across cohorts.
+Stage4B,Disallowed,Any single external ROC-AUC value (e.g. 0.846) demonstrates a clinically transportable metabolomic biomarker.
+Stage4B,Superseded,SUPERSEDES the frozen Stage4B claim-policy row: 'Microbiome-only is the principal directly transportable molecular analysis; metabolome-only and early integration are assay-scale stress tests.' The original frozen row is retained unmodified in final_stage4_claim_policy.csv for historical transparency; this addendum is the current framing.

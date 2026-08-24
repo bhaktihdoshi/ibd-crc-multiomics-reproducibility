@@ -1,0 +1,5 @@
+task,training_cohort,external_cohort,comparison,clr_zscore_auc,within_sample_rank_auc,delta_roc_auc,delta_ci_low,delta_ci_high,valid_bootstrap_n,bootstrap_two_sided_p,bootstrap_two_sided_p_label,interpretation,presence_absence_auc,bh_fdr_q_value
+CRC_vs_Control,Sinha,Yachida,within_sample_rank_minus_clr_zscore,0.5629606299212598,0.49335433070866136,-0.06960629921259848,-0.12668031496062998,-0.01183149606299228,2000,0.018,p = 0.018,worse,,0.036
+CRC_vs_Control,Sinha,Yachida,presence_absence_minus_clr_zscore,0.5629606299212598,,-0.09622047244094489,-0.17132519685039374,-0.021005511811023708,2000,0.014,p = 0.014,worse,0.46674015748031494,0.036
+CRC_vs_Control,Yachida,Sinha,within_sample_rank_minus_clr_zscore,0.5818619582664526,0.5476190476190477,-0.03424291064740492,-0.10113028357410388,0.02491305510968423,2000,0.29,p = 0.290,inconclusive,,0.38666666666666666
+CRC_vs_Control,Yachida,Sinha,presence_absence_minus_clr_zscore,0.5818619582664526,,0.01310861423220977,-0.10086944890315667,0.1182517388978063,2000,0.833,p = 0.833,inconclusive,0.5949705724986624,0.833

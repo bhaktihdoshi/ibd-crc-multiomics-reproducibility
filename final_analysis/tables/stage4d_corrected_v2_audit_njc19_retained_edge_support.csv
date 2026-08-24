@@ -1,0 +1,463 @@
+disease,source_node,target_node,relation_type,source_microbe_names,support_count,source_species_count
+CRC,microbe::Acidaminococcus,metabolite::HMDB0000148,Consumption (import),Acidaminococcus fermentans,1,1
+CRC,microbe::Acidaminococcus,metabolite::HMDB0000210,Consumption (import),Acidaminococcus fermentans,1,1
+CRC,microbe::Acidaminococcus,metabolite::HMDB0000517,Consumption (import),Acidaminococcus fermentans,1,1
+CRC,microbe::Acidaminococcus,metabolite::HMDB0000883,Consumption (import),Acidaminococcus fermentans,1,1
+CRC,microbe::Acidaminococcus,metabolite::HMDB0000929,Consumption (import),Acidaminococcus fermentans,1,1
+CRC,microbe::Acidaminococcus,metabolite::HMDB0001545,Consumption (import),Acidaminococcus fermentans,1,1
+CRC,microbe::Actinomyces,metabolite::HMDB0000190,Production (export),Actinomyces coleocanis;Actinomyces oris;Actinomyces urogenitalis;Actinomyces viscosus,4,4
+CRC,microbe::Akkermansia,metabolite::HMDB0000215,Consumption (import),Akkermansia muciniphila,1,1
+CRC,microbe::Anaerostipes,metabolite::HMDB0000190,"Consumption (import), Production (export)",Anaerostipes caccae;Anaerostipes hadrus,2,2
+CRC,microbe::Anaerostipes,metabolite::HMDB0000243,Production (export),Anaerostipes hadrus,1,1
+CRC,microbe::Anaerostipes,metabolite::HMDB0000254,Production (export),Anaerostipes caccae,1,1
+CRC,microbe::Anaerostipes,metabolite::HMDB0000718,Production (export),Anaerostipes caccae,1,1
+CRC,microbe::Anaerotruncus,metabolite::HMDB0000156,Consumption (import),Anaerotruncus colihominis,1,1
+CRC,microbe::Anaerotruncus,metabolite::HMDB0000187,Consumption (import),Anaerotruncus colihominis,1,1
+CRC,microbe::Anaerotruncus,metabolite::HMDB0000215,Consumption (import),Anaerotruncus colihominis,1,1
+CRC,microbe::Anaerotruncus,metabolite::HMDB0000243,Consumption (import),Anaerotruncus colihominis,1,1
+CRC,microbe::Anaerotruncus,metabolite::HMDB0000273,Consumption (import),Anaerotruncus colihominis,1,1
+CRC,microbe::Anaerotruncus,metabolite::HMDB0000296,Consumption (import),Anaerotruncus colihominis,1,1
+CRC,microbe::Anaerotruncus,metabolite::HMDB0000883,Consumption (import),Anaerotruncus colihominis,1,1
+CRC,microbe::Bacteroides,metabolite::HMDB0000134,Production (export),Bacteroides caccae;Bacteroides intestinalis,2,2
+CRC,microbe::Bacteroides,metabolite::HMDB0000138,Consumption (import),Bacteroides fragilis,1,1
+CRC,microbe::Bacteroides,metabolite::HMDB0000158,Consumption (import),Bacteroides thetaiotaomicron,1,1
+CRC,microbe::Bacteroides,metabolite::HMDB0000159,Consumption (import),Bacteroides thetaiotaomicron,1,1
+CRC,microbe::Bacteroides,metabolite::HMDB0000167,Consumption (import),Bacteroides pyogenes,1,1
+CRC,microbe::Bacteroides,metabolite::HMDB0000190,"Consumption (import);Consumption (import), Production (export);Production (export)",Bacteroides fragilis;Bacteroides ovatus;Bacteroides pectinophilus;Bacteroides pyogenes;Bacteroides thetaiotaomicron;Bacteroides uniformis,6,6
+CRC,microbe::Bacteroides,metabolite::HMDB0000215,Consumption (import);Production (export),Bacteroides caccae;Bacteroides ovatus;Bacteroides thetaiotaomicron;Bacteroides xylanisolvens,4,4
+CRC,microbe::Bacteroides,metabolite::HMDB0000243,Consumption (import);Production (export),Bacteroides caccae;Bacteroides thetaiotaomicron,2,2
+CRC,microbe::Bacteroides,metabolite::HMDB0000254,Production (export),Bacteroides barnesiae;Bacteroides caccae;Bacteroides cellulosilyticus;Bacteroides clarus;Bacteroides coprocola;Bacteroides coprophilus;Bacteroides coprosuis;Bacteroides dorei;Bacteroides eggerthii;Bacteroides faecis;Bacteroides finegoldii;Bacteroides fluxus;Bacteroides fragilis;Bacteroides gallinarum;Bacteroides helcogenes;Bacteroides intestinalis;Bacteroides massiliensis;Bacteroides nordii;Bacteroides oleiciplenus;Bacteroides ovatus;Bacteroides plebeius;Bacteroides propionicifaciens;Bacteroides pyogenes;Bacteroides salanitronis;Bacteroides salyersiae;Bacteroides sp. 2_1_33B;Bacteroides stercoris;Bacteroides thetaiotaomicron;Bacteroides uniformis;Bacteroides vulgatus;Bacteroides xylanisolvens,31,31
+CRC,microbe::Bacteroides,metabolite::HMDB0000294,Production (export),Bacteroides thetaiotaomicron,1,1
+CRC,microbe::Bacteroides,metabolite::HMDB0000306,Production (export),Bacteroides ovatus;Bacteroides thetaiotaomicron,2,2
+CRC,microbe::Bacteroides,metabolite::HMDB0000574,Consumption (import),Bacteroides fragilis;Bacteroides thetaiotaomicron;Bacteroides vulgatus,3,3
+CRC,microbe::Bacteroides,metabolite::HMDB0000687,Consumption (import),Bacteroides thetaiotaomicron,1,1
+CRC,microbe::Bacteroides,metabolite::HMDB0000696,Consumption (import),Bacteroides fragilis;Bacteroides thetaiotaomicron;Bacteroides vulgatus,3,3
+CRC,microbe::Bacteroides,metabolite::HMDB0000718,Production (export),Bacteroides caccae;Bacteroides nordii;Bacteroides ovatus;Bacteroides pyogenes;Bacteroides thetaiotaomicron,5,5
+CRC,microbe::Bacteroides,metabolite::HMDB0000883,Consumption (import),Bacteroides thetaiotaomicron,1,1
+CRC,microbe::Bacteroides,metabolite::HMDB0000892,Production (export),Bacteroides fragilis;Bacteroides thetaiotaomicron,2,2
+CRC,microbe::Bacteroides,metabolite::HMDB0001414,Production (export),Bacteroides fragilis;Bacteroides ovatus;Bacteroides thetaiotaomicron,3,3
+CRC,microbe::Bifidobacterium,metabolite::HMDB0000138,Consumption (import),Bifidobacterium adolescentis;Bifidobacterium animalis;Bifidobacterium bifidum;Bifidobacterium breve;Bifidobacterium longum,5,5
+CRC,microbe::Bifidobacterium,metabolite::HMDB0000190,Production (export),Bifidobacterium adolescentis;Bifidobacterium angulatum;Bifidobacterium animalis;Bifidobacterium bifidum;Bifidobacterium breve;Bifidobacterium catenulatum;Bifidobacterium dentium;Bifidobacterium gallicum;Bifidobacterium longum;Bifidobacterium pseudocatenulatum;Bifidobacterium pseudolongum,11,11
+CRC,microbe::Bifidobacterium,metabolite::HMDB0000210,Consumption (import),Bifidobacterium pseudocatenulatum,1,1
+CRC,microbe::Bifidobacterium,metabolite::HMDB0000254,Production (export),Bifidobacterium adolescentis;Bifidobacterium angulatum;Bifidobacterium animalis;Bifidobacterium bifidum;Bifidobacterium breve;Bifidobacterium catenulatum;Bifidobacterium dentium;Bifidobacterium gallicum;Bifidobacterium longum;Bifidobacterium pseudocatenulatum;Bifidobacterium pseudolongum,11,11
+CRC,microbe::Bifidobacterium,metabolite::HMDB0000294,Consumption (import),Bifidobacterium adolescentis;Bifidobacterium angulatum;Bifidobacterium animalis;Bifidobacterium bifidum;Bifidobacterium breve;Bifidobacterium catenulatum;Bifidobacterium dentium;Bifidobacterium gallicum;Bifidobacterium longum;Bifidobacterium pseudocatenulatum;Bifidobacterium pseudolongum,11,11
+CRC,microbe::Bifidobacterium,metabolite::HMDB0001406,Consumption (import),Bifidobacterium adolescentis;Bifidobacterium angulatum;Bifidobacterium animalis;Bifidobacterium bifidum;Bifidobacterium breve;Bifidobacterium catenulatum;Bifidobacterium dentium;Bifidobacterium gallicum;Bifidobacterium longum;Bifidobacterium pseudocatenulatum;Bifidobacterium pseudolongum,11,11
+CRC,microbe::Bifidobacterium,metabolite::HMDB0001545,"Consumption (import);Consumption (import), Production (export)",Bifidobacterium adolescentis;Bifidobacterium angulatum;Bifidobacterium animalis;Bifidobacterium bifidum;Bifidobacterium breve;Bifidobacterium catenulatum;Bifidobacterium dentium;Bifidobacterium gallicum;Bifidobacterium longum;Bifidobacterium pseudocatenulatum;Bifidobacterium pseudolongum,11,11
+CRC,microbe::Bilophila,metabolite::HMDB0000156,Consumption (import),Bilophila wadsworthia,1,1
+CRC,microbe::Bilophila,metabolite::HMDB0000190,Consumption (import),Bilophila wadsworthia,1,1
+CRC,microbe::Bilophila,metabolite::HMDB0000243,Consumption (import),Bilophila wadsworthia,1,1
+CRC,microbe::Bilophila,metabolite::HMDB0000251,Consumption (import),Bilophila wadsworthia,1,1
+CRC,microbe::Bilophila,metabolite::HMDB0000254,Consumption (import),Bilophila wadsworthia,1,1
+CRC,microbe::Blautia,metabolite::HMDB0000190,Production (export),Blautia hansenii;Blautia hydrogenotrophica;Blautia obeum;Blautia producta,4,4
+CRC,microbe::Blautia,metabolite::HMDB0000243,Consumption (import),Blautia hydrogenotrophica,1,1
+CRC,microbe::Blautia,metabolite::HMDB0000254,Production (export),Blautia hansenii;Blautia hydrogenotrophica;Blautia obeum;Blautia producta,4,4
+CRC,microbe::Blautia,metabolite::HMDB0000718,Production (export),Blautia hydrogenotrophica,1,1
+CRC,microbe::Butyricimonas,metabolite::HMDB0000254,Production (export),Butyricimonas synergistica,1,1
+CRC,microbe::Butyricimonas,metabolite::HMDB0000718,Production (export),Butyricimonas synergistica,1,1
+CRC,microbe::Catenibacterium,metabolite::HMDB0000190,Production (export),Catenibacterium mitsuokai,1,1
+CRC,microbe::Clostridium,metabolite::HMDB0000034,Consumption (import),Clostridium perfringens,1,1
+CRC,microbe::Clostridium,metabolite::HMDB0000134,Consumption (import) (-);Production (export),Clostridium autoethanogenum;Clostridium celatum,2,2
+CRC,microbe::Clostridium,metabolite::HMDB0000138,Consumption (import),Clostridium perfringens,1,1
+CRC,microbe::Clostridium,metabolite::HMDB0000148,Consumption (import),Clostridium autoethanogenum;Clostridium perfringens,2,2
+CRC,microbe::Clostridium,metabolite::HMDB0000156,Production (export),Clostridium tetani,1,1
+CRC,microbe::Clostridium,metabolite::HMDB0000158,Consumption (import),Clostridium botulinum;Clostridium perfringens;Clostridium sporogenes;Clostridium tetani,4,4
+CRC,microbe::Clostridium,metabolite::HMDB0000159,Consumption (import),Clostridium botulinum;Clostridium perfringens;Clostridium sporogenes;Clostridium tetani,4,4
+CRC,microbe::Clostridium,metabolite::HMDB0000161,Consumption (import),Clostridium botulinum;Clostridium sporogenes,2,2
+CRC,microbe::Clostridium,metabolite::HMDB0000162,Consumption (import),Clostridium botulinum;Clostridium sporogenes,2,2
+CRC,microbe::Clostridium,metabolite::HMDB0000167,Consumption (import),Clostridium botulinum;Clostridium perfringens;Clostridium sporogenes;Clostridium tetani,4,4
+CRC,microbe::Clostridium,metabolite::HMDB0000172,Consumption (import),Clostridium botulinum;Clostridium sporogenes,2,2
+CRC,microbe::Clostridium,metabolite::HMDB0000177,Consumption (import),Clostridium perfringens;Clostridium tetani,2,2
+CRC,microbe::Clostridium,metabolite::HMDB0000182,Consumption (import),Clostridium botulinum;Clostridium tetani,2,2
+CRC,microbe::Clostridium,metabolite::HMDB0000187,Consumption (import),Clostridium botulinum;Clostridium leptum;Clostridium sporogenes;Clostridium tetani,4,4
+CRC,microbe::Clostridium,metabolite::HMDB0000190,Consumption (import);Consumption (import) (-);Production (export),Clostridium arbusti;Clostridium autoethanogenum;Clostridium celatum;Clostridium clostridioforme;Clostridium kluyveri;Clostridium pasteurianum;Clostridium perfringens;Clostridium sartagoforme;Clostridium tyrobutyricum,9,9
+CRC,microbe::Clostridium,metabolite::HMDB0000191,Consumption (import),Clostridium botulinum;Clostridium perfringens;Clostridium sporogenes;Clostridium tetani,4,4
+CRC,microbe::Clostridium,metabolite::HMDB0000197,Production (export),Clostridium botulinum;Clostridium sporogenes,2,2
+CRC,microbe::Clostridium,metabolite::HMDB0000210,Consumption (import),Clostridium acetobutylicum;Clostridium arbusti;Clostridium asparagiforme;Clostridium autoethanogenum;Clostridium beijerinckii;Clostridium bolteae;Clostridium botulinum;Clostridium butyricum;Clostridium carboxidivorans;Clostridium celatum;Clostridium cellulovorans;Clostridium citroniae;Clostridium clostridioforme;Clostridium colicanis;Clostridium hiranonis;Clostridium hylemonae;Clostridium innocuum;Clostridium kluyveri;Clostridium leptum;Clostridium ljungdahlii;Clostridium methylpentosum;Clostridium novyi;Clostridium pasteurianum;Clostridium perfringens;Clostridium saccharobutylicum;Clostridium saccharolyticum;Clostridium saccharoperbutylacetonicum;Clostridium sartagoforme;Clostridium scindens;Clostridium sp. ASF356;Clostridium sp. ASF502;Clostridium sporogenes;Clostridium symbiosum;Clostridium tetani;Clostridium tunisiense;Clostridium tyrobutyricum;Clostridium ultunense,37,37
+CRC,microbe::Clostridium,metabolite::HMDB0000214,Production (export),Clostridium perfringens,1,1
+CRC,microbe::Clostridium,metabolite::HMDB0000243,Consumption (import);Production (export),Clostridium acetobutylicum;Clostridium arbusti;Clostridium autoethanogenum;Clostridium celatum;Clostridium tyrobutyricum,5,5
+CRC,microbe::Clostridium,metabolite::HMDB0000254,Consumption (import);Consumption (import) (-);Production (export),Clostridium acetobutylicum;Clostridium autoethanogenum;Clostridium beijerinckii;Clostridium celatum;Clostridium clostridioforme;Clostridium kluyveri;Clostridium perfringens,7,7
+CRC,microbe::Clostridium,metabolite::HMDB0000294,Consumption (import),Clostridium acetobutylicum;Clostridium arbusti;Clostridium asparagiforme;Clostridium autoethanogenum;Clostridium beijerinckii;Clostridium bolteae;Clostridium botulinum;Clostridium butyricum;Clostridium carboxidivorans;Clostridium celatum;Clostridium cellulovorans;Clostridium citroniae;Clostridium clostridioforme;Clostridium colicanis;Clostridium hiranonis;Clostridium hylemonae;Clostridium innocuum;Clostridium kluyveri;Clostridium leptum;Clostridium ljungdahlii;Clostridium methylpentosum;Clostridium novyi;Clostridium pasteurianum;Clostridium perfringens;Clostridium saccharobutylicum;Clostridium saccharolyticum;Clostridium saccharoperbutylacetonicum;Clostridium sartagoforme;Clostridium scindens;Clostridium sp. ASF356;Clostridium sp. ASF502;Clostridium sporogenes;Clostridium symbiosum;Clostridium tetani;Clostridium tunisiense;Clostridium tyrobutyricum;Clostridium ultunense,37,37
+CRC,microbe::Clostridium,metabolite::HMDB0000517,Consumption (import),Clostridium botulinum;Clostridium perfringens;Clostridium sporogenes;Clostridium tetani,4,4
+CRC,microbe::Clostridium,metabolite::HMDB0000574,Consumption (import),Clostridium perfringens,1,1
+CRC,microbe::Clostridium,metabolite::HMDB0000641,Consumption (import),Clostridium botulinum;Clostridium sporogenes;Clostridium tetani,3,3
+CRC,microbe::Clostridium,metabolite::HMDB0000687,Consumption (import),Clostridium botulinum;Clostridium perfringens;Clostridium sporogenes;Clostridium tetani,4,4
+CRC,microbe::Clostridium,metabolite::HMDB0000696,Consumption (import),Clostridium botulinum;Clostridium sporogenes;Clostridium tetani,3,3
+CRC,microbe::Clostridium,metabolite::HMDB0000870,Production (export),Clostridium perfringens,1,1
+CRC,microbe::Clostridium,metabolite::HMDB0000883,Consumption (import),Clostridium perfringens,1,1
+CRC,microbe::Clostridium,metabolite::HMDB0000892,Production (export),Clostridium kluyveri,1,1
+CRC,microbe::Clostridium,metabolite::HMDB0000929,Consumption (import),Clostridium botulinum;Clostridium perfringens;Clostridium sporogenes;Clostridium tetani,4,4
+CRC,microbe::Clostridium,metabolite::HMDB0001406,Consumption (import),Clostridium tetani,1,1
+CRC,microbe::Clostridium,metabolite::HMDB0001414,Production (export),Clostridium saccharolyticum,1,1
+CRC,microbe::Clostridium,metabolite::HMDB0001545,Consumption (import),Clostridium perfringens;Clostridium tetani,2,2
+CRC,microbe::Clostridium,metabolite::HMDB0002322,Production (export),Clostridium saccharolyticum,1,1
+CRC,microbe::Clostridium,metabolite::HMDB0003355,Production (export),Clostridium botulinum;Clostridium sporogenes,2,2
+CRC,microbe::Collinsella,metabolite::HMDB0000190,Production (export),Collinsella aerofaciens;Collinsella intestinalis;Collinsella stercoris,3,3
+CRC,microbe::Coprococcus,metabolite::HMDB0000190,Consumption (import);Production (export),Coprococcus catus;Coprococcus comes;Coprococcus eutactus,3,3
+CRC,microbe::Desulfovibrio,metabolite::HMDB0000097,Consumption (import),Desulfovibrio desulfuricans;Desulfovibrio salexigens,2,2
+CRC,microbe::Desulfovibrio,metabolite::HMDB0000134,Consumption (import);Consumption (import) (-),Desulfovibrio desulfuricans;Desulfovibrio piger;Desulfovibrio salexigens,3,3
+CRC,microbe::Desulfovibrio,metabolite::HMDB0000148,Consumption (import) (-),Desulfovibrio alaskensis,1,1
+CRC,microbe::Desulfovibrio,metabolite::HMDB0000156,Consumption (import),Desulfovibrio desulfuricans;Desulfovibrio magneticus;Desulfovibrio salexigens;Desulfovibrio vulgaris,4,4
+CRC,microbe::Desulfovibrio,metabolite::HMDB0000190,"Consumption (import);Consumption (import), Production (export)",Desulfovibrio alaskensis;Desulfovibrio desulfuricans;Desulfovibrio fructosivorans;Desulfovibrio gigas;Desulfovibrio hydrothermalis;Desulfovibrio longus;Desulfovibrio magneticus;Desulfovibrio oxyclinae;Desulfovibrio piger;Desulfovibrio salexigens;Desulfovibrio termitidis;Desulfovibrio vulgaris,12,12
+CRC,microbe::Desulfovibrio,metabolite::HMDB0000243,Consumption (import),Desulfovibrio alaskensis;Desulfovibrio desulfuricans;Desulfovibrio fructosivorans;Desulfovibrio gigas;Desulfovibrio hydrothermalis;Desulfovibrio longus;Desulfovibrio magneticus;Desulfovibrio oxyclinae;Desulfovibrio piger;Desulfovibrio salexigens;Desulfovibrio termitidis;Desulfovibrio vulgaris,12,12
+CRC,microbe::Desulfovibrio,metabolite::HMDB0000254,Consumption (import),Desulfovibrio alaskensis;Desulfovibrio fructosivorans;Desulfovibrio gigas;Desulfovibrio hydrothermalis;Desulfovibrio longus;Desulfovibrio magneticus;Desulfovibrio oxyclinae;Desulfovibrio piger;Desulfovibrio salexigens;Desulfovibrio termitidis;Desulfovibrio vulgaris,11,11
+CRC,microbe::Desulfovibrio,metabolite::HMDB0000294,Consumption (import),Desulfovibrio piger,1,1
+CRC,microbe::Dorea,metabolite::HMDB0000190,Production (export),Dorea formicigenerans,1,1
+CRC,microbe::Dorea,metabolite::HMDB0000243,Consumption (import),Dorea formicigenerans,1,1
+CRC,microbe::Enterobacter,metabolite::HMDB0001414,Production (export),Enterobacter cloacae,1,1
+CRC,microbe::Enterobacter,metabolite::HMDB0002322,Production (export),Enterobacter cloacae,1,1
+CRC,microbe::Enterococcus,metabolite::HMDB0000034,Consumption (import),Enterococcus faecium,1,1
+CRC,microbe::Enterococcus,metabolite::HMDB0000134,Consumption (import),Enterococcus faecalis,1,1
+CRC,microbe::Enterococcus,metabolite::HMDB0000156,Consumption (import),Enterococcus faecalis,1,1
+CRC,microbe::Enterococcus,metabolite::HMDB0000187,Consumption (import),Enterococcus faecalis,1,1
+CRC,microbe::Enterococcus,metabolite::HMDB0000190,Production (export),Enterococcus asini;Enterococcus avium;Enterococcus caccae;Enterococcus casseliflavus;Enterococcus cecorum;Enterococcus columbae;Enterococcus dispar;Enterococcus durans;Enterococcus faecalis;Enterococcus faecium;Enterococcus gallinarum;Enterococcus gilvus;Enterococcus haemoperoxidus;Enterococcus hirae;Enterococcus italicus;Enterococcus malodoratus;Enterococcus moraviensis;Enterococcus mundtii;Enterococcus pallens;Enterococcus phoeniculicola;Enterococcus raffinosus;Enterococcus saccharolyticus;Enterococcus sulfureus;Enterococcus villorum,24,24
+CRC,microbe::Enterococcus,metabolite::HMDB0000210,Consumption (import),Enterococcus faecalis;Enterococcus faecium,2,2
+CRC,microbe::Enterococcus,metabolite::HMDB0000214,Production (export),Enterococcus faecalis,1,1
+CRC,microbe::Enterococcus,metabolite::HMDB0000215,Consumption (import),Enterococcus faecalis;Enterococcus gallinarum;Enterococcus haemoperoxidus;Enterococcus villorum,4,4
+CRC,microbe::Enterococcus,metabolite::HMDB0000243,Consumption (import),Enterococcus caccae;Enterococcus faecalis,2,2
+CRC,microbe::Enterococcus,metabolite::HMDB0000254,Consumption (import) (-);Production (export),Enterococcus faecalis;Enterococcus phoeniculicola,2,2
+CRC,microbe::Enterococcus,metabolite::HMDB0000306,Production (export),Enterococcus faecalis;Enterococcus faecium,2,2
+CRC,microbe::Enterococcus,metabolite::HMDB0000517,Consumption (import);Consumption (import) (-),Enterococcus caccae;Enterococcus faecalis,2,2
+CRC,microbe::Enterococcus,metabolite::HMDB0000929,Consumption (import),Enterococcus haemoperoxidus,1,1
+CRC,microbe::Enterococcus,metabolite::HMDB0001406,Consumption (import),Enterococcus faecalis;Enterococcus faecium,2,2
+CRC,microbe::Enterococcus,metabolite::HMDB0001545,Consumption (import),Enterococcus faecalis;Enterococcus faecium,2,2
+CRC,microbe::Escherichia,metabolite::HMDB0000134,Consumption (import),Escherichia coli,1,1
+CRC,microbe::Escherichia,metabolite::HMDB0000148,Consumption (import) (-),Escherichia coli,1,1
+CRC,microbe::Escherichia,metabolite::HMDB0000156,Consumption (import),Escherichia coli,1,1
+CRC,microbe::Escherichia,metabolite::HMDB0000167,Production (export),Escherichia coli,1,1
+CRC,microbe::Escherichia,metabolite::HMDB0000190,Production (export),Escherichia albertii;Escherichia coli;Escherichia fergusonii,3,3
+CRC,microbe::Escherichia,metabolite::HMDB0000197,Production (export),Escherichia coli,1,1
+CRC,microbe::Escherichia,metabolite::HMDB0000254,Production (export),Escherichia albertii;Escherichia coli;Escherichia fergusonii,3,3
+CRC,microbe::Escherichia,metabolite::HMDB0001406,"Consumption (import), Production (export)",Escherichia coli,1,1
+CRC,microbe::Escherichia,metabolite::HMDB0001414,Production (export),Escherichia coli,1,1
+CRC,microbe::Escherichia,metabolite::HMDB0001545,Consumption (import),Escherichia coli,1,1
+CRC,microbe::Escherichia,metabolite::HMDB0002322,Production (export),Escherichia coli,1,1
+CRC,microbe::Eubacterium,metabolite::HMDB0000190,"Consumption (import) (-);Consumption (import), Production (export);Production (export)",Eubacterium brachy;Eubacterium cellulosolvens;Eubacterium eligens;Eubacterium limosum;Eubacterium plexicaudatum;Eubacterium ramulus;Eubacterium rectale;Eubacterium saphenum;Eubacterium siraeum;Eubacterium ventriosum;Eubacterium yurii,11,11
+CRC,microbe::Eubacterium,metabolite::HMDB0000191,Consumption (import),Eubacterium rectale,1,1
+CRC,microbe::Eubacterium,metabolite::HMDB0000214,Consumption (import),Eubacterium rectale,1,1
+CRC,microbe::Eubacterium,metabolite::HMDB0000243,Consumption (import) (-);Production (export),Eubacterium brachy;Eubacterium plexicaudatum,2,2
+CRC,microbe::Eubacterium,metabolite::HMDB0000254,Production (export),Eubacterium brachy;Eubacterium plexicaudatum;Eubacterium ramulus;Eubacterium siraeum,4,4
+CRC,microbe::Eubacterium,metabolite::HMDB0000718,Production (export),Eubacterium brachy,1,1
+CRC,microbe::Faecalibacterium,metabolite::HMDB0000190,Production (export),Faecalibacterium prausnitzii,1,1
+CRC,microbe::Faecalibacterium,metabolite::HMDB0000215,Consumption (import),Faecalibacterium prausnitzii,1,1
+CRC,microbe::Fusobacterium,metabolite::HMDB0000148,Consumption (import),Fusobacterium nucleatum,1,1
+CRC,microbe::Fusobacterium,metabolite::HMDB0000159,Consumption (import),Fusobacterium nucleatum,1,1
+CRC,microbe::Fusobacterium,metabolite::HMDB0000167,Consumption (import);Production (export) (-),Fusobacterium necrophorum;Fusobacterium nucleatum;Fusobacterium russii,3,3
+CRC,microbe::Fusobacterium,metabolite::HMDB0000177,Consumption (import),Fusobacterium nucleatum,1,1
+CRC,microbe::Fusobacterium,metabolite::HMDB0000182,Consumption (import),Fusobacterium nucleatum,1,1
+CRC,microbe::Fusobacterium,metabolite::HMDB0000187,Consumption (import),Fusobacterium nucleatum,1,1
+CRC,microbe::Fusobacterium,metabolite::HMDB0000190,Consumption (import);Production (export);Production (export) (-),Fusobacterium necrophorum;Fusobacterium nucleatum;Fusobacterium russii,3,3
+CRC,microbe::Fusobacterium,metabolite::HMDB0000191,Consumption (import),Fusobacterium nucleatum,1,1
+CRC,microbe::Fusobacterium,metabolite::HMDB0000574,Consumption (import),Fusobacterium nucleatum,1,1
+CRC,microbe::Fusobacterium,metabolite::HMDB0000641,Consumption (import),Fusobacterium nucleatum,1,1
+CRC,microbe::Fusobacterium,metabolite::HMDB0000696,Consumption (import),Fusobacterium nucleatum,1,1
+CRC,microbe::Haemophilus,metabolite::HMDB0000190,Consumption (import),Haemophilus influenzae;Haemophilus parainfluenzae,2,2
+CRC,microbe::Klebsiella,metabolite::HMDB0000148,Consumption (import),Klebsiella pneumoniae,1,1
+CRC,microbe::Klebsiella,metabolite::HMDB0000156,Consumption (import),Klebsiella pneumoniae,1,1
+CRC,microbe::Klebsiella,metabolite::HMDB0000254,Consumption (import),Klebsiella pneumoniae,1,1
+CRC,microbe::Klebsiella,metabolite::HMDB0000294,Consumption (import),Klebsiella pneumoniae;Klebsiella variicola,2,2
+CRC,microbe::Klebsiella,metabolite::HMDB0000306,Consumption (import),Klebsiella pneumoniae,1,1
+CRC,microbe::Klebsiella,metabolite::HMDB0001406,Consumption (import),Klebsiella pneumoniae,1,1
+CRC,microbe::Lachnobacterium,metabolite::HMDB0000190,Production (export),Lachnobacterium bovis,1,1
+CRC,microbe::Lachnobacterium,metabolite::HMDB0000517,Consumption (import) (-),Lachnobacterium bovis,1,1
+CRC,microbe::Lactobacillus,metabolite::HMDB0000034,Consumption (import),Lactobacillus casei,1,1
+CRC,microbe::Lactobacillus,metabolite::HMDB0000132,Consumption (import),Lactobacillus casei,1,1
+CRC,microbe::Lactobacillus,metabolite::HMDB0000138,Consumption (import),Lactobacillus acidophilus;Lactobacillus buchneri;Lactobacillus gasseri;Lactobacillus hilgardii;Lactobacillus johnsonii;Lactobacillus plantarum,6,6
+CRC,microbe::Lactobacillus,metabolite::HMDB0000156,Consumption (import),Lactobacillus murinus,1,1
+CRC,microbe::Lactobacillus,metabolite::HMDB0000172,Consumption (import),Lactobacillus plantarum,1,1
+CRC,microbe::Lactobacillus,metabolite::HMDB0000190,"Consumption (import), Production (export);Production (export)",Lactobacillus acidipiscis;Lactobacillus acidophilus;Lactobacillus amylolyticus;Lactobacillus amylovorus;Lactobacillus animalis;Lactobacillus antri;Lactobacillus brevis;Lactobacillus buchneri;Lactobacillus casei;Lactobacillus coleohominis;Lactobacillus coryniformis;Lactobacillus crispatus;Lactobacillus curvatus;Lactobacillus delbrueckii;Lactobacillus equi;Lactobacillus equicursoris;Lactobacillus farciminis;Lactobacillus fermentum;Lactobacillus florum;Lactobacillus fructivorans;Lactobacillus gasseri;Lactobacillus gastricus;Lactobacillus gigeriorum;Lactobacillus helveticus;Lactobacillus hilgardii;Lactobacillus hominis;Lactobacillus iners;Lactobacillus ingluviei;Lactobacillus jensenii;Lactobacillus johnsonii;Lactobacillus kefiranofaciens;Lactobacillus malefermentans;Lactobacillus mali;Lactobacillus mucosae;Lactobacillus murinus;Lactobacillus oris;Lactobacillus paracasei;Lactobacillus pasteurii;Lactobacillus pentosus;Lactobacillus plantarum;Lactobacillus pobuzihii;Lactobacillus reuteri;Lactobacillus rhamnosus;Lactobacillus rossiae;Lactobacillus ruminis;Lactobacillus saerimneri;Lactobacillus sakei;Lactobacillus salivarius;Lactobacillus sanfranciscensis;Lactobacillus shenzhenensis;Lactobacillus sp. ASF360;Lactobacillus suebicus;Lactobacillus ultunensis;Lactobacillus vaginalis;Lactobacillus versmoldensis;Lactobacillus vini,56,56
+CRC,microbe::Lactobacillus,metabolite::HMDB0000210,Consumption (import),Lactobacillus acidipiscis;Lactobacillus acidophilus;Lactobacillus amylolyticus;Lactobacillus amylovorus;Lactobacillus animalis;Lactobacillus antri;Lactobacillus brevis;Lactobacillus buchneri;Lactobacillus casei;Lactobacillus coleohominis;Lactobacillus coryniformis;Lactobacillus crispatus;Lactobacillus curvatus;Lactobacillus delbrueckii;Lactobacillus equi;Lactobacillus equicursoris;Lactobacillus farciminis;Lactobacillus fermentum;Lactobacillus florum;Lactobacillus fructivorans;Lactobacillus gasseri;Lactobacillus gastricus;Lactobacillus gigeriorum;Lactobacillus helveticus;Lactobacillus hilgardii;Lactobacillus hominis;Lactobacillus iners;Lactobacillus jensenii;Lactobacillus johnsonii;Lactobacillus kefiranofaciens;Lactobacillus malefermentans;Lactobacillus mali;Lactobacillus mucosae;Lactobacillus murinus;Lactobacillus oris;Lactobacillus paracasei;Lactobacillus pasteurii;Lactobacillus pentosus;Lactobacillus plantarum;Lactobacillus pobuzihii;Lactobacillus reuteri;Lactobacillus rhamnosus;Lactobacillus rossiae;Lactobacillus ruminis;Lactobacillus saerimneri;Lactobacillus sakei;Lactobacillus salivarius;Lactobacillus sanfranciscensis;Lactobacillus shenzhenensis;Lactobacillus sp. ASF360;Lactobacillus suebicus;Lactobacillus ultunensis;Lactobacillus vaginalis;Lactobacillus versmoldensis;Lactobacillus vini,55,55
+CRC,microbe::Lactobacillus,metabolite::HMDB0000215,Consumption (import),Lactobacillus gigeriorum;Lactobacillus hominis;Lactobacillus pobuzihii;Lactobacillus vini,4,4
+CRC,microbe::Lactobacillus,metabolite::HMDB0000226,Consumption (import),Lactobacillus casei,1,1
+CRC,microbe::Lactobacillus,metabolite::HMDB0000254,Production (export),Lactobacillus plantarum,1,1
+CRC,microbe::Lactobacillus,metabolite::HMDB0000262,Consumption (import),Lactobacillus casei,1,1
+CRC,microbe::Lactobacillus,metabolite::HMDB0000292,Consumption (import),Lactobacillus casei,1,1
+CRC,microbe::Lactobacillus,metabolite::HMDB0000306,Production (export),Lactobacillus paracasei;Lactobacillus rhamnosus,2,2
+CRC,microbe::Lactobacillus,metabolite::HMDB0000517,Consumption (import),Lactobacillus plantarum,1,1
+CRC,microbe::Lactobacillus,metabolite::HMDB0000687,Consumption (import),Lactobacillus plantarum,1,1
+CRC,microbe::Lactobacillus,metabolite::HMDB0000883,Consumption (import),Lactobacillus plantarum,1,1
+CRC,microbe::Lactobacillus,metabolite::HMDB0000929,Consumption (import),Lactobacillus acidophilus;Lactobacillus casei;Lactobacillus reuteri,3,3
+CRC,microbe::Lactobacillus,metabolite::HMDB0001406,Consumption (import),Lactobacillus acidophilus;Lactobacillus brevis;Lactobacillus casei;Lactobacillus delbrueckii;Lactobacillus fermentum;Lactobacillus helveticus;Lactobacillus paracasei;Lactobacillus plantarum;Lactobacillus salivarius,9,9
+CRC,microbe::Lactobacillus,metabolite::HMDB0001414,Production (export),Lactobacillus acidophilus,1,1
+CRC,microbe::Lactobacillus,metabolite::HMDB0001545,"Consumption (import);Consumption (import), Production (export)",Lactobacillus casei;Lactobacillus delbrueckii;Lactobacillus helveticus;Lactobacillus paracasei,4,4
+CRC,microbe::Lactococcus,metabolite::HMDB0000148,Consumption (import),Lactococcus lactis,1,1
+CRC,microbe::Lactococcus,metabolite::HMDB0000177,Consumption (import),Lactococcus lactis,1,1
+CRC,microbe::Lactococcus,metabolite::HMDB0000190,Production (export),Lactococcus lactis,1,1
+CRC,microbe::Lactococcus,metabolite::HMDB0000210,Consumption (import),Lactococcus lactis,1,1
+CRC,microbe::Lactococcus,metabolite::HMDB0000687,Consumption (import),Lactococcus lactis,1,1
+CRC,microbe::Lactococcus,metabolite::HMDB0000696,Consumption (import),Lactococcus lactis,1,1
+CRC,microbe::Lactococcus,metabolite::HMDB0001406,Consumption (import),Lactococcus lactis,1,1
+CRC,microbe::Lactococcus,metabolite::HMDB0001545,Consumption (import),Lactococcus lactis,1,1
+CRC,microbe::Megamonas,metabolite::HMDB0000190,Production (export),Megamonas funiformis;Megamonas hypermegale;Megamonas rupellensis,3,3
+CRC,microbe::Megamonas,metabolite::HMDB0000254,Production (export),Megamonas funiformis,1,1
+CRC,microbe::Odoribacter,metabolite::HMDB0000182,Consumption (import),Odoribacter splanchnicus,1,1
+CRC,microbe::Odoribacter,metabolite::HMDB0000254,Production (export),Odoribacter laneus;Odoribacter splanchnicus,2,2
+CRC,microbe::Odoribacter,metabolite::HMDB0000718,Production (export),Odoribacter laneus;Odoribacter splanchnicus,2,2
+CRC,microbe::Odoribacter,metabolite::HMDB0000929,Consumption (import),Odoribacter splanchnicus,1,1
+CRC,microbe::Parabacteroides,metabolite::HMDB0000254,Production (export),Parabacteroides distasonis;Parabacteroides goldsteinii;Parabacteroides johnsonii;Parabacteroides merdae,4,4
+CRC,microbe::Parabacteroides,metabolite::HMDB0000294,Production (export) (-),Parabacteroides distasonis;Parabacteroides goldsteinii;Parabacteroides johnsonii;Parabacteroides merdae,4,4
+CRC,microbe::Parabacteroides,metabolite::HMDB0000574,Consumption (import),Parabacteroides distasonis,1,1
+CRC,microbe::Parabacteroides,metabolite::HMDB0000696,Consumption (import),Parabacteroides distasonis,1,1
+CRC,microbe::Parabacteroides,metabolite::HMDB0000718,Production (export),Parabacteroides goldsteinii;Parabacteroides johnsonii,2,2
+CRC,microbe::Porphyromonas,metabolite::HMDB0000159,Consumption (import),Porphyromonas gingivalis,1,1
+CRC,microbe::Porphyromonas,metabolite::HMDB0000172,Consumption (import),Porphyromonas gingivalis,1,1
+CRC,microbe::Porphyromonas,metabolite::HMDB0000177,Consumption (import),Porphyromonas gingivalis,1,1
+CRC,microbe::Porphyromonas,metabolite::HMDB0000187,Consumption (import),Porphyromonas gingivalis,1,1
+CRC,microbe::Porphyromonas,metabolite::HMDB0000191,Consumption (import),Porphyromonas gingivalis,1,1
+CRC,microbe::Porphyromonas,metabolite::HMDB0000517,Consumption (import),Porphyromonas gingivalis,1,1
+CRC,microbe::Porphyromonas,metabolite::HMDB0000687,Consumption (import),Porphyromonas gingivalis,1,1
+CRC,microbe::Porphyromonas,metabolite::HMDB0000696,Consumption (import),Porphyromonas gingivalis,1,1
+CRC,microbe::Porphyromonas,metabolite::HMDB0000718,Production (export),Porphyromonas asaccharolytica;Porphyromonas gingivalis,2,2
+CRC,microbe::Porphyromonas,metabolite::HMDB0000929,Consumption (import),Porphyromonas gingivalis,1,1
+CRC,microbe::Prevotella,metabolite::HMDB0000168,Consumption (import),Prevotella ruminicola,1,1
+CRC,microbe::Prevotella,metabolite::HMDB0000254,Production (export),Prevotella amnii;Prevotella bergensis;Prevotella bivia;Prevotella bryantii;Prevotella buccae;Prevotella buccalis;Prevotella copri;Prevotella disiens;Prevotella marshii;Prevotella melaninogenica;Prevotella multiformis;Prevotella oralis;Prevotella oris;Prevotella ruminicola;Prevotella salivae;Prevotella timonensis;Prevotella veroralis,17,17
+CRC,microbe::Prevotella,metabolite::HMDB0000574,Consumption (import),Prevotella ruminicola,1,1
+CRC,microbe::Prevotella,metabolite::HMDB0000641,Consumption (import),Prevotella ruminicola,1,1
+CRC,microbe::Prevotella,metabolite::HMDB0000687,Consumption (import),Prevotella ruminicola,1,1
+CRC,microbe::Prevotella,metabolite::HMDB0000696,Consumption (import),Prevotella ruminicola,1,1
+CRC,microbe::Prevotella,metabolite::HMDB0000718,"Consumption (import), Production (export)",Prevotella ruminicola,1,1
+CRC,microbe::Prevotella,metabolite::HMDB0000892,Consumption (import),Prevotella ruminicola,1,1
+CRC,microbe::Roseburia,metabolite::HMDB0000190,"Consumption (import), Production (export);Production (export)",Roseburia hominis;Roseburia intestinalis;Roseburia inulinivorans,3,3
+CRC,microbe::Ruminococcus,metabolite::HMDB0000168,Consumption (import),Ruminococcus albus,1,1
+CRC,microbe::Ruminococcus,metabolite::HMDB0000190,Production (export),Ruminococcus bromii;Ruminococcus flavefaciens;Ruminococcus torques,3,3
+CRC,microbe::Ruminococcus,metabolite::HMDB0000210,Consumption (import),Ruminococcus bromii,1,1
+CRC,microbe::Ruminococcus,metabolite::HMDB0000254,Production (export),Ruminococcus bromii;Ruminococcus flavefaciens,2,2
+CRC,microbe::Ruminococcus,metabolite::HMDB0000574,Consumption (import),Ruminococcus bromii,1,1
+CRC,microbe::Ruminococcus,metabolite::HMDB0000641,Consumption (import),Ruminococcus albus,1,1
+CRC,microbe::Ruminococcus,metabolite::HMDB0000718,Consumption (import),Ruminococcus bromii;Ruminococcus flavefaciens,2,2
+CRC,microbe::Ruminococcus,metabolite::HMDB0000929,Consumption (import),Ruminococcus albus,1,1
+CRC,microbe::Ruminococcus,metabolite::HMDB0001545,Consumption (import),Ruminococcus albus;Ruminococcus bromii,2,2
+CRC,microbe::Streptococcus,metabolite::HMDB0000097,Consumption (import),Streptococcus sanguinis,1,1
+CRC,microbe::Streptococcus,metabolite::HMDB0000148,Consumption (import),Streptococcus thermophilus,1,1
+CRC,microbe::Streptococcus,metabolite::HMDB0000158,Consumption (import),Streptococcus thermophilus,1,1
+CRC,microbe::Streptococcus,metabolite::HMDB0000159,Consumption (import),Streptococcus thermophilus,1,1
+CRC,microbe::Streptococcus,metabolite::HMDB0000161,Consumption (import),Streptococcus equinus,1,1
+CRC,microbe::Streptococcus,metabolite::HMDB0000167,Consumption (import),Streptococcus equinus,1,1
+CRC,microbe::Streptococcus,metabolite::HMDB0000172,Consumption (import),Streptococcus thermophilus,1,1
+CRC,microbe::Streptococcus,metabolite::HMDB0000177,Consumption (import),Streptococcus thermophilus,1,1
+CRC,microbe::Streptococcus,metabolite::HMDB0000182,Consumption (import),Streptococcus thermophilus,1,1
+CRC,microbe::Streptococcus,metabolite::HMDB0000187,Consumption (import),Streptococcus equinus,1,1
+CRC,microbe::Streptococcus,metabolite::HMDB0000190,Production (export),Streptococcus agalactiae;Streptococcus anginosus;Streptococcus australis;Streptococcus caballi;Streptococcus canis;Streptococcus constellatus;Streptococcus criceti;Streptococcus cristatus;Streptococcus didelphis;Streptococcus downei;Streptococcus dysgalactiae;Streptococcus entericus;Streptococcus equi;Streptococcus equinus;Streptococcus ferus;Streptococcus gallolyticus;Streptococcus gordonii;Streptococcus henryi;Streptococcus ictaluri;Streptococcus infantarius;Streptococcus infantis;Streptococcus iniae;Streptococcus intermedius;Streptococcus lutetiensis;Streptococcus macacae;Streptococcus macedonicus;Streptococcus marimammalium;Streptococcus massiliensis;Streptococcus merionis;Streptococcus minor;Streptococcus mitis;Streptococcus mutans;Streptococcus oralis;Streptococcus orisratti;Streptococcus ovis;Streptococcus parasanguinis;Streptococcus parauberis;Streptococcus pasteurianus;Streptococcus peroris;Streptococcus pneumoniae;Streptococcus porcinus;Streptococcus pseudopneumoniae;Streptococcus pseudoporcinus;Streptococcus pyogenes;Streptococcus ratti;Streptococcus salivarius;Streptococcus sanguinis;Streptococcus sobrinus;Streptococcus sp. GMD4S;Streptococcus suis;Streptococcus thermophilus;Streptococcus thoraltensis;Streptococcus uberis;Streptococcus urinalis;Streptococcus vestibularis,55,55
+CRC,microbe::Streptococcus,metabolite::HMDB0000191,Consumption (import),Streptococcus thermophilus,1,1
+CRC,microbe::Streptococcus,metabolite::HMDB0000210,Consumption (import),Streptococcus agalactiae;Streptococcus anginosus;Streptococcus australis;Streptococcus caballi;Streptococcus canis;Streptococcus constellatus;Streptococcus criceti;Streptococcus cristatus;Streptococcus didelphis;Streptococcus downei;Streptococcus dysgalactiae;Streptococcus entericus;Streptococcus equi;Streptococcus equinus;Streptococcus ferus;Streptococcus gallolyticus;Streptococcus gordonii;Streptococcus henryi;Streptococcus ictaluri;Streptococcus infantarius;Streptococcus infantis;Streptococcus iniae;Streptococcus intermedius;Streptococcus lutetiensis;Streptococcus macacae;Streptococcus macedonicus;Streptococcus marimammalium;Streptococcus massiliensis;Streptococcus merionis;Streptococcus minor;Streptococcus mitis;Streptococcus mutans;Streptococcus oralis;Streptococcus orisratti;Streptococcus ovis;Streptococcus parasanguinis;Streptococcus parauberis;Streptococcus pasteurianus;Streptococcus peroris;Streptococcus pneumoniae;Streptococcus porcinus;Streptococcus pseudopneumoniae;Streptococcus pseudoporcinus;Streptococcus pyogenes;Streptococcus ratti;Streptococcus salivarius;Streptococcus sanguinis;Streptococcus sobrinus;Streptococcus sp. GMD4S;Streptococcus suis;Streptococcus thermophilus;Streptococcus thoraltensis;Streptococcus uberis;Streptococcus urinalis;Streptococcus vestibularis,55,55
+CRC,microbe::Streptococcus,metabolite::HMDB0000243,Consumption (import) (-),Streptococcus urinalis,1,1
+CRC,microbe::Streptococcus,metabolite::HMDB0000294,Consumption (import) (-),Streptococcus constellatus;Streptococcus intermedius;Streptococcus lutetiensis;Streptococcus pasteurianus,4,4
+CRC,microbe::Streptococcus,metabolite::HMDB0000517,Consumption (import);Consumption (import) (-),Streptococcus constellatus;Streptococcus cristatus;Streptococcus intermedius;Streptococcus thermophilus,4,4
+CRC,microbe::Streptococcus,metabolite::HMDB0000574,Consumption (import),Streptococcus thermophilus,1,1
+CRC,microbe::Streptococcus,metabolite::HMDB0000641,Consumption (import),Streptococcus equinus,1,1
+CRC,microbe::Streptococcus,metabolite::HMDB0000687,Consumption (import),Streptococcus thermophilus,1,1
+CRC,microbe::Streptococcus,metabolite::HMDB0000696,Consumption (import),Streptococcus thermophilus,1,1
+CRC,microbe::Streptococcus,metabolite::HMDB0000883,Consumption (import),Streptococcus thermophilus,1,1
+CRC,microbe::Streptococcus,metabolite::HMDB0001406,Consumption (import),Streptococcus equinus;Streptococcus salivarius,2,2
+CRC,microbe::Streptococcus,metabolite::HMDB0001545,Production (export),Streptococcus thermophilus,1,1
+CRC,microbe::Sutterella,metabolite::HMDB0000191,Consumption (import),Sutterella wadsworthensis,1,1
+CRC,microbe::Sutterella,metabolite::HMDB0000517,Consumption (import),Sutterella wadsworthensis,1,1
+CRC,microbe::Turicibacter,metabolite::HMDB0000190,Consumption (import);Production (export) (-),Turicibacter sanguinis,1,1
+CRC,microbe::Veillonella,metabolite::HMDB0000156,Consumption (import),Veillonella parvula,1,1
+CRC,microbe::Veillonella,metabolite::HMDB0000190,Consumption (import),Veillonella atypica;Veillonella dispar;Veillonella parvula,3,3
+CRC,microbe::Veillonella,metabolite::HMDB0000243,Consumption (import),Veillonella parvula,1,1
+CRC,microbe::Veillonella,metabolite::HMDB0001545,Consumption (import),Veillonella parvula,1,1
+IBD,microbe::Acidaminococcus,metabolite::HMDB0000094,Consumption (import),Acidaminococcus fermentans,1,1
+IBD,microbe::Acidaminococcus,metabolite::HMDB0000210,Consumption (import),Acidaminococcus fermentans,1,1
+IBD,microbe::Acidaminococcus,metabolite::HMDB0000517,Consumption (import),Acidaminococcus fermentans,1,1
+IBD,microbe::Acidaminococcus,metabolite::HMDB0000929,Consumption (import),Acidaminococcus fermentans,1,1
+IBD,microbe::Akkermansia,metabolite::HMDB0000237,Production (export),Akkermansia muciniphila,1,1
+IBD,microbe::Alistipes,metabolite::HMDB0000098,Consumption (import),Alistipes indistinctus,1,1
+IBD,microbe::Alistipes,metabolite::HMDB0000190,Production (export),Alistipes finegoldii;Alistipes indistinctus;Alistipes obesi;Alistipes onderdonkii;Alistipes putredinis;Alistipes senegalensis;Alistipes shahii;Alistipes sp. HGB5,8,8
+IBD,microbe::Alistipes,metabolite::HMDB0000237,Production (export),Alistipes finegoldii;Alistipes indistinctus;Alistipes obesi;Alistipes onderdonkii;Alistipes putredinis;Alistipes senegalensis;Alistipes shahii;Alistipes sp. HGB5,8,8
+IBD,microbe::Alistipes,metabolite::HMDB0000254,Production (export),Alistipes finegoldii;Alistipes indistinctus;Alistipes obesi;Alistipes onderdonkii;Alistipes putredinis;Alistipes senegalensis;Alistipes shahii;Alistipes sp. HGB5,8,8
+IBD,microbe::Anaerostipes,metabolite::HMDB0000098,Consumption (import),Anaerostipes hadrus,1,1
+IBD,microbe::Anaerostipes,metabolite::HMDB0000190,"Consumption (import), Production (export)",Anaerostipes caccae;Anaerostipes hadrus,2,2
+IBD,microbe::Anaerostipes,metabolite::HMDB0000237,Production (export),Anaerostipes caccae;Anaerostipes hadrus,2,2
+IBD,microbe::Anaerostipes,metabolite::HMDB0000254,Production (export),Anaerostipes caccae,1,1
+IBD,microbe::Anaerotruncus,metabolite::HMDB0000156,Consumption (import),Anaerotruncus colihominis,1,1
+IBD,microbe::Anaerotruncus,metabolite::HMDB0000187,Consumption (import),Anaerotruncus colihominis,1,1
+IBD,microbe::Anaerotruncus,metabolite::HMDB0000195,Consumption (import),Anaerotruncus colihominis,1,1
+IBD,microbe::Anaerotruncus,metabolite::HMDB0000296,Consumption (import),Anaerotruncus colihominis,1,1
+IBD,microbe::Bacteroides,metabolite::HMDB0000098,Consumption (import);Consumption (import) (-),Bacteroides caccae;Bacteroides dorei;Bacteroides finegoldii;Bacteroides intestinalis;Bacteroides massiliensis;Bacteroides nordii;Bacteroides ovatus;Bacteroides pyogenes;Bacteroides thetaiotaomicron;Bacteroides uniformis;Bacteroides vulgatus;Bacteroides xylanisolvens,12,12
+IBD,microbe::Bacteroides,metabolite::HMDB0000138,Consumption (import),Bacteroides fragilis,1,1
+IBD,microbe::Bacteroides,metabolite::HMDB0000158,Consumption (import),Bacteroides thetaiotaomicron,1,1
+IBD,microbe::Bacteroides,metabolite::HMDB0000167,Consumption (import),Bacteroides pyogenes,1,1
+IBD,microbe::Bacteroides,metabolite::HMDB0000190,"Consumption (import);Consumption (import), Production (export);Production (export)",Bacteroides fragilis;Bacteroides ovatus;Bacteroides pectinophilus;Bacteroides pyogenes;Bacteroides thetaiotaomicron;Bacteroides uniformis,6,6
+IBD,microbe::Bacteroides,metabolite::HMDB0000209,Production (export),Bacteroides pyogenes;Bacteroides thetaiotaomicron,2,2
+IBD,microbe::Bacteroides,metabolite::HMDB0000237,Production (export),Bacteroides barnesiae;Bacteroides caccae;Bacteroides cellulosilyticus;Bacteroides clarus;Bacteroides coprocola;Bacteroides coprophilus;Bacteroides coprosuis;Bacteroides dorei;Bacteroides eggerthii;Bacteroides faecis;Bacteroides finegoldii;Bacteroides fluxus;Bacteroides fragilis;Bacteroides gallinarum;Bacteroides helcogenes;Bacteroides intestinalis;Bacteroides massiliensis;Bacteroides nordii;Bacteroides oleiciplenus;Bacteroides ovatus;Bacteroides plebeius;Bacteroides propionicifaciens;Bacteroides pyogenes;Bacteroides salanitronis;Bacteroides salyersiae;Bacteroides sp. 2_1_33B;Bacteroides stercoris;Bacteroides thetaiotaomicron;Bacteroides uniformis;Bacteroides vulgatus;Bacteroides xylanisolvens,31,31
+IBD,microbe::Bacteroides,metabolite::HMDB0000254,Production (export),Bacteroides barnesiae;Bacteroides caccae;Bacteroides cellulosilyticus;Bacteroides clarus;Bacteroides coprocola;Bacteroides coprophilus;Bacteroides coprosuis;Bacteroides dorei;Bacteroides eggerthii;Bacteroides faecis;Bacteroides finegoldii;Bacteroides fluxus;Bacteroides fragilis;Bacteroides gallinarum;Bacteroides helcogenes;Bacteroides intestinalis;Bacteroides massiliensis;Bacteroides nordii;Bacteroides oleiciplenus;Bacteroides ovatus;Bacteroides plebeius;Bacteroides propionicifaciens;Bacteroides pyogenes;Bacteroides salanitronis;Bacteroides salyersiae;Bacteroides sp. 2_1_33B;Bacteroides stercoris;Bacteroides thetaiotaomicron;Bacteroides uniformis;Bacteroides vulgatus;Bacteroides xylanisolvens,31,31
+IBD,microbe::Bacteroides,metabolite::HMDB0000619,"Consumption (import);Consumption (import), Production (export);Production (export)",Bacteroides fragilis;Bacteroides intestinalis;Bacteroides thetaiotaomicron;Bacteroides vulgatus,4,4
+IBD,microbe::Bacteroides,metabolite::HMDB0000626,Production (export),Bacteroides fragilis;Bacteroides thetaiotaomicron;Bacteroides vulgatus,3,3
+IBD,microbe::Bacteroides,metabolite::HMDB0000687,Consumption (import),Bacteroides thetaiotaomicron,1,1
+IBD,microbe::Bacteroides,metabolite::HMDB0000696,Consumption (import),Bacteroides fragilis;Bacteroides thetaiotaomicron;Bacteroides vulgatus,3,3
+IBD,microbe::Bacteroides,metabolite::HMDB0001414,Production (export),Bacteroides fragilis;Bacteroides ovatus;Bacteroides thetaiotaomicron,3,3
+IBD,microbe::Bifidobacterium,metabolite::HMDB0000098,Consumption (import),Bifidobacterium longum;Bifidobacterium pseudolongum,2,2
+IBD,microbe::Bifidobacterium,metabolite::HMDB0000138,Consumption (import),Bifidobacterium adolescentis;Bifidobacterium animalis;Bifidobacterium bifidum;Bifidobacterium breve;Bifidobacterium longum,5,5
+IBD,microbe::Bifidobacterium,metabolite::HMDB0000190,Production (export),Bifidobacterium adolescentis;Bifidobacterium angulatum;Bifidobacterium animalis;Bifidobacterium bifidum;Bifidobacterium breve;Bifidobacterium catenulatum;Bifidobacterium dentium;Bifidobacterium gallicum;Bifidobacterium longum;Bifidobacterium pseudocatenulatum;Bifidobacterium pseudolongum,11,11
+IBD,microbe::Bifidobacterium,metabolite::HMDB0000210,Consumption (import),Bifidobacterium pseudocatenulatum,1,1
+IBD,microbe::Bifidobacterium,metabolite::HMDB0000244,Consumption (import),Bifidobacterium adolescentis;Bifidobacterium bifidum;Bifidobacterium breve;Bifidobacterium longum;Bifidobacterium pseudocatenulatum,5,5
+IBD,microbe::Bifidobacterium,metabolite::HMDB0000254,Production (export),Bifidobacterium adolescentis;Bifidobacterium angulatum;Bifidobacterium animalis;Bifidobacterium bifidum;Bifidobacterium breve;Bifidobacterium catenulatum;Bifidobacterium dentium;Bifidobacterium gallicum;Bifidobacterium longum;Bifidobacterium pseudocatenulatum;Bifidobacterium pseudolongum,11,11
+IBD,microbe::Bifidobacterium,metabolite::HMDB0000619,Production (export),Bifidobacterium adolescentis;Bifidobacterium animalis;Bifidobacterium bifidum;Bifidobacterium breve;Bifidobacterium longum,5,5
+IBD,microbe::Bifidobacterium,metabolite::HMDB0000626,Production (export),Bifidobacterium adolescentis;Bifidobacterium animalis;Bifidobacterium bifidum;Bifidobacterium breve;Bifidobacterium longum,5,5
+IBD,microbe::Bilophila,metabolite::HMDB0000156,Consumption (import),Bilophila wadsworthia,1,1
+IBD,microbe::Bilophila,metabolite::HMDB0000190,Consumption (import),Bilophila wadsworthia,1,1
+IBD,microbe::Bilophila,metabolite::HMDB0000251,Consumption (import),Bilophila wadsworthia,1,1
+IBD,microbe::Bilophila,metabolite::HMDB0000254,Consumption (import),Bilophila wadsworthia,1,1
+IBD,microbe::Bilophila,metabolite::HMDB0000626,Production (export),Bilophila wadsworthia,1,1
+IBD,microbe::Blautia,metabolite::HMDB0000098,Consumption (import),Blautia obeum;Blautia producta,2,2
+IBD,microbe::Blautia,metabolite::HMDB0000190,Production (export),Blautia hansenii;Blautia hydrogenotrophica;Blautia obeum;Blautia producta,4,4
+IBD,microbe::Blautia,metabolite::HMDB0000237,Production (export),Blautia obeum,1,1
+IBD,microbe::Blautia,metabolite::HMDB0000254,Production (export),Blautia hansenii;Blautia hydrogenotrophica;Blautia obeum;Blautia producta,4,4
+IBD,microbe::Blautia,metabolite::HMDB0000619,Production (export),Blautia producta,1,1
+IBD,microbe::Catenibacterium,metabolite::HMDB0000190,Production (export),Catenibacterium mitsuokai,1,1
+IBD,microbe::Clostridium,metabolite::HMDB0000034,Consumption (import),Clostridium perfringens,1,1
+IBD,microbe::Clostridium,metabolite::HMDB0000094,Consumption (import) (-),Clostridium autoethanogenum,1,1
+IBD,microbe::Clostridium,metabolite::HMDB0000098,Consumption (import);Consumption (import) (-),Clostridium acetobutylicum;Clostridium arbusti;Clostridium autoethanogenum;Clostridium celatum;Clostridium citroniae;Clostridium clostridioforme;Clostridium colicanis;Clostridium pasteurianum;Clostridium saccharobutylicum;Clostridium saccharoperbutylacetonicum;Clostridium sartagoforme;Clostridium tyrobutyricum,12,12
+IBD,microbe::Clostridium,metabolite::HMDB0000138,Consumption (import),Clostridium perfringens,1,1
+IBD,microbe::Clostridium,metabolite::HMDB0000156,Production (export),Clostridium tetani,1,1
+IBD,microbe::Clostridium,metabolite::HMDB0000158,Consumption (import),Clostridium botulinum;Clostridium perfringens;Clostridium sporogenes;Clostridium tetani,4,4
+IBD,microbe::Clostridium,metabolite::HMDB0000161,Consumption (import),Clostridium botulinum;Clostridium sporogenes,2,2
+IBD,microbe::Clostridium,metabolite::HMDB0000162,Consumption (import),Clostridium botulinum;Clostridium sporogenes,2,2
+IBD,microbe::Clostridium,metabolite::HMDB0000167,Consumption (import),Clostridium botulinum;Clostridium perfringens;Clostridium sporogenes;Clostridium tetani,4,4
+IBD,microbe::Clostridium,metabolite::HMDB0000172,Consumption (import),Clostridium botulinum;Clostridium sporogenes,2,2
+IBD,microbe::Clostridium,metabolite::HMDB0000182,Consumption (import),Clostridium botulinum;Clostridium tetani,2,2
+IBD,microbe::Clostridium,metabolite::HMDB0000187,Consumption (import),Clostridium botulinum;Clostridium leptum;Clostridium sporogenes;Clostridium tetani,4,4
+IBD,microbe::Clostridium,metabolite::HMDB0000190,Consumption (import);Consumption (import) (-);Production (export),Clostridium arbusti;Clostridium autoethanogenum;Clostridium celatum;Clostridium clostridioforme;Clostridium kluyveri;Clostridium pasteurianum;Clostridium perfringens;Clostridium sartagoforme;Clostridium tyrobutyricum,9,9
+IBD,microbe::Clostridium,metabolite::HMDB0000191,Consumption (import),Clostridium botulinum;Clostridium perfringens;Clostridium sporogenes;Clostridium tetani,4,4
+IBD,microbe::Clostridium,metabolite::HMDB0000209,Production (export),Clostridium botulinum,1,1
+IBD,microbe::Clostridium,metabolite::HMDB0000210,Consumption (import),Clostridium acetobutylicum;Clostridium arbusti;Clostridium asparagiforme;Clostridium autoethanogenum;Clostridium beijerinckii;Clostridium bolteae;Clostridium botulinum;Clostridium butyricum;Clostridium carboxidivorans;Clostridium celatum;Clostridium cellulovorans;Clostridium citroniae;Clostridium clostridioforme;Clostridium colicanis;Clostridium hiranonis;Clostridium hylemonae;Clostridium innocuum;Clostridium kluyveri;Clostridium leptum;Clostridium ljungdahlii;Clostridium methylpentosum;Clostridium novyi;Clostridium pasteurianum;Clostridium perfringens;Clostridium saccharobutylicum;Clostridium saccharolyticum;Clostridium saccharoperbutylacetonicum;Clostridium sartagoforme;Clostridium scindens;Clostridium sp. ASF356;Clostridium sp. ASF502;Clostridium sporogenes;Clostridium symbiosum;Clostridium tetani;Clostridium tunisiense;Clostridium tyrobutyricum;Clostridium ultunense,37,37
+IBD,microbe::Clostridium,metabolite::HMDB0000214,Production (export),Clostridium perfringens,1,1
+IBD,microbe::Clostridium,metabolite::HMDB0000237,Production (export);Production (export) (-),Clostridium celatum;Clostridium clostridioforme;Clostridium kluyveri;Clostridium perfringens,4,4
+IBD,microbe::Clostridium,metabolite::HMDB0000244,Consumption (import);Production (export) (-),Clostridium saccharobutylicum;Clostridium tetani,2,2
+IBD,microbe::Clostridium,metabolite::HMDB0000254,Consumption (import);Consumption (import) (-);Production (export),Clostridium acetobutylicum;Clostridium autoethanogenum;Clostridium beijerinckii;Clostridium celatum;Clostridium clostridioforme;Clostridium kluyveri;Clostridium perfringens,7,7
+IBD,microbe::Clostridium,metabolite::HMDB0000517,Consumption (import),Clostridium botulinum;Clostridium perfringens;Clostridium sporogenes;Clostridium tetani,4,4
+IBD,microbe::Clostridium,metabolite::HMDB0000535,Production (export),Clostridium kluyveri,1,1
+IBD,microbe::Clostridium,metabolite::HMDB0000619,"Consumption (import);Consumption (import), Production (export)",Clostridium hiranonis;Clostridium hylemonae;Clostridium leptum;Clostridium perfringens;Clostridium scindens,5,5
+IBD,microbe::Clostridium,metabolite::HMDB0000626,Production (export),Clostridium hiranonis;Clostridium hylemonae;Clostridium leptum;Clostridium perfringens;Clostridium scindens,5,5
+IBD,microbe::Clostridium,metabolite::HMDB0000687,Consumption (import),Clostridium botulinum;Clostridium perfringens;Clostridium sporogenes;Clostridium tetani,4,4
+IBD,microbe::Clostridium,metabolite::HMDB0000696,Consumption (import),Clostridium botulinum;Clostridium sporogenes;Clostridium tetani,3,3
+IBD,microbe::Clostridium,metabolite::HMDB0000870,Production (export),Clostridium perfringens,1,1
+IBD,microbe::Clostridium,metabolite::HMDB0000929,Consumption (import),Clostridium botulinum;Clostridium perfringens;Clostridium sporogenes;Clostridium tetani,4,4
+IBD,microbe::Clostridium,metabolite::HMDB0001414,Production (export),Clostridium saccharolyticum,1,1
+IBD,microbe::Collinsella,metabolite::HMDB0000190,Production (export),Collinsella aerofaciens;Collinsella intestinalis;Collinsella stercoris,3,3
+IBD,microbe::Coprococcus,metabolite::HMDB0000098,Consumption (import),Coprococcus comes,1,1
+IBD,microbe::Coprococcus,metabolite::HMDB0000190,Consumption (import);Production (export),Coprococcus catus;Coprococcus comes;Coprococcus eutactus,3,3
+IBD,microbe::Coprococcus,metabolite::HMDB0000237,Production (export),Coprococcus catus;Coprococcus comes,2,2
+IBD,microbe::Desulfovibrio,metabolite::HMDB0000094,Consumption (import),Desulfovibrio salexigens,1,1
+IBD,microbe::Desulfovibrio,metabolite::HMDB0000097,Consumption (import),Desulfovibrio desulfuricans;Desulfovibrio salexigens,2,2
+IBD,microbe::Desulfovibrio,metabolite::HMDB0000156,Consumption (import),Desulfovibrio desulfuricans;Desulfovibrio magneticus;Desulfovibrio salexigens;Desulfovibrio vulgaris,4,4
+IBD,microbe::Desulfovibrio,metabolite::HMDB0000190,"Consumption (import);Consumption (import), Production (export)",Desulfovibrio alaskensis;Desulfovibrio desulfuricans;Desulfovibrio fructosivorans;Desulfovibrio gigas;Desulfovibrio hydrothermalis;Desulfovibrio longus;Desulfovibrio magneticus;Desulfovibrio oxyclinae;Desulfovibrio piger;Desulfovibrio salexigens;Desulfovibrio termitidis;Desulfovibrio vulgaris,12,12
+IBD,microbe::Desulfovibrio,metabolite::HMDB0000237,Consumption (import);Consumption (import) (-);Production (export),Desulfovibrio alaskensis;Desulfovibrio desulfuricans;Desulfovibrio fructosivorans;Desulfovibrio gigas;Desulfovibrio hydrothermalis;Desulfovibrio longus;Desulfovibrio magneticus;Desulfovibrio oxyclinae;Desulfovibrio piger;Desulfovibrio salexigens;Desulfovibrio termitidis;Desulfovibrio vulgaris,12,12
+IBD,microbe::Desulfovibrio,metabolite::HMDB0000254,Consumption (import),Desulfovibrio alaskensis;Desulfovibrio fructosivorans;Desulfovibrio gigas;Desulfovibrio hydrothermalis;Desulfovibrio longus;Desulfovibrio magneticus;Desulfovibrio oxyclinae;Desulfovibrio piger;Desulfovibrio salexigens;Desulfovibrio termitidis;Desulfovibrio vulgaris,11,11
+IBD,microbe::Dialister,metabolite::HMDB0000237,Production (export),Dialister invisus,1,1
+IBD,microbe::Dorea,metabolite::HMDB0000098,Consumption (import),Dorea longicatena,1,1
+IBD,microbe::Dorea,metabolite::HMDB0000190,Production (export),Dorea formicigenerans,1,1
+IBD,microbe::Enterococcus,metabolite::HMDB0000034,Consumption (import),Enterococcus faecium,1,1
+IBD,microbe::Enterococcus,metabolite::HMDB0000094,Consumption (import),Enterococcus faecalis,1,1
+IBD,microbe::Enterococcus,metabolite::HMDB0000098,Consumption (import),Enterococcus gallinarum;Enterococcus phoeniculicola;Enterococcus villorum,3,3
+IBD,microbe::Enterococcus,metabolite::HMDB0000156,Consumption (import),Enterococcus faecalis,1,1
+IBD,microbe::Enterococcus,metabolite::HMDB0000187,Consumption (import),Enterococcus faecalis,1,1
+IBD,microbe::Enterococcus,metabolite::HMDB0000190,Production (export),Enterococcus asini;Enterococcus avium;Enterococcus caccae;Enterococcus casseliflavus;Enterococcus cecorum;Enterococcus columbae;Enterococcus dispar;Enterococcus durans;Enterococcus faecalis;Enterococcus faecium;Enterococcus gallinarum;Enterococcus gilvus;Enterococcus haemoperoxidus;Enterococcus hirae;Enterococcus italicus;Enterococcus malodoratus;Enterococcus moraviensis;Enterococcus mundtii;Enterococcus pallens;Enterococcus phoeniculicola;Enterococcus raffinosus;Enterococcus saccharolyticus;Enterococcus sulfureus;Enterococcus villorum,24,24
+IBD,microbe::Enterococcus,metabolite::HMDB0000210,Consumption (import),Enterococcus faecalis;Enterococcus faecium,2,2
+IBD,microbe::Enterococcus,metabolite::HMDB0000214,Production (export),Enterococcus faecalis,1,1
+IBD,microbe::Enterococcus,metabolite::HMDB0000244,Consumption (import),Enterococcus faecalis,1,1
+IBD,microbe::Enterococcus,metabolite::HMDB0000254,Consumption (import) (-);Production (export),Enterococcus faecalis;Enterococcus phoeniculicola,2,2
+IBD,microbe::Enterococcus,metabolite::HMDB0000517,Consumption (import);Consumption (import) (-),Enterococcus caccae;Enterococcus faecalis,2,2
+IBD,microbe::Enterococcus,metabolite::HMDB0000929,Consumption (import),Enterococcus haemoperoxidus,1,1
+IBD,microbe::Escherichia,metabolite::HMDB0000156,Consumption (import),Escherichia coli,1,1
+IBD,microbe::Escherichia,metabolite::HMDB0000167,Production (export),Escherichia coli,1,1
+IBD,microbe::Escherichia,metabolite::HMDB0000190,Production (export),Escherichia albertii;Escherichia coli;Escherichia fergusonii,3,3
+IBD,microbe::Escherichia,metabolite::HMDB0000244,Production (export),Escherichia coli,1,1
+IBD,microbe::Escherichia,metabolite::HMDB0000254,Production (export),Escherichia albertii;Escherichia coli;Escherichia fergusonii,3,3
+IBD,microbe::Escherichia,metabolite::HMDB0000619,Consumption (import),Escherichia coli,1,1
+IBD,microbe::Escherichia,metabolite::HMDB0001414,Production (export),Escherichia coli,1,1
+IBD,microbe::Eubacterium,metabolite::HMDB0000098,Consumption (import);Consumption (import) (-),Eubacterium plexicaudatum;Eubacterium ramulus,2,2
+IBD,microbe::Eubacterium,metabolite::HMDB0000190,"Consumption (import) (-);Consumption (import), Production (export);Production (export)",Eubacterium brachy;Eubacterium cellulosolvens;Eubacterium eligens;Eubacterium limosum;Eubacterium plexicaudatum;Eubacterium ramulus;Eubacterium rectale;Eubacterium saphenum;Eubacterium siraeum;Eubacterium ventriosum;Eubacterium yurii,11,11
+IBD,microbe::Eubacterium,metabolite::HMDB0000191,Consumption (import),Eubacterium rectale,1,1
+IBD,microbe::Eubacterium,metabolite::HMDB0000214,Consumption (import),Eubacterium rectale,1,1
+IBD,microbe::Eubacterium,metabolite::HMDB0000237,Production (export),Eubacterium rectale;Eubacterium yurii,2,2
+IBD,microbe::Eubacterium,metabolite::HMDB0000254,Production (export),Eubacterium brachy;Eubacterium plexicaudatum;Eubacterium ramulus;Eubacterium siraeum,4,4
+IBD,microbe::Faecalibacterium,metabolite::HMDB0000190,Production (export),Faecalibacterium prausnitzii,1,1
+IBD,microbe::Faecalibacterium,metabolite::HMDB0000244,Consumption (import),Faecalibacterium prausnitzii,1,1
+IBD,microbe::Fusobacterium,metabolite::HMDB0000167,Consumption (import);Production (export) (-),Fusobacterium necrophorum;Fusobacterium nucleatum;Fusobacterium russii,3,3
+IBD,microbe::Fusobacterium,metabolite::HMDB0000182,Consumption (import),Fusobacterium nucleatum,1,1
+IBD,microbe::Fusobacterium,metabolite::HMDB0000187,Consumption (import),Fusobacterium nucleatum,1,1
+IBD,microbe::Fusobacterium,metabolite::HMDB0000190,Consumption (import);Production (export);Production (export) (-),Fusobacterium necrophorum;Fusobacterium nucleatum;Fusobacterium russii,3,3
+IBD,microbe::Fusobacterium,metabolite::HMDB0000191,Consumption (import),Fusobacterium nucleatum,1,1
+IBD,microbe::Fusobacterium,metabolite::HMDB0000237,Production (export),Fusobacterium necrophorum,1,1
+IBD,microbe::Fusobacterium,metabolite::HMDB0000696,Consumption (import),Fusobacterium nucleatum,1,1
+IBD,microbe::Haemophilus,metabolite::HMDB0000190,Consumption (import),Haemophilus influenzae;Haemophilus parainfluenzae,2,2
+IBD,microbe::Holdemania,metabolite::HMDB0000098,Consumption (import),Holdemania filiformis,1,1
+IBD,microbe::Holdemania,metabolite::HMDB0000190,Production (export),Holdemania filiformis,1,1
+IBD,microbe::Holdemania,metabolite::HMDB0000254,Production (export),Holdemania filiformis,1,1
+IBD,microbe::Klebsiella,metabolite::HMDB0000094,Consumption (import),Klebsiella pneumoniae,1,1
+IBD,microbe::Klebsiella,metabolite::HMDB0000098,Consumption (import),Klebsiella pneumoniae,1,1
+IBD,microbe::Klebsiella,metabolite::HMDB0000156,Consumption (import),Klebsiella pneumoniae,1,1
+IBD,microbe::Klebsiella,metabolite::HMDB0000244,Production (export),Klebsiella pneumoniae,1,1
+IBD,microbe::Klebsiella,metabolite::HMDB0000254,Consumption (import),Klebsiella pneumoniae,1,1
+IBD,microbe::Lactobacillus,metabolite::HMDB0000034,Consumption (import),Lactobacillus casei,1,1
+IBD,microbe::Lactobacillus,metabolite::HMDB0000094,Consumption (import),Lactobacillus plantarum,1,1
+IBD,microbe::Lactobacillus,metabolite::HMDB0000098,Consumption (import),Lactobacillus hilgardii;Lactobacillus oris;Lactobacillus pentosus;Lactobacillus suebicus,4,4
+IBD,microbe::Lactobacillus,metabolite::HMDB0000132,Consumption (import),Lactobacillus casei,1,1
+IBD,microbe::Lactobacillus,metabolite::HMDB0000138,Consumption (import),Lactobacillus acidophilus;Lactobacillus buchneri;Lactobacillus gasseri;Lactobacillus hilgardii;Lactobacillus johnsonii;Lactobacillus plantarum,6,6
+IBD,microbe::Lactobacillus,metabolite::HMDB0000156,Consumption (import),Lactobacillus murinus,1,1
+IBD,microbe::Lactobacillus,metabolite::HMDB0000172,Consumption (import),Lactobacillus plantarum,1,1
+IBD,microbe::Lactobacillus,metabolite::HMDB0000190,"Consumption (import), Production (export);Production (export)",Lactobacillus acidipiscis;Lactobacillus acidophilus;Lactobacillus amylolyticus;Lactobacillus amylovorus;Lactobacillus animalis;Lactobacillus antri;Lactobacillus brevis;Lactobacillus buchneri;Lactobacillus casei;Lactobacillus coleohominis;Lactobacillus coryniformis;Lactobacillus crispatus;Lactobacillus curvatus;Lactobacillus delbrueckii;Lactobacillus equi;Lactobacillus equicursoris;Lactobacillus farciminis;Lactobacillus fermentum;Lactobacillus florum;Lactobacillus fructivorans;Lactobacillus gasseri;Lactobacillus gastricus;Lactobacillus gigeriorum;Lactobacillus helveticus;Lactobacillus hilgardii;Lactobacillus hominis;Lactobacillus iners;Lactobacillus ingluviei;Lactobacillus jensenii;Lactobacillus johnsonii;Lactobacillus kefiranofaciens;Lactobacillus malefermentans;Lactobacillus mali;Lactobacillus mucosae;Lactobacillus murinus;Lactobacillus oris;Lactobacillus paracasei;Lactobacillus pasteurii;Lactobacillus pentosus;Lactobacillus plantarum;Lactobacillus pobuzihii;Lactobacillus reuteri;Lactobacillus rhamnosus;Lactobacillus rossiae;Lactobacillus ruminis;Lactobacillus saerimneri;Lactobacillus sakei;Lactobacillus salivarius;Lactobacillus sanfranciscensis;Lactobacillus shenzhenensis;Lactobacillus sp. ASF360;Lactobacillus suebicus;Lactobacillus ultunensis;Lactobacillus vaginalis;Lactobacillus versmoldensis;Lactobacillus vini,56,56
+IBD,microbe::Lactobacillus,metabolite::HMDB0000210,Consumption (import),Lactobacillus acidipiscis;Lactobacillus acidophilus;Lactobacillus amylolyticus;Lactobacillus amylovorus;Lactobacillus animalis;Lactobacillus antri;Lactobacillus brevis;Lactobacillus buchneri;Lactobacillus casei;Lactobacillus coleohominis;Lactobacillus coryniformis;Lactobacillus crispatus;Lactobacillus curvatus;Lactobacillus delbrueckii;Lactobacillus equi;Lactobacillus equicursoris;Lactobacillus farciminis;Lactobacillus fermentum;Lactobacillus florum;Lactobacillus fructivorans;Lactobacillus gasseri;Lactobacillus gastricus;Lactobacillus gigeriorum;Lactobacillus helveticus;Lactobacillus hilgardii;Lactobacillus hominis;Lactobacillus iners;Lactobacillus jensenii;Lactobacillus johnsonii;Lactobacillus kefiranofaciens;Lactobacillus malefermentans;Lactobacillus mali;Lactobacillus mucosae;Lactobacillus murinus;Lactobacillus oris;Lactobacillus paracasei;Lactobacillus pasteurii;Lactobacillus pentosus;Lactobacillus plantarum;Lactobacillus pobuzihii;Lactobacillus reuteri;Lactobacillus rhamnosus;Lactobacillus rossiae;Lactobacillus ruminis;Lactobacillus saerimneri;Lactobacillus sakei;Lactobacillus salivarius;Lactobacillus sanfranciscensis;Lactobacillus shenzhenensis;Lactobacillus sp. ASF360;Lactobacillus suebicus;Lactobacillus ultunensis;Lactobacillus vaginalis;Lactobacillus versmoldensis;Lactobacillus vini,55,55
+IBD,microbe::Lactobacillus,metabolite::HMDB0000226,Consumption (import),Lactobacillus casei,1,1
+IBD,microbe::Lactobacillus,metabolite::HMDB0000244,Consumption (import);Production (export),Lactobacillus acidophilus;Lactobacillus casei;Lactobacillus delbrueckii;Lactobacillus fermentum;Lactobacillus helveticus;Lactobacillus murinus;Lactobacillus paracasei;Lactobacillus plantarum;Lactobacillus rhamnosus;Lactobacillus salivarius,10,10
+IBD,microbe::Lactobacillus,metabolite::HMDB0000254,Production (export),Lactobacillus plantarum,1,1
+IBD,microbe::Lactobacillus,metabolite::HMDB0000262,Consumption (import),Lactobacillus casei,1,1
+IBD,microbe::Lactobacillus,metabolite::HMDB0000292,Consumption (import),Lactobacillus casei,1,1
+IBD,microbe::Lactobacillus,metabolite::HMDB0000517,Consumption (import),Lactobacillus plantarum,1,1
+IBD,microbe::Lactobacillus,metabolite::HMDB0000619,Production (export),Lactobacillus acidophilus;Lactobacillus buchneri;Lactobacillus gasseri;Lactobacillus hilgardii;Lactobacillus johnsonii;Lactobacillus plantarum,6,6
+IBD,microbe::Lactobacillus,metabolite::HMDB0000626,Production (export),Lactobacillus acidophilus;Lactobacillus buchneri;Lactobacillus gasseri;Lactobacillus hilgardii;Lactobacillus johnsonii;Lactobacillus plantarum,6,6
+IBD,microbe::Lactobacillus,metabolite::HMDB0000687,Consumption (import),Lactobacillus plantarum,1,1
+IBD,microbe::Lactobacillus,metabolite::HMDB0000929,Consumption (import),Lactobacillus acidophilus;Lactobacillus casei;Lactobacillus reuteri,3,3
+IBD,microbe::Lactobacillus,metabolite::HMDB0001414,Production (export),Lactobacillus acidophilus,1,1
+IBD,microbe::Megamonas,metabolite::HMDB0000098,Consumption (import),Megamonas funiformis;Megamonas hypermegale;Megamonas rupellensis,3,3
+IBD,microbe::Megamonas,metabolite::HMDB0000190,Production (export),Megamonas funiformis;Megamonas hypermegale;Megamonas rupellensis,3,3
+IBD,microbe::Megamonas,metabolite::HMDB0000237,Production (export),Megamonas funiformis;Megamonas hypermegale;Megamonas rupellensis,3,3
+IBD,microbe::Megamonas,metabolite::HMDB0000254,Production (export),Megamonas funiformis,1,1
+IBD,microbe::Megasphaera,metabolite::HMDB0000190,Consumption (import),Megasphaera micronuciformis,1,1
+IBD,microbe::Megasphaera,metabolite::HMDB0000237,Production (export),Megasphaera micronuciformis,1,1
+IBD,microbe::Odoribacter,metabolite::HMDB0000182,Consumption (import),Odoribacter splanchnicus,1,1
+IBD,microbe::Odoribacter,metabolite::HMDB0000237,Production (export),Odoribacter splanchnicus,1,1
+IBD,microbe::Odoribacter,metabolite::HMDB0000254,Production (export),Odoribacter laneus;Odoribacter splanchnicus,2,2
+IBD,microbe::Odoribacter,metabolite::HMDB0000929,Consumption (import),Odoribacter splanchnicus,1,1
+IBD,microbe::Oscillibacter,metabolite::HMDB0000098,Consumption (import),Oscillibacter valericigenes,1,1
+IBD,microbe::Parabacteroides,metabolite::HMDB0000098,Consumption (import),Parabacteroides distasonis;Parabacteroides goldsteinii;Parabacteroides johnsonii;Parabacteroides merdae,4,4
+IBD,microbe::Parabacteroides,metabolite::HMDB0000237,Production (export),Parabacteroides goldsteinii;Parabacteroides johnsonii,2,2
+IBD,microbe::Parabacteroides,metabolite::HMDB0000254,Production (export),Parabacteroides distasonis;Parabacteroides goldsteinii;Parabacteroides johnsonii;Parabacteroides merdae,4,4
+IBD,microbe::Parabacteroides,metabolite::HMDB0000696,Consumption (import),Parabacteroides distasonis,1,1
+IBD,microbe::Pediococcus,metabolite::HMDB0000098,Consumption (import),Pediococcus acidilactici,1,1
+IBD,microbe::Pediococcus,metabolite::HMDB0000190,Production (export),Pediococcus acidilactici,1,1
+IBD,microbe::Prevotella,metabolite::HMDB0000098,Consumption (import),Prevotella copri,1,1
+IBD,microbe::Prevotella,metabolite::HMDB0000168,Consumption (import),Prevotella ruminicola,1,1
+IBD,microbe::Prevotella,metabolite::HMDB0000237,Production (export),Prevotella ruminicola,1,1
+IBD,microbe::Prevotella,metabolite::HMDB0000254,Production (export),Prevotella amnii;Prevotella bergensis;Prevotella bivia;Prevotella bryantii;Prevotella buccae;Prevotella buccalis;Prevotella copri;Prevotella disiens;Prevotella marshii;Prevotella melaninogenica;Prevotella multiformis;Prevotella oralis;Prevotella oris;Prevotella ruminicola;Prevotella salivae;Prevotella timonensis;Prevotella veroralis,17,17
+IBD,microbe::Prevotella,metabolite::HMDB0000687,Consumption (import),Prevotella ruminicola,1,1
+IBD,microbe::Prevotella,metabolite::HMDB0000696,Consumption (import),Prevotella ruminicola,1,1
+IBD,microbe::Roseburia,metabolite::HMDB0000098,Consumption (import),Roseburia hominis;Roseburia intestinalis,2,2
+IBD,microbe::Roseburia,metabolite::HMDB0000190,"Consumption (import), Production (export);Production (export)",Roseburia hominis;Roseburia intestinalis;Roseburia inulinivorans,3,3
+IBD,microbe::Roseburia,metabolite::HMDB0000237,Production (export),Roseburia hominis;Roseburia intestinalis;Roseburia inulinivorans,3,3
+IBD,microbe::Ruminococcus,metabolite::HMDB0000168,Consumption (import),Ruminococcus albus,1,1
+IBD,microbe::Ruminococcus,metabolite::HMDB0000190,Production (export),Ruminococcus bromii;Ruminococcus flavefaciens;Ruminococcus torques,3,3
+IBD,microbe::Ruminococcus,metabolite::HMDB0000210,Consumption (import),Ruminococcus bromii,1,1
+IBD,microbe::Ruminococcus,metabolite::HMDB0000244,Consumption (import),Ruminococcus bromii,1,1
+IBD,microbe::Ruminococcus,metabolite::HMDB0000254,Production (export),Ruminococcus bromii;Ruminococcus flavefaciens,2,2
+IBD,microbe::Ruminococcus,metabolite::HMDB0000929,Consumption (import),Ruminococcus albus,1,1
+IBD,microbe::Streptococcus,metabolite::HMDB0000097,Consumption (import),Streptococcus sanguinis,1,1
+IBD,microbe::Streptococcus,metabolite::HMDB0000158,Consumption (import),Streptococcus thermophilus,1,1
+IBD,microbe::Streptococcus,metabolite::HMDB0000161,Consumption (import),Streptococcus equinus,1,1
+IBD,microbe::Streptococcus,metabolite::HMDB0000167,Consumption (import),Streptococcus equinus,1,1
+IBD,microbe::Streptococcus,metabolite::HMDB0000172,Consumption (import),Streptococcus thermophilus,1,1
+IBD,microbe::Streptococcus,metabolite::HMDB0000182,Consumption (import),Streptococcus thermophilus,1,1
+IBD,microbe::Streptococcus,metabolite::HMDB0000187,Consumption (import),Streptococcus equinus,1,1
+IBD,microbe::Streptococcus,metabolite::HMDB0000190,Production (export),Streptococcus agalactiae;Streptococcus anginosus;Streptococcus australis;Streptococcus caballi;Streptococcus canis;Streptococcus constellatus;Streptococcus criceti;Streptococcus cristatus;Streptococcus didelphis;Streptococcus downei;Streptococcus dysgalactiae;Streptococcus entericus;Streptococcus equi;Streptococcus equinus;Streptococcus ferus;Streptococcus gallolyticus;Streptococcus gordonii;Streptococcus henryi;Streptococcus ictaluri;Streptococcus infantarius;Streptococcus infantis;Streptococcus iniae;Streptococcus intermedius;Streptococcus lutetiensis;Streptococcus macacae;Streptococcus macedonicus;Streptococcus marimammalium;Streptococcus massiliensis;Streptococcus merionis;Streptococcus minor;Streptococcus mitis;Streptococcus mutans;Streptococcus oralis;Streptococcus orisratti;Streptococcus ovis;Streptococcus parasanguinis;Streptococcus parauberis;Streptococcus pasteurianus;Streptococcus peroris;Streptococcus pneumoniae;Streptococcus porcinus;Streptococcus pseudopneumoniae;Streptococcus pseudoporcinus;Streptococcus pyogenes;Streptococcus ratti;Streptococcus salivarius;Streptococcus sanguinis;Streptococcus sobrinus;Streptococcus sp. GMD4S;Streptococcus suis;Streptococcus thermophilus;Streptococcus thoraltensis;Streptococcus uberis;Streptococcus urinalis;Streptococcus vestibularis,55,55
+IBD,microbe::Streptococcus,metabolite::HMDB0000191,Consumption (import),Streptococcus thermophilus,1,1
+IBD,microbe::Streptococcus,metabolite::HMDB0000210,Consumption (import),Streptococcus agalactiae;Streptococcus anginosus;Streptococcus australis;Streptococcus caballi;Streptococcus canis;Streptococcus constellatus;Streptococcus criceti;Streptococcus cristatus;Streptococcus didelphis;Streptococcus downei;Streptococcus dysgalactiae;Streptococcus entericus;Streptococcus equi;Streptococcus equinus;Streptococcus ferus;Streptococcus gallolyticus;Streptococcus gordonii;Streptococcus henryi;Streptococcus ictaluri;Streptococcus infantarius;Streptococcus infantis;Streptococcus iniae;Streptococcus intermedius;Streptococcus lutetiensis;Streptococcus macacae;Streptococcus macedonicus;Streptococcus marimammalium;Streptococcus massiliensis;Streptococcus merionis;Streptococcus minor;Streptococcus mitis;Streptococcus mutans;Streptococcus oralis;Streptococcus orisratti;Streptococcus ovis;Streptococcus parasanguinis;Streptococcus parauberis;Streptococcus pasteurianus;Streptococcus peroris;Streptococcus pneumoniae;Streptococcus porcinus;Streptococcus pseudopneumoniae;Streptococcus pseudoporcinus;Streptococcus pyogenes;Streptococcus ratti;Streptococcus salivarius;Streptococcus sanguinis;Streptococcus sobrinus;Streptococcus sp. GMD4S;Streptococcus suis;Streptococcus thermophilus;Streptococcus thoraltensis;Streptococcus uberis;Streptococcus urinalis;Streptococcus vestibularis,55,55
+IBD,microbe::Streptococcus,metabolite::HMDB0000244,Consumption (import),Streptococcus pyogenes;Streptococcus salivarius;Streptococcus thermophilus,3,3
+IBD,microbe::Streptococcus,metabolite::HMDB0000517,Consumption (import);Consumption (import) (-),Streptococcus constellatus;Streptococcus cristatus;Streptococcus intermedius;Streptococcus thermophilus,4,4
+IBD,microbe::Streptococcus,metabolite::HMDB0000687,Consumption (import),Streptococcus thermophilus,1,1
+IBD,microbe::Streptococcus,metabolite::HMDB0000696,Consumption (import),Streptococcus thermophilus,1,1
+IBD,microbe::Sutterella,metabolite::HMDB0000191,Consumption (import),Sutterella wadsworthensis,1,1
+IBD,microbe::Sutterella,metabolite::HMDB0000517,Consumption (import),Sutterella wadsworthensis,1,1
+IBD,microbe::Veillonella,metabolite::HMDB0000156,Consumption (import),Veillonella parvula,1,1
+IBD,microbe::Veillonella,metabolite::HMDB0000190,Consumption (import),Veillonella atypica;Veillonella dispar;Veillonella parvula,3,3
+IBD,microbe::Veillonella,metabolite::HMDB0000237,Production (export),Veillonella parvula,1,1

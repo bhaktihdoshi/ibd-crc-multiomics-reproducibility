@@ -1,0 +1,976 @@
+{
+  "generated_at": "2026-08-12T18:01:28.307575+00:00",
+  "fast_test": false,
+  "config": {
+    "random_seed": 42,
+    "fast_test": false,
+    "run_id": "crc_stage2_final_candidate",
+    "primary_missingness_threshold": 0.3,
+    "external_validation_directions": [
+      [
+        "Sinha",
+        "Yachida"
+      ],
+      [
+        "Yachida",
+        "Sinha"
+      ]
+    ],
+    "primary_task_name": "crc_vs_control",
+    "model_selection_metric": "roc_auc",
+    "model_selection_effective_tie_tolerance_auc": 0.01,
+    "model_selection_effective_tie_tolerance_pr_auc": 0.01,
+    "model_selection_effective_tie_tolerance_roc_auc_sd": 0.005,
+    "bootstrap_repetitions": 2000,
+    "threshold_selection_rule": "training_only_youden_j",
+    "outer_folds_requested": 5,
+    "inner_folds_requested": 5,
+    "reduced_inner_folds": 3,
+    "min_class_count_for_requested_inner": 5,
+    "model_families": [
+      "ridge_logistic",
+      "elastic_net_logistic",
+      "random_forest",
+      "extra_trees",
+      "gradient_boosting"
+    ],
+    "feature_sets": [
+      "clinical",
+      "metabolomics",
+      "integrated"
+    ],
+    "shared_clinical_features": [
+      "age_years",
+      "sex",
+      "bmi"
+    ],
+    "clinical_features_excluded_from_primary": [
+      "stage_major",
+      "stage_source_faithful",
+      "stage_harmonized",
+      "tumour_site",
+      "smoking",
+      "alcohol",
+      "hosp1",
+      "hosp2"
+    ],
+    "primary_sinha_expected": {
+      "n": 131,
+      "control": 89,
+      "crc": 42
+    },
+    "primary_yachida_expected": {
+      "n": 277,
+      "control": 127,
+      "crc": 150
+    },
+    "expected_identifier_overlap": {
+      "HMDB": 110,
+      "KEGG": 107,
+      "HMDB_or_KEGG_unified": 217
+    },
+    "randomized_search_n_iter": {
+      "random_forest": 75,
+      "extra_trees": 75,
+      "gradient_boosting": 75
+    },
+    "fast_test_randomized_search_n_iter": 4,
+    "fast_test_models": [
+      "ridge_logistic",
+      "random_forest"
+    ],
+    "model_simplicity_order": {
+      "ridge_logistic": 0,
+      "elastic_net_logistic": 1,
+      "random_forest": 2,
+      "extra_trees": 3,
+      "gradient_boosting": 4
+    },
+    "transformation_rules": {
+      "Sinha": "none_predefined_values_appear_transformed_or_standardized",
+      "Yachida": "primary_analysis_no_log1p_supplied_values_retained"
+    },
+    "feature_harmonisation_rules": {
+      "canonical_priority": "valid HMDB first; valid KEGG fallback only when HMDB absent",
+      "duplicates": "select one deterministic assay feature per canonical metabolite per cohort; do not average",
+      "external_validation": "identical canonical feature names and order in both cohorts"
+    },
+    "annotation_settings": {
+      "allow_external_download": false,
+      "annotation_cache_dir": "thesis_preprocessing_workflow/crc_pipeline/annotation_resources",
+      "minimum_pathway_background_compounds": 3,
+      "minimum_pathway_significant_compounds": 2,
+      "low_coverage_threshold": 0.5,
+      "excluded_kegg_pathway_ids": [
+        "map01100",
+        "map01110",
+        "map01120",
+        "map01200"
+      ],
+      "excluded_kegg_pathway_name_patterns": [
+        "Metabolic pathways",
+        "Biosynthesis of secondary metabolites",
+        "Microbial metabolism in diverse environments",
+        "Biosynthesis of cofactors",
+        "Global and overview maps"
+      ]
+    }
+  },
+  "package_versions": {
+    "python": "3.13.5 | packaged by Anaconda, Inc. | (main, Jun 12 2025, 11:23:37) [Clang 14.0.6 ]",
+    "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+    "numpy": "2.4.4",
+    "pandas": "3.0.2",
+    "sklearn": "1.6.1",
+    "scipy": "1.15.3",
+    "joblib": "1.4.2"
+  },
+  "outputs": [
+    {
+      "path": "tables/crc_stage2_leakage_safety_checks.csv",
+      "sha256": "2fb5537e982328a744a1da32d46f5fffc2de686445aa9f08e4176a68a6c83c85",
+      "size_bytes": 568
+    },
+    {
+      "path": "tables/crc_stage2_external_calibration_bins.csv",
+      "sha256": "4713cc683feb1e0ea4d2a3cdb43e62857ed320061bcd1e43f230fc2d947d1b7d",
+      "size_bytes": 2059
+    },
+    {
+      "path": "tables/crc_stage2_yachida_stage_task_plan.csv",
+      "sha256": "4e5df645b9fd3517dbc6734633d1dd17872fcfad048099d578267d6a3abfd9b1",
+      "size_bytes": 1048
+    },
+    {
+      "path": "tables/crc_stage2_recovered_clinical_covariates.csv",
+      "sha256": "18be76578f8863fd3f9846e95c6d1e02a5495b510e57f0a3fecd2d7424d0cd94",
+      "size_bytes": 125638
+    },
+    {
+      "path": "tables/crc_stage2_shared_clinical_feature_contract.csv",
+      "sha256": "4ab9767f689fa2aaf46dac7595d679af2f2a5424891061b056bae03d30aecd92",
+      "size_bytes": 987
+    },
+    {
+      "path": "tables/crc_stage2_freeze_readiness_checks.csv",
+      "sha256": "099026e2b55f59a9c07de1576972fd3ed1ddab09ca67e184e7db2e304fc74ee6",
+      "size_bytes": 1843
+    },
+    {
+      "path": "tables/crc_stage2_feature_order_contract.csv",
+      "sha256": "1f7931596c251dce9b0d7380dc0f7aea68d0ef3140cc45104e45a387d49cf6eb",
+      "size_bytes": 18594
+    },
+    {
+      "path": "tables/crc_stage2_external_validation_results.csv",
+      "sha256": "b366a3062187248ce0d965f3a92c9a4cd48d078c43716942160a2271fb1eeb03",
+      "size_bytes": 3076
+    },
+    {
+      "path": "tables/crc_stage2_validate_only_report.csv",
+      "sha256": "c2638c4ae06695a7921a9dc82ac659265b50eada37d56f0737e3275b948232a1",
+      "size_bytes": 2179
+    },
+    {
+      "path": "tables/crc_stage2_hyperparameter_search_results.csv",
+      "sha256": "404d69ca1eb071290e92eb58dcbf6e6be41192c348c511d68fd6224318a224f9",
+      "size_bytes": 6965900
+    },
+    {
+      "path": "tables/crc_stage2_assay_compatibility.csv",
+      "sha256": "ad820221934ef8dae90b1b70b4aa1bc80df51faa79164884ec29a8cd623d896c",
+      "size_bytes": 18383
+    },
+    {
+      "path": "tables/crc_stage2_external_transformed_feature_audit.csv",
+      "sha256": "3d99b3feb2f16560c392675f9869484482642aefd47bdae720a6c27f5e67c848",
+      "size_bytes": 62692
+    },
+    {
+      "path": "tables/crc_stage2_internal_model_selection.csv",
+      "sha256": "b0f97b050ca52387d52ecfaaae9fd7eff8aee96e83deb581206c3965ff8ba45c",
+      "size_bytes": 1202
+    },
+    {
+      "path": "tables/crc_stage2_clinical_variable_classification.csv",
+      "sha256": "dfff76c5f38a444903338529ed3b2cdecfe081a6d4b6dfa14e3f0cd3ce138c74",
+      "size_bytes": 1277
+    },
+    {
+      "path": "tables/crc_stage2_threshold_selection.csv",
+      "sha256": "fd76ee9537d1ffebe266fce645829167f7bb2dd055d97b2c50eecf206f4c3112",
+      "size_bytes": 1777
+    },
+    {
+      "path": "tables/crc_stage2_external_transformation_summary.csv",
+      "sha256": "5166e737cb0501c88b6cb57948f9288fa9af2729e178d08a35dbd8986168fcf0",
+      "size_bytes": 960
+    },
+    {
+      "path": "tables/crc_stage2_selected_model_nested_cv_stability.csv",
+      "sha256": "73de38e03a2c4d83bba8fc2ea9fdcd2460229ab9216a51c2a406279ce4289be3",
+      "size_bytes": 1941
+    },
+    {
+      "path": "tables/crc_stage2_clinical_linkage_audit.csv",
+      "sha256": "18be76578f8863fd3f9846e95c6d1e02a5495b510e57f0a3fecd2d7424d0cd94",
+      "size_bytes": 125638
+    },
+    {
+      "path": "tables/crc_stage2_clinical_conflicts.csv",
+      "sha256": "1b2903b1be7ed552d443d4c4f4a0a92495c67dec5b082157bcf3d2bc833e25b2",
+      "size_bytes": 53
+    },
+    {
+      "path": "tables/crc_stage2_contract_validation.csv",
+      "sha256": "be203da01871413cab937079c5869bc140c5b0c41672de5c4a6902b974bc1d14",
+      "size_bytes": 2928
+    },
+    {
+      "path": "tables/crc_stage2_canonicalisation_decisions.csv",
+      "sha256": "b2acf32eee291cbe6af14c062e287d592ccf645ac83893cb2651dfcfaa871e77",
+      "size_bytes": 312795
+    },
+    {
+      "path": "tables/crc_stage2_selected_features_by_cohort.csv",
+      "sha256": "886603b59928a7d6ab969da703df814063623a75a64754e74f8609ddddc3e7fb",
+      "size_bytes": 165140
+    },
+    {
+      "path": "tables/crc_stage2_cv_design.csv",
+      "sha256": "63d0a1a1435f3d5aad5dd0adb936a72959f8c84d4a57edcd45fecd561315a648",
+      "size_bytes": 369982
+    },
+    {
+      "path": "tables/crc_stage2_internal_cv_results.csv",
+      "sha256": "2d021b191a52b4a9482f74a01b440c9de058de94caac51a88f968c01cb187ccf",
+      "size_bytes": 61455
+    },
+    {
+      "path": "tables/crc_stage2_saved_pipeline_structure_audit.csv",
+      "sha256": "8ab0495c7beabf3548a8b6e3a7479bff005de1cb69bdc82d9c3682e47e37d4e1",
+      "size_bytes": 26123
+    },
+    {
+      "path": "tables/crc_stage2_reporting_automated_tests.csv",
+      "sha256": "7e79fbd216398fb698596b16d948e26ad7b4ec27450ac75ef5f102ddf0ecd591",
+      "size_bytes": 1195
+    },
+    {
+      "path": "tables/crc_stage2_reporting_protected_output_hash_check.csv",
+      "sha256": "93b3b1eff8d1cd58ea195209ed91134b993ebc70471098df697d1c914cd2c831",
+      "size_bytes": 3739
+    },
+    {
+      "path": "tables/crc_stage2_differential_abundance_results.csv",
+      "sha256": "7cf43aa90e32cb0072bd3d15286fc19c80c6d874b087291d9b78e085b6d30f19",
+      "size_bytes": 79821
+    },
+    {
+      "path": "tables/crc_stage2_shared_feature_space.csv",
+      "sha256": "1a8301aad0787c7875114d737892c4e77227ed97ba3dc9b86abb99c2254a7914",
+      "size_bytes": 4341
+    },
+    {
+      "path": "tables/crc_stage2_postrun_threshold_transportability_diagnostic.csv",
+      "sha256": "a81cfe523901391f6b435507ffe45cbf445aa8fb1ec8e3d6809381c9ed9abf25",
+      "size_bytes": 1683
+    },
+    {
+      "path": "tables/crc_stage2_feature_importance_context_audit.csv",
+      "sha256": "2e25738d12359d370760eaff75bd25dfd1a9ee4473c585cf9e460742c0c20dab",
+      "size_bytes": 194601
+    },
+    {
+      "path": "tables/crc_stage2_external_error_analysis.csv",
+      "sha256": "dc57f310bff78393766ac5ae5503b80f5b34c07fa0b380743c2c333a29412ef2",
+      "size_bytes": 251491
+    },
+    {
+      "path": "tables/crc_stage2_seer_recode_feasibility.csv",
+      "sha256": "725e7f9a86f4c0c48215dcb204205b9a1b8fb8bec4458f5e35bf27ffce4effa7",
+      "size_bytes": 344
+    },
+    {
+      "path": "tables/crc_stage2_canonical_metabolite_manifest.csv",
+      "sha256": "f5792a7818d946a17e6ff756b02ce19e3a83eeaff30a2ea0bdafa9dedde718e4",
+      "size_bytes": 94192
+    },
+    {
+      "path": "tables/crc_stage2_specific_probability_pattern_diagnostic.csv",
+      "sha256": "b9e955aa4814369eea73ab68da441ac052e46e22dea316f9e269c15797122508",
+      "size_bytes": 2661
+    },
+    {
+      "path": "tables/crc_stage2_feature_count_diagnostic.csv",
+      "sha256": "72bc034f8a830f0140b6eece3e7099c4bf788ec39eeb590a097be2c6ffca94b0",
+      "size_bytes": 5762372
+    },
+    {
+      "path": "tables/crc_stage2_stable_cross_cohort_metabolites.csv",
+      "sha256": "60b473521ec767e45e9f5f90159429d03019cb4cf1bcfffb72103cf021acc64b",
+      "size_bytes": 16148
+    },
+    {
+      "path": "tables/crc_stage2_important_feature_table.csv",
+      "sha256": "dfa1e8980f0bd01ea7778e37c0bfe359b13271937374299c3fae0723ffa4eac0",
+      "size_bytes": 272984
+    },
+    {
+      "path": "tables/crc_stage2_external_bootstrap_confidence_intervals.csv",
+      "sha256": "560e7d02f788127de3f762be8b848c0c733c4e96ac7531a7817c5f347742d776",
+      "size_bytes": 4120
+    },
+    {
+      "path": "tables/crc_stage2_excluded_ambiguous_metabolites.csv",
+      "sha256": "d73a5053ae10ca13c6dc20cbe334fc8e3103561d0018b6ad5481e57b20bd9cec",
+      "size_bytes": 229
+    },
+    {
+      "path": "tables/crc_stage2_feature_order_audit.csv",
+      "sha256": "f1e1ae082072e17781bc1da8f35cb6514b33fa2e949dc3964fc2b853eb9a153e",
+      "size_bytes": 61
+    },
+    {
+      "path": "tables/crc_stage2_clinical_source_inventory.csv",
+      "sha256": "7317aabd5db1151b5001900b10ecafde4c920cf04873a1d76db4f7b8b0daece2",
+      "size_bytes": 3531
+    },
+    {
+      "path": "tables/crc_stage2_logistic_convergence_audit.csv",
+      "sha256": "a5f28200d439110d67bf727729f9e96e28130dc8b3e067f90fbe5a9112186c5e",
+      "size_bytes": 1488
+    },
+    {
+      "path": "tables/crc_stage2_reporting_protected_outputs_after.csv",
+      "sha256": "57efccfa307fea28e577d774671c660c5e704150350986062ed88627e700b40c",
+      "size_bytes": 2230
+    },
+    {
+      "path": "tables/crc_stage2_positive_class_orientation_audit.csv",
+      "sha256": "6b14d8edd82c1c5da7b00c2a49acbaa5b3ed8ed8cb35124ccb7e6475a114e654",
+      "size_bytes": 1348
+    },
+    {
+      "path": "tables/crc_stage2_model_context_gate.csv",
+      "sha256": "efd102d08160417de0e578e5ddeebbb077278c5355d657093e0426cb91176354",
+      "size_bytes": 5488
+    },
+    {
+      "path": "tables/crc_stage2_identifier_conflicts.csv",
+      "sha256": "10a4871c97b6ea3267df6cf7bf4e3239a4dc3e58daebe58adacdf249ab1ea02a",
+      "size_bytes": 157
+    },
+    {
+      "path": "tables/crc_stage2_reporting_protected_outputs_before.csv",
+      "sha256": "57efccfa307fea28e577d774671c660c5e704150350986062ed88627e700b40c",
+      "size_bytes": 2230
+    },
+    {
+      "path": "tables/crc_stage2_integration_package_manifest.csv",
+      "sha256": "3c3ba5cfc9e5c3471ec1e4c3b595b6e6cca81a2dd50363b4f68f8ad33fbaaf51",
+      "size_bytes": 791
+    },
+    {
+      "path": "tables/crc_stage2_hyperparameter_search_summary.csv",
+      "sha256": "1349c58f6db96370926f98fc77103cf5c15a31fb72e2744a263ead4041dea581",
+      "size_bytes": 2717494
+    },
+    {
+      "path": "tables/crc_stage2_ambiguous_cross_namespace_mappings.csv",
+      "sha256": "10a4871c97b6ea3267df6cf7bf4e3239a4dc3e58daebe58adacdf249ab1ea02a",
+      "size_bytes": 157
+    },
+    {
+      "path": "tables/crc_stage2_external_calibration_assessment.csv",
+      "sha256": "ed0bc687a16bf9f532ccc8a06606ed15f80a67ab2a8ee1068b357cf7b290dc88",
+      "size_bytes": 2309
+    },
+    {
+      "path": "tables/crc_stage2_hyperparameter_grid_plan.csv",
+      "sha256": "268f4241842f4df754438943c0f6ff9ba6448d181ec8ffa1df5a9b4e24a5aa3c",
+      "size_bytes": 895
+    },
+    {
+      "path": "tables/crc_stage2_yachida_full_cohort_clinical_covariates.csv",
+      "sha256": "6ed93cd089dcb3d33783dc48feebe085ebe112222d6f2123ed6d9881dc2f264b",
+      "size_bytes": 109463
+    },
+    {
+      "path": "tables/crc_stage2_saved_model_prediction_reproduction_audit.csv",
+      "sha256": "4ba95670b28c1a0feb535a96bec2ae5da3905d76827472abb7a8b8f9cb26aef2",
+      "size_bytes": 1432
+    },
+    {
+      "path": "tables/crc_stage2_yachida_stage_label_audit.csv",
+      "sha256": "0e9aa4c4d443b2dcb4ae5425acf6602a10007592255dad6fd2e146c37a3c00ef",
+      "size_bytes": 359
+    },
+    {
+      "path": "tables/crc_stage2_selected_model_instability_diagnostic.csv",
+      "sha256": "48cbb6308eed4f465c196e28d0a9a4eccb0d15752c555ba32264404fa19f7247",
+      "size_bytes": 1838
+    },
+    {
+      "path": "tables/crc_stage2_hmdb_kegg_crosswalk.csv",
+      "sha256": "08e8275db20201df7dec07ca68fde994a41bc78cb1518e5d39a343c7ca36b366",
+      "size_bytes": 234881
+    },
+    {
+      "path": "tables/crc_stage2_final_shared_model_feature_space.csv",
+      "sha256": "1a8301aad0787c7875114d737892c4e77227ed97ba3dc9b86abb99c2254a7914",
+      "size_bytes": 4341
+    },
+    {
+      "path": "tables/crc_stage2_model_deserialization_and_feature_order_audit.csv",
+      "sha256": "a5f28200d439110d67bf727729f9e96e28130dc8b3e067f90fbe5a9112186c5e",
+      "size_bytes": 1488
+    },
+    {
+      "path": "tables/crc_stage2_pathway_enrichment_status.csv",
+      "sha256": "9cecca710d975c54c1cff8f017b8d6a39c722b9982d1436efbd223c259eb0ad2",
+      "size_bytes": 730
+    },
+    {
+      "path": "tables/crc_stage2_postrun_input_availability.csv",
+      "sha256": "7af763ba3695927a560906d2430f3140ead19750627fe393d23857d429997cfb",
+      "size_bytes": 364
+    },
+    {
+      "path": "tables/crc_stage2_reporting_input_availability.csv",
+      "sha256": "6bd9c5e07a1efab69bbbe497b2c14927fd2d81ae4d7d96693e93099c5c0c66ac",
+      "size_bytes": 2179
+    },
+    {
+      "path": "tables/crc_stage2_ajcc_informed_group_counts.csv",
+      "sha256": "42d683b6ba8b47d7ec456825bce5ae9661809b43bf4355b1702326b2242fe0ca",
+      "size_bytes": 238
+    },
+    {
+      "path": "tables/main_text/crc_stage2_cross_cohort_feature_stability_status.csv",
+      "sha256": "3ac1a44d45a5729defeb29c12fb456ec52137d00d9b8c99ba3167f188247788a",
+      "size_bytes": 185
+    },
+    {
+      "path": "tables/main_text/crc_stage2_selected_model_performance_summary.csv",
+      "sha256": "80efc5f42b28ab1d7854914cdafcd4c249cb7cbe19c336e99e05298571556f10",
+      "size_bytes": 4447
+    },
+    {
+      "path": "tables/main_text/crc_stage2_figure_index.csv",
+      "sha256": "23a1a632a8219238c4a3c5e56b021780a32f819c8de9fd851d23583fbb5df6ad",
+      "size_bytes": 20825
+    },
+    {
+      "path": "tables/main_text/crc_stage2_threshold_selection_summary.csv",
+      "sha256": "076c77c361c07214b61dc5069f5f1225d3b547a56a17f26f6de6bf9e5ff02f30",
+      "size_bytes": 1318
+    },
+    {
+      "path": "tables/main_text/crc_stage2_top_predictive_features.csv",
+      "sha256": "2ad793b670c8f7986b39bec81ba8319f08f3ac8c78c97f7725416137be33a2f7",
+      "size_bytes": 19644
+    },
+    {
+      "path": "tables/main_text/crc_stage2_final_model_summary.csv",
+      "sha256": "1c2356d3104ac13af7b12f4bb021668a7dd71afd3271e66a5e2bf8f037475f4f",
+      "size_bytes": 6586
+    },
+    {
+      "path": "tables/pathway/crc_ora_resource_audit.csv",
+      "sha256": "b0fddfee277d6bf62f081223c25486cc3ffa78aa7528388f526fe1aa4f113189",
+      "size_bytes": 1192
+    },
+    {
+      "path": "tables/pathway/crc_ora_sinha_crc_negative.csv",
+      "sha256": "1c5ad5e830e703dc51aabcfd77a89330589ec10a5b5f60bf110984307fac5af1",
+      "size_bytes": 355
+    },
+    {
+      "path": "tables/pathway/crc_ora_significant_pathways_summary.csv",
+      "sha256": "1c5ad5e830e703dc51aabcfd77a89330589ec10a5b5f60bf110984307fac5af1",
+      "size_bytes": 355
+    },
+    {
+      "path": "tables/pathway/crc_ora_sinha_crc_vs_control.csv",
+      "sha256": "1c5ad5e830e703dc51aabcfd77a89330589ec10a5b5f60bf110984307fac5af1",
+      "size_bytes": 355
+    },
+    {
+      "path": "tables/pathway/crc_ora_yachida_crc_vs_healthy.csv",
+      "sha256": "1e8bf39e530380696a9f341d8f1a22a7d33d20de7c9568d311e68b5e50d44e1a",
+      "size_bytes": 1095
+    },
+    {
+      "path": "tables/pathway/crc_ora_sinha_crc_positive.csv",
+      "sha256": "1c5ad5e830e703dc51aabcfd77a89330589ec10a5b5f60bf110984307fac5af1",
+      "size_bytes": 355
+    },
+    {
+      "path": "tables/pathway/crc_ora_da_input_audit.csv",
+      "sha256": "62df52d399dbfeff659cf1576e86c0c3ca48f2dde03e0563b821bad474811f64",
+      "size_bytes": 2374
+    },
+    {
+      "path": "tables/pathway/ibd_crc_ora_descriptive_comparison.csv",
+      "sha256": "1dc4781badb4a884d34d986528d09a9b84c1dc5323fcd4d6d654c8096a1741bb",
+      "size_bytes": 8415
+    },
+    {
+      "path": "tables/pathway/crc_ora_yachida_crc_negative.csv",
+      "sha256": "1c5ad5e830e703dc51aabcfd77a89330589ec10a5b5f60bf110984307fac5af1",
+      "size_bytes": 355
+    },
+    {
+      "path": "tables/pathway/crc_ora_all_results.csv",
+      "sha256": "1e8bf39e530380696a9f341d8f1a22a7d33d20de7c9568d311e68b5e50d44e1a",
+      "size_bytes": 1095
+    },
+    {
+      "path": "tables/pathway/crc_ora_cross_cohort_overlap.csv",
+      "sha256": "1be3b86bf6a0857a3bcbc36cf3e48c59e5460335e4c1b42ce54c4b11156e83ba",
+      "size_bytes": 600
+    },
+    {
+      "path": "tables/pathway/crc_ora_protected_output_hash_check.csv",
+      "sha256": "8c65dd25e9d3f4e492abfae67c46d253df5beef6154049e598fddc09ad603402",
+      "size_bytes": 4611
+    },
+    {
+      "path": "tables/pathway/crc_ora_yachida_crc_positive.csv",
+      "sha256": "b3c2c2db6407fbc1a7fb4d2f820b3e171b6dc97306d747d297ab5814e601034f",
+      "size_bytes": 724
+    },
+    {
+      "path": "tables/pathway/crc_ora_input_mapping_summary.csv",
+      "sha256": "62df52d399dbfeff659cf1576e86c0c3ca48f2dde03e0563b821bad474811f64",
+      "size_bytes": 2374
+    },
+    {
+      "path": "figures/.DS_Store",
+      "sha256": "7036e1079435828f2fda128c8740d950e1834d096b55ebc4b7bff390c11491b0",
+      "size_bytes": 10244
+    },
+    {
+      "path": "figures/supplementary/.DS_Store",
+      "sha256": "d65165279105ca6773180500688df4bdc69a2c7b771752f0a46ef120b7fd8ec3",
+      "size_bytes": 6148
+    },
+    {
+      "path": "figures/supplementary/crc_stage2_external_prediction_ranking_Sinha_to_Yachida_clinical_ridge_logistic.png",
+      "sha256": "e73ca9800d060398df305a095f4c27442ea48fd834f63d1d91ec646a2b0828ca",
+      "size_bytes": 144535
+    },
+    {
+      "path": "figures/supplementary/crc_stage2_external_probability_distribution_Sinha_to_Yachida_metabolomics_ridge_logistic.png",
+      "sha256": "eb42ce8c692a7a14bff21b7c19281bbcfa918ae05536a066540cdb46a8fe05f0",
+      "size_bytes": 93845
+    },
+    {
+      "path": "figures/supplementary/crc_stage2_external_prediction_ranking_Yachida_to_Sinha_metabolomics_ridge_logistic.png",
+      "sha256": "3cbfa0b44a2c2bcd6a330118a7f2066b540f5c98a1682226008d00b7b67ca362",
+      "size_bytes": 162662
+    },
+    {
+      "path": "figures/supplementary/crc_stage2_external_prediction_ranking_Yachida_to_Sinha_clinical_extra_trees.png",
+      "sha256": "bcc9a2b305936df1c7b3fcf0eebb987dd1d2626ea4e2c2ca4c1a5ea5d20ef715",
+      "size_bytes": 167648
+    },
+    {
+      "path": "figures/supplementary/crc_stage2_external_probability_distribution_Sinha_to_Yachida_clinical_ridge_logistic.png",
+      "sha256": "6977b516e5a7b131f90744d5cc5aba07f9972e486eeefb7885901b471bcc05f5",
+      "size_bytes": 95384
+    },
+    {
+      "path": "figures/supplementary/crc_stage2_external_probability_distribution_Yachida_to_Sinha_metabolomics_ridge_logistic.png",
+      "sha256": "031b8c13c8adf292f1d4578440d93eb8e670d4b061b9ca938c8472fcfbb6b56e",
+      "size_bytes": 100198
+    },
+    {
+      "path": "figures/supplementary/crc_stage2_external_prediction_ranking_Sinha_to_Yachida_metabolomics_ridge_logistic.png",
+      "sha256": "d26717019617b5d3746dfa492618de9c3db4f72a1b8db277e60b48b603dc9a8a",
+      "size_bytes": 122121
+    },
+    {
+      "path": "figures/supplementary/crc_stage2_external_probability_distribution_Yachida_to_Sinha_clinical_extra_trees.png",
+      "sha256": "246f9bc1b4aeab08ba5bf96db5e7b8c0339375131a81a7402297c6bdd33c9ef2",
+      "size_bytes": 118922
+    },
+    {
+      "path": "figures/supplementary/crc_stage2_external_probability_distribution_Sinha_to_Yachida_integrated_ridge_logistic.png",
+      "sha256": "d957b178a415522bb0db87b9be9efd9f2f8c5ec91edc4733b7c093c836b41a96",
+      "size_bytes": 92739
+    },
+    {
+      "path": "figures/supplementary/crc_stage2_external_prediction_ranking_Yachida_to_Sinha_integrated_ridge_logistic.png",
+      "sha256": "739ff47061df9b1bcc2e8058ac1ddca55664bd5a9bacecc05da5ae5cad330fde",
+      "size_bytes": 165684
+    },
+    {
+      "path": "figures/supplementary/crc_stage2_external_probability_distribution_Yachida_to_Sinha_integrated_ridge_logistic.png",
+      "sha256": "1f091f329800cf053a30170cd8bcb130c88b70ae9ab7d65a82ffd4330ba81a31",
+      "size_bytes": 112193
+    },
+    {
+      "path": "figures/supplementary/crc_stage2_external_prediction_ranking_Sinha_to_Yachida_integrated_ridge_logistic.png",
+      "sha256": "9ed4086c39e49a995aa63d49edd8b7183835fdc184c9797c543e387898aee01f",
+      "size_bytes": 118954
+    },
+    {
+      "path": "figures/main_text/crc_stage2_internal_model_comparison.png",
+      "sha256": "b483514bb78fe9ab07e4442f2bcbeb872045ec0baa882f455e4555c897486ae6",
+      "size_bytes": 319278
+    },
+    {
+      "path": "figures/main_text/crc_stage2_top_features_Yachida_to_Sinha_metabolomics_ridge_logistic.png",
+      "sha256": "45d3ad12a2f8ccf7ae6e6a7f975631f169a2d1820dd221975c3b36ca10321e15",
+      "size_bytes": 93296
+    },
+    {
+      "path": "figures/main_text/crc_stage2_threshold_selection_workflow.png",
+      "sha256": "9c364072220c5933fe2a144e46dcb9fee7ce553af4a45fd60c81ae0fa70baac2",
+      "size_bytes": 55515
+    },
+    {
+      "path": "figures/main_text/crc_stage2_external_roc_ci_Sinha_to_Yachida.png",
+      "sha256": "17817fd34521ec7d983518e742b3f1dbcaea24351c00f472b1dbcfe0226896d4",
+      "size_bytes": 205367
+    },
+    {
+      "path": "figures/main_text/.DS_Store",
+      "sha256": "de6c0022d484dde20138d7257cb745ac1004689fe56af625f2e15d0ce2e7f71f",
+      "size_bytes": 18436
+    },
+    {
+      "path": "figures/main_text/crc_stage2_top_features_Sinha_to_Yachida_clinical_ridge_logistic.svg",
+      "sha256": "a66e8625b9c33378081367f07c0d39be17eb7ecfbf0106dd57d6ea2ca4de7b44",
+      "size_bytes": 41904
+    },
+    {
+      "path": "figures/main_text/crc_stage2_external_pr_ci_Sinha_to_Yachida.png",
+      "sha256": "612d70e06b89bcd8a0541777bd4d1c89f112160948d021afe2010ed3e6b5e097",
+      "size_bytes": 177802
+    },
+    {
+      "path": "figures/main_text/crc_kegg_ora_cross_cohort_comparison.svg",
+      "sha256": "bb99aad68eec2c0116b74bb5c8ef3ac3cdfe7c2c18dda8ca2a6546af10e799a4",
+      "size_bytes": 35997
+    },
+    {
+      "path": "figures/main_text/crc_stage2_calibration_Sinha_to_Yachida_metabolomics_ridge_logistic.png",
+      "sha256": "4311de58e198db4ca1255462d6144377b21ab1c5025d7ae0cad044fa22d141f7",
+      "size_bytes": 166540
+    },
+    {
+      "path": "figures/main_text/crc_stage2_external_roc_Sinha_to_Yachida.png",
+      "sha256": "6ce5eff7bc291315fa368e10488244c0b6127cf0493b9c2f441b4ac945d9a3be",
+      "size_bytes": 125407
+    },
+    {
+      "path": "figures/main_text/crc_kegg_ora_cross_cohort_comparison.png",
+      "sha256": "6fcec009b634aa717288919313070f8e907ad60ca412beb7e8415bc94a696494",
+      "size_bytes": 61376
+    },
+    {
+      "path": "figures/main_text/crc_stage2_calibration_Sinha_to_Yachida_integrated_ridge_logistic.png",
+      "sha256": "1cdab607eb79a34555b4eec9e47e143259e2fbb5ade69d3f1410691b414041e0",
+      "size_bytes": 170670
+    },
+    {
+      "path": "figures/main_text/crc_stage2_top_features_Sinha_to_Yachida_clinical_ridge_logistic.png",
+      "sha256": "933682c6b21b36ed6964330e45b6451f857c80beafd8eebe583f33008c529552",
+      "size_bytes": 88533
+    },
+    {
+      "path": "figures/main_text/crc_stage2_external_pr_Yachida_to_Sinha.png",
+      "sha256": "2eaca99bc9063b98957a3f3d64bb8b190c90b73c03528517cccbe0da3c8e0b5c",
+      "size_bytes": 107507
+    },
+    {
+      "path": "figures/main_text/crc_stage2_calibration_Yachida_to_Sinha_integrated_ridge_logistic.png",
+      "sha256": "6706ea529c3687b98051f226ce47aae0710e1ab06be6bc6d7283391b1e6d580e",
+      "size_bytes": 174615
+    },
+    {
+      "path": "figures/main_text/crc_stage2_top_features_Yachida_to_Sinha_metabolomics_ridge_logistic.svg",
+      "sha256": "064d91271187576e15c1a19a7ed52ffddbc4a182e8298854bfe3e6c7707d00f6",
+      "size_bytes": 44334
+    },
+    {
+      "path": "figures/main_text/crc_stage2_external_pr_Sinha_to_Yachida.png",
+      "sha256": "44463a5144a3cb3136dc0986f62ecf4aa274b7dd0caff823500f66e195842517",
+      "size_bytes": 102351
+    },
+    {
+      "path": "figures/main_text/crc_stage2_external_validation_workflow.png",
+      "sha256": "d9aac8ebebca5d30d12747564cf4f005f19f8b27fa120e56a3b6f0c0cf56d270",
+      "size_bytes": 55779
+    },
+    {
+      "path": "figures/main_text/crc_stage2_top_features_Sinha_to_Yachida_integrated_ridge_logistic.svg",
+      "sha256": "647ee74a1781c4ce514356f5445c2cfd5979fabe7be0a70aec4b347f2563f8a3",
+      "size_bytes": 49149
+    },
+    {
+      "path": "figures/main_text/crc_stage2_nested_cv_stability.png",
+      "sha256": "d8434b40ca696ecad16732abfbfc40792a3eb033329afd19ff839858199910fc",
+      "size_bytes": 132828
+    },
+    {
+      "path": "figures/main_text/crc_stage2_top_features_Yachida_to_Sinha_clinical_extra_trees.svg",
+      "sha256": "bc8619e5f1235cb5157195fb1710e7db3a83fb114eb0c247dd0ea90150da7f79",
+      "size_bytes": 39123
+    },
+    {
+      "path": "figures/main_text/crc_kegg_ora_sinha.png",
+      "sha256": "a1405f6fc9e5b6eda04c017320ba1c9cbb61d44b3a868cdf5892391be5a5bceb",
+      "size_bytes": 49720
+    },
+    {
+      "path": "figures/main_text/crc_stage2_top_features_Yachida_to_Sinha_integrated_ridge_logistic.svg",
+      "sha256": "56f9d94c2d7471832790d06d5684cbb6b85ad8c9b9f71dac32c952d4fb983eaa",
+      "size_bytes": 45174
+    },
+    {
+      "path": "figures/main_text/crc_stage2_top_features_Sinha_to_Yachida_metabolomics_ridge_logistic.svg",
+      "sha256": "e198850b1a897aae94536aadc7d27c5d8fffb778b4c4e7807c460b165a241bf2",
+      "size_bytes": 45232
+    },
+    {
+      "path": "figures/main_text/crc_kegg_ora_yachida.svg",
+      "sha256": "5bc725964f57c0d59c65f0c86cfbd5d1cacb725dafa8745f958630bfb8556fc3",
+      "size_bytes": 29837
+    },
+    {
+      "path": "figures/main_text/crc_kegg_ora_yachida.png",
+      "sha256": "fd6eb8e27ffcb7c5a3bfa149add4628b979d842ec064d5d904fb177b77e6b82e",
+      "size_bytes": 50289
+    },
+    {
+      "path": "figures/main_text/crc_stage2_top_features_Sinha_to_Yachida_metabolomics_ridge_logistic.png",
+      "sha256": "cfe7ee170fd510da991dbba6356a8290fb5715333fd3b307ee1f5528e497c6a4",
+      "size_bytes": 91656
+    },
+    {
+      "path": "figures/main_text/crc_stage2_top_features_Yachida_to_Sinha_integrated_ridge_logistic.png",
+      "sha256": "1abf6c45b94f65001661d5e788dadc73cd8156b5eea69bf9252fc22b04fe3e01",
+      "size_bytes": 94602
+    },
+    {
+      "path": "figures/main_text/crc_kegg_ora_sinha.svg",
+      "sha256": "81caf5aecdc598782ffbec415990fcf9b83af94b3c0dec4bd37109c6be19324b",
+      "size_bytes": 29683
+    },
+    {
+      "path": "figures/main_text/crc_stage2_external_roc_Yachida_to_Sinha.png",
+      "sha256": "61dec2360713d5e0b3294517d76282641af3a82542d1f258e6abdb9d0d09f025",
+      "size_bytes": 99410
+    },
+    {
+      "path": "figures/main_text/crc_stage2_calibration_Yachida_to_Sinha_clinical_extra_trees.png",
+      "sha256": "cb271ddd8ede8d06fb5d75583aad2da621dcd57e6a8d7a3915dd635990ae7877",
+      "size_bytes": 166839
+    },
+    {
+      "path": "figures/main_text/crc_stage2_top_features_Yachida_to_Sinha_clinical_extra_trees.png",
+      "sha256": "c6ebc418e2442655ddb249c8d83400ea6dcde7ffb0bbdbb6af573a44aeb8128d",
+      "size_bytes": 83675
+    },
+    {
+      "path": "figures/main_text/crc_stage2_external_pr_ci_Yachida_to_Sinha.png",
+      "sha256": "7accb22ea6cde600f8fe4ca6bc9162eacb206f12ecb66022c4bcdcd4f7e2b5c4",
+      "size_bytes": 173312
+    },
+    {
+      "path": "figures/main_text/crc_stage2_top_features_Sinha_to_Yachida_integrated_ridge_logistic.png",
+      "sha256": "b19021766e5c69fb95adcc6f6aaa88601d62b013d1e823b3020fb0a72bbdf272",
+      "size_bytes": 98184
+    },
+    {
+      "path": "figures/main_text/crc_stage2_calibration_Yachida_to_Sinha_metabolomics_ridge_logistic.png",
+      "sha256": "a21e40b6d41da6be4dd523b3a2ea2e04d01902a27d5d563be586c3d910f3e479",
+      "size_bytes": 168578
+    },
+    {
+      "path": "figures/main_text/crc_stage2_calibration_Sinha_to_Yachida_clinical_ridge_logistic.png",
+      "sha256": "452f273eeb169c3226ff25cf7c7495af0ad8b3974d889f552e496009deea2f52",
+      "size_bytes": 164413
+    },
+    {
+      "path": "figures/main_text/crc_stage2_external_roc_ci_Yachida_to_Sinha.png",
+      "sha256": "68e44e7cb50aca8ed0613870bef353e4fe088d6a1e012c989844cac2796fd004",
+      "size_bytes": 160216
+    },
+    {
+      "path": "figures/main_text/crc_stage2_external_transportability_forest.png",
+      "sha256": "fb8f235ee9caf865dc40a370cba14cba20438d7f837e7db14ceec917cc7858f8",
+      "size_bytes": 129911
+    },
+    {
+      "path": "figures/presentation/crc_kegg_ora_presentation.png",
+      "sha256": "0968af7ba6862658bee24bb4dafb0b64659a6bede695591ff5b2cd4016689eed",
+      "size_bytes": 94897
+    },
+    {
+      "path": "figures/presentation/crc_kegg_ora_presentation.svg",
+      "sha256": "ad23868a2dca0a82aa99488c425992ae6f32b76af67d9b883f407b488d726636",
+      "size_bytes": 51961
+    },
+    {
+      "path": "models/crc_stage2_selected_Yachida_to_Sinha_integrated_ridge_logistic.joblib",
+      "sha256": "517ca288a89c886f2fa321a121c4514e276f239ea56f02c5e4be152a4573bbae",
+      "size_bytes": 29718
+    },
+    {
+      "path": "models/crc_stage2_selected_Sinha_to_Yachida_clinical_ridge_logistic.joblib",
+      "sha256": "c0e0fccf4dee6a907a1c82a086e1058803c0254c1744f746416a46067ad28ddd",
+      "size_bytes": 8198
+    },
+    {
+      "path": "models/crc_stage2_selected_Yachida_to_Sinha_clinical_extra_trees.joblib",
+      "sha256": "e864ac66f1356233d0a85e7cd57eb54ab0f0f1cd09d0c4ad2f9b05b4b0280cc5",
+      "size_bytes": 283739
+    },
+    {
+      "path": "models/crc_stage2_selected_Sinha_to_Yachida_metabolomics_ridge_logistic.joblib",
+      "sha256": "d20107539b2410a0e1fac9d3ba7898ad5dac0a1371463b3289cdf8e54d009410",
+      "size_bytes": 27318
+    },
+    {
+      "path": "models/crc_stage2_selected_Yachida_to_Sinha_metabolomics_ridge_logistic.joblib",
+      "sha256": "4fbcf00f239f17052e9887cfd056d0c97c4d677455326bd5959b1b477dd4ce9b",
+      "size_bytes": 27270
+    },
+    {
+      "path": "models/crc_stage2_selected_Sinha_to_Yachida_integrated_ridge_logistic.joblib",
+      "sha256": "53a9e0d9168aeb2ce285a1b7d25079dff4d996d670de8eb5bbe3cf6479720005",
+      "size_bytes": 29750
+    },
+    {
+      "path": "predictions/crc_stage2_external_predictions.csv",
+      "sha256": "9ad1bca10164a878229b7dbead42f63fb77b000d3a8f1c1ceea763c75dc05a44",
+      "size_bytes": 179779
+    },
+    {
+      "path": "predictions/crc_stage2_internal_oof_predictions.csv",
+      "sha256": "c29bff0e2bca843a2ae9460e811043c50c776722c59657cd79253741168926f9",
+      "size_bytes": 431178
+    },
+    {
+      "path": "logs/crc_stage2_end_of_run_manifest.json",
+      "sha256": "207538b611820a649f05d2b492ffe3c097330a2756ee41f6a726a972da9af4b4",
+      "size_bytes": 37357
+    },
+    {
+      "path": "reports/CRC_STAGE2_FINAL_CLOSURE.md",
+      "sha256": "f59fc29e8d930af700c7d08087bd02381e6850f9ac1f57319fa5fcca4490278b",
+      "size_bytes": 5451
+    },
+    {
+      "path": "reports/crc_stage2_calibration_policy.md",
+      "sha256": "209e0dd5be0ea3534b33a93566f59550a9c8ff57057de93bff147b10fa1627da",
+      "size_bytes": 289
+    },
+    {
+      "path": "reports/crc_stage2_reproducibility_manifest.json",
+      "sha256": "207538b611820a649f05d2b492ffe3c097330a2756ee41f6a726a972da9af4b4",
+      "size_bytes": 37357
+    },
+    {
+      "path": "reports/CRC_STAGE2_EXTERNAL_PERFORMANCE_DIAGNOSTIC.md",
+      "sha256": "aa2d71d0d88330e3a8742c4ac4ef570a359392f0b8c54375f15fa995e7f2bc69",
+      "size_bytes": 3203
+    },
+    {
+      "path": "reports/CRC_STAGE2_FINAL_THESIS_WORDING.md",
+      "sha256": "fcfc683f98a9e5201ea720cf559b9ccfa0c5cd64b6df6526f364c38eb90e8ccd",
+      "size_bytes": 2658
+    },
+    {
+      "path": "reports/CRC_STAGE2_KEGG_ORA_RESULTS.md",
+      "sha256": "1d3d80c121429a1916caff04f05b8551c1e35c63163234785d90f2619a64fc41",
+      "size_bytes": 1523
+    },
+    {
+      "path": "reports/CRC_STAGE2_LIMITATIONS.md",
+      "sha256": "8410421862745b5c05b176de54cae97d8f095142017904c7b4108db130c19b03",
+      "size_bytes": 1004
+    },
+    {
+      "path": "reports/CRC_STAGE2_CONTROLLED_REOPENING_ORA.md",
+      "sha256": "3cbaeb68712344d26ea21dfb9a89b05474dcfd8a0608fa17b1c8ff3a3710c04a",
+      "size_bytes": 589
+    },
+    {
+      "path": "reports/CRC_STAGE2_OUTPUT_INDEX.md",
+      "sha256": "286afb43ad06a36bf0683659d3f8ced1a5fedea1b39a5f56682c1736b65430c4",
+      "size_bytes": 5917
+    },
+    {
+      "path": "reports/CRC_STAGE2_INTEGRATION_PACKAGE.md",
+      "sha256": "b933cc78a336092b5f5fc6e3199816f73af3ea9495949f500e68c3b880c83aef",
+      "size_bytes": 701
+    },
+    {
+      "path": "reports/CRC_STAGE2_RELEASE_MANIFEST.json",
+      "sha256": "dfd684aa11205d861c071e0d60bdd1d80c096a4a87db4b4abd115369958f2b1c",
+      "size_bytes": 3195
+    },
+    {
+      "path": "reports/crc_stage2_configuration.json",
+      "sha256": "c2447cade9cb47afcfb0b9ba28c44a66ad0ba36220fda19ad3d2b3210e510a35",
+      "size_bytes": 4871
+    },
+    {
+      "path": "reports/CRC_STAGE2_RESULTS_SUMMARY.md",
+      "sha256": "2312079704632129b7b8c6fb8f734b53fbaf33059b30678d3ac9a53911662f64",
+      "size_bytes": 1453
+    },
+    {
+      "path": "reports/CRC_STAGE2_METHODS.md",
+      "sha256": "c8a9f2c7bb667d406b572c5a4f201086384181b093f360d3a994148317c185a2",
+      "size_bytes": 671
+    },
+    {
+      "path": "reports/CRC_PRESENTATION_CORRECTED_FIGURE_NOTE.md",
+      "sha256": "b8f6f811bee84a173f5cae0ea935e7ac5c4a918a8bbb158bf776cbc93a5bf5b9",
+      "size_bytes": 1111
+    },
+    {
+      "path": "reports/CRC_STAGE2_VALIDATE_ONLY_STATUS.txt",
+      "sha256": "ed93c112e06c3d14b6b125f792522d89b4f8264d64941bca4a8505d9663e53c7",
+      "size_bytes": 18
+    },
+    {
+      "path": "reports/CRC_ORA_IBD_METHOD_PARITY_AUDIT.md",
+      "sha256": "5984407fa60639c24e4a7d862e448253677a7d0e2c95dcabbdfad485affaab4d",
+      "size_bytes": 1744
+    },
+    {
+      "path": "reports/CRC_STAGE2_AUTHORITATIVE_OUTPUT_MANIFEST.csv",
+      "sha256": "14446c7e740a527390e941e24fb842651cf79beb7a9ec144074b4e8915fc6c4e",
+      "size_bytes": 12549
+    },
+    {
+      "path": "data_processed/crc_stage2_primary_metadata.csv",
+      "sha256": "e278c767fb37046d19a1b330f6a77494492a36c58300da0828b9d603cad8bf63",
+      "size_bytes": 31414
+    },
+    {
+      "path": "data_processed/crc_stage2_yachida_stage_manifest_for_internal_tasks.csv",
+      "sha256": "a7bcf51fa434e6f4b75c52ac868149551ee3cb7a16ff1850690f8c2af256ac40",
+      "size_bytes": 76867
+    },
+    {
+      "path": "data_processed/crc_stage2_primary_metabolomics_canonical.csv",
+      "sha256": "209acb4fa165bf1f39ad29d259db1225283a7ed87a53eece44120a3b52ff82f6",
+      "size_bytes": 476526
+    },
+    {
+      "path": "data_processed/crc_stage2_primary_metadata_with_clinical.csv",
+      "sha256": "e278c767fb37046d19a1b330f6a77494492a36c58300da0828b9d603cad8bf63",
+      "size_bytes": 31414
+    }
+  ],
+  "stage1_untouched": true
+}

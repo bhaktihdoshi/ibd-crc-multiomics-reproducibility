@@ -1,0 +1,37 @@
+{
+  "status": "POST_FREEZE_ANALYSIS_ROLE_ADDENDUM",
+  "generated_utc": "2026-08-24T15:26:00.651842+00:00",
+  "authority_freeze_timestamp_utc": "2026-08-20T08:47:40.049787+00:00",
+  "does_not_modify_frozen_files": true,
+  "reframing_rationale": "Both MICROBIOME and METABOLOME representations already run through the identical prespecified nested-CV, decision-score-ranking, source-cross-fitted-threshold, and 2000-resample bootstrap protocol on matched participants with reciprocal external validation (see run_stage4b_corrected_v2b.py: REPRESENTATIONS loop treats both symmetrically). 'Co-primary' does not mean identically interpretable: metabolomics retains an explicit cross-assay quantitative-scale caveat that microbiome composition does not, because HMDB feature-identity matching does not establish common units, response factors, or upstream transformations across cohorts.",
+  "analysis_roles": {
+    "MICROBIOME": {
+      "analysis_role": "co_primary_single_omic",
+      "external_interpretation_scope": "cross-cohort transportability of harmonised genus composition"
+    },
+    "METABOLOME": {
+      "analysis_role": "co_primary_single_omic",
+      "external_interpretation_scope": "cross-cohort reproducibility/transportability of the matched metabolomic representation under the supplied cohort-specific processed matrices; cross-assay quantitative equivalence was not established (HMDB matching gives feature identity, not common units, response factors, or upstream transformations)"
+    },
+    "EARLY_INTEGRATION": {
+      "analysis_role": "integration_comparison",
+      "external_interpretation_scope": "whether combining the two co-primary molecular layers improves on either single-omic representation"
+    }
+  },
+  "conceptual_hierarchy": {
+    "co_primary_molecular_analyses": [
+      "MICROBIOME",
+      "METABOLOME"
+    ],
+    "comparative_integration_analysis": [
+      "EARLY_INTEGRATION"
+    ],
+    "structural_descriptive_multiomics": [
+      "MOFA",
+      "sCCA"
+    ],
+    "prior_knowledge_topology_experiment": [
+      "GCN_vs_identity_vs_ridge"
+    ]
+  }
+}

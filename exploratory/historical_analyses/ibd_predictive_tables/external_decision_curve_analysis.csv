@@ -1,0 +1,865 @@
+outcome,train_cohort,external_cohort,feature_set,model,threshold_probability,strategy,net_benefit,analysis_note
+cd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.05,model,0.5789473684210527,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.05,treat_all,0.5789473684210527,Reference strategy.
+cd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.05,treat_none,0.0,Reference strategy.
+cd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.1,model,0.5555555555555556,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.1,treat_all,0.5555555555555556,Reference strategy.
+cd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.1,treat_none,0.0,Reference strategy.
+cd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.15,model,0.534841628959276,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.15,treat_all,0.5294117647058824,Reference strategy.
+cd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.15,treat_none,0.0,Reference strategy.
+cd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.2,model,0.5,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.2,treat_all,0.5,Reference strategy.
+cd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.2,treat_none,0.0,Reference strategy.
+cd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.25,model,0.4461538461538461,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.25,treat_all,0.4666666666666667,Reference strategy.
+cd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.25,treat_none,0.0,Reference strategy.
+cd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.3,model,0.4329670329670329,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.3,treat_all,0.4285714285714285,Reference strategy.
+cd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.3,treat_none,0.0,Reference strategy.
+cd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.35,model,0.3550295857988166,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.35,treat_all,0.3846153846153846,Reference strategy.
+cd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.35,treat_none,0.0,Reference strategy.
+cd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.4,model,0.2205128205128205,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.4,treat_all,0.33333333333333326,Reference strategy.
+cd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.4,treat_none,0.0,Reference strategy.
+cd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.45,model,0.21398601398601402,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.45,treat_all,0.2727272727272727,Reference strategy.
+cd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.45,treat_none,0.0,Reference strategy.
+cd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.5,model,0.18461538461538463,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.5,treat_all,0.19999999999999996,Reference strategy.
+cd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.5,treat_none,0.0,Reference strategy.
+cd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.55,model,0.15897435897435896,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.55,treat_all,0.11111111111111094,Reference strategy.
+cd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.55,treat_none,0.0,Reference strategy.
+cd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.6,model,0.16923076923076924,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.6,treat_all,0.0,Reference strategy.
+cd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.6,treat_none,0.0,Reference strategy.
+cd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.65,model,0.15604395604395604,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.65,treat_all,-0.14285714285714302,Reference strategy.
+cd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.65,treat_none,0.0,Reference strategy.
+cd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.7,model,0.13333333333333336,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.7,treat_all,-0.33333333333333326,Reference strategy.
+cd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.7,treat_none,0.0,Reference strategy.
+cd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.75,model,0.13846153846153847,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.75,treat_all,-0.6000000000000002,Reference strategy.
+cd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.75,treat_none,0.0,Reference strategy.
+cd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.8,model,0.046153846153846156,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.8,treat_all,-1.0000000000000004,Reference strategy.
+cd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.8,treat_none,0.0,Reference strategy.
+cd_vs_control,Franzosa,iHMP,integrated,elastic_net_logistic,0.05,model,0.0,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,Franzosa,iHMP,integrated,elastic_net_logistic,0.05,treat_all,0.5789473684210527,Reference strategy.
+cd_vs_control,Franzosa,iHMP,integrated,elastic_net_logistic,0.05,treat_none,0.0,Reference strategy.
+cd_vs_control,Franzosa,iHMP,integrated,elastic_net_logistic,0.1,model,0.0,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,Franzosa,iHMP,integrated,elastic_net_logistic,0.1,treat_all,0.5555555555555556,Reference strategy.
+cd_vs_control,Franzosa,iHMP,integrated,elastic_net_logistic,0.1,treat_none,0.0,Reference strategy.
+cd_vs_control,Franzosa,iHMP,integrated,elastic_net_logistic,0.15,model,0.0,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,Franzosa,iHMP,integrated,elastic_net_logistic,0.15,treat_all,0.5294117647058824,Reference strategy.
+cd_vs_control,Franzosa,iHMP,integrated,elastic_net_logistic,0.15,treat_none,0.0,Reference strategy.
+cd_vs_control,Franzosa,iHMP,integrated,elastic_net_logistic,0.2,model,0.0,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,Franzosa,iHMP,integrated,elastic_net_logistic,0.2,treat_all,0.5,Reference strategy.
+cd_vs_control,Franzosa,iHMP,integrated,elastic_net_logistic,0.2,treat_none,0.0,Reference strategy.
+cd_vs_control,Franzosa,iHMP,integrated,elastic_net_logistic,0.25,model,0.0,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,Franzosa,iHMP,integrated,elastic_net_logistic,0.25,treat_all,0.4666666666666667,Reference strategy.
+cd_vs_control,Franzosa,iHMP,integrated,elastic_net_logistic,0.25,treat_none,0.0,Reference strategy.
+cd_vs_control,Franzosa,iHMP,integrated,elastic_net_logistic,0.3,model,0.0,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,Franzosa,iHMP,integrated,elastic_net_logistic,0.3,treat_all,0.4285714285714285,Reference strategy.
+cd_vs_control,Franzosa,iHMP,integrated,elastic_net_logistic,0.3,treat_none,0.0,Reference strategy.
+cd_vs_control,Franzosa,iHMP,integrated,elastic_net_logistic,0.35,model,0.0,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,Franzosa,iHMP,integrated,elastic_net_logistic,0.35,treat_all,0.3846153846153846,Reference strategy.
+cd_vs_control,Franzosa,iHMP,integrated,elastic_net_logistic,0.35,treat_none,0.0,Reference strategy.
+cd_vs_control,Franzosa,iHMP,integrated,elastic_net_logistic,0.4,model,0.0,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,Franzosa,iHMP,integrated,elastic_net_logistic,0.4,treat_all,0.33333333333333326,Reference strategy.
+cd_vs_control,Franzosa,iHMP,integrated,elastic_net_logistic,0.4,treat_none,0.0,Reference strategy.
+cd_vs_control,Franzosa,iHMP,integrated,elastic_net_logistic,0.45,model,0.0,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,Franzosa,iHMP,integrated,elastic_net_logistic,0.45,treat_all,0.2727272727272727,Reference strategy.
+cd_vs_control,Franzosa,iHMP,integrated,elastic_net_logistic,0.45,treat_none,0.0,Reference strategy.
+cd_vs_control,Franzosa,iHMP,integrated,elastic_net_logistic,0.5,model,0.0,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,Franzosa,iHMP,integrated,elastic_net_logistic,0.5,treat_all,0.19999999999999996,Reference strategy.
+cd_vs_control,Franzosa,iHMP,integrated,elastic_net_logistic,0.5,treat_none,0.0,Reference strategy.
+cd_vs_control,Franzosa,iHMP,integrated,elastic_net_logistic,0.55,model,0.0,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,Franzosa,iHMP,integrated,elastic_net_logistic,0.55,treat_all,0.11111111111111094,Reference strategy.
+cd_vs_control,Franzosa,iHMP,integrated,elastic_net_logistic,0.55,treat_none,0.0,Reference strategy.
+cd_vs_control,Franzosa,iHMP,integrated,elastic_net_logistic,0.6,model,0.0,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,Franzosa,iHMP,integrated,elastic_net_logistic,0.6,treat_all,0.0,Reference strategy.
+cd_vs_control,Franzosa,iHMP,integrated,elastic_net_logistic,0.6,treat_none,0.0,Reference strategy.
+cd_vs_control,Franzosa,iHMP,integrated,elastic_net_logistic,0.65,model,0.0,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,Franzosa,iHMP,integrated,elastic_net_logistic,0.65,treat_all,-0.14285714285714302,Reference strategy.
+cd_vs_control,Franzosa,iHMP,integrated,elastic_net_logistic,0.65,treat_none,0.0,Reference strategy.
+cd_vs_control,Franzosa,iHMP,integrated,elastic_net_logistic,0.7,model,0.0,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,Franzosa,iHMP,integrated,elastic_net_logistic,0.7,treat_all,-0.33333333333333326,Reference strategy.
+cd_vs_control,Franzosa,iHMP,integrated,elastic_net_logistic,0.7,treat_none,0.0,Reference strategy.
+cd_vs_control,Franzosa,iHMP,integrated,elastic_net_logistic,0.75,model,0.0,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,Franzosa,iHMP,integrated,elastic_net_logistic,0.75,treat_all,-0.6000000000000002,Reference strategy.
+cd_vs_control,Franzosa,iHMP,integrated,elastic_net_logistic,0.75,treat_none,0.0,Reference strategy.
+cd_vs_control,Franzosa,iHMP,integrated,elastic_net_logistic,0.8,model,0.0,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,Franzosa,iHMP,integrated,elastic_net_logistic,0.8,treat_all,-1.0000000000000004,Reference strategy.
+cd_vs_control,Franzosa,iHMP,integrated,elastic_net_logistic,0.8,treat_none,0.0,Reference strategy.
+cd_vs_control,Franzosa,iHMP,metabolomics,elastic_net_logistic,0.05,model,0.3036437246963563,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,Franzosa,iHMP,metabolomics,elastic_net_logistic,0.05,treat_all,0.5789473684210527,Reference strategy.
+cd_vs_control,Franzosa,iHMP,metabolomics,elastic_net_logistic,0.05,treat_none,0.0,Reference strategy.
+cd_vs_control,Franzosa,iHMP,metabolomics,elastic_net_logistic,0.1,model,0.29914529914529914,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,Franzosa,iHMP,metabolomics,elastic_net_logistic,0.1,treat_all,0.5555555555555556,Reference strategy.
+cd_vs_control,Franzosa,iHMP,metabolomics,elastic_net_logistic,0.1,treat_none,0.0,Reference strategy.
+cd_vs_control,Franzosa,iHMP,metabolomics,elastic_net_logistic,0.15,model,0.29411764705882354,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,Franzosa,iHMP,metabolomics,elastic_net_logistic,0.15,treat_all,0.5294117647058824,Reference strategy.
+cd_vs_control,Franzosa,iHMP,metabolomics,elastic_net_logistic,0.15,treat_none,0.0,Reference strategy.
+cd_vs_control,Franzosa,iHMP,metabolomics,elastic_net_logistic,0.2,model,0.2884615384615385,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,Franzosa,iHMP,metabolomics,elastic_net_logistic,0.2,treat_all,0.5,Reference strategy.
+cd_vs_control,Franzosa,iHMP,metabolomics,elastic_net_logistic,0.2,treat_none,0.0,Reference strategy.
+cd_vs_control,Franzosa,iHMP,metabolomics,elastic_net_logistic,0.25,model,0.28205128205128205,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,Franzosa,iHMP,metabolomics,elastic_net_logistic,0.25,treat_all,0.4666666666666667,Reference strategy.
+cd_vs_control,Franzosa,iHMP,metabolomics,elastic_net_logistic,0.25,treat_none,0.0,Reference strategy.
+cd_vs_control,Franzosa,iHMP,metabolomics,elastic_net_logistic,0.3,model,0.27472527472527475,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,Franzosa,iHMP,metabolomics,elastic_net_logistic,0.3,treat_all,0.4285714285714285,Reference strategy.
+cd_vs_control,Franzosa,iHMP,metabolomics,elastic_net_logistic,0.3,treat_none,0.0,Reference strategy.
+cd_vs_control,Franzosa,iHMP,metabolomics,elastic_net_logistic,0.35,model,0.26627218934911245,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,Franzosa,iHMP,metabolomics,elastic_net_logistic,0.35,treat_all,0.3846153846153846,Reference strategy.
+cd_vs_control,Franzosa,iHMP,metabolomics,elastic_net_logistic,0.35,treat_none,0.0,Reference strategy.
+cd_vs_control,Franzosa,iHMP,metabolomics,elastic_net_logistic,0.4,model,0.25641025641025644,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,Franzosa,iHMP,metabolomics,elastic_net_logistic,0.4,treat_all,0.33333333333333326,Reference strategy.
+cd_vs_control,Franzosa,iHMP,metabolomics,elastic_net_logistic,0.4,treat_none,0.0,Reference strategy.
+cd_vs_control,Franzosa,iHMP,metabolomics,elastic_net_logistic,0.45,model,0.2447552447552448,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,Franzosa,iHMP,metabolomics,elastic_net_logistic,0.45,treat_all,0.2727272727272727,Reference strategy.
+cd_vs_control,Franzosa,iHMP,metabolomics,elastic_net_logistic,0.45,treat_none,0.0,Reference strategy.
+cd_vs_control,Franzosa,iHMP,metabolomics,elastic_net_logistic,0.5,model,0.23076923076923078,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,Franzosa,iHMP,metabolomics,elastic_net_logistic,0.5,treat_all,0.19999999999999996,Reference strategy.
+cd_vs_control,Franzosa,iHMP,metabolomics,elastic_net_logistic,0.5,treat_none,0.0,Reference strategy.
+cd_vs_control,Franzosa,iHMP,metabolomics,elastic_net_logistic,0.55,model,0.21367521367521367,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,Franzosa,iHMP,metabolomics,elastic_net_logistic,0.55,treat_all,0.11111111111111094,Reference strategy.
+cd_vs_control,Franzosa,iHMP,metabolomics,elastic_net_logistic,0.55,treat_none,0.0,Reference strategy.
+cd_vs_control,Franzosa,iHMP,metabolomics,elastic_net_logistic,0.6,model,0.19230769230769235,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,Franzosa,iHMP,metabolomics,elastic_net_logistic,0.6,treat_all,0.0,Reference strategy.
+cd_vs_control,Franzosa,iHMP,metabolomics,elastic_net_logistic,0.6,treat_none,0.0,Reference strategy.
+cd_vs_control,Franzosa,iHMP,metabolomics,elastic_net_logistic,0.65,model,0.16483516483516483,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,Franzosa,iHMP,metabolomics,elastic_net_logistic,0.65,treat_all,-0.14285714285714302,Reference strategy.
+cd_vs_control,Franzosa,iHMP,metabolomics,elastic_net_logistic,0.65,treat_none,0.0,Reference strategy.
+cd_vs_control,Franzosa,iHMP,metabolomics,elastic_net_logistic,0.7,model,0.12820512820512822,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,Franzosa,iHMP,metabolomics,elastic_net_logistic,0.7,treat_all,-0.33333333333333326,Reference strategy.
+cd_vs_control,Franzosa,iHMP,metabolomics,elastic_net_logistic,0.7,treat_none,0.0,Reference strategy.
+cd_vs_control,Franzosa,iHMP,metabolomics,elastic_net_logistic,0.75,model,0.07692307692307693,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,Franzosa,iHMP,metabolomics,elastic_net_logistic,0.75,treat_all,-0.6000000000000002,Reference strategy.
+cd_vs_control,Franzosa,iHMP,metabolomics,elastic_net_logistic,0.75,treat_none,0.0,Reference strategy.
+cd_vs_control,Franzosa,iHMP,metabolomics,elastic_net_logistic,0.8,model,-5.551115123125783e-17,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,Franzosa,iHMP,metabolomics,elastic_net_logistic,0.8,treat_all,-1.0000000000000004,Reference strategy.
+cd_vs_control,Franzosa,iHMP,metabolomics,elastic_net_logistic,0.8,treat_none,0.0,Reference strategy.
+cd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.05,model,0.5004460303300625,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.05,treat_all,0.5004460303300625,Reference strategy.
+cd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.05,treat_none,0.0,Reference strategy.
+cd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.1,model,0.47269303201506596,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.1,treat_all,0.47269303201506596,Reference strategy.
+cd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.1,treat_none,0.0,Reference strategy.
+cd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.15,model,0.4416749750747757,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.15,treat_all,0.4416749750747757,Reference strategy.
+cd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.15,treat_none,0.0,Reference strategy.
+cd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.2,model,0.4067796610169492,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.2,treat_all,0.4067796610169492,Reference strategy.
+cd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.2,treat_none,0.0,Reference strategy.
+cd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.25,model,0.36723163841807915,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.25,treat_all,0.36723163841807915,Reference strategy.
+cd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.25,treat_none,0.0,Reference strategy.
+cd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.3,model,0.3220338983050848,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.3,treat_all,0.3220338983050848,Reference strategy.
+cd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.3,treat_none,0.0,Reference strategy.
+cd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.35,model,0.2698826597131682,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.35,treat_all,0.26988265971316827,Reference strategy.
+cd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.35,treat_none,0.0,Reference strategy.
+cd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.4,model,0.2090395480225989,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.4,treat_all,0.2090395480225989,Reference strategy.
+cd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.4,treat_none,0.0,Reference strategy.
+cd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.45,model,0.13713405238828974,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.45,treat_all,0.1371340523882898,Reference strategy.
+cd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.45,treat_none,0.0,Reference strategy.
+cd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.5,model,-0.07627118644067797,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.5,treat_all,0.05084745762711873,Reference strategy.
+cd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.5,treat_none,0.0,Reference strategy.
+cd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.55,model,0.0,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.55,treat_all,-0.05461393596986819,Reference strategy.
+cd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.55,treat_none,0.0,Reference strategy.
+cd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.6,model,0.0,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.6,treat_all,-0.18644067796610153,Reference strategy.
+cd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.6,treat_none,0.0,Reference strategy.
+cd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.65,model,0.0,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.65,treat_all,-0.35593220338983056,Reference strategy.
+cd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.65,treat_none,0.0,Reference strategy.
+cd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.7,model,0.0,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.7,treat_all,-0.581920903954802,Reference strategy.
+cd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.7,treat_none,0.0,Reference strategy.
+cd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.75,model,0.0,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.75,treat_all,-0.8983050847457624,Reference strategy.
+cd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.75,treat_none,0.0,Reference strategy.
+cd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.8,model,0.0,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.8,treat_all,-1.3728813559322037,Reference strategy.
+cd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.8,treat_none,0.0,Reference strategy.
+cd_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.05,model,0.5004460303300625,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.05,treat_all,0.5004460303300625,Reference strategy.
+cd_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.05,treat_none,0.0,Reference strategy.
+cd_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.1,model,0.47269303201506596,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.1,treat_all,0.47269303201506596,Reference strategy.
+cd_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.1,treat_none,0.0,Reference strategy.
+cd_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.15,model,0.4416749750747757,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.15,treat_all,0.4416749750747757,Reference strategy.
+cd_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.15,treat_none,0.0,Reference strategy.
+cd_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.2,model,0.4067796610169492,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.2,treat_all,0.4067796610169492,Reference strategy.
+cd_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.2,treat_none,0.0,Reference strategy.
+cd_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.25,model,0.36723163841807915,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.25,treat_all,0.36723163841807915,Reference strategy.
+cd_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.25,treat_none,0.0,Reference strategy.
+cd_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.3,model,0.3220338983050848,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.3,treat_all,0.3220338983050848,Reference strategy.
+cd_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.3,treat_none,0.0,Reference strategy.
+cd_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.35,model,0.2698826597131682,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.35,treat_all,0.26988265971316827,Reference strategy.
+cd_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.35,treat_none,0.0,Reference strategy.
+cd_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.4,model,0.2090395480225989,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.4,treat_all,0.2090395480225989,Reference strategy.
+cd_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.4,treat_none,0.0,Reference strategy.
+cd_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.45,model,0.13713405238828974,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.45,treat_all,0.1371340523882898,Reference strategy.
+cd_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.45,treat_none,0.0,Reference strategy.
+cd_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.5,model,0.0,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.5,treat_all,0.05084745762711873,Reference strategy.
+cd_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.5,treat_none,0.0,Reference strategy.
+cd_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.55,model,0.0,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.55,treat_all,-0.05461393596986819,Reference strategy.
+cd_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.55,treat_none,0.0,Reference strategy.
+cd_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.6,model,0.0,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.6,treat_all,-0.18644067796610153,Reference strategy.
+cd_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.6,treat_none,0.0,Reference strategy.
+cd_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.65,model,0.0,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.65,treat_all,-0.35593220338983056,Reference strategy.
+cd_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.65,treat_none,0.0,Reference strategy.
+cd_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.7,model,0.0,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.7,treat_all,-0.581920903954802,Reference strategy.
+cd_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.7,treat_none,0.0,Reference strategy.
+cd_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.75,model,0.0,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.75,treat_all,-0.8983050847457624,Reference strategy.
+cd_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.75,treat_none,0.0,Reference strategy.
+cd_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.8,model,0.0,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.8,treat_all,-1.3728813559322037,Reference strategy.
+cd_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.8,treat_none,0.0,Reference strategy.
+cd_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.05,model,0.5004460303300625,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.05,treat_all,0.5004460303300625,Reference strategy.
+cd_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.05,treat_none,0.0,Reference strategy.
+cd_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.1,model,0.47269303201506596,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.1,treat_all,0.47269303201506596,Reference strategy.
+cd_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.1,treat_none,0.0,Reference strategy.
+cd_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.15,model,0.4416749750747757,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.15,treat_all,0.4416749750747757,Reference strategy.
+cd_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.15,treat_none,0.0,Reference strategy.
+cd_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.2,model,0.4067796610169492,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.2,treat_all,0.4067796610169492,Reference strategy.
+cd_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.2,treat_none,0.0,Reference strategy.
+cd_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.25,model,0.36723163841807915,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.25,treat_all,0.36723163841807915,Reference strategy.
+cd_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.25,treat_none,0.0,Reference strategy.
+cd_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.3,model,0.3220338983050848,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.3,treat_all,0.3220338983050848,Reference strategy.
+cd_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.3,treat_none,0.0,Reference strategy.
+cd_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.35,model,0.2698826597131682,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.35,treat_all,0.26988265971316827,Reference strategy.
+cd_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.35,treat_none,0.0,Reference strategy.
+cd_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.4,model,0.2090395480225989,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.4,treat_all,0.2090395480225989,Reference strategy.
+cd_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.4,treat_none,0.0,Reference strategy.
+cd_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.45,model,0.13713405238828974,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.45,treat_all,0.1371340523882898,Reference strategy.
+cd_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.45,treat_none,0.0,Reference strategy.
+cd_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.5,model,0.0,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.5,treat_all,0.05084745762711873,Reference strategy.
+cd_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.5,treat_none,0.0,Reference strategy.
+cd_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.55,model,0.0,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.55,treat_all,-0.05461393596986819,Reference strategy.
+cd_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.55,treat_none,0.0,Reference strategy.
+cd_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.6,model,0.0,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.6,treat_all,-0.18644067796610153,Reference strategy.
+cd_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.6,treat_none,0.0,Reference strategy.
+cd_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.65,model,0.0,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.65,treat_all,-0.35593220338983056,Reference strategy.
+cd_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.65,treat_none,0.0,Reference strategy.
+cd_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.7,model,0.0,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.7,treat_all,-0.581920903954802,Reference strategy.
+cd_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.7,treat_none,0.0,Reference strategy.
+cd_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.75,model,0.0,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.75,treat_all,-0.8983050847457624,Reference strategy.
+cd_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.75,treat_none,0.0,Reference strategy.
+cd_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.8,model,0.0,Exploratory external decision-curve analysis; not clinical readiness evidence.
+cd_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.8,treat_all,-1.3728813559322037,Reference strategy.
+cd_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.8,treat_none,0.0,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.05,model,0.6992481203007519,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.05,treat_all,0.6992481203007519,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.05,treat_none,0.0,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.1,model,0.6825396825396826,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.1,treat_all,0.6825396825396826,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.1,treat_none,0.0,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.15,model,0.6638655462184874,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.15,treat_all,0.6638655462184874,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.15,treat_none,0.0,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.2,model,0.6428571428571429,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.2,treat_all,0.6428571428571429,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.2,treat_none,0.0,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.25,model,0.5311355311355311,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.25,treat_all,0.6190476190476191,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.25,treat_none,0.0,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.3,model,0.28571428571428575,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.3,treat_all,0.5918367346938775,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.3,treat_none,0.0,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.35,model,0.2366863905325444,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.35,treat_all,0.5604395604395604,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.35,treat_none,0.0,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.4,model,0.17948717948717946,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.4,treat_all,0.5238095238095238,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.4,treat_none,0.0,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.45,model,0.1058941058941059,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.45,treat_all,0.48051948051948057,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.45,treat_none,0.0,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.5,model,0.05494505494505493,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.5,treat_all,0.4285714285714286,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.5,treat_none,0.0,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.55,model,-0.006105006105006125,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.55,treat_all,0.365079365079365,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.55,treat_none,0.0,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.6,model,-0.03296703296703295,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.6,treat_all,0.2857142857142858,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.6,treat_none,0.0,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.65,model,-0.006279434850863436,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.65,treat_all,0.18367346938775508,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.65,treat_none,0.0,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.7,model,0.007326007326007328,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.7,treat_all,0.04761904761904778,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.7,treat_none,0.0,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.75,model,0.03296703296703297,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.75,treat_all,-0.1428571428571428,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.75,treat_none,0.0,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.8,model,0.0,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.8,treat_all,-0.4285714285714287,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,0.8,treat_none,0.0,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,integrated,extra_trees,0.05,model,0.6992481203007519,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,Franzosa,iHMP,integrated,extra_trees,0.05,treat_all,0.6992481203007519,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,integrated,extra_trees,0.05,treat_none,0.0,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,integrated,extra_trees,0.1,model,0.6825396825396826,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,Franzosa,iHMP,integrated,extra_trees,0.1,treat_all,0.6825396825396826,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,integrated,extra_trees,0.1,treat_none,0.0,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,integrated,extra_trees,0.15,model,0.6638655462184874,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,Franzosa,iHMP,integrated,extra_trees,0.15,treat_all,0.6638655462184874,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,integrated,extra_trees,0.15,treat_none,0.0,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,integrated,extra_trees,0.2,model,0.6428571428571429,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,Franzosa,iHMP,integrated,extra_trees,0.2,treat_all,0.6428571428571429,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,integrated,extra_trees,0.2,treat_none,0.0,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,integrated,extra_trees,0.25,model,0.6190476190476191,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,Franzosa,iHMP,integrated,extra_trees,0.25,treat_all,0.6190476190476191,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,integrated,extra_trees,0.25,treat_none,0.0,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,integrated,extra_trees,0.3,model,0.5918367346938775,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,Franzosa,iHMP,integrated,extra_trees,0.3,treat_all,0.5918367346938775,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,integrated,extra_trees,0.3,treat_none,0.0,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,integrated,extra_trees,0.35,model,0.5604395604395604,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,Franzosa,iHMP,integrated,extra_trees,0.35,treat_all,0.5604395604395604,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,integrated,extra_trees,0.35,treat_none,0.0,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,integrated,extra_trees,0.4,model,0.5238095238095238,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,Franzosa,iHMP,integrated,extra_trees,0.4,treat_all,0.5238095238095238,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,integrated,extra_trees,0.4,treat_none,0.0,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,integrated,extra_trees,0.45,model,0.48051948051948057,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,Franzosa,iHMP,integrated,extra_trees,0.45,treat_all,0.48051948051948057,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,integrated,extra_trees,0.45,treat_none,0.0,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,integrated,extra_trees,0.5,model,0.4285714285714286,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,Franzosa,iHMP,integrated,extra_trees,0.5,treat_all,0.4285714285714286,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,integrated,extra_trees,0.5,treat_none,0.0,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,integrated,extra_trees,0.55,model,0.26007326007326004,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,Franzosa,iHMP,integrated,extra_trees,0.55,treat_all,0.365079365079365,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,integrated,extra_trees,0.55,treat_none,0.0,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,integrated,extra_trees,0.6,model,-0.010989010989010992,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,Franzosa,iHMP,integrated,extra_trees,0.6,treat_all,0.2857142857142858,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,integrated,extra_trees,0.6,treat_none,0.0,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,integrated,extra_trees,0.65,model,0.001569858712715852,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,Franzosa,iHMP,integrated,extra_trees,0.65,treat_all,0.18367346938775508,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,integrated,extra_trees,0.65,treat_none,0.0,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,integrated,extra_trees,0.7,model,-0.01465201465201465,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,Franzosa,iHMP,integrated,extra_trees,0.7,treat_all,0.04761904761904778,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,integrated,extra_trees,0.7,treat_none,0.0,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,integrated,extra_trees,0.75,model,0.0,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,Franzosa,iHMP,integrated,extra_trees,0.75,treat_all,-0.1428571428571428,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,integrated,extra_trees,0.75,treat_none,0.0,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,integrated,extra_trees,0.8,model,0.0,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,Franzosa,iHMP,integrated,extra_trees,0.8,treat_all,-0.4285714285714287,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,integrated,extra_trees,0.8,treat_none,0.0,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.05,model,0.45748987854251016,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.05,treat_all,0.6992481203007519,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.05,treat_none,0.0,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.1,model,0.452991452991453,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.1,treat_all,0.6825396825396826,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.1,treat_none,0.0,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.15,model,0.4479638009049774,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.15,treat_all,0.6638655462184874,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.15,treat_none,0.0,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.2,model,0.44230769230769235,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.2,treat_all,0.6428571428571429,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.2,treat_none,0.0,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.25,model,0.4358974358974359,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.25,treat_all,0.6190476190476191,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.25,treat_none,0.0,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.3,model,0.4285714285714286,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.3,treat_all,0.5918367346938775,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.3,treat_none,0.0,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.35,model,0.4201183431952663,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.35,treat_all,0.5604395604395604,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.35,treat_none,0.0,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.4,model,0.4102564102564103,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.4,treat_all,0.5238095238095238,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.4,treat_none,0.0,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.45,model,0.39860139860139865,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.45,treat_all,0.48051948051948057,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.45,treat_none,0.0,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.5,model,0.38461538461538464,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.5,treat_all,0.4285714285714286,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.5,treat_none,0.0,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.55,model,0.36752136752136755,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.55,treat_all,0.365079365079365,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.55,treat_none,0.0,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.6,model,0.3461538461538462,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.6,treat_all,0.2857142857142858,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.6,treat_none,0.0,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.65,model,0.31868131868131866,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.65,treat_all,0.18367346938775508,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.65,treat_none,0.0,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.7,model,0.28205128205128205,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.7,treat_all,0.04761904761904778,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.7,treat_none,0.0,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.75,model,0.23076923076923078,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.75,treat_all,-0.1428571428571428,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.75,treat_none,0.0,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.8,model,0.1538461538461538,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.8,treat_all,-0.4285714285714287,Reference strategy.
+ibd_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.8,treat_none,0.0,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.05,model,0.6572827417380661,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.05,treat_all,0.6572827417380661,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.05,treat_none,0.0,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.1,model,0.6382428940568475,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.1,treat_all,0.6382428940568475,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.1,treat_none,0.0,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.15,model,0.6169630642954856,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.15,treat_all,0.6169630642954856,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.15,treat_none,0.0,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.2,model,0.5930232558139534,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.2,treat_all,0.5930232558139534,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.2,treat_none,0.0,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.25,model,0.5658914728682171,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.25,treat_all,0.5658914728682171,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.25,treat_none,0.0,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.3,model,0.5348837209302325,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.3,treat_all,0.5348837209302325,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.3,treat_none,0.0,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.35,model,0.49910554561717346,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.35,treat_all,0.49910554561717346,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.35,treat_none,0.0,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.4,model,0.45736434108527124,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.4,treat_all,0.45736434108527124,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.4,treat_none,0.0,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.45,model,0.40803382663847776,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.45,treat_all,0.40803382663847776,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.45,treat_none,0.0,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.5,model,-0.011627906976744179,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.5,treat_all,0.34883720930232553,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.5,treat_none,0.0,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.55,model,0.0,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.55,treat_all,0.27648578811369495,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.55,treat_none,0.0,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.6,model,0.0,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.6,treat_all,0.18604651162790697,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.6,treat_none,0.0,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.65,model,0.0,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.65,treat_all,0.06976744186046491,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.65,treat_none,0.0,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.7,model,0.0,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.7,treat_all,-0.0852713178294573,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.7,treat_none,0.0,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.75,model,0.0,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.75,treat_all,-0.30232558139534893,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.75,treat_none,0.0,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.8,model,0.0,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.8,treat_all,-0.6279069767441864,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,0.8,treat_none,0.0,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,integrated,gradient_boosting,0.05,model,0.6572827417380661,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,iHMP,Franzosa,integrated,gradient_boosting,0.05,treat_all,0.6572827417380661,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,integrated,gradient_boosting,0.05,treat_none,0.0,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,integrated,gradient_boosting,0.1,model,0.6382428940568475,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,iHMP,Franzosa,integrated,gradient_boosting,0.1,treat_all,0.6382428940568475,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,integrated,gradient_boosting,0.1,treat_none,0.0,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,integrated,gradient_boosting,0.15,model,0.6169630642954856,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,iHMP,Franzosa,integrated,gradient_boosting,0.15,treat_all,0.6169630642954856,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,integrated,gradient_boosting,0.15,treat_none,0.0,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,integrated,gradient_boosting,0.2,model,0.5930232558139534,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,iHMP,Franzosa,integrated,gradient_boosting,0.2,treat_all,0.5930232558139534,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,integrated,gradient_boosting,0.2,treat_none,0.0,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,integrated,gradient_boosting,0.25,model,0.5658914728682171,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,iHMP,Franzosa,integrated,gradient_boosting,0.25,treat_all,0.5658914728682171,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,integrated,gradient_boosting,0.25,treat_none,0.0,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,integrated,gradient_boosting,0.3,model,0.5348837209302325,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,iHMP,Franzosa,integrated,gradient_boosting,0.3,treat_all,0.5348837209302325,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,integrated,gradient_boosting,0.3,treat_none,0.0,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,integrated,gradient_boosting,0.35,model,0.49910554561717346,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,iHMP,Franzosa,integrated,gradient_boosting,0.35,treat_all,0.49910554561717346,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,integrated,gradient_boosting,0.35,treat_none,0.0,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,integrated,gradient_boosting,0.4,model,0.45736434108527124,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,iHMP,Franzosa,integrated,gradient_boosting,0.4,treat_all,0.45736434108527124,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,integrated,gradient_boosting,0.4,treat_none,0.0,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,integrated,gradient_boosting,0.45,model,0.40803382663847776,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,iHMP,Franzosa,integrated,gradient_boosting,0.45,treat_all,0.40803382663847776,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,integrated,gradient_boosting,0.45,treat_none,0.0,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,integrated,gradient_boosting,0.5,model,0.4418604651162791,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,iHMP,Franzosa,integrated,gradient_boosting,0.5,treat_all,0.34883720930232553,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,integrated,gradient_boosting,0.5,treat_none,0.0,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,integrated,gradient_boosting,0.55,model,0.40439276485788106,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,iHMP,Franzosa,integrated,gradient_boosting,0.55,treat_all,0.27648578811369495,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,integrated,gradient_boosting,0.55,treat_none,0.0,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,integrated,gradient_boosting,0.6,model,0.35755813953488375,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,iHMP,Franzosa,integrated,gradient_boosting,0.6,treat_all,0.18604651162790697,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,integrated,gradient_boosting,0.6,treat_none,0.0,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,integrated,gradient_boosting,0.65,model,0.0,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,iHMP,Franzosa,integrated,gradient_boosting,0.65,treat_all,0.06976744186046491,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,integrated,gradient_boosting,0.65,treat_none,0.0,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,integrated,gradient_boosting,0.7,model,0.0,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,iHMP,Franzosa,integrated,gradient_boosting,0.7,treat_all,-0.0852713178294573,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,integrated,gradient_boosting,0.7,treat_none,0.0,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,integrated,gradient_boosting,0.75,model,0.0,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,iHMP,Franzosa,integrated,gradient_boosting,0.75,treat_all,-0.30232558139534893,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,integrated,gradient_boosting,0.75,treat_none,0.0,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,integrated,gradient_boosting,0.8,model,0.0,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,iHMP,Franzosa,integrated,gradient_boosting,0.8,treat_all,-0.6279069767441864,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,integrated,gradient_boosting,0.8,treat_none,0.0,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,metabolomics,random_forest,0.05,model,0.6572827417380661,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,iHMP,Franzosa,metabolomics,random_forest,0.05,treat_all,0.6572827417380661,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,metabolomics,random_forest,0.05,treat_none,0.0,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,metabolomics,random_forest,0.1,model,0.6382428940568475,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,iHMP,Franzosa,metabolomics,random_forest,0.1,treat_all,0.6382428940568475,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,metabolomics,random_forest,0.1,treat_none,0.0,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,metabolomics,random_forest,0.15,model,0.6169630642954856,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,iHMP,Franzosa,metabolomics,random_forest,0.15,treat_all,0.6169630642954856,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,metabolomics,random_forest,0.15,treat_none,0.0,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,metabolomics,random_forest,0.2,model,0.5930232558139534,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,iHMP,Franzosa,metabolomics,random_forest,0.2,treat_all,0.5930232558139534,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,metabolomics,random_forest,0.2,treat_none,0.0,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,metabolomics,random_forest,0.25,model,0.5658914728682171,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,iHMP,Franzosa,metabolomics,random_forest,0.25,treat_all,0.5658914728682171,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,metabolomics,random_forest,0.25,treat_none,0.0,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,metabolomics,random_forest,0.3,model,0.5348837209302325,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,iHMP,Franzosa,metabolomics,random_forest,0.3,treat_all,0.5348837209302325,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,metabolomics,random_forest,0.3,treat_none,0.0,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,metabolomics,random_forest,0.35,model,0.49910554561717346,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,iHMP,Franzosa,metabolomics,random_forest,0.35,treat_all,0.49910554561717346,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,metabolomics,random_forest,0.35,treat_none,0.0,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,metabolomics,random_forest,0.4,model,0.45736434108527124,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,iHMP,Franzosa,metabolomics,random_forest,0.4,treat_all,0.45736434108527124,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,metabolomics,random_forest,0.4,treat_none,0.0,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,metabolomics,random_forest,0.45,model,0.40803382663847776,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,iHMP,Franzosa,metabolomics,random_forest,0.45,treat_all,0.40803382663847776,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,metabolomics,random_forest,0.45,treat_none,0.0,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,metabolomics,random_forest,0.5,model,0.005813953488372093,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,iHMP,Franzosa,metabolomics,random_forest,0.5,treat_all,0.34883720930232553,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,metabolomics,random_forest,0.5,treat_none,0.0,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,metabolomics,random_forest,0.55,model,0.0,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,iHMP,Franzosa,metabolomics,random_forest,0.55,treat_all,0.27648578811369495,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,metabolomics,random_forest,0.55,treat_none,0.0,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,metabolomics,random_forest,0.6,model,0.0,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,iHMP,Franzosa,metabolomics,random_forest,0.6,treat_all,0.18604651162790697,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,metabolomics,random_forest,0.6,treat_none,0.0,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,metabolomics,random_forest,0.65,model,0.0,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,iHMP,Franzosa,metabolomics,random_forest,0.65,treat_all,0.06976744186046491,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,metabolomics,random_forest,0.65,treat_none,0.0,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,metabolomics,random_forest,0.7,model,0.0,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,iHMP,Franzosa,metabolomics,random_forest,0.7,treat_all,-0.0852713178294573,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,metabolomics,random_forest,0.7,treat_none,0.0,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,metabolomics,random_forest,0.75,model,0.0,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,iHMP,Franzosa,metabolomics,random_forest,0.75,treat_all,-0.30232558139534893,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,metabolomics,random_forest,0.75,treat_none,0.0,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,metabolomics,random_forest,0.8,model,0.0,Exploratory external decision-curve analysis; not clinical readiness evidence.
+ibd_vs_control,iHMP,Franzosa,metabolomics,random_forest,0.8,treat_all,-0.6279069767441864,Reference strategy.
+ibd_vs_control,iHMP,Franzosa,metabolomics,random_forest,0.8,treat_none,0.0,Reference strategy.
+uc_vs_control,Franzosa,iHMP,clinical,random_forest,0.05,model,0.3805668016194332,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,Franzosa,iHMP,clinical,random_forest,0.05,treat_all,0.47368421052631576,Reference strategy.
+uc_vs_control,Franzosa,iHMP,clinical,random_forest,0.05,treat_none,0.0,Reference strategy.
+uc_vs_control,Franzosa,iHMP,clinical,random_forest,0.1,model,0.3547008547008547,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,Franzosa,iHMP,clinical,random_forest,0.1,treat_all,0.4444444444444444,Reference strategy.
+uc_vs_control,Franzosa,iHMP,clinical,random_forest,0.1,treat_none,0.0,Reference strategy.
+uc_vs_control,Franzosa,iHMP,clinical,random_forest,0.15,model,0.3257918552036199,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,Franzosa,iHMP,clinical,random_forest,0.15,treat_all,0.4117647058823529,Reference strategy.
+uc_vs_control,Franzosa,iHMP,clinical,random_forest,0.15,treat_none,0.0,Reference strategy.
+uc_vs_control,Franzosa,iHMP,clinical,random_forest,0.2,model,0.2932692307692308,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,Franzosa,iHMP,clinical,random_forest,0.2,treat_all,0.375,Reference strategy.
+uc_vs_control,Franzosa,iHMP,clinical,random_forest,0.2,treat_none,0.0,Reference strategy.
+uc_vs_control,Franzosa,iHMP,clinical,random_forest,0.25,model,0.19871794871794873,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,Franzosa,iHMP,clinical,random_forest,0.25,treat_all,0.33333333333333337,Reference strategy.
+uc_vs_control,Franzosa,iHMP,clinical,random_forest,0.25,treat_none,0.0,Reference strategy.
+uc_vs_control,Franzosa,iHMP,clinical,random_forest,0.3,model,0.15659340659340656,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,Franzosa,iHMP,clinical,random_forest,0.3,treat_all,0.2857142857142857,Reference strategy.
+uc_vs_control,Franzosa,iHMP,clinical,random_forest,0.3,treat_none,0.0,Reference strategy.
+uc_vs_control,Franzosa,iHMP,clinical,random_forest,0.35,model,0.10946745562130178,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,Franzosa,iHMP,clinical,random_forest,0.35,treat_all,0.23076923076923078,Reference strategy.
+uc_vs_control,Franzosa,iHMP,clinical,random_forest,0.35,treat_none,0.0,Reference strategy.
+uc_vs_control,Franzosa,iHMP,clinical,random_forest,0.4,model,0.07051282051282048,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,Franzosa,iHMP,clinical,random_forest,0.4,treat_all,0.16666666666666663,Reference strategy.
+uc_vs_control,Franzosa,iHMP,clinical,random_forest,0.4,treat_none,0.0,Reference strategy.
+uc_vs_control,Franzosa,iHMP,clinical,random_forest,0.45,model,-0.017482517482517473,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,Franzosa,iHMP,clinical,random_forest,0.45,treat_all,0.09090909090909094,Reference strategy.
+uc_vs_control,Franzosa,iHMP,clinical,random_forest,0.45,treat_none,0.0,Reference strategy.
+uc_vs_control,Franzosa,iHMP,clinical,random_forest,0.5,model,-0.019230769230769232,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,Franzosa,iHMP,clinical,random_forest,0.5,treat_all,0.0,Reference strategy.
+uc_vs_control,Franzosa,iHMP,clinical,random_forest,0.5,treat_none,0.0,Reference strategy.
+uc_vs_control,Franzosa,iHMP,clinical,random_forest,0.55,model,-0.040598290598290634,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,Franzosa,iHMP,clinical,random_forest,0.55,treat_all,-0.11111111111111127,Reference strategy.
+uc_vs_control,Franzosa,iHMP,clinical,random_forest,0.55,treat_none,0.0,Reference strategy.
+uc_vs_control,Franzosa,iHMP,clinical,random_forest,0.6,model,-0.06730769230769229,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,Franzosa,iHMP,clinical,random_forest,0.6,treat_all,-0.2499999999999999,Reference strategy.
+uc_vs_control,Franzosa,iHMP,clinical,random_forest,0.6,treat_none,0.0,Reference strategy.
+uc_vs_control,Franzosa,iHMP,clinical,random_forest,0.65,model,-0.06593406593406595,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,Franzosa,iHMP,clinical,random_forest,0.65,treat_all,-0.4285714285714287,Reference strategy.
+uc_vs_control,Franzosa,iHMP,clinical,random_forest,0.65,treat_none,0.0,Reference strategy.
+uc_vs_control,Franzosa,iHMP,clinical,random_forest,0.7,model,-0.12179487179487179,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,Franzosa,iHMP,clinical,random_forest,0.7,treat_all,-0.6666666666666665,Reference strategy.
+uc_vs_control,Franzosa,iHMP,clinical,random_forest,0.7,treat_none,0.0,Reference strategy.
+uc_vs_control,Franzosa,iHMP,clinical,random_forest,0.75,model,-0.17307692307692307,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,Franzosa,iHMP,clinical,random_forest,0.75,treat_all,-1.0,Reference strategy.
+uc_vs_control,Franzosa,iHMP,clinical,random_forest,0.75,treat_none,0.0,Reference strategy.
+uc_vs_control,Franzosa,iHMP,clinical,random_forest,0.8,model,-0.09615384615384619,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,Franzosa,iHMP,clinical,random_forest,0.8,treat_all,-1.5000000000000004,Reference strategy.
+uc_vs_control,Franzosa,iHMP,clinical,random_forest,0.8,treat_none,0.0,Reference strategy.
+uc_vs_control,Franzosa,iHMP,integrated,random_forest,0.05,model,0.47368421052631576,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,Franzosa,iHMP,integrated,random_forest,0.05,treat_all,0.47368421052631576,Reference strategy.
+uc_vs_control,Franzosa,iHMP,integrated,random_forest,0.05,treat_none,0.0,Reference strategy.
+uc_vs_control,Franzosa,iHMP,integrated,random_forest,0.1,model,0.4444444444444444,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,Franzosa,iHMP,integrated,random_forest,0.1,treat_all,0.4444444444444444,Reference strategy.
+uc_vs_control,Franzosa,iHMP,integrated,random_forest,0.1,treat_none,0.0,Reference strategy.
+uc_vs_control,Franzosa,iHMP,integrated,random_forest,0.15,model,0.4117647058823529,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,Franzosa,iHMP,integrated,random_forest,0.15,treat_all,0.4117647058823529,Reference strategy.
+uc_vs_control,Franzosa,iHMP,integrated,random_forest,0.15,treat_none,0.0,Reference strategy.
+uc_vs_control,Franzosa,iHMP,integrated,random_forest,0.2,model,0.375,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,Franzosa,iHMP,integrated,random_forest,0.2,treat_all,0.375,Reference strategy.
+uc_vs_control,Franzosa,iHMP,integrated,random_forest,0.2,treat_none,0.0,Reference strategy.
+uc_vs_control,Franzosa,iHMP,integrated,random_forest,0.25,model,0.33333333333333337,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,Franzosa,iHMP,integrated,random_forest,0.25,treat_all,0.33333333333333337,Reference strategy.
+uc_vs_control,Franzosa,iHMP,integrated,random_forest,0.25,treat_none,0.0,Reference strategy.
+uc_vs_control,Franzosa,iHMP,integrated,random_forest,0.3,model,0.2857142857142857,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,Franzosa,iHMP,integrated,random_forest,0.3,treat_all,0.2857142857142857,Reference strategy.
+uc_vs_control,Franzosa,iHMP,integrated,random_forest,0.3,treat_none,0.0,Reference strategy.
+uc_vs_control,Franzosa,iHMP,integrated,random_forest,0.35,model,0.23076923076923078,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,Franzosa,iHMP,integrated,random_forest,0.35,treat_all,0.23076923076923078,Reference strategy.
+uc_vs_control,Franzosa,iHMP,integrated,random_forest,0.35,treat_none,0.0,Reference strategy.
+uc_vs_control,Franzosa,iHMP,integrated,random_forest,0.4,model,0.16666666666666663,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,Franzosa,iHMP,integrated,random_forest,0.4,treat_all,0.16666666666666663,Reference strategy.
+uc_vs_control,Franzosa,iHMP,integrated,random_forest,0.4,treat_none,0.0,Reference strategy.
+uc_vs_control,Franzosa,iHMP,integrated,random_forest,0.45,model,0.09090909090909094,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,Franzosa,iHMP,integrated,random_forest,0.45,treat_all,0.09090909090909094,Reference strategy.
+uc_vs_control,Franzosa,iHMP,integrated,random_forest,0.45,treat_none,0.0,Reference strategy.
+uc_vs_control,Franzosa,iHMP,integrated,random_forest,0.5,model,0.0,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,Franzosa,iHMP,integrated,random_forest,0.5,treat_all,0.0,Reference strategy.
+uc_vs_control,Franzosa,iHMP,integrated,random_forest,0.5,treat_none,0.0,Reference strategy.
+uc_vs_control,Franzosa,iHMP,integrated,random_forest,0.55,model,0.0064102564102562765,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,Franzosa,iHMP,integrated,random_forest,0.55,treat_all,-0.11111111111111127,Reference strategy.
+uc_vs_control,Franzosa,iHMP,integrated,random_forest,0.55,treat_none,0.0,Reference strategy.
+uc_vs_control,Franzosa,iHMP,integrated,random_forest,0.6,model,-0.10576923076923073,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,Franzosa,iHMP,integrated,random_forest,0.6,treat_all,-0.2499999999999999,Reference strategy.
+uc_vs_control,Franzosa,iHMP,integrated,random_forest,0.6,treat_none,0.0,Reference strategy.
+uc_vs_control,Franzosa,iHMP,integrated,random_forest,0.65,model,-0.07967032967032972,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,Franzosa,iHMP,integrated,random_forest,0.65,treat_all,-0.4285714285714287,Reference strategy.
+uc_vs_control,Franzosa,iHMP,integrated,random_forest,0.65,treat_none,0.0,Reference strategy.
+uc_vs_control,Franzosa,iHMP,integrated,random_forest,0.7,model,0.0,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,Franzosa,iHMP,integrated,random_forest,0.7,treat_all,-0.6666666666666665,Reference strategy.
+uc_vs_control,Franzosa,iHMP,integrated,random_forest,0.7,treat_none,0.0,Reference strategy.
+uc_vs_control,Franzosa,iHMP,integrated,random_forest,0.75,model,0.0,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,Franzosa,iHMP,integrated,random_forest,0.75,treat_all,-1.0,Reference strategy.
+uc_vs_control,Franzosa,iHMP,integrated,random_forest,0.75,treat_none,0.0,Reference strategy.
+uc_vs_control,Franzosa,iHMP,integrated,random_forest,0.8,model,0.0,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,Franzosa,iHMP,integrated,random_forest,0.8,treat_all,-1.5000000000000004,Reference strategy.
+uc_vs_control,Franzosa,iHMP,integrated,random_forest,0.8,treat_none,0.0,Reference strategy.
+uc_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.05,model,0.16902834008097165,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.05,treat_all,0.47368421052631576,Reference strategy.
+uc_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.05,treat_none,0.0,Reference strategy.
+uc_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.1,model,0.16452991452991453,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.1,treat_all,0.4444444444444444,Reference strategy.
+uc_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.1,treat_none,0.0,Reference strategy.
+uc_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.15,model,0.1595022624434389,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.15,treat_all,0.4117647058823529,Reference strategy.
+uc_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.15,treat_none,0.0,Reference strategy.
+uc_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.2,model,0.15384615384615385,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.2,treat_all,0.375,Reference strategy.
+uc_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.2,treat_none,0.0,Reference strategy.
+uc_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.25,model,0.14743589743589744,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.25,treat_all,0.33333333333333337,Reference strategy.
+uc_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.25,treat_none,0.0,Reference strategy.
+uc_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.3,model,0.1401098901098901,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.3,treat_all,0.2857142857142857,Reference strategy.
+uc_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.3,treat_none,0.0,Reference strategy.
+uc_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.35,model,0.13165680473372782,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.35,treat_all,0.23076923076923078,Reference strategy.
+uc_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.35,treat_none,0.0,Reference strategy.
+uc_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.4,model,0.12179487179487178,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.4,treat_all,0.16666666666666663,Reference strategy.
+uc_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.4,treat_none,0.0,Reference strategy.
+uc_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.45,model,0.11013986013986014,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.45,treat_all,0.09090909090909094,Reference strategy.
+uc_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.45,treat_none,0.0,Reference strategy.
+uc_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.5,model,0.09615384615384615,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.5,treat_all,0.0,Reference strategy.
+uc_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.5,treat_none,0.0,Reference strategy.
+uc_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.55,model,0.07905982905982903,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.55,treat_all,-0.11111111111111127,Reference strategy.
+uc_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.55,treat_none,0.0,Reference strategy.
+uc_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.6,model,0.057692307692307696,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.6,treat_all,-0.2499999999999999,Reference strategy.
+uc_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.6,treat_none,0.0,Reference strategy.
+uc_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.65,model,0.030219780219780196,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.65,treat_all,-0.4285714285714287,Reference strategy.
+uc_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.65,treat_none,0.0,Reference strategy.
+uc_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.7,model,-0.006410256410256415,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.7,treat_all,-0.6666666666666665,Reference strategy.
+uc_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.7,treat_none,0.0,Reference strategy.
+uc_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.75,model,-0.05769230769230771,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.75,treat_all,-1.0,Reference strategy.
+uc_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.75,treat_none,0.0,Reference strategy.
+uc_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.8,model,-0.1346153846153847,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.8,treat_all,-1.5000000000000004,Reference strategy.
+uc_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,0.8,treat_none,0.0,Reference strategy.
+uc_vs_control,iHMP,Franzosa,clinical,random_forest,0.05,model,0.4464114832535885,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,iHMP,Franzosa,clinical,random_forest,0.05,treat_all,0.46411483253588515,Reference strategy.
+uc_vs_control,iHMP,Franzosa,clinical,random_forest,0.05,treat_none,0.0,Reference strategy.
+uc_vs_control,iHMP,Franzosa,clinical,random_forest,0.1,model,0.37575757575757573,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,iHMP,Franzosa,clinical,random_forest,0.1,treat_all,0.43434343434343436,Reference strategy.
+uc_vs_control,iHMP,Franzosa,clinical,random_forest,0.1,treat_none,0.0,Reference strategy.
+uc_vs_control,iHMP,Franzosa,clinical,random_forest,0.15,model,0.3090909090909091,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,iHMP,Franzosa,clinical,random_forest,0.15,treat_all,0.40106951871657753,Reference strategy.
+uc_vs_control,iHMP,Franzosa,clinical,random_forest,0.15,treat_none,0.0,Reference strategy.
+uc_vs_control,iHMP,Franzosa,clinical,random_forest,0.2,model,0.275,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,iHMP,Franzosa,clinical,random_forest,0.2,treat_all,0.36363636363636365,Reference strategy.
+uc_vs_control,iHMP,Franzosa,clinical,random_forest,0.2,treat_none,0.0,Reference strategy.
+uc_vs_control,iHMP,Franzosa,clinical,random_forest,0.25,model,0.21515151515151518,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,iHMP,Franzosa,clinical,random_forest,0.25,treat_all,0.3212121212121212,Reference strategy.
+uc_vs_control,iHMP,Franzosa,clinical,random_forest,0.25,treat_none,0.0,Reference strategy.
+uc_vs_control,iHMP,Franzosa,clinical,random_forest,0.3,model,0.14545454545454545,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,iHMP,Franzosa,clinical,random_forest,0.3,treat_all,0.2727272727272727,Reference strategy.
+uc_vs_control,iHMP,Franzosa,clinical,random_forest,0.3,treat_none,0.0,Reference strategy.
+uc_vs_control,iHMP,Franzosa,clinical,random_forest,0.35,model,0.10629370629370632,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,iHMP,Franzosa,clinical,random_forest,0.35,treat_all,0.21678321678321683,Reference strategy.
+uc_vs_control,iHMP,Franzosa,clinical,random_forest,0.35,treat_none,0.0,Reference strategy.
+uc_vs_control,iHMP,Franzosa,clinical,random_forest,0.4,model,0.03030303030303022,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,iHMP,Franzosa,clinical,random_forest,0.4,treat_all,0.1515151515151515,Reference strategy.
+uc_vs_control,iHMP,Franzosa,clinical,random_forest,0.4,treat_none,0.0,Reference strategy.
+uc_vs_control,iHMP,Franzosa,clinical,random_forest,0.45,model,-0.05785123966942152,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,iHMP,Franzosa,clinical,random_forest,0.45,treat_all,0.07438016528925628,Reference strategy.
+uc_vs_control,iHMP,Franzosa,clinical,random_forest,0.45,treat_none,0.0,Reference strategy.
+uc_vs_control,iHMP,Franzosa,clinical,random_forest,0.5,model,-0.09090909090909088,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,iHMP,Franzosa,clinical,random_forest,0.5,treat_all,-0.018181818181818132,Reference strategy.
+uc_vs_control,iHMP,Franzosa,clinical,random_forest,0.5,treat_none,0.0,Reference strategy.
+uc_vs_control,iHMP,Franzosa,clinical,random_forest,0.55,model,-0.15151515151515155,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,iHMP,Franzosa,clinical,random_forest,0.55,treat_all,-0.13131313131313144,Reference strategy.
+uc_vs_control,iHMP,Franzosa,clinical,random_forest,0.55,treat_none,0.0,Reference strategy.
+uc_vs_control,iHMP,Franzosa,clinical,random_forest,0.6,model,-0.1863636363636363,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,iHMP,Franzosa,clinical,random_forest,0.6,treat_all,-0.27272727272727254,Reference strategy.
+uc_vs_control,iHMP,Franzosa,clinical,random_forest,0.6,treat_none,0.0,Reference strategy.
+uc_vs_control,iHMP,Franzosa,clinical,random_forest,0.65,model,-0.3142857142857143,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,iHMP,Franzosa,clinical,random_forest,0.65,treat_all,-0.45454545454545464,Reference strategy.
+uc_vs_control,iHMP,Franzosa,clinical,random_forest,0.65,treat_none,0.0,Reference strategy.
+uc_vs_control,iHMP,Franzosa,clinical,random_forest,0.7,model,-0.27272727272727265,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,iHMP,Franzosa,clinical,random_forest,0.7,treat_all,-0.6969696969696966,Reference strategy.
+uc_vs_control,iHMP,Franzosa,clinical,random_forest,0.7,treat_none,0.0,Reference strategy.
+uc_vs_control,iHMP,Franzosa,clinical,random_forest,0.75,model,-0.15454545454545454,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,iHMP,Franzosa,clinical,random_forest,0.75,treat_all,-1.0363636363636362,Reference strategy.
+uc_vs_control,iHMP,Franzosa,clinical,random_forest,0.75,treat_none,0.0,Reference strategy.
+uc_vs_control,iHMP,Franzosa,clinical,random_forest,0.8,model,-0.2363636363636364,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,iHMP,Franzosa,clinical,random_forest,0.8,treat_all,-1.5454545454545456,Reference strategy.
+uc_vs_control,iHMP,Franzosa,clinical,random_forest,0.8,treat_none,0.0,Reference strategy.
+uc_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.05,model,0.46411483253588515,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.05,treat_all,0.46411483253588515,Reference strategy.
+uc_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.05,treat_none,0.0,Reference strategy.
+uc_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.1,model,0.43434343434343436,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.1,treat_all,0.43434343434343436,Reference strategy.
+uc_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.1,treat_none,0.0,Reference strategy.
+uc_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.15,model,0.40106951871657753,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.15,treat_all,0.40106951871657753,Reference strategy.
+uc_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.15,treat_none,0.0,Reference strategy.
+uc_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.2,model,0.36363636363636365,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.2,treat_all,0.36363636363636365,Reference strategy.
+uc_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.2,treat_none,0.0,Reference strategy.
+uc_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.25,model,0.3212121212121212,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.25,treat_all,0.3212121212121212,Reference strategy.
+uc_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.25,treat_none,0.0,Reference strategy.
+uc_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.3,model,0.2727272727272727,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.3,treat_all,0.2727272727272727,Reference strategy.
+uc_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.3,treat_none,0.0,Reference strategy.
+uc_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.35,model,0.21678321678321683,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.35,treat_all,0.21678321678321683,Reference strategy.
+uc_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.35,treat_none,0.0,Reference strategy.
+uc_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.4,model,0.1515151515151515,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.4,treat_all,0.1515151515151515,Reference strategy.
+uc_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.4,treat_none,0.0,Reference strategy.
+uc_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.45,model,0.07438016528925628,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.45,treat_all,0.07438016528925628,Reference strategy.
+uc_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.45,treat_none,0.0,Reference strategy.
+uc_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.5,model,-0.018181818181818132,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.5,treat_all,-0.018181818181818132,Reference strategy.
+uc_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.5,treat_none,0.0,Reference strategy.
+uc_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.55,model,-0.13131313131313144,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.55,treat_all,-0.13131313131313144,Reference strategy.
+uc_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.55,treat_none,0.0,Reference strategy.
+uc_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.6,model,0.0,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.6,treat_all,-0.27272727272727254,Reference strategy.
+uc_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.6,treat_none,0.0,Reference strategy.
+uc_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.65,model,0.0,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.65,treat_all,-0.45454545454545464,Reference strategy.
+uc_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.65,treat_none,0.0,Reference strategy.
+uc_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.7,model,0.0,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.7,treat_all,-0.6969696969696966,Reference strategy.
+uc_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.7,treat_none,0.0,Reference strategy.
+uc_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.75,model,0.0,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.75,treat_all,-1.0363636363636362,Reference strategy.
+uc_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.75,treat_none,0.0,Reference strategy.
+uc_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.8,model,0.0,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.8,treat_all,-1.5454545454545456,Reference strategy.
+uc_vs_control,iHMP,Franzosa,integrated,ridge_logistic,0.8,treat_none,0.0,Reference strategy.
+uc_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.05,model,0.46411483253588515,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.05,treat_all,0.46411483253588515,Reference strategy.
+uc_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.05,treat_none,0.0,Reference strategy.
+uc_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.1,model,0.43434343434343436,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.1,treat_all,0.43434343434343436,Reference strategy.
+uc_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.1,treat_none,0.0,Reference strategy.
+uc_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.15,model,0.40106951871657753,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.15,treat_all,0.40106951871657753,Reference strategy.
+uc_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.15,treat_none,0.0,Reference strategy.
+uc_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.2,model,0.36363636363636365,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.2,treat_all,0.36363636363636365,Reference strategy.
+uc_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.2,treat_none,0.0,Reference strategy.
+uc_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.25,model,0.3212121212121212,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.25,treat_all,0.3212121212121212,Reference strategy.
+uc_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.25,treat_none,0.0,Reference strategy.
+uc_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.3,model,0.2727272727272727,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.3,treat_all,0.2727272727272727,Reference strategy.
+uc_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.3,treat_none,0.0,Reference strategy.
+uc_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.35,model,0.21678321678321683,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.35,treat_all,0.21678321678321683,Reference strategy.
+uc_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.35,treat_none,0.0,Reference strategy.
+uc_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.4,model,0.1515151515151515,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.4,treat_all,0.1515151515151515,Reference strategy.
+uc_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.4,treat_none,0.0,Reference strategy.
+uc_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.45,model,0.07438016528925628,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.45,treat_all,0.07438016528925628,Reference strategy.
+uc_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.45,treat_none,0.0,Reference strategy.
+uc_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.5,model,-0.018181818181818132,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.5,treat_all,-0.018181818181818132,Reference strategy.
+uc_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.5,treat_none,0.0,Reference strategy.
+uc_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.55,model,-0.13131313131313144,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.55,treat_all,-0.13131313131313144,Reference strategy.
+uc_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.55,treat_none,0.0,Reference strategy.
+uc_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.6,model,0.0,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.6,treat_all,-0.27272727272727254,Reference strategy.
+uc_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.6,treat_none,0.0,Reference strategy.
+uc_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.65,model,0.0,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.65,treat_all,-0.45454545454545464,Reference strategy.
+uc_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.65,treat_none,0.0,Reference strategy.
+uc_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.7,model,0.0,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.7,treat_all,-0.6969696969696966,Reference strategy.
+uc_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.7,treat_none,0.0,Reference strategy.
+uc_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.75,model,0.0,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.75,treat_all,-1.0363636363636362,Reference strategy.
+uc_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.75,treat_none,0.0,Reference strategy.
+uc_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.8,model,0.0,Exploratory external decision-curve analysis; not clinical readiness evidence.
+uc_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.8,treat_all,-1.5454545454545456,Reference strategy.
+uc_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,0.8,treat_none,0.0,Reference strategy.

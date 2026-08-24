@@ -1,0 +1,40 @@
+{
+  "directionality": "undirected; symmetrisation is explicit in edge table",
+  "edge_weight_rule": "binary union; duplicated source support collapsed deterministically",
+  "excluded_edge_types": {
+    "MICROBE_METABOLITE": "blocked until local curated prior interaction source is supplied",
+    "MICROBE_MICROBE": "not included from taxonomy alone"
+  },
+  "fragmentation_warning_thresholds": {
+    "isolated_node_proportion": 0.25,
+    "largest_component_proportion": 0.5
+  },
+  "graph_design": "one master graph with disease-specific induced subgraphs",
+  "included_edge_types": [
+    "METABOLITE_METABOLITE"
+  ],
+  "leakage_exclusions": [
+    "phenotype labels",
+    "outcome labels",
+    "Stage 4B predictions",
+    "Stage 4B coefficients",
+    "MOFA factor scores",
+    "sCCA phenotype associations",
+    "external performance",
+    "CV folds"
+  ],
+  "node_id_format": {
+    "metabolite": "metabolite::<HMDB_ID>",
+    "microbe": "microbe::<canonical_genus>"
+  },
+  "node_ordering": "deterministic sort by disease_space, node_type, node_id; zero-based node_index within disease",
+  "self_loop_policy": "not written as biological edges; add computational self-loops later during GCN adjacency normalization",
+  "source_files": {
+    "crc_hmdb_kegg_crosswalk": "/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/crc_pipeline/stage2/tables/crc_stage2_hmdb_kegg_crosswalk.csv",
+    "feature_trace": "/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/stage4_multiomics_integration/tables/stage4c_feature_qc_trace.csv",
+    "ibd_hmdb_metadata": "/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/ibd_pipeline/data_processed/primary_high_confidence_hmdb_feature_metadata.csv",
+    "kegg_compound_pathways": "/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/ibd_pipeline/annotation_resources/kegg_compound_pathways.tsv",
+    "kegg_pathway_names": "/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/ibd_pipeline/annotation_resources/kegg_pathway_names.tsv"
+  },
+  "stage": "4D"
+}

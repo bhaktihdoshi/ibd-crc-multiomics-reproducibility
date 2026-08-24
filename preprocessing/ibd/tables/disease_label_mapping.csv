@@ -1,0 +1,7 @@
+cohort,original_label,harmonised_label,sample_count,participant_count,mapping_rationale
+Franzosa,CD,CD,88,88,"source diagnosis mapped to Control, CD, UC, and IBD binary"
+Franzosa,Control,Control,56,56,"source diagnosis mapped to Control, CD, UC, and IBD binary"
+Franzosa,UC,UC,76,76,"source diagnosis mapped to Control, CD, UC, and IBD binary"
+iHMP,CD,CD,177,49,"source diagnosis mapped to Control, CD, UC, and IBD binary"
+iHMP,UC,UC,101,30,"source diagnosis mapped to Control, CD, UC, and IBD binary"
+iHMP,nonIBD,Control,104,26,"source diagnosis mapped to Control, CD, UC, and IBD binary"

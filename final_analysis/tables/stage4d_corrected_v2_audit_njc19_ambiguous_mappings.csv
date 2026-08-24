@@ -1,0 +1,2 @@
+source,ambiguous_genus_mappings,ambiguous_metabolite_mappings,note
+NJC19,0,70,empty canonical genus or KEGG mapping in original NJC19 parse; no fuzzy mapping added in corrected-v2 graph

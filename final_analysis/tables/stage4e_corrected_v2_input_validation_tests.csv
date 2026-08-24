@@ -1,0 +1,24 @@
+test,status,notes
+stage4d_primary_graph_hash_available,pass,51d0f96ba698785c7ad43bf41414338c84c90a3aa21d8bcb0a8b7cb566892afd
+stage4d_primary_graph_modes_preserved,pass,"identity,kegg_njc19,kegg_only"
+IBD_node_count,pass,216
+IBD_microbe_node_count,pass,"{'metabolite': 166, 'microbe': 50}"
+IBD_metabolite_node_count,pass,"{'metabolite': 166, 'microbe': 50}"
+IBD_primary_biological_modes_unchanged,pass,"kegg_njc19,kegg_only"
+IBD_cohort_node_features_match,pass,"[{'cohort': 'Franzosa', 'node_feature_match': True}, {'cohort': 'iHMP', 'node_feature_match': True}]"
+CRC_node_count,pass,161
+CRC_microbe_node_count,pass,"{'metabolite': 109, 'microbe': 52}"
+CRC_metabolite_node_count,pass,"{'metabolite': 109, 'microbe': 52}"
+CRC_primary_biological_modes_unchanged,pass,"kegg_njc19,kegg_only"
+CRC_cohort_node_features_match,pass,"[{'cohort': 'Sinha', 'node_feature_match': True}, {'cohort': 'Yachida', 'node_feature_match': True}]"
+conservative_sensitivity_graph_prepared_separately,pass,6879
+conservative_policy_label_free,pass,"(9831, 10)"
+conservative_retains_njc19_edges,pass,
+IBD_conservative_node_index_bounds,pass,
+IBD_conservative_edge_index_undirected,pass,
+CRC_conservative_node_index_bounds,pass,
+CRC_conservative_edge_index_undirected,pass,
+predictive_tasks_are_pooled_only,pass,"{'IBD': 'IBD_vs_Control', 'CRC': 'CRC_vs_Control'}"
+no_subtype_primary_tasks,pass,
+external_stress_test_not_primary,pass,external mode is prepared but labelled secondary
+stage4e_no_model_fitting_in_dry_run,pass,dry-run writes validation/configuration only

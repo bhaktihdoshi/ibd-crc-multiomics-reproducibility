@@ -1,0 +1,7 @@
+disease,cohort_a,cohort_b,component_a,component_b,matched_by,view,n_common,spearman,cosine_abs,sign_agreement_fraction,selected_overlap_n,selected_union_n,selected_jaccard,component_matching_ambiguity
+IBD,Franzosa,iHMP,1,2,maximum_combined_absolute_loading_cosine_similarity,microbiome,50,0.3650803186205422,0.38873184893187646,0.66,4,21,0.19047619047619047,none_flagged
+IBD,Franzosa,iHMP,1,2,maximum_combined_absolute_loading_cosine_similarity,metabolome,166,0.49982102518750193,0.5250065933269739,0.7650602409638554,19,58,0.3275862068965517,none_flagged
+CRC,Sinha,Yachida,1,1,maximum_combined_absolute_loading_cosine_similarity,microbiome,52,0.12734720597762614,0.16941991545538904,0.6346153846153846,1,20,0.05,none_flagged
+CRC,Sinha,Yachida,1,1,maximum_combined_absolute_loading_cosine_similarity,metabolome,109,0.1500643969944731,0.09267573362398157,0.8440366972477065,2,19,0.10526315789473684,none_flagged
+CRC,Sinha,Yachida,2,2,maximum_combined_absolute_loading_cosine_similarity,microbiome,52,0.35770714428307526,0.10232063481277884,0.7115384615384616,3,18,0.16666666666666666,none_flagged
+CRC,Sinha,Yachida,2,2,maximum_combined_absolute_loading_cosine_similarity,metabolome,109,-0.13244327810820763,0.025877590176178415,0.8073394495412844,2,21,0.09523809523809523,none_flagged

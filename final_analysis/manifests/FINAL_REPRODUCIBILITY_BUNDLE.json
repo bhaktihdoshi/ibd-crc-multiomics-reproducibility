@@ -1,0 +1,96 @@
+{
+  "status": "FINAL_REPRODUCIBILITY_BUNDLE",
+  "generated_utc": "2026-08-24T15:40:23.112027+00:00",
+  "python_version": "3.13.5",
+  "version_control": {
+    "is_git_repository": false,
+    "note": "No git repository detected at PROJECT root; commit-level provenance is unavailable. Only file sha256 hashes and timestamps are recorded below. Recommend `git init` before final submission (see POST_FREEZE_CODE_PATCH_MANIFEST.json)."
+  },
+  "summary_verdicts": {
+    "final_qa_overall_status": "PASS",
+    "post_freeze_equivalence_overall_status": "PASS",
+    "crc_microbiome_sensitivity_status": "complete",
+    "stage2_3_provenance_n_claims": 9
+  },
+  "artifacts": {
+    "stage4_authority_freeze_manifest": {
+      "path": "/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/stage4_multiomics_integration/corrected_v2/manifests/FINAL_STAGE4_AUTHORITY_MANIFEST.json",
+      "exists": true,
+      "sha256": "48bddcd6404f6107bb7ac8987423685777130bf6917b9299f9e12983fd6a1d51",
+      "mtime_utc": "2026-08-20T08:47:40.050234+00:00"
+    },
+    "stage4_authoritative_files_hash_registry": {
+      "path": "/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/stage4_multiomics_integration/corrected_v2/tables/final_stage4_authoritative_files.csv",
+      "exists": true,
+      "sha256": "e381118b2f8046fce60d2ec2be2cd251913cef37ab6a7163c266e987cce2cfc0",
+      "mtime_utc": "2026-08-20T08:47:35.193741+00:00"
+    },
+    "post_freeze_code_patch_manifest": {
+      "path": "/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/stage4_multiomics_integration/corrected_v2/manifests/POST_FREEZE_CODE_PATCH_MANIFEST.json",
+      "exists": true,
+      "sha256": "acab3da72637e7c4114eadeccecf47486d0a1748e4ba32cb5b6053d0bd25c627",
+      "mtime_utc": "2026-08-24T15:39:48.796064+00:00"
+    },
+    "post_freeze_analysis_role_addendum": {
+      "path": "/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/stage4_multiomics_integration/corrected_v2/manifests/POST_FREEZE_ANALYSIS_ROLE_ADDENDUM.json",
+      "exists": true,
+      "sha256": "2a83546df234793316bc5109a4634821bfd2fbfcd58dfae4a63f7dcf4a94f4f3",
+      "mtime_utc": "2026-08-24T15:26:00.652271+00:00"
+    },
+    "post_freeze_claim_policy_addendum": {
+      "path": "/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/stage4_multiomics_integration/corrected_v2/manifests/post_freeze_claim_policy_addendum.csv",
+      "exists": true,
+      "sha256": "8cf9f66213f30760a3626c8c574d5e343e31f26cb7095beb3727551d1709db4a",
+      "mtime_utc": "2026-08-24T15:26:00.670742+00:00"
+    },
+    "final_qa_report": {
+      "path": "/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/stage4_multiomics_integration/corrected_v2/reports/final_stage4_qa_report.json",
+      "exists": true,
+      "sha256": "def396986a09c87324cd7dd003edd2cf297fe0e877531553e3e1f0c113384888",
+      "mtime_utc": "2026-08-24T15:40:21.530707+00:00"
+    },
+    "crc_microbiome_sensitivity_run_manifest": {
+      "path": "/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/stage4_multiomics_integration/corrected_v2/manifests/sensitivity_crc_microbiome_run_manifest.json",
+      "exists": true,
+      "sha256": "eb1ea3b22b18849e2b24ba42e50387875a22e645fd43bc1a8aba3a64e97e03c2",
+      "mtime_utc": "2026-08-24T14:03:19.980441+00:00"
+    },
+    "crc_microbiome_sensitivity_external_performance": {
+      "path": "/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/stage4_multiomics_integration/corrected_v2/tables/sensitivity_crc_microbiome_external_performance.csv",
+      "exists": true,
+      "sha256": "58b0b199d2cf5869c447e0112f2c73f340e11037cf1125baa7912bfe764ff096",
+      "mtime_utc": "2026-08-24T14:03:14.153760+00:00"
+    },
+    "crc_microbiome_sensitivity_replication_check": {
+      "path": "/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/stage4_multiomics_integration/corrected_v2/tables/sensitivity_crc_microbiome_primary_replication_check.csv",
+      "exists": true,
+      "sha256": "62b75ee1af955ef570d673c80d5a31df293381c76867633647728f959b932586",
+      "mtime_utc": "2026-08-24T14:03:14.158743+00:00"
+    },
+    "crc_microbiome_sensitivity_paired_comparisons": {
+      "path": "/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/stage4_multiomics_integration/corrected_v2/tables/sensitivity_crc_microbiome_paired_comparisons_bh_fdr.csv",
+      "exists": true,
+      "sha256": "6df6b5597110d3d5784071af9f2d1a2adadf7d0ec8abcfec8ca708d4f38e7c34",
+      "mtime_utc": "2026-08-24T14:03:19.979304+00:00"
+    },
+    "post_freeze_equivalence_check": {
+      "path": "/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/stage4_multiomics_integration/corrected_v2/manifests/stage4_post_freeze_equivalence_check.json",
+      "exists": true,
+      "sha256": "de7026803a4d17b697552ef465517386624d53f7ffb9c02e626ed268928f8fcc",
+      "mtime_utc": "2026-08-24T14:03:50.446463+00:00"
+    },
+    "stage2_3_manuscript_claim_provenance": {
+      "path": "/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/stage3_ibd_crc_integration/manifests/stage2_3_manuscript_claim_provenance.json",
+      "exists": true,
+      "sha256": "9995a8b1ca302b70f280a25808d7e0eea011ce2c7588d047d0cddaf6e23ceb2d",
+      "mtime_utc": "2026-08-24T15:29:37.126399+00:00"
+    },
+    "stage4_environment_record": {
+      "path": "/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/stage4_multiomics_integration/corrected_v2/STAGE4_ENVIRONMENT.md",
+      "exists": true,
+      "sha256": "64a2c37a28e23fac67bdd5cb1afff0147e87b4758bf80dc1c76fea495df9db85",
+      "mtime_utc": "2026-08-24T12:43:13.259975+00:00"
+    }
+  },
+  "missing_artifacts": []
+}

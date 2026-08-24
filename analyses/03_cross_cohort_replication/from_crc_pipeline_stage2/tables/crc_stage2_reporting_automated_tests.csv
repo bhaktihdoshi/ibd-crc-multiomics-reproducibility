@@ -1,0 +1,15 @@
+test,critical,passed,detail
+reporting_command_does_not_call_primary_modelling,True,True,No primary modelling call in reporting command body.
+protected_primary_outputs_unchanged,True,True,Protected outputs hash/size unchanged.
+external_prediction_row_counts_remain_unchanged,True,True,External prediction rows=1224.
+sample_ids_unique_within_external_context,True,True,No duplicate sample IDs within context.
+probabilities_finite_and_within_0_1,True,True,Probabilities finite and valid.
+true_labels_binary,True,True,Labels are binary.
+each_external_context_has_two_classes,True,True,Every ROC/PR context has both classes.
+pr_prevalence_baseline_equals_mean_true_label,True,True,No-skill PR baseline is calculated as mean(true_label) per transfer direction.
+bootstrap_cis_ordered,True,True,Bootstrap CIs are ordered.
+calibration_failures_have_status,True,True,Calibration status explicit.
+one_class_threshold_retained_and_flagged,True,True,One-class status present.
+all_six_joblib_models_load,True,True,Loaded 6 selected models.
+thresholds_external_data_used_false,True,True,Threshold table records external_data_used=False.
+expected_reporting_outputs_exist,True,True,Core reporting outputs exist.

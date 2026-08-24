@@ -1,0 +1,47 @@
+{
+  "status": "complete",
+  "timestamp_utc": "2026-08-20T08:39:12.746963+00:00",
+  "sensitivity_architectures": [
+    "sensitivity_two_layer_mean",
+    "sensitivity_one_layer_gated"
+  ],
+  "graph_modes": [
+    "identity",
+    "kegg_only",
+    "kegg_njc19",
+    "conservative_kegg_njc19"
+  ],
+  "comparison_family": "separate_sensitivity_family_48_comparisons",
+  "bootstrap_count": 2000,
+  "bootstrap_seed": 20260820,
+  "model_refitting_during_postprocessing": false,
+  "external_analysis_executed": false,
+  "primary_results_modified": false,
+  "ridge_result_policy": "frozen_primary_ridge_used_once_after_equality_check",
+  "input_hashes": {
+    "performance": "9e9f0618bb2c886c763b36166de3cefccb07a16da4dc4c81acded50233e8027e",
+    "predictions": "77ed66ebddc24badc9026f030de39ad356f24deeb94599c2fd6f77276cfe8eef",
+    "thresholds": "e12bc683385d3cc0e5b20fbfebb1b0eb67290b1b6f27bef9f78644b6c70f7511",
+    "loss": "25d1f57b5a72b277cce822d6d73bbf09db45f6e4f4af097099af3edc17557f37",
+    "masking": "d976c92e4bdb049cea60ac16608cc48b29b9520dbf1f531615e958a1bebcb96c",
+    "architecture_records_old_name": "11693a9692507e501654919128aaf09b5b4eb1f9efd84f7068e13c0529f7aa42",
+    "primary_predictions": "6b478a4afd35a47e3f3bc0ad3376f975f889838b1268698c04ebf5a09b6d62ce",
+    "primary_thresholds": "f77e03aa1c438c7fa75b4d396438e6664c10f94ccd95152e7c8aefc82db03039",
+    "primary_membership": "8f1d48da26e0de6182a37b79a9f217efc22213293f29ed6aeba82417aafc3b45",
+    "primary_ensemble_performance": "a04d23cb691cc7131db402db5ccda11eae6c5513335f0ee9cfc4a170dcfa003b",
+    "primary_interpretation": "47c34c54632501f821b1b8f262e32b75c2b879676eba09b66acc3a92bba280d0"
+  },
+  "output_hashes": {
+    "validation": "05aa3fef8f2d38c4a4928d925a433e6c37bdd4878653cfdbe73526f80c620b20",
+    "architecture_records": "3bd6d8aaf215127d3b6b84b6dd4809b1251a3971b503d3ccfd9ecf27917d3dcf",
+    "seed_oof_performance": "b7a2f90225d4dba74868491ef9631b1d2d94af392bc0d1a43503be0c2d6633a4",
+    "seed_summary": "74274cd1c403d95a187d6849861d0b4335436f881384d28f19b91566df7f81dc",
+    "ensemble_predictions": "5cc700ba6a787e7a152ea807cbe4f39c5647d8d5e2969f6cc1765498dad3abdd",
+    "ensemble_performance": "a0ebed6c9acd4be2a840571d59cddea4e9f623ceb560462574722d3b97b21f3d",
+    "bootstrap_ci": "3da1f6ad945307ab82c624222f69f760db27759e15a9f91b9e0682b3410c7989",
+    "paired_comparisons": "b0cde36cbd81f3643faaaef7cdbf8ac3abbc6729fcaf583731fbbc4debf41a42",
+    "diagnostics": "d297f5d7ba4da4c171691b974e55e7bb796990878c080abc23d4e36b873d0d01",
+    "robustness": "f1a7625d55fd4dde8e66da2665e78d6389fc6439f5dadc952d8dfafee6739326",
+    "report": "13d0fe291bda53dba80916ca282c7def0d6d48f04a4bbb96c3d1c1f93b5c377e"
+  }
+}

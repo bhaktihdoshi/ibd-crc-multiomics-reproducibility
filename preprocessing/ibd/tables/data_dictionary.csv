@@ -1,0 +1,7 @@
+file_path,file_type,cohort,data_modality,row_count,column_count,sample_id_column,participant_id_column,diagnosis_column,visit_date_column,clinical_columns,metabolomics_columns,assay_columns,mz_column,retention_time_column,hmdb_column,kegg_column,metabolite_name_column,apparent_processing_state
+IBD-DataSet/FRANZOSA_IBD_2019/metadata.tsv,.tsv,Franzosa,metadata,220,13,Sample,Subject,Study.Group,,"Age,Fecal.Calprotectin,antibiotic,steroids",0,,,,,,,supplied processed table; transformation status not fully resolved
+IBD-DataSet/FRANZOSA_IBD_2019/mtb.tsv,.tsv,Franzosa,metabolomics_matrix,220,8841,Sample,,,,,8840,,,,,,,supplied processed table; transformation status not fully resolved
+IBD-DataSet/FRANZOSA_IBD_2019/mtb.map.tsv,.tsv,Franzosa,metabolomics_annotation,8848,10,,,,,,0,,m.z,Retention.Time,HMDB,KEGG,Compound.Name,supplied processed table; transformation status not fully resolved
+IBD-DataSet/iHMP_IBDMDB/metadata.tsv,.tsv,iHMP,metadata,382,24,Sample,Subject,Study.Group,"week_num,date_of_receipt,visit_num","Gender,consent_age,Antibiotics,fecalcal,BMI_at_baseline,smoking status",0,,,,,,,supplied processed table; transformation status not fully resolved
+IBD-DataSet/iHMP_IBDMDB/mtb.tsv,.tsv,iHMP,metabolomics_matrix,382,81868,Sample,,,,,81867,,,,,,,supplied processed table; transformation status not fully resolved
+IBD-DataSet/iHMP_IBDMDB/mtb.map.tsv,.tsv,iHMP,metabolomics_annotation,81867,7,,,,,,0,Method,m.z,,HMDB,KEGG,Compound.Name,supplied processed table; transformation status not fully resolved

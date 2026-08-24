@@ -1,0 +1,7 @@
+disease,graph_mode,metabolite_nodes,metabolite_metabolite_edges,metabolite_subgraph_density
+IBD,identity,166,0,0.0
+IBD,kegg_only,166,5268,0.3846659364731654
+IBD,kegg_njc19,166,5268,0.3846659364731654
+CRC,identity,109,0,0.0
+CRC,kegg_only,109,4101,0.6967380224260958
+CRC,kegg_njc19,109,4101,0.6967380224260958

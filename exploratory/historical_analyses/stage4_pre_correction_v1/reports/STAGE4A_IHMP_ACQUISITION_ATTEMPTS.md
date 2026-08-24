@@ -1,0 +1,12 @@
+# Stage 4A iHMP Processed Taxonomic Matrix Acquisition Attempts
+
+Authoritative processed WGS taxonomic abundance was sought from IBDMDB/HMP2 routes only. HTTP 200 responses were not accepted unless the local artifact was a real gzip/table and contained sample/taxon structure.
+
+| url                                                                                      | file_name                                 |   file_size_bytes | download_status                  | actual_format          | success_failure   | reason                                                                                      |
+|:-----------------------------------------------------------------------------------------|:------------------------------------------|------------------:|:---------------------------------|:-----------------------|:------------------|:--------------------------------------------------------------------------------------------|
+| https://g-227ca.190ebd.75bc.data.globus.org/ibdmdb/metadata/hmp2_metadata_2018-08-20.csv | hmp2_metadata_2018-08-20.csv              |           9074342 | downloaded                       | csv                    | success           | valid local file                                                                            |
+| https://ibdmdb.org/tunnel/products/HMP2/WGS/1818/taxonomic_profiles.tsv.gz               | taxonomic_profiles.tsv.gz                 |              2794 | downloaded_not_gzip_html_or_text | html                   | failure           | not accepted as abundance matrix: downloaded_not_gzip_html_or_text / html                   |
+| https://ibdmdb.org/downloads/products/HMP2/WGS/1818/taxonomic_profiles.tsv.gz            | taxonomic_profiles_downloads_route.tsv.gz |              3971 | downloaded_not_gzip_html_or_text | html                   | failure           | not accepted as abundance matrix: downloaded_not_gzip_html_or_text / html                   |
+| https://www.ibdmdb.org/tunnel/products/HMP2/WGS/1818/taxonomic_profiles.tsv.gz           | taxonomic_profiles_tunnel_products.tsv.gz |                26 | downloaded_not_gzip_html_or_text | plain_text_bad_request | failure           | not accepted as abundance matrix: downloaded_not_gzip_html_or_text / plain_text_bad_request |
+
+Conclusion: the official metadata file is valid, but no valid processed merged taxonomic abundance matrix was acquired in this pass. Raw FASTQ or per-sample tar reconstruction was not started because it violates the Stage 4A resource gate without explicit approval.

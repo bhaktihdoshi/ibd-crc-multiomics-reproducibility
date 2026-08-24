@@ -1,0 +1,12 @@
+{
+  "status": "complete",
+  "runtime_seconds": 26.25,
+  "script_sha256": "753cf5e7bb255aa8c6c6c1fbec8a1eb79d39c2e96e6e1de3a5d12c2c3054dc3d",
+  "variants": [
+    "clr_zscore",
+    "within_sample_rank",
+    "presence_absence"
+  ],
+  "primary_replication_check": "PASS (see stage4b_corrected_v2b_primary_replication_check equivalent above; run raised RuntimeError and aborted if it had failed)",
+  "isolation_note": "This is a post-freeze sensitivity branch. It writes only to sensitivity_crc_microbiome_* paths, never to stage4b_corrected_v2b_* primary outputs, and is NOT added to FINAL_STAGE4_AUTHORITY_MANIFEST.json or final_stage4_authoritative_files.csv. If these results are used in the thesis they must be cited explicitly as post-freeze sensitivity evidence, not as part of the frozen Stage 4B primary analysis."
+}

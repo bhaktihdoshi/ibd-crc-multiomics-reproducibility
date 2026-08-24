@@ -1,0 +1,10 @@
+{
+  "status": "complete",
+  "graph_hash": "51d0f96ba698785c7ad43bf41414338c84c90a3aa21d8bcb0a8b7cb566892afd",
+  "graph_modes": [
+    "identity",
+    "kegg_only",
+    "kegg_njc19"
+  ],
+  "stage4e_modified_or_run": false
+}

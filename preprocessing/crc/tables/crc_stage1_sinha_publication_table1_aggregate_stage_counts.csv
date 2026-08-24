@@ -1,0 +1,5 @@
+source,stage_category,reported_percent_among_crc_cases,n_crc_cases,implied_count,participant_level_mapping_available
+Sinha et al. 2016 publication Table 1,Non-invasive,21.4,42,9,False
+Sinha et al. 2016 publication Table 1,"Invasive, no known metastases",42.9,42,18,False
+Sinha et al. 2016 publication Table 1,Metastatic,33.3,42,14,False
+Sinha et al. 2016 publication Table 1,Missing,2.4,42,1,False

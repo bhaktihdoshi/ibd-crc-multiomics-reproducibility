@@ -1,0 +1,12 @@
+{
+  "stage": "stage4d_graph_crossomic_dry_run",
+  "timestamp": "2026-08-13 04:27:46",
+  "python": "3.13.5 | packaged by Anaconda, Inc. | (main, Jun 12 2025, 11:23:37) [Clang 14.0.6 ]",
+  "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+  "random_seed": 20260813,
+  "source_available": true,
+  "schema_valid": "True",
+  "mapped_records": 0,
+  "cross_edges": 0,
+  "explicit_relation_available": false
+}

@@ -1,0 +1,17 @@
+disease,factor,mean_metabolome_r2_percent,mean_microbiome_r2_percent,mean_total_r2_percent,factor_classification,classification_rule
+CRC,Factor1,15.52571336379535,1.5397859259098146,17.065499289705166,metabolome_dominant,shared if each view contributes >= 20% of mean two-view R2; otherwise dominant view is larger R2
+CRC,Factor2,6.0672591414006,2.6784172928075387,8.74567643420814,shared_multiview,shared if each view contributes >= 20% of mean two-view R2; otherwise dominant view is larger R2
+CRC,Factor3,7.268545596771858,0.010107357456679011,7.278652954228537,metabolome_dominant,shared if each view contributes >= 20% of mean two-view R2; otherwise dominant view is larger R2
+CRC,Factor4,6.155381518120839,0.5586046094066655,6.713986127527504,metabolome_dominant,shared if each view contributes >= 20% of mean two-view R2; otherwise dominant view is larger R2
+CRC,Factor5,0.0,0.0,0.0,low_information,shared if each view contributes >= 20% of mean two-view R2; otherwise dominant view is larger R2
+CRC,Factor6,0.0,0.0,0.0,low_information,shared if each view contributes >= 20% of mean two-view R2; otherwise dominant view is larger R2
+CRC,Factor7,0.0,0.0,0.0,low_information,shared if each view contributes >= 20% of mean two-view R2; otherwise dominant view is larger R2
+CRC,Factor8,0.0,0.0,0.0,low_information,shared if each view contributes >= 20% of mean two-view R2; otherwise dominant view is larger R2
+IBD,Factor1,10.26796426269424,9.18464527943676,19.452609542131,shared_multiview,shared if each view contributes >= 20% of mean two-view R2; otherwise dominant view is larger R2
+IBD,Factor2,8.74741221631341,1.1546816427365214,9.902093859049932,metabolome_dominant,shared if each view contributes >= 20% of mean two-view R2; otherwise dominant view is larger R2
+IBD,Factor3,4.3727627809687135,2.9832101191883567,7.35597290015707,shared_multiview,shared if each view contributes >= 20% of mean two-view R2; otherwise dominant view is larger R2
+IBD,Factor4,3.6080590027514683,2.2024043189539153,5.810463321705384,shared_multiview,shared if each view contributes >= 20% of mean two-view R2; otherwise dominant view is larger R2
+IBD,Factor5,2.7108692448440164,0.3237386548404386,3.034607899684455,metabolome_dominant,shared if each view contributes >= 20% of mean two-view R2; otherwise dominant view is larger R2
+IBD,Factor6,0.0,0.0,0.0,low_information,shared if each view contributes >= 20% of mean two-view R2; otherwise dominant view is larger R2
+IBD,Factor7,0.0,0.0,0.0,low_information,shared if each view contributes >= 20% of mean two-view R2; otherwise dominant view is larger R2
+IBD,Factor8,0.0,0.0,0.0,low_information,shared if each view contributes >= 20% of mean two-view R2; otherwise dominant view is larger R2

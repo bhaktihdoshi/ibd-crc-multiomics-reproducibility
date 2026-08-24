@@ -1,0 +1,39 @@
+{
+  "status": "FINAL_STAGE4_AUTHORITY_FROZEN",
+  "timestamp_utc": "2026-08-20T08:47:40.049787+00:00",
+  "model_fitting_executed_in_this_pass": false,
+  "external_stage4e_executed": false,
+  "stage_summaries": {
+    "Stage4A": "authoritative genus harmonisation; 50 shared IBD genera; 52 shared CRC genera; no parent-plus-descendant double counting; sample reclosure before CLR",
+    "Stage4B": "microbiome-only principal transportability; metabolome and early integration stress tests; decision-score ROC/PR; v2c Branch B interpretation",
+    "Stage4C": "MOFA label-free structural integration; sCCA tuning diagnostics and apparent full-data correlations; no causal claims",
+    "Stage4D": "identity, KEGG-only, broad KEGG+NJC19, conservative KEGG+NJC19 policies; NJC19 production/consumption/transport; no phenotype-derived edges",
+    "Stage4E": "primary one-layer mean-pooling GCN, identity ablation, matched ridge, 5 folds x 5 seeds, ensemble OOF primary performance, separate 24 primary and 48 sensitivity FDR families"
+  },
+  "authoritative_files_csv": "/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/stage4_multiomics_integration/corrected_v2/tables/final_stage4_authoritative_files.csv",
+  "stale_files_csv": "/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/stage4_multiomics_integration/corrected_v2/tables/final_stage4_stale_files.csv",
+  "claim_policy_csv": "/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/stage4_multiomics_integration/corrected_v2/tables/final_stage4_claim_policy.csv",
+  "final_tables": {
+    "table1_cohort_and_assay_overview": "/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/stage4_multiomics_integration/corrected_v2/tables/final_stage4/table1_cohort_and_assay_overview.csv",
+    "table2_stage4b_transportability": "/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/stage4_multiomics_integration/corrected_v2/tables/final_stage4/table2_stage4b_transportability.csv",
+    "table3_latent_and_graph_structure": "/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/stage4_multiomics_integration/corrected_v2/tables/final_stage4/table3_latent_and_graph_structure.csv",
+    "table4_stage4e_authoritative_ensemble_performance": "/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/stage4_multiomics_integration/corrected_v2/tables/final_stage4/table4_stage4e_authoritative_ensemble_performance.csv",
+    "table5_stage4e_paired_topology_findings": "/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/stage4_multiomics_integration/corrected_v2/tables/final_stage4/table5_stage4e_paired_topology_findings.csv",
+    "supp_stage4e_primary_24_comparisons": "/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/stage4_multiomics_integration/corrected_v2/tables/final_stage4/supp_stage4e_primary_24_comparisons.csv",
+    "supp_stage4e_sensitivity_48_comparisons": "/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/stage4_multiomics_integration/corrected_v2/tables/final_stage4/supp_stage4e_sensitivity_48_comparisons.csv"
+  },
+  "final_figures": [
+    "/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/stage4_multiomics_integration/corrected_v2/figures/final_stage4/figure_A_stage4_workflow.png",
+    "/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/stage4_multiomics_integration/corrected_v2/figures/final_stage4/figure_B_stage4b_transportability.png",
+    "/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/stage4_multiomics_integration/corrected_v2/figures/final_stage4/figure_C_stage4c_latent_integration.png",
+    "/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/stage4_multiomics_integration/corrected_v2/figures/final_stage4/figure_D_stage4d_topology.png",
+    "/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/stage4_multiomics_integration/corrected_v2/figures/final_stage4/figure_E_stage4e_primary_performance.png",
+    "/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/stage4_multiomics_integration/corrected_v2/figures/final_stage4/figure_F_stage4e_topology_contrasts.png",
+    "/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/stage4_multiomics_integration/corrected_v2/figures/final_stage4/figure_G_stage4e_architecture_robustness.png",
+    "/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/stage4_multiomics_integration/corrected_v2/figures/final_stage4/figure_H_stage4e_probability_diagnostics.png"
+  ],
+  "figure_source_values": "/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/stage4_multiomics_integration/corrected_v2/tables/final_stage4_figure_source_values.csv",
+  "authoritative_file_count": 29,
+  "stale_file_count": 18,
+  "figure_source_rows": 7
+}

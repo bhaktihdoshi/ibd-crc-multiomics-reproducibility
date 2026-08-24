@@ -1,0 +1,5 @@
+analysis,disease,cohort,n,microbiome_p,metabolome_p,group_aware_common_valid_schema,sample_order_aligned,finite_after_preprocessing,phenotype_used_for_input_selection
+MOFA,IBD,Franzosa,137,50,166,True,True,True,False
+MOFA,IBD,iHMP,91,50,166,True,True,True,False
+MOFA,CRC,Sinha,131,52,109,True,True,True,False
+MOFA,CRC,Yachida,252,52,109,True,True,True,False

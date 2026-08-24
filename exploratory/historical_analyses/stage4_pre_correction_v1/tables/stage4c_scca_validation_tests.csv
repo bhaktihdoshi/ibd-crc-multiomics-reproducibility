@@ -1,0 +1,10 @@
+test,status,notes
+view_alignment,pass,microbiome/metabolome/metadata sample order aligned
+component_count,pass,"[1, 2]"
+pma_available,pass,1.2.4
+true_penalised_scca,pass,PMA::CCA uses penaltyx/penaltyz inside the optimisation objective
+unsupervised_tuning,pass,5-fold held-out cross-view correlation; penalty grid defined without disease labels
+no_outcome_tuning,pass,phenotypes excluded from sCCA tuning design
+r_bridge_constructed,pass,/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/stage4_multiomics_integration/scripts/run_stage4c_scca_pma.R
+dry_run_reaches_fit_boundary,pass,"constructed four datasets, CV plans, 360 candidate fold fits and 4 final fits; no fit() called"
+dry_run_writes_no_complete_markers,pass,no COMPLETE markers created

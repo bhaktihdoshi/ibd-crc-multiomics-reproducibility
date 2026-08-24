@@ -1,0 +1,39 @@
+MIT License
+
+Copyright (c) 2026 [Author name — fill in before publishing]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+SCOPE: This licence applies ONLY to the original code, scripts, and
+documentation authored by the thesis project team in this repository. It does
+NOT grant any rights over, and does not apply to:
+
+  - Third-party cohort data (Franzosa, iHMP/IBDMDB, Sinha, Yachida) — not
+    redistributed in this repository; see data/README.md for original sources
+    and their own licence/access terms.
+  - Third-party reference resources (KEGG, HMDB, NJC19, MiMeDB) — used as
+    inputs to the analysis but not redistributed; subject to their own terms.
+  - The associated dissertation/thesis document, once added — subject to the
+    author's institution's own policies, not this licence.
+  - Any publications cited in docs/references_and_data_sources.md.
+
+See docs/data_provenance.md for the full distinction between the code
+licence, third-party data licences, and third-party resources.

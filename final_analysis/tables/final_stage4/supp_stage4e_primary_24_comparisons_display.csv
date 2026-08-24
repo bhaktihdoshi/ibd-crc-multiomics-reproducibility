@@ -1,0 +1,25 @@
+cohort,model_a,model_b,comparison,observed_delta_roc_auc,bootstrap_median_delta_roc_auc,ci_low,ci_high,bootstrap_n,bootstrap_seed,proportion_delta_le_zero,proportion_delta_ge_zero,finite_resample_two_sided_p,interpretation,bh_fdr_p
+Franzosa,kegg_njc19,identity,kegg_njc19_minus_identity,-0.124,-0.123,-0.2,-0.055,2000,20260820,1.0,0.0,0.001,CI excludes zero in favour of B,0.003
+Franzosa,conservative_kegg_njc19,identity,conservative_kegg_njc19_minus_identity,-0.118,-0.117,-0.183,-0.058,2000,20260820,1.0,0.0,0.001,CI excludes zero in favour of B,0.003
+Franzosa,kegg_njc19,conservative_kegg_njc19,kegg_njc19_minus_conservative_kegg_njc19,-0.006,-0.006,-0.037,0.019,2000,20260820,0.667,0.336,0.673,inconclusive,0.734
+Franzosa,kegg_only,identity,kegg_only_minus_identity,-0.098,-0.098,-0.153,-0.041,2000,20260820,1.0,0.0,0.002,CI excludes zero in favour of B,0.006
+Franzosa,kegg_njc19,ridge_early_integration,kegg_njc19_minus_ridge_early_integration,-0.348,-0.35,-0.452,-0.248,2000,20260820,1.0,0.0,0.001,CI excludes zero in favour of B,0.003
+Franzosa,conservative_kegg_njc19,ridge_early_integration,conservative_kegg_njc19_minus_ridge_early_integration,-0.342,-0.339,-0.442,-0.237,2000,20260820,1.0,0.0,0.001,CI excludes zero in favour of B,0.003
+Sinha,kegg_njc19,identity,kegg_njc19_minus_identity,-0.024,-0.023,-0.099,0.049,2000,20260820,0.735,0.267,0.535,inconclusive,0.734
+Sinha,conservative_kegg_njc19,identity,conservative_kegg_njc19_minus_identity,-0.028,-0.029,-0.108,0.048,2000,20260820,0.772,0.23,0.461,inconclusive,0.691
+Sinha,kegg_njc19,conservative_kegg_njc19,kegg_njc19_minus_conservative_kegg_njc19,0.005,0.004,-0.014,0.022,2000,20260820,0.307,0.698,0.615,inconclusive,0.734
+Sinha,kegg_only,identity,kegg_only_minus_identity,-0.025,-0.025,-0.09,0.04,2000,20260820,0.784,0.219,0.439,inconclusive,0.691
+Sinha,kegg_njc19,ridge_early_integration,kegg_njc19_minus_ridge_early_integration,-0.227,-0.228,-0.375,-0.083,2000,20260820,0.999,0.001,0.003,CI excludes zero in favour of B,0.007
+Sinha,conservative_kegg_njc19,ridge_early_integration,conservative_kegg_njc19_minus_ridge_early_integration,-0.232,-0.233,-0.38,-0.082,2000,20260820,0.999,0.001,0.003,CI excludes zero in favour of B,0.007
+Yachida,kegg_njc19,identity,kegg_njc19_minus_identity,0.013,0.013,-0.055,0.082,2000,20260820,0.358,0.642,0.718,inconclusive,0.749
+Yachida,conservative_kegg_njc19,identity,conservative_kegg_njc19_minus_identity,0.032,0.032,-0.039,0.104,2000,20260820,0.192,0.808,0.384,inconclusive,0.691
+Yachida,kegg_njc19,conservative_kegg_njc19,kegg_njc19_minus_conservative_kegg_njc19,-0.02,-0.02,-0.039,-0.002,2000,20260820,0.982,0.018,0.038,CI excludes zero in favour of B,0.076
+Yachida,kegg_only,identity,kegg_only_minus_identity,0.015,0.014,-0.044,0.072,2000,20260820,0.335,0.666,0.671,inconclusive,0.734
+Yachida,kegg_njc19,ridge_early_integration,kegg_njc19_minus_ridge_early_integration,-0.222,-0.222,-0.316,-0.123,2000,20260820,1.0,0.0,0.001,CI excludes zero in favour of B,0.003
+Yachida,conservative_kegg_njc19,ridge_early_integration,conservative_kegg_njc19_minus_ridge_early_integration,-0.202,-0.204,-0.297,-0.099,2000,20260820,1.0,0.0,0.001,CI excludes zero in favour of B,0.003
+iHMP,kegg_njc19,identity,kegg_njc19_minus_identity,0.002,0.002,-0.055,0.055,2000,20260820,0.483,0.522,0.967,inconclusive,0.967
+iHMP,conservative_kegg_njc19,identity,conservative_kegg_njc19_minus_identity,0.016,0.017,-0.036,0.075,2000,20260820,0.284,0.718,0.569,inconclusive,0.734
+iHMP,kegg_njc19,conservative_kegg_njc19,kegg_njc19_minus_conservative_kegg_njc19,-0.014,-0.014,-0.05,0.02,2000,20260820,0.794,0.209,0.419,inconclusive,0.691
+iHMP,kegg_only,identity,kegg_only_minus_identity,-0.011,-0.011,-0.053,0.033,2000,20260820,0.686,0.318,0.636,inconclusive,0.734
+iHMP,kegg_njc19,ridge_early_integration,kegg_njc19_minus_ridge_early_integration,-0.242,-0.244,-0.391,-0.093,2000,20260820,1.0,0.0,0.001,CI excludes zero in favour of B,0.003
+iHMP,conservative_kegg_njc19,ridge_early_integration,conservative_kegg_njc19_minus_ridge_early_integration,-0.228,-0.231,-0.391,-0.071,2000,20260820,0.995,0.005,0.011,CI excludes zero in favour of B,0.024

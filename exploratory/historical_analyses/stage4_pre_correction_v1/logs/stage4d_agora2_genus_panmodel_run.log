@@ -1,0 +1,10 @@
+{
+  "stage": "stage4d_agora2_genus_panmodel",
+  "timestamp": "2026-08-13 04:45:01",
+  "python": "3.13.5 | packaged by Anaconda, Inc. | (main, Jun 12 2025, 11:23:37) [Clang 14.0.6 ]",
+  "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+  "random_seed": 20260813,
+  "status": "AGORA2_GENUS_PANMODEL_NOT_ACCESSIBLE",
+  "manifest_rows": 64,
+  "listing_provided": false
+}

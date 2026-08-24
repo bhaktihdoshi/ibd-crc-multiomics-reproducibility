@@ -1,0 +1,5 @@
+cohort,sample_n,feature_p,explicit_genus_features,species_features,family_or_other_features,duplicated_taxon_labels,duplicated_sample_ids,median_row_sum,min_row_sum,max_row_sum,overall_zero_fraction,overall_missing_fraction,authoritative_genus_policy
+Franzosa,137,160,8,152,0,0,0,0.9077681999999997,0.4654470999999999,0.9960350000000001,0.597992700729927,0.00625,aggregate_species_to_genus
+iHMP,91,466,126,340,0,0,0,199.99999999999997,199.9999299999999,200.00010999999995,0.8262274206480215,0.0,explicit_genus_only
+Sinha,131,100,57,0,43,0,0,1.463641051,0.7781255420000002,1.7698412710000004,0.5249618320610687,0.0,explicit_genus_only
+Yachida,252,10133,1941,8192,0,0,0,85572.4999999523,28101.999999976168,266865.99999993027,0.8235483936658318,0.0,explicit_genus_only

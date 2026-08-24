@@ -1,0 +1,10 @@
+{
+  "status": "complete",
+  "code_hash": "feebbc381ea80bf605d53211f9bb005035e55e3ac15dbb3c3cc8319a1997e1c3",
+  "task": "CD_vs_Control",
+  "disease": "IBD",
+  "training_cohort": "iHMP",
+  "external_cohort": "Franzosa",
+  "representation": "MICROBIOME",
+  "completed": "2026-08-13 01:57:34"
+}

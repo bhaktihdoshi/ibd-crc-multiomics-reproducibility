@@ -1,0 +1,122 @@
+{
+  "overall_status": "PASS",
+  "checks": {
+    "genus_matrix_reconstruction": {
+      "ok": true,
+      "per_cohort": {
+        "Franzosa": {
+          "live_shape": [
+            137,
+            57
+          ],
+          "frozen_shape": [
+            137,
+            57
+          ],
+          "same_columns": true,
+          "same_index": true,
+          "numerically_equal": true
+        },
+        "iHMP": {
+          "live_shape": [
+            91,
+            126
+          ],
+          "frozen_shape": [
+            91,
+            126
+          ],
+          "same_columns": true,
+          "same_index": true,
+          "numerically_equal": true
+        },
+        "Sinha": {
+          "live_shape": [
+            131,
+            57
+          ],
+          "frozen_shape": [
+            131,
+            57
+          ],
+          "same_columns": true,
+          "same_index": true,
+          "numerically_equal": true
+        },
+        "Yachida": {
+          "live_shape": [
+            252,
+            1941
+          ],
+          "frozen_shape": [
+            252,
+            1941
+          ],
+          "same_columns": true,
+          "same_index": true,
+          "numerically_equal": true
+        }
+      },
+      "issues": []
+    },
+    "shared_genus_space_sizes": {
+      "ok": true,
+      "ibd_shared_n": 50,
+      "crc_shared_n": 52,
+      "expected": {
+        "ibd": 50,
+        "crc": 52
+      }
+    },
+    "microbiome_clr_zscore_replication": {
+      "ok": true,
+      "tolerance": 1e-06,
+      "comparisons": [
+        {
+          "task": "IBD_vs_Control",
+          "training_cohort": "Franzosa",
+          "external_cohort": "iHMP",
+          "live_roc_auc": 0.6568047337278108,
+          "frozen_roc_auc": 0.6568047337278108,
+          "roc_auc_match": true,
+          "live_pr_auc": 0.7934447036185241,
+          "frozen_pr_auc": 0.7934447036185241,
+          "pr_auc_match": true
+        },
+        {
+          "task": "IBD_vs_Control",
+          "training_cohort": "iHMP",
+          "external_cohort": "Franzosa",
+          "live_roc_auc": 0.5405643738977072,
+          "frozen_roc_auc": 0.5405643738977072,
+          "roc_auc_match": true,
+          "live_pr_auc": 0.6538386734686386,
+          "frozen_pr_auc": 0.6538386734686386,
+          "pr_auc_match": true
+        },
+        {
+          "task": "CRC_vs_Control",
+          "training_cohort": "Sinha",
+          "external_cohort": "Yachida",
+          "live_roc_auc": 0.5629606299212598,
+          "frozen_roc_auc": 0.5629606299212598,
+          "roc_auc_match": true,
+          "live_pr_auc": 0.5464119132601165,
+          "frozen_pr_auc": 0.5464119132601165,
+          "pr_auc_match": true
+        },
+        {
+          "task": "CRC_vs_Control",
+          "training_cohort": "Yachida",
+          "external_cohort": "Sinha",
+          "live_roc_auc": 0.5818619582664526,
+          "frozen_roc_auc": 0.5818619582664526,
+          "roc_auc_match": true,
+          "live_pr_auc": 0.4599806621655337,
+          "frozen_pr_auc": 0.4599806621655337,
+          "pr_auc_match": true
+        }
+      ]
+    }
+  }
+}

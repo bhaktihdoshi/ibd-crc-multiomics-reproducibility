@@ -1,0 +1,2 @@
+test,status,notes
+synthetic_two_group_two_view_k8_build,pass,mofapy2 set_data_df/options/build succeeded; run() not called

@@ -1,0 +1,53 @@
+pathway_id,pathway_name,ibd_significant_any_cohort,ibd_replicated,crc_significant_any_cohort,crc_replicated,shared_ibd_crc,notes
+map00073,"Cutin, suberine and wax biosynthesis",False,False,False,False,False,Descriptive comparison only; no Stage 3 cross-disease enrichment or modelling performed.
+map00120,Primary bile acid biosynthesis,False,False,False,False,False,Descriptive comparison only; no Stage 3 cross-disease enrichment or modelling performed.
+map00121,Secondary bile acid biosynthesis,False,False,False,False,False,Descriptive comparison only; no Stage 3 cross-disease enrichment or modelling performed.
+map00220,Arginine biosynthesis,False,False,False,False,False,Descriptive comparison only; no Stage 3 cross-disease enrichment or modelling performed.
+map00230,Purine metabolism,False,False,False,False,False,Descriptive comparison only; no Stage 3 cross-disease enrichment or modelling performed.
+map00232,Caffeine metabolism,False,False,False,False,False,Descriptive comparison only; no Stage 3 cross-disease enrichment or modelling performed.
+map00240,Pyrimidine metabolism,False,False,False,False,False,Descriptive comparison only; no Stage 3 cross-disease enrichment or modelling performed.
+map00260,"Glycine, serine and threonine metabolism",False,False,False,False,False,Descriptive comparison only; no Stage 3 cross-disease enrichment or modelling performed.
+map00270,Cysteine and methionine metabolism,False,False,False,False,False,Descriptive comparison only; no Stage 3 cross-disease enrichment or modelling performed.
+map00310,Lysine degradation,False,False,False,False,False,Descriptive comparison only; no Stage 3 cross-disease enrichment or modelling performed.
+map00330,Arginine and proline metabolism,False,False,False,False,False,Descriptive comparison only; no Stage 3 cross-disease enrichment or modelling performed.
+map00340,Histidine metabolism,False,False,False,False,False,Descriptive comparison only; no Stage 3 cross-disease enrichment or modelling performed.
+map00360,Phenylalanine metabolism,False,False,False,False,False,Descriptive comparison only; no Stage 3 cross-disease enrichment or modelling performed.
+map00400,"Phenylalanine, tyrosine and tryptophan biosynthesis",False,False,False,False,False,Descriptive comparison only; no Stage 3 cross-disease enrichment or modelling performed.
+map00410,beta-Alanine metabolism,False,False,False,False,False,Descriptive comparison only; no Stage 3 cross-disease enrichment or modelling performed.
+map00460,Cyanoamino acid metabolism,False,False,False,False,False,Descriptive comparison only; no Stage 3 cross-disease enrichment or modelling performed.
+map00470,D-Amino acid metabolism,False,False,False,False,False,Descriptive comparison only; no Stage 3 cross-disease enrichment or modelling performed.
+map00480,Glutathione metabolism,False,False,False,False,False,Descriptive comparison only; no Stage 3 cross-disease enrichment or modelling performed.
+map00591,Linoleic acid metabolism,False,False,False,False,False,Descriptive comparison only; no Stage 3 cross-disease enrichment or modelling performed.
+map00620,Pyruvate metabolism,False,False,False,False,False,Descriptive comparison only; no Stage 3 cross-disease enrichment or modelling performed.
+map00627,Aminobenzoate degradation,False,False,False,False,False,Descriptive comparison only; no Stage 3 cross-disease enrichment or modelling performed.
+map00630,Glyoxylate and dicarboxylate metabolism,False,False,False,False,False,Descriptive comparison only; no Stage 3 cross-disease enrichment or modelling performed.
+map00640,Propanoate metabolism,False,False,False,False,False,Descriptive comparison only; no Stage 3 cross-disease enrichment or modelling performed.
+map00680,Methane metabolism,False,False,False,False,False,Descriptive comparison only; no Stage 3 cross-disease enrichment or modelling performed.
+map00760,Nicotinate and nicotinamide metabolism,False,False,False,False,False,Descriptive comparison only; no Stage 3 cross-disease enrichment or modelling performed.
+map00770,Pantothenate and CoA biosynthesis,False,False,False,False,False,Descriptive comparison only; no Stage 3 cross-disease enrichment or modelling performed.
+map00860,Porphyrin metabolism,False,False,False,False,False,Descriptive comparison only; no Stage 3 cross-disease enrichment or modelling performed.
+map00920,Sulfur metabolism,False,False,False,False,False,Descriptive comparison only; no Stage 3 cross-disease enrichment or modelling performed.
+map00960,"Tropane, piperidine and pyridine alkaloid biosynthesis",False,False,False,False,False,Descriptive comparison only; no Stage 3 cross-disease enrichment or modelling performed.
+map00970,Aminoacyl-tRNA biosynthesis,False,False,False,False,False,Descriptive comparison only; no Stage 3 cross-disease enrichment or modelling performed.
+map00999,Biosynthesis of various plant secondary metabolites,False,False,False,False,False,Descriptive comparison only; no Stage 3 cross-disease enrichment or modelling performed.
+map01040,Biosynthesis of unsaturated fatty acids,False,False,False,False,False,Descriptive comparison only; no Stage 3 cross-disease enrichment or modelling performed.
+map01060,Biosynthesis of plant secondary metabolites,False,False,False,False,False,Descriptive comparison only; no Stage 3 cross-disease enrichment or modelling performed.
+map01061,Biosynthesis of phenylpropanoids,False,False,False,False,False,Descriptive comparison only; no Stage 3 cross-disease enrichment or modelling performed.
+map01063,Biosynthesis of alkaloids derived from shikimate pathway,False,False,False,False,False,Descriptive comparison only; no Stage 3 cross-disease enrichment or modelling performed.
+map01064,"Biosynthesis of alkaloids derived from ornithine, lysine and nicotinic acid",False,False,False,False,False,Descriptive comparison only; no Stage 3 cross-disease enrichment or modelling performed.
+map01065,Biosynthesis of alkaloids derived from histidine and purine,False,False,False,False,False,Descriptive comparison only; no Stage 3 cross-disease enrichment or modelling performed.
+map01070,Biosynthesis of plant hormones,False,False,False,False,False,Descriptive comparison only; no Stage 3 cross-disease enrichment or modelling performed.
+map01210,2-Oxocarboxylic acid metabolism,False,False,False,False,False,Descriptive comparison only; no Stage 3 cross-disease enrichment or modelling performed.
+map01220,Degradation of aromatic compounds,False,False,False,False,False,Descriptive comparison only; no Stage 3 cross-disease enrichment or modelling performed.
+map01230,Biosynthesis of amino acids,False,False,False,False,False,Descriptive comparison only; no Stage 3 cross-disease enrichment or modelling performed.
+map01232,Nucleotide metabolism,False,False,False,False,False,Descriptive comparison only; no Stage 3 cross-disease enrichment or modelling performed.
+map02010,ABC transporters,False,False,False,False,False,Descriptive comparison only; no Stage 3 cross-disease enrichment or modelling performed.
+map04066,HIF-1 signaling pathway,False,False,False,False,False,Descriptive comparison only; no Stage 3 cross-disease enrichment or modelling performed.
+map04080,Neuroactive ligand-receptor interaction,False,False,False,False,False,Descriptive comparison only; no Stage 3 cross-disease enrichment or modelling performed.
+map04148,Efferocytosis,False,False,False,False,False,Descriptive comparison only; no Stage 3 cross-disease enrichment or modelling performed.
+map04922,Glucagon signaling pathway,False,False,False,False,False,Descriptive comparison only; no Stage 3 cross-disease enrichment or modelling performed.
+map04974,Protein digestion and absorption,False,False,False,False,False,Descriptive comparison only; no Stage 3 cross-disease enrichment or modelling performed.
+map04976,Bile secretion,False,False,False,False,False,Descriptive comparison only; no Stage 3 cross-disease enrichment or modelling performed.
+map04977,Vitamin digestion and absorption,False,False,False,False,False,Descriptive comparison only; no Stage 3 cross-disease enrichment or modelling performed.
+map04978,Mineral absorption,False,False,False,False,False,Descriptive comparison only; no Stage 3 cross-disease enrichment or modelling performed.
+map05230,Central carbon metabolism in cancer,False,False,False,False,False,Descriptive comparison only; no Stage 3 cross-disease enrichment or modelling performed.

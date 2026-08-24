@@ -1,0 +1,13 @@
+{
+  "stage": "stage4d_njc19_prepare",
+  "timestamp": "2026-08-13 05:26:43",
+  "python": "3.13.5 | packaged by Anaconda, Inc. | (main, Jun 12 2025, 11:23:37) [Clang 14.0.6 ]",
+  "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+  "random_seed": 20260813,
+  "status": "STAGE4D_NJC19_READY",
+  "source_dir": "thesis_preprocessing_workflow/stage4_multiomics_integration/data/stage4d_prior_sources/njc19/extracted",
+  "source_zip": "/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/stage4_multiomics_integration/data/stage4d_prior_sources/njc19/NJC19_network_data_and_code.zip",
+  "source_obtained": true,
+  "candidate_relations": 8599,
+  "edges": 462
+}

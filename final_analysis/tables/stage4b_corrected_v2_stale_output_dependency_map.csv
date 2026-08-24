@@ -1,0 +1,5 @@
+artifact_or_claim,status,reason,replacement
+CD_vs_Control / UC_vs_Control Stage 4 predictive figures,stale_for_corrected_v2,Corrected-v2 predictive scope is pooled IBD vs control and CRC vs control only.,Use corrected-v2 pooled IBD and CRC Stage 4B outputs.
+Clinical-variable Stage 4 multi-omics views or graph nodes,exclude_from_corrected_v2,Clinical variables were not sufficiently complete and harmonised for fair common cross-cohort prediction.,Use molecular views only; clinical variables may be descriptive context.
+NJC19 positive association wording,stale_wording,"NJC19 edges are curated production, consumption, or transport relations, not disease-derived positive statistical associations.",Use unsigned undirected curated relation wording and preserve relation_type/provenance.
+Separate-CI overlap as model comparison evidence,methodologically_stale,"Model comparisons require paired external resampling, not overlap of independent confidence intervals.",Use stage4b_corrected_v2_paired_model_comparisons.csv.

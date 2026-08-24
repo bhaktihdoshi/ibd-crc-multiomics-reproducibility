@@ -1,0 +1,17 @@
+stage,result,value,authoritative_source
+Stage 3A,strict shared HMDB metabolites,56.0,stage3_final_master_metabolite_results.csv
+Stage 3A,complete-case effect integration metabolites,55.0,stage3a_primary_complete_case_metabolites.csv
+Stage 3A,cross-disease BH-FDR-significant Spearman correlations,0.0,stage3a_cross_disease_correlation_results.csv
+Stage 3A,IBD replicated events,10.0,stage3a_within_disease_concordance.csv
+Stage 3A,unique IBD replicated IDs,7.0,stage3a_within_disease_concordance.csv
+Stage 3A,CRC replicated metabolites,0.0,stage3a_within_disease_concordance.csv
+Stage 3A,strict-space replicated IBD IDs with CRC context,3.0,stage3a_ibd_replicated_metabolites_crc_context.csv
+Stage 3B,Yachida included n,317.0,stage3b_yachida_ordered_state_trend_results.csv
+Stage 3B,tested metabolites,56.0,stage3b_yachida_ordered_state_trend_results.csv
+Stage 3B,HC3 BH-FDR significant,2.0,stage3b_yachida_ordered_state_trend_results.csv
+Stage 3B,Spearman BH-FDR significant,6.0,stage3b_yachida_ordered_state_trend_results.csv
+Stage 3B,directionally coherent + primary Stage 3B FDR significant,0.0,stage3b_directionally_coherent_fdr_significant_candidates.csv
+Stage 3A,IBD within-disease Spearman rho,0.7821789321789323,stage3a_within_disease_concordance.csv
+Stage 3A,IBD within-disease Spearman p-value,1.7759282726454697e-12,stage3a_within_disease_concordance.csv
+Stage 3A,CRC within-disease Spearman rho,0.1343130553656869,stage3a_within_disease_concordance.csv
+Stage 3A,CRC within-disease Spearman p-value,0.3236826602874212,stage3a_within_disease_concordance.csv

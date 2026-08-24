@@ -1,0 +1,3 @@
+# Stage 3 Final Limitations Summary
+
+The Stage 3 synthesis is limited by cross-sectional data, four cohorts with different platforms and preprocessing pipelines, predominantly sporadic CRC cohorts, and the absence of a direct IBD-to-colitis-associated-CRC longitudinal cohort. CRC cross-cohort effect concordance was weak, strict CRC replication was not observed, no cross-disease correlation survived FDR correction, and no directionally coherent Stage 3A plus primary Stage 3B FDR-significant candidate was identified. Stage 3B used Yachida only, residual confounding is possible, and the Stage IV group was relatively small.

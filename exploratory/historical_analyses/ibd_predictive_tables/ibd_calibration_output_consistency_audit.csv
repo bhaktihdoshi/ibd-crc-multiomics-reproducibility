@@ -1,0 +1,10 @@
+path,exists,policy,used_for_selection_or_threshold
+figures/main_text/calibration_cd.png,True,retain_as_external_assessment_only,False
+figures/main_text/calibration_cd.svg,True,retain_as_external_assessment_only,False
+figures/main_text/calibration_ibd.png,True,retain_as_external_assessment_only,False
+figures/main_text/calibration_ibd.svg,True,retain_as_external_assessment_only,False
+figures/main_text/calibration_uc.png,True,retain_as_external_assessment_only,False
+figures/main_text/calibration_uc.svg,True,retain_as_external_assessment_only,False
+reports/IBD_CALIBRATION_POLICY.md,True,retain_as_external_assessment_only,False
+tables/external_calibration_status.csv,True,retain_as_external_assessment_only,False
+tables/ibd_calibration_output_consistency_audit.csv,True,retain_as_external_assessment_only,False

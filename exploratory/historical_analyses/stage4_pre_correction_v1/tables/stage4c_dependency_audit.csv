@@ -1,0 +1,7 @@
+module,available,version,used_for,installation_note
+h5py,True,3.12.1,MOFA,
+mofapy2,True,0.7.4,MOFA,
+numpy,True,2.4.4,"MOFA,sCCA",
+pandas,True,3.0.2,"MOFA,sCCA",
+scipy,True,1.15.3,"MOFA,sCCA",
+sklearn,True,1.6.1,"MOFA,sCCA",

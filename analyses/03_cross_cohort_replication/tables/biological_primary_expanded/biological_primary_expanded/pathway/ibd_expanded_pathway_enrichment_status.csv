@@ -1,0 +1,19 @@
+cohort,outcome,direction,status,reason
+Franzosa,cd_vs_control,all_fdr_significant,completed,KEGG ORA completed with configured pathway-size thresholds
+Franzosa,cd_vs_control,higher_in_disease,completed,KEGG ORA completed with configured pathway-size thresholds
+Franzosa,cd_vs_control,lower_in_disease,completed,KEGG ORA completed with configured pathway-size thresholds
+Franzosa,ibd_vs_control,all_fdr_significant,completed,KEGG ORA completed with configured pathway-size thresholds
+Franzosa,ibd_vs_control,higher_in_disease,completed,KEGG ORA completed with configured pathway-size thresholds
+Franzosa,ibd_vs_control,lower_in_disease,completed,KEGG ORA completed with configured pathway-size thresholds
+Franzosa,uc_vs_control,all_fdr_significant,completed,KEGG ORA completed with configured pathway-size thresholds
+Franzosa,uc_vs_control,higher_in_disease,insufficient_significant_kegg_mappings,Significant KEGG mappings < 3
+Franzosa,uc_vs_control,lower_in_disease,completed,KEGG ORA completed with configured pathway-size thresholds
+iHMP,cd_vs_control,all_fdr_significant,completed,KEGG ORA completed with configured pathway-size thresholds
+iHMP,cd_vs_control,higher_in_disease,completed,KEGG ORA completed with configured pathway-size thresholds
+iHMP,cd_vs_control,lower_in_disease,no_fdr_significant_metabolites,No metabolites passed FDR <= 0.05
+iHMP,ibd_vs_control,all_fdr_significant,completed,KEGG ORA completed with configured pathway-size thresholds
+iHMP,ibd_vs_control,higher_in_disease,completed,KEGG ORA completed with configured pathway-size thresholds
+iHMP,ibd_vs_control,lower_in_disease,insufficient_significant_kegg_mappings,Significant KEGG mappings < 3
+iHMP,uc_vs_control,all_fdr_significant,insufficient_significant_kegg_mappings,Significant KEGG mappings < 3
+iHMP,uc_vs_control,higher_in_disease,no_fdr_significant_metabolites,No metabolites passed FDR <= 0.05
+iHMP,uc_vs_control,lower_in_disease,insufficient_significant_kegg_mappings,Significant KEGG mappings < 3

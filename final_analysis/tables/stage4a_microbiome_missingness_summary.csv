@@ -1,0 +1,5 @@
+cohort,n_samples,n_features,n_features_with_any_missing,n_cells_missing_before,n_cells_converted_to_zero,n_features_wholly_missing_unresolved
+Franzosa,137,160,1,137,0,1
+iHMP,91,466,0,0,0,0
+Sinha,131,100,0,0,0,0
+Yachida,252,10133,0,0,0,0

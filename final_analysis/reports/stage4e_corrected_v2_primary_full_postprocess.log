@@ -1,0 +1,6 @@
+/opt/anaconda3/lib/python3.13/site-packages/pandas/core/computation/expressions.py:22: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.10.1' currently installed).
+  from pandas.core.computation.check import NUMEXPR_INSTALLED
+STAGE4E_CORRECTED_V2_PRIMARY_POSTPROCESS_COMPLETE
+real 239.80
+user 236.99
+sys 1.15

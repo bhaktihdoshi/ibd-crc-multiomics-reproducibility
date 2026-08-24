@@ -1,0 +1,2 @@
+stage,status,analysis,mofa_status,scca_status,full_run_executed,stage4b_modified,stage4d_or_4e_modified_or_run,historical_outputs_overwritten,authoritative_output_prefix
+4C,complete,scca,not_run_this_invocation,complete,True,False,False,False,stage4c_corrected_v2_

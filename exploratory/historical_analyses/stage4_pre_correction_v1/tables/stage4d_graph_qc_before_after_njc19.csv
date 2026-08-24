@@ -1,0 +1,5 @@
+disease_space,n_nodes,microbe_nodes,metabolite_nodes,n_edges,metabolite_metabolite_edges,microbe_metabolite_edges,microbe_microbe_edges,graph_density,degree_min,degree_median,degree_mean,degree_max,isolated_node_count,isolated_node_proportion,connected_component_count,largest_connected_component_size,largest_connected_component_proportion,microbe_coverage,metabolite_coverage,cross_view_edge_count,cross_view_edge_proportion,fragmentation_warning,qc_stage
+IBD,216,50,166,2763,2763,0,0,0.1189922480620155,0.0,0.0,25.583333333333332,78.0,133,0.6157407407407407,135,81,0.375,0.0,0.5,0,0.0,True,before
+CRC,161,52,109,4014,4014,0,0,0.3116459627329193,0.0,88.0,49.86335403726708,92.0,68,0.422360248447205,69,93,0.577639751552795,0.0,0.8532110091743119,0,0.0,True,before
+IBD,216,50,166,2968,2763,205,0,0.12782084409991387,0.0,2.0,27.48148148148148,101.0,95,0.4398148148148148,97,119,0.5509259259259259,0.74,0.5060240963855421,205,0.06907008086253369,True,after
+CRC,161,52,109,4271,4014,257,0,0.3315993788819876,0.0,88.0,53.05590062111801,117.0,29,0.18012422360248448,30,132,0.8198757763975155,0.7307692307692307,0.8623853211009175,257,0.060173261531257315,False,after

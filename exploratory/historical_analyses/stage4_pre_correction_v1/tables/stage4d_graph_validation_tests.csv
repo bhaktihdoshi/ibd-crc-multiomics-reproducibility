@@ -1,0 +1,16 @@
+test,status,notes
+node_schema,pass,"['node_id', 'node_index', 'node_type', 'feature_id', 'feature_name', 'disease_space', 'source_mapping_status']"
+edge_schema,pass,"['source_node', 'target_node', 'edge_type', 'weight', 'directionality', 'knowledge_source', 'evidence_type', 'mapping_provenance', 'disease_space', 'supporting_pathway_ids', 'supporting_pathway_names']"
+valid_node_types,pass,"['metabolite', 'microbe']"
+unique_node_ids,pass,node IDs are globally unique in the master graph
+deterministic_node_indices,pass,master node_index is zero-based and deterministic
+valid_edge_types,pass,['METABOLITE_METABOLITE']
+valid_edge_weights,pass,positive finite weights
+valid_edge_endpoints,pass,all endpoints must exist in same disease graph
+no_duplicate_edges,pass,duplicate undirected biological edges are collapsed
+no_self_loops,pass,biological self-loop edges are not written
+no_phenotype_leakage_columns,pass,graph node/edge schema excludes phenotype-derived fields
+IBD_microbe_node_alignment,pass,observed=50; expected=50
+IBD_metabolite_node_alignment,pass,observed=166; expected=166
+CRC_microbe_node_alignment,pass,observed=52; expected=52
+CRC_metabolite_node_alignment,pass,observed=109; expected=109

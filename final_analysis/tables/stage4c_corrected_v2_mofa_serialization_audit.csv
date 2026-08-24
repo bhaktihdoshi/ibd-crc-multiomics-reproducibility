@@ -1,0 +1,9 @@
+disease,cohort,view,n_participants,n_features,long_rows,expected_long_rows,nan_values,inf_values,status
+IBD,Franzosa,microbiome,137,50,6850,6850,0,0,pass
+IBD,Franzosa,metabolome,137,166,22742,22742,0,0,pass
+IBD,iHMP,microbiome,91,50,4550,4550,0,0,pass
+IBD,iHMP,metabolome,91,166,15106,15106,0,0,pass
+CRC,Sinha,microbiome,131,52,6812,6812,0,0,pass
+CRC,Sinha,metabolome,131,109,14279,14279,0,0,pass
+CRC,Yachida,microbiome,252,52,13104,13104,0,0,pass
+CRC,Yachida,metabolome,252,109,27468,27468,0,0,pass

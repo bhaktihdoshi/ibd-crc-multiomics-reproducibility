@@ -1,0 +1,6 @@
+script_or_file
+corrected_v2/scripts/run_stage4b_corrected_v2b.py or a future run_stage4b_corrected_v2c.py if a new representation is approved
+corrected_v2/scripts/audit_stage4b_corrected_v2b_transform_shift.py if additional representation diagnostics are needed
+corrected_v2/scripts/run_stage4c_corrected_v2.py before MOFA/sCCA execution
+corrected_v2/scripts/run_stage4d_corrected_v2_graph.py before graph feature export
+corrected_v2/scripts/run_stage4e_gcn_corrected_v2.py before GCN execution

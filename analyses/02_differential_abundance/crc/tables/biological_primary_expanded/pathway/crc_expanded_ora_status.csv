@@ -1,0 +1,7 @@
+cohort,comparison,direction,status,reason
+Sinha,CRC vs Control,all_fdr_significant,no_eligible_pathways,No pathways met K/k thresholds
+Sinha,CRC vs Control,higher_in_disease,no_eligible_pathways,No pathways met K/k thresholds
+Sinha,CRC vs Control,lower_in_disease,insufficient_significant_kegg_mappings,Significant mapped KEGG compounds < 2
+Yachida,CRC vs Healthy,all_fdr_significant,insufficient_significant_kegg_mappings,Significant mapped KEGG compounds < 2
+Yachida,CRC vs Healthy,higher_in_disease,insufficient_significant_kegg_mappings,Significant mapped KEGG compounds < 2
+Yachida,CRC vs Healthy,lower_in_disease,insufficient_significant_kegg_mappings,Significant mapped KEGG compounds < 2

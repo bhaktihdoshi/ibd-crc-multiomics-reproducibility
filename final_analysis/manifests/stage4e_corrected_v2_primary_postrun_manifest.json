@@ -1,0 +1,89 @@
+{
+  "status": "complete",
+  "timestamp_utc": "2026-08-20T06:18:03.655760+00:00",
+  "input_hashes": {
+    "performance": "1e572ba84a671faf7851cd714a6c6508da697bb1d319a63fd293d710df2fb1f4",
+    "predictions": "6b478a4afd35a47e3f3bc0ad3376f975f889838b1268698c04ebf5a09b6d62ce",
+    "thresholds": "f77e03aa1c438c7fa75b4d396438e6664c10f94ccd95152e7c8aefc82db03039",
+    "loss": "ca00af78eae8d89477d80fe6d4f5ce5683c46042fdd28f210c5d4768d6ef5681",
+    "masking": "c897b8de36ed08437f1d96b3f87976bba7ee6ff414fe9a4ccce0c1841a2fe2a6",
+    "architecture_records_old_name": "f19178a4f6baf89ba81746aef0cdcb182d3ee99500c626ed3ff1c23141fa89e9",
+    "split_manifest": "d8cacfd05fa2b9db4ba918ddd4f15fb4fd14d963bf175e206be92c70b387ed11",
+    "graph_hash": "3fd9b540e4b5f72f8f1a2bae183432493c656cc6b240876f47cb5340622f5bde"
+  },
+  "output_hashes": {
+    "validation": "d7d503ce2dda5bfdb5742914c32675947860e2b2b958e9c4589dc1216c76cb03",
+    "architecture_records": "f19178a4f6baf89ba81746aef0cdcb182d3ee99500c626ed3ff1c23141fa89e9",
+    "seed_oof_performance": "e5026f580bc69ddc2e1dfde07f87e24d8b8bddd0730de276de86593296fd7dc5",
+    "seed_summary": "49ba8fa5f5ce0b9662678379574f5fb3587556f5e8254547d599ba7a4559f0be",
+    "ensemble_predictions": "3fa753c28272501e648defa20524a4f2f6d8a611a3fdddd5f67a47d7f0ec4e2a",
+    "ensemble_performance": "a04d23cb691cc7131db402db5ccda11eae6c5513335f0ee9cfc4a170dcfa003b",
+    "bootstrap_ci": "00682848fab8f550176350d8adf682aee6fb3de99e1deeb676b44328352edde5",
+    "paired_comparisons": "bc669131a2fc9edcfad75e17e2fcee6c37423256e6e455a0e8a81eb1f6d1a937",
+    "diagnostics": "f5e27e43e55b7d712d004f1529f9c0ba6d4ae7bb999a9d143ad33b995d9bff9e",
+    "one_class_rows": "0114ed37c0cd68c0e18376298ff81c5861906577486b8b3b0cdc04f563d1297b",
+    "saturation_rows": "cff91a7dbe4fdae632ee28a8a1c4bf7761dbb5674186faa9f2c526cee469a27d",
+    "interpretation": "47c34c54632501f821b1b8f262e32b75c2b879676eba09b66acc3a92bba280d0",
+    "report": "ec2015cca52f7370c1fed86771d7e0261e2fa1ba51af11905b7a170118dc34f8"
+  },
+  "stage4d_graph_hash": "51d0f96ba698785c7ad43bf41414338c84c90a3aa21d8bcb0a8b7cb566892afd",
+  "architecture": {
+    "architecture_id": "primary_one_layer_mean",
+    "layers": 1,
+    "hidden_dim": 16,
+    "dropout": 0.2,
+    "learning_rate": 0.001,
+    "readout": "mean"
+  },
+  "seeds": [
+    20260813,
+    20260814,
+    20260815,
+    20260816,
+    20260817
+  ],
+  "outer_folds": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "bootstrap_seed": 20260820,
+  "bootstrap_count": 2000,
+  "participant_counts": {
+    "Franzosa": 137,
+    "Sinha": 131,
+    "Yachida": 252,
+    "iHMP": 91
+  },
+  "external_analysis_executed": false,
+  "sensitivity_analysis_executed": false,
+  "model_refitting_during_postprocessing": false,
+  "authoritative_outputs": [
+    "ensemble_oof_performance",
+    "seed_variability",
+    "bootstrap_ci",
+    "paired_comparisons",
+    "diagnostics"
+  ],
+  "non_authoritative_outputs": [
+    "smoke_outputs",
+    "historical_stage4e_outputs",
+    "fold_mean_as_main_performance",
+    "unexecuted_sensitivities",
+    "unexecuted_external_stress_tests"
+  ],
+  "directional_graph_topology_interpretation_corrected": true,
+  "directional_graph_topology_interpretation_timestamp_utc": "2026-08-20T06:26:17.875172+00:00",
+  "directional_interpretation_basis": "observed_delta_roc_auc sign plus CI direction plus BH-FDR < 0.05; not significance alone",
+  "split_membership_reconstruction": {
+    "status": "complete",
+    "timestamp_utc": "2026-08-20T06:26:34.476362+00:00",
+    "original_split_ids_persisted": false,
+    "reconstruction_method": "deterministic_replay_of_corrected_v2_stage4e_splitter",
+    "membership_table": "/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/stage4_multiomics_integration/corrected_v2/tables/stage4e_corrected_v2_reconstructed_split_membership_primary.csv",
+    "validation_table": "/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/stage4_multiomics_integration/corrected_v2/tables/stage4e_corrected_v2_reconstructed_split_validation_tests.csv",
+    "audit_report": "/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/stage4_multiomics_integration/corrected_v2/reports/STAGE4E_CORRECTED_V2_SPLIT_RECONSTRUCTION_AUDIT.md"
+  }
+}

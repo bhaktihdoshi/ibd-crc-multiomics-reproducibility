@@ -1,0 +1,4 @@
+space,stage4_genera,genera_represented_in_AGORA2,expected_taxonomic_coverage_percent,matched_model_files,estimated_download_size_mb,estimated_extracted_size_mb,parser_runtime_estimate,ram_estimate
+IBD,50,50,100.0,3734,60480.8,60480.8,minutes for targeted SBML files; no FBA,single-file streaming XML parser should stay under ~1 GB
+CRC,52,50,96.15384615384616,3778,61047.6,61047.6,minutes for targeted SBML files; no FBA,single-file streaming XML parser should stay under ~1 GB
+Union,64,62,96.875,3877,61945.100000000006,61945.100000000006,minutes for targeted SBML files; no FBA,single-file streaming XML parser should stay under ~1 GB

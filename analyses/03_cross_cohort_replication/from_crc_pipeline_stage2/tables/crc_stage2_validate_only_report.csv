@@ -1,0 +1,19 @@
+item,critical,passed,detail
+frozen_stage1_contract,True,True,Stage 1 contract validation completed from frozen files.
+full_yachida_stage_manifest,True,True,Full 347-sample Yachida stage manifest loaded.
+ajcc_informed_grouping,True,True,Study-defined AJCC-informed grouping available.
+canonical_feature_uniqueness,True,True,Canonical shared features are unique.
+feature_order_contract,True,True,Feature-order contract written from canonical shared feature space.
+unresolved_ambiguous_ids_excluded,True,True,No unresolved ambiguous ID is retained in final shared model space.
+clinical_feature_eligibility,True,True,Shared clinical feature contract includes eligibility decisions; excluded variables require rationale while included variables require valid names.
+identical_feature_order,True,True,Sinha and Yachida model tables have identical feature order.
+full_five_model_configuration,True,True,"Configured primary model families: ['elastic_net_logistic', 'extra_trees', 'gradient_boosting', 'random_forest', 'ridge_logistic']"
+active_model_set_matches_execution_mode,True,True,"Final active models: ['elastic_net_logistic', 'extra_trees', 'gradient_boosting', 'random_forest', 'ridge_logistic']"
+fast_test_models_are_valid_subset,True,True,"Fast-test subset configured but inactive in final mode: ['random_forest', 'ridge_logistic']"
+primary_transformation_policy,True,True,Primary bidirectional CRC analysis disables log1p and retains supplied aligned values; log1p is sensitivity-only.
+stable_transformer_module,True,True,Model-critical transformers are imported from crc_pipeline_transformers.py.
+one_curve_per_prediction_context,True,True,External ROC and PR curves are computed per feature set/model context.
+feature_importance_implementation_available,True,True,Training-only feature interpretation function is implemented.
+fast_test_path_isolation,True,True,Fast-test outputs are redirected under stage2/fast_test.
+nested_oof_threshold_source,True,True,Frozen threshold source uses nested outer-fold OOF predictions.
+annotation_resource_status,False,False,Missing resources: annotation_resources/hmdb_kegg_crosswalk.csv; annotation_resources/kegg_pathway_membership.csv

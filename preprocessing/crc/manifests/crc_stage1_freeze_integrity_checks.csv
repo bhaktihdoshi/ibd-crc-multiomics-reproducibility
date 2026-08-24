@@ -1,0 +1,37 @@
+check,observed,expected,passed
+Sinha metadata samples,131,131,True
+Sinha metabolomics samples,131,131,True
+Sinha unique participants,131,131,True
+Sinha repeated participants,0,0,True
+Yachida metadata samples,347,347,True
+Yachida metabolomics samples,347,347,True
+Yachida unique participants,347,347,True
+Yachida repeated participants,0,0,True
+Sinha controls,89,89,True
+Sinha CRC cases,42,42,True
+Yachida original Healthy,127,127,True
+Yachida original MP,40,40,True
+Yachida original HS,30,30,True
+Yachida original Stage_0,27,27,True
+Yachida original Stage_I_II,69,69,True
+Yachida original Stage_III_IV,54,54,True
+Yachida recovered Healthy,127,127,True
+Yachida recovered MP,40,40,True
+Yachida recovered HS,30,30,True
+Yachida recovered Stage 0,27,27,True
+Yachida recovered Stage I,44,44,True
+Yachida recovered Stage IIA,24,24,True
+Yachida recovered Stage IIC,1,1,True
+Yachida recovered Stage IIIA,8,8,True
+Yachida recovered Stage IIIB,22,22,True
+Yachida recovered Stage IIIC,4,4,True
+Yachida recovered Stage IVA,13,13,True
+Yachida recovered Stage IVB,7,7,True
+Shared HMDB identifiers,110,110,True
+Shared KEGG identifiers,107,107,True
+Shared unified HMDB/KEGG identifiers,217,217,True
+All automated stage recovery tests passed,True,True,True
+Primary Yachida binary n,277,277,True
+Primary Yachida control n,127,127,True
+Primary Yachida CRC n,150,150,True
+Primary analysis strategy frozen,5-fold nested CV,5-fold nested CV,True

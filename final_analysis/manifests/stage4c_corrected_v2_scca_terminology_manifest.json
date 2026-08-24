@@ -1,0 +1,12 @@
+{
+  "status": "scca_terminology_migrated",
+  "authoritative_scca_tuning_fold_file": "stage4c_corrected_v2_scca_tuning_fold_correlations.csv",
+  "stale_scca_files": [
+    "stage4c_corrected_v2_scca_heldout_fold_correlations.csv",
+    "stage4c_corrected_v2_scca_tuning_cv_correlations.csv"
+  ],
+  "estimate_role": "tuning_diagnostic",
+  "nested_outer_evaluation": false,
+  "independent_generalisation_estimate": false,
+  "pma_refit_executed": false
+}

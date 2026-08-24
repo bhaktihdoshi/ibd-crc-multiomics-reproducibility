@@ -1,0 +1,9 @@
+rule_id,interpretation,qualification
+stage4b_principal_transportable_analysis,Microbiome-only reciprocal validation is the principal directly transportable molecular analysis.,Retain the Sinha 16S-versus-Yachida shotgun limitation.
+metabolome_stress_test,Metabolome-only transfer is an as-supplied-scale stress test.,Paired cohorts lack verified common metabolomics measurement semantics and units.
+early_integration_stress_test,Early integration is also an as-supplied-scale stress test.,It inherits the metabolomics incompatibility.
+decision_score_auc,Decision-score ROC-AUC measures ranking under domain shift.,It is not evidence of deployable calibrated probability transport.
+classification_and_calibration_not_claimed,Saturated/compressed probabilities and one-class predictions prevent clinical classification or calibration claims.,Thresholded outputs are diagnostic only when transfer probabilities fail.
+high_auc_not_operational_transportability,High AUC must not be described as operational transportability where thresholds or probabilities fail.,AUC and deployable clinical classification answer different questions.
+crc_biology_not_intrinsically_less_reproducible,No claim should be made that CRC biology is intrinsically less reproducible.,"Observed performance reflects these cohorts, platforms, feature spaces and stress-test assumptions."
+paired_comparisons_conditional,Paired comparisons remain conditional on the stress-test representation.,They should not be used as proof of common-scale metabolomics transport.

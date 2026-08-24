@@ -1,0 +1,10 @@
+{
+  "status": "prepared_only",
+  "full_graph_constructed": false,
+  "graph_modes": [
+    "identity",
+    "kegg_only",
+    "kegg_njc19"
+  ],
+  "stage4e_modified_or_run": false
+}

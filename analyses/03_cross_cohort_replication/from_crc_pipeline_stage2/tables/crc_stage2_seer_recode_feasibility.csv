@@ -1,0 +1,2 @@
+seer_recode_created,feasibility,reason,allowed_stage2_grouping,prohibited_claim
+False,not_supported,"Official deterministic tumour-extent, nodal and metastasis variables are not available for all CRC samples in the frozen Stage 1 public-data contract.",study-defined AJCC-informed analytical grouping,official AJCC or SEER Summary Stage recode

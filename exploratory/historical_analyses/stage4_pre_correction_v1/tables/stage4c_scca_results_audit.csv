@@ -1,0 +1,5 @@
+disease,cohort,components,expected_micro_loading_rows,observed_micro_loading_rows,expected_met_loading_rows,observed_met_loading_rows,loading_rows_valid
+IBD,Franzosa,1,50,1,166,1,False
+IBD,iHMP,1,50,1,166,1,False
+CRC,Sinha,1,52,1,109,1,False
+CRC,Yachida,1,52,1,109,1,False

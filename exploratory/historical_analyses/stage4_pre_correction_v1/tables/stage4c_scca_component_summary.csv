@@ -1,0 +1,5 @@
+disease,cohort,component,canonical_correlation,n_samples,microbiome_features,metabolome_features,penaltyx,penaltyz,pma_function,phenotype_used_for_fit
+IBD,Franzosa,1,0.829602579122041,137,50,166,0.4,0.4,PMA::CCA,False
+IBD,iHMP,1,0.767620147896078,91,50,166,0.4,0.4,PMA::CCA,False
+CRC,Sinha,1,0.477485594940125,131,52,109,0.15,0.15,PMA::CCA,False
+CRC,Yachida,1,0.626257011649763,252,52,109,0.4,0.4,PMA::CCA,False

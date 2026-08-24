@@ -1,0 +1,2 @@
+cohort,output,n_samples,n_features,pc1_variance_percent,pc2_variance_percent,control_n,cd_n,uc_n,caption
+iHMP,PCA_iHMP,91,166,12.305179388526083,8.702815072029908,26,39,26,"Exploratory within-cohort PCA only; no ComBat, SVA, Harmony or other batch correction was performed."

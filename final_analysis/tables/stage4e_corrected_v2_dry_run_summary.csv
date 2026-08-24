@@ -1,0 +1,5 @@
+analysis,direction_id,disease,task,cohort,samples,positive_n,negative_n,microbiome_features,metabolome_features,graph_modes,prespecified_architectures,seeds,outer_folds,architecture_hpo_performed,estimated_gcn_fits,estimated_ridge_comparator_outer_fits,graph_hash
+within,IBD_IBD_vs_Control_Franzosa_within,IBD,IBD_vs_Control,Franzosa,137,81,56,50,166,4,2,5,5,False,200,5,51d0f96ba698785c7ad43bf41414338c84c90a3aa21d8bcb0a8b7cb566892afd
+within,IBD_IBD_vs_Control_iHMP_within,IBD,IBD_vs_Control,iHMP,91,65,26,50,166,4,2,5,5,False,200,5,51d0f96ba698785c7ad43bf41414338c84c90a3aa21d8bcb0a8b7cb566892afd
+within,CRC_CRC_vs_Control_Sinha_within,CRC,CRC_vs_Control,Sinha,131,42,89,52,109,4,2,5,5,False,200,5,51d0f96ba698785c7ad43bf41414338c84c90a3aa21d8bcb0a8b7cb566892afd
+within,CRC_CRC_vs_Control_Yachida_within,CRC,CRC_vs_Control,Yachida,252,125,127,52,109,4,2,5,5,False,200,5,51d0f96ba698785c7ad43bf41414338c84c90a3aa21d8bcb0a8b7cb566892afd

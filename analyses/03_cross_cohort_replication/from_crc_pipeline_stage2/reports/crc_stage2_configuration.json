@@ -1,0 +1,139 @@
+{
+  "random_seed": 42,
+  "fast_test": false,
+  "run_id": "crc_stage2_final_candidate",
+  "primary_missingness_threshold": 0.3,
+  "external_validation_directions": [
+    [
+      "Sinha",
+      "Yachida"
+    ],
+    [
+      "Yachida",
+      "Sinha"
+    ]
+  ],
+  "primary_task_name": "crc_vs_control",
+  "model_selection_metric": "roc_auc",
+  "model_selection_effective_tie_tolerance_auc": 0.01,
+  "model_selection_effective_tie_tolerance_pr_auc": 0.01,
+  "model_selection_effective_tie_tolerance_roc_auc_sd": 0.005,
+  "bootstrap_repetitions": 2000,
+  "threshold_selection_rule": "training_only_youden_j",
+  "outer_folds_requested": 5,
+  "inner_folds_requested": 5,
+  "reduced_inner_folds": 3,
+  "min_class_count_for_requested_inner": 5,
+  "model_families": [
+    "ridge_logistic",
+    "elastic_net_logistic",
+    "random_forest",
+    "extra_trees",
+    "gradient_boosting"
+  ],
+  "feature_sets": [
+    "clinical",
+    "metabolomics",
+    "integrated"
+  ],
+  "shared_clinical_features": [
+    "age_years",
+    "sex",
+    "bmi"
+  ],
+  "clinical_features_excluded_from_primary": [
+    "stage_major",
+    "stage_source_faithful",
+    "stage_harmonized",
+    "tumour_site",
+    "smoking",
+    "alcohol",
+    "hosp1",
+    "hosp2"
+  ],
+  "primary_sinha_expected": {
+    "n": 131,
+    "control": 89,
+    "crc": 42
+  },
+  "primary_yachida_expected": {
+    "n": 277,
+    "control": 127,
+    "crc": 150
+  },
+  "expected_identifier_overlap": {
+    "HMDB": 110,
+    "KEGG": 107,
+    "HMDB_or_KEGG_unified": 217
+  },
+  "randomized_search_n_iter": {
+    "random_forest": 75,
+    "extra_trees": 75,
+    "gradient_boosting": 75
+  },
+  "fast_test_randomized_search_n_iter": 4,
+  "fast_test_models": [
+    "ridge_logistic",
+    "random_forest"
+  ],
+  "model_simplicity_order": {
+    "ridge_logistic": 0,
+    "elastic_net_logistic": 1,
+    "random_forest": 2,
+    "extra_trees": 3,
+    "gradient_boosting": 4
+  },
+  "transformation_rules": {
+    "Sinha": "none_predefined_values_appear_transformed_or_standardized",
+    "Yachida": "primary_analysis_no_log1p_supplied_values_retained"
+  },
+  "feature_harmonisation_rules": {
+    "canonical_priority": "valid HMDB first; valid KEGG fallback only when HMDB absent",
+    "duplicates": "select one deterministic assay feature per canonical metabolite per cohort; do not average",
+    "external_validation": "identical canonical feature names and order in both cohorts"
+  },
+  "annotation_settings": {
+    "allow_external_download": false,
+    "annotation_cache_dir": "thesis_preprocessing_workflow/crc_pipeline/annotation_resources",
+    "minimum_pathway_background_compounds": 3,
+    "minimum_pathway_significant_compounds": 2,
+    "low_coverage_threshold": 0.5,
+    "excluded_kegg_pathway_ids": [
+      "map01100",
+      "map01110",
+      "map01120",
+      "map01200"
+    ],
+    "excluded_kegg_pathway_name_patterns": [
+      "Metabolic pathways",
+      "Biosynthesis of secondary metabolites",
+      "Microbial metabolism in diverse environments",
+      "Biosynthesis of cofactors",
+      "Global and overview maps"
+    ]
+  },
+  "analysis_status": "FINAL_CANDIDATE",
+  "output_directories": {
+    "stage2": "/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/crc_pipeline/stage2",
+    "tables": "/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/crc_pipeline/stage2/tables",
+    "tables_main_text": "/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/crc_pipeline/stage2/tables/main_text",
+    "figures": "/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/crc_pipeline/stage2/figures",
+    "figures_main_text": "/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/crc_pipeline/stage2/figures/main_text",
+    "figures_supplementary": "/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/crc_pipeline/stage2/figures/supplementary",
+    "models": "/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/crc_pipeline/stage2/models",
+    "predictions": "/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/crc_pipeline/stage2/predictions",
+    "logs": "/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/crc_pipeline/stage2/logs",
+    "reports": "/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/crc_pipeline/stage2/reports",
+    "data_processed": "/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/crc_pipeline/stage2/data_processed"
+  },
+  "package_versions": {
+    "python": "3.13.5 | packaged by Anaconda, Inc. | (main, Jun 12 2025, 11:23:37) [Clang 14.0.6 ]",
+    "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+    "numpy": "2.4.4",
+    "pandas": "3.0.2",
+    "sklearn": "1.6.1",
+    "scipy": "1.15.3",
+    "joblib": "1.4.2"
+  },
+  "configuration_sha256": "dc05a495f02907575411ef32ddc004461c1d26bef958d9cebf12ecec2ab55fc8"
+}

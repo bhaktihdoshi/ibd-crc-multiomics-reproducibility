@@ -1,0 +1,33 @@
+{
+  "stage": "stage4b_preflight",
+  "timestamp": "2026-08-13 01:54:22",
+  "python": "3.13.5 | packaged by Anaconda, Inc. | (main, Jun 12 2025, 11:23:37) [Clang 14.0.6 ]",
+  "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+  "random_seed": 20260813,
+  "status": "pass",
+  "stage4a_status": {
+    "ready": true,
+    "source": "/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/stage4_multiomics_integration/reports/STAGE4A_FINAL_FROZEN_DESIGN.md",
+    "validation_source": "/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/stage4_multiomics_integration/tables/stage4a_final_freeze_validation_tests.csv",
+    "overall_feasibility": "FOUR_COHORT_MULTIOMICS_READY",
+    "stage4b_ibd": "GO",
+    "stage4b_crc": "GO",
+    "ibd_microbiome_rank": "genus",
+    "crc_microbiome_rank": "genus",
+    "ibd_shared_microbial_p": 50,
+    "crc_shared_microbial_p": 52,
+    "ibd_shared_metabolite_p": 166,
+    "crc_shared_metabolite_p": 110,
+    "eligible_external_directions": 8
+  },
+  "fit_estimate": {
+    "TOTAL_INNER_CANDIDATE_FITS": 2400,
+    "TOTAL_OUTER_SELECTED_MODEL_REFITS": 120,
+    "TOTAL_FINAL_FULL_TRAINING_REFITS": 24,
+    "ANY_ADDITIONAL_OOF_THRESHOLD_FITS": 0,
+    "TOTAL_FINAL_TRAINING_INNER_CANDIDATE_FITS": 480,
+    "TOTAL_EXPECTED_FITS": 3024,
+    "STAGE4A_SIMPLE_ESTIMATE_WITHOUT_FINAL_INNER_SEARCH": 2424,
+    "formula": "inner candidates 8x3x5x5x4 + outer refits 8x3x5 + final inner candidates 8x3x5x4 + final refits 8x3 = 3024"
+  }
+}

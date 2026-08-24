@@ -1,0 +1,19 @@
+{
+  "status": "complete",
+  "analysis": "scca",
+  "runtime_seconds": 7.48,
+  "full_run_executed": true,
+  "script_sha256": "97949f5d20a28a52c1b6d3cb25420bb0ff6bac57b893821b47e55489de34251d",
+  "mofa_factor_primary": 8,
+  "scca_components": [
+    1,
+    2
+  ],
+  "scca_penalties": [
+    0.15,
+    0.25,
+    0.4
+  ],
+  "diagnosis_used_for_fitting_or_tuning": false,
+  "stage4d_or_4e_modified_or_run": false
+}

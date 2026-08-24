@@ -1,0 +1,9 @@
+path,file_type,n_rows,n_columns,likely_role,identifier_columns,data_level,duplicate_key_count
+"/Users/bhaktidoshi/Downloads/Thesis Data/Colon_Cancer_Data_Set/Sinha-et-al/Sinha et al, 2016.pdf",.pdf,,,source research paper,,study-level methods/source,
+/Users/bhaktidoshi/Downloads/Thesis Data/Colon_Cancer_Data_Set/Sinha-et-al/metadata.tsv,.tsv,131.0,13.0,sample-level metadata / phenotype / clinical covariates,Sample; Subject,sample-level with participant identifier,0.0
+/Users/bhaktidoshi/Downloads/Thesis Data/Colon_Cancer_Data_Set/Sinha-et-al/mtb.map.tsv,.tsv,530.0,4.0,feature-level metabolite annotation and identifier mapping,Compound; HMDB; KEGG,feature-level annotation,0.0
+/Users/bhaktidoshi/Downloads/Thesis Data/Colon_Cancer_Data_Set/Sinha-et-al/mtb.tsv,.tsv,131.0,531.0,sample-by-metabolite abundance matrix,Sample,sample-level abundance table,0.0
+"/Users/bhaktidoshi/Downloads/Thesis Data/Colon_Cancer_Data_Set/Yachinda_et-al/Yachida et al, 2019.pdf",.pdf,,,source research paper,,study-level methods/source,
+/Users/bhaktidoshi/Downloads/Thesis Data/Colon_Cancer_Data_Set/Yachinda_et-al/metadata.tsv,.tsv,347.0,15.0,sample-level metadata / phenotype / clinical covariates,Sample; Subject,sample-level with participant identifier,0.0
+/Users/bhaktidoshi/Downloads/Thesis Data/Colon_Cancer_Data_Set/Yachinda_et-al/mtb.map.tsv,.tsv,450.0,4.0,feature-level metabolite annotation and identifier mapping,Compound; KEGG; HMDB,feature-level annotation,0.0
+/Users/bhaktidoshi/Downloads/Thesis Data/Colon_Cancer_Data_Set/Yachinda_et-al/mtb.tsv,.tsv,347.0,451.0,sample-by-metabolite abundance matrix,Sample,sample-level abundance table,0.0

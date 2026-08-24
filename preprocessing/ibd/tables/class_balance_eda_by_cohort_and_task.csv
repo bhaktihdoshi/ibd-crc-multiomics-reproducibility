@@ -1,0 +1,7 @@
+cohort,outcome,negative_class,positive_class,n_total,n_negative_control,n_positive_disease,positive_class_prevalence,minority_class_n,minority_class_fraction,majority_to_minority_ratio,requested_outer_cv_folds,requested_inner_cv_folds,eda_feasible_outer_folds,eda_feasible_inner_folds,fold_design_note
+Franzosa,ibd_vs_control,control,IBD,172,56,116,0.6744186046511628,56,0.32558139534883723,2.0714285714285716,5,5,5,5,Requested 5x5 nested CV used; smallest class count=56.
+Franzosa,cd_vs_control,control,CD,118,56,62,0.5254237288135594,56,0.4745762711864407,1.1071428571428572,5,5,5,5,Requested 5x5 nested CV used; smallest class count=56.
+Franzosa,uc_vs_control,control,UC,110,56,54,0.4909090909090909,54,0.4909090909090909,1.037037037037037,5,5,5,5,Requested 5x5 nested CV used; smallest class count=54.
+iHMP,ibd_vs_control,control,IBD,91,26,65,0.7142857142857143,26,0.2857142857142857,2.5,5,5,5,5,Requested 5x5 nested CV used; smallest class count=26.
+iHMP,cd_vs_control,control,CD,65,26,39,0.6,26,0.4,1.5,5,5,5,5,Requested 5x5 nested CV used; smallest class count=26.
+iHMP,uc_vs_control,control,UC,52,26,26,0.5,26,0.5,1.0,5,5,5,5,Requested 5x5 nested CV used; smallest class count=26.

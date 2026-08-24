@@ -1,0 +1,162 @@
+disease,node_id,node_index,node_type,feature_id,feature_name,source_feature_space,source_mapping_status
+CRC,microbe::Acidaminococcus,0,microbe,mic__Acidaminococcus,Acidaminococcus,corrected_v2_stage4c_common_microbiome,authoritative shared canonical genus
+CRC,microbe::Actinomyces,1,microbe,mic__Actinomyces,Actinomyces,corrected_v2_stage4c_common_microbiome,authoritative shared canonical genus
+CRC,microbe::Adlercreutzia,2,microbe,mic__Adlercreutzia,Adlercreutzia,corrected_v2_stage4c_common_microbiome,authoritative shared canonical genus
+CRC,microbe::Akkermansia,3,microbe,mic__Akkermansia,Akkermansia,corrected_v2_stage4c_common_microbiome,authoritative shared canonical genus
+CRC,microbe::Anaerostipes,4,microbe,mic__Anaerostipes,Anaerostipes,corrected_v2_stage4c_common_microbiome,authoritative shared canonical genus
+CRC,microbe::Anaerotruncus,5,microbe,mic__Anaerotruncus,Anaerotruncus,corrected_v2_stage4c_common_microbiome,authoritative shared canonical genus
+CRC,microbe::Arcobacter,6,microbe,mic__Arcobacter,Arcobacter,corrected_v2_stage4c_common_microbiome,authoritative shared canonical genus
+CRC,microbe::Azospirillum,7,microbe,mic__Azospirillum,Azospirillum,corrected_v2_stage4c_common_microbiome,authoritative shared canonical genus
+CRC,microbe::Bacteroides,8,microbe,mic__Bacteroides,Bacteroides,corrected_v2_stage4c_common_microbiome,authoritative shared canonical genus
+CRC,microbe::Bifidobacterium,9,microbe,mic__Bifidobacterium,Bifidobacterium,corrected_v2_stage4c_common_microbiome,authoritative shared canonical genus
+CRC,microbe::Bilophila,10,microbe,mic__Bilophila,Bilophila,corrected_v2_stage4c_common_microbiome,authoritative shared canonical genus
+CRC,microbe::Blautia,11,microbe,mic__Blautia,Blautia,corrected_v2_stage4c_common_microbiome,authoritative shared canonical genus
+CRC,microbe::Butyricimonas,12,microbe,mic__Butyricimonas,Butyricimonas,corrected_v2_stage4c_common_microbiome,authoritative shared canonical genus
+CRC,microbe::Catenibacterium,13,microbe,mic__Catenibacterium,Catenibacterium,corrected_v2_stage4c_common_microbiome,authoritative shared canonical genus
+CRC,microbe::Clostridium,14,microbe,mic__Clostridium,Clostridium,corrected_v2_stage4c_common_microbiome,authoritative shared canonical genus
+CRC,microbe::Collinsella,15,microbe,mic__Collinsella,Collinsella,corrected_v2_stage4c_common_microbiome,authoritative shared canonical genus
+CRC,microbe::Coprobacillus,16,microbe,mic__Coprobacillus,Coprobacillus,corrected_v2_stage4c_common_microbiome,authoritative shared canonical genus
+CRC,microbe::Coprococcus,17,microbe,mic__Coprococcus,Coprococcus,corrected_v2_stage4c_common_microbiome,authoritative shared canonical genus
+CRC,microbe::Desulfovibrio,18,microbe,mic__Desulfovibrio,Desulfovibrio,corrected_v2_stage4c_common_microbiome,authoritative shared canonical genus
+CRC,microbe::Dialister,19,microbe,mic__Dialister,Dialister,corrected_v2_stage4c_common_microbiome,authoritative shared canonical genus
+CRC,microbe::Dorea,20,microbe,mic__Dorea,Dorea,corrected_v2_stage4c_common_microbiome,authoritative shared canonical genus
+CRC,microbe::Eggerthella,21,microbe,mic__Eggerthella,Eggerthella,corrected_v2_stage4c_common_microbiome,authoritative shared canonical genus
+CRC,microbe::Enterobacter,22,microbe,mic__Enterobacter,Enterobacter,corrected_v2_stage4c_common_microbiome,authoritative shared canonical genus
+CRC,microbe::Enterococcus,23,microbe,mic__Enterococcus,Enterococcus,corrected_v2_stage4c_common_microbiome,authoritative shared canonical genus
+CRC,microbe::Escherichia,24,microbe,mic__Escherichia,Escherichia,corrected_v2_stage4c_common_microbiome,authoritative shared canonical genus
+CRC,microbe::Eubacterium,25,microbe,mic__Eubacterium,Eubacterium,corrected_v2_stage4c_common_microbiome,authoritative shared canonical genus
+CRC,microbe::Faecalibacterium,26,microbe,mic__Faecalibacterium,Faecalibacterium,corrected_v2_stage4c_common_microbiome,authoritative shared canonical genus
+CRC,microbe::Fusobacterium,27,microbe,mic__Fusobacterium,Fusobacterium,corrected_v2_stage4c_common_microbiome,authoritative shared canonical genus
+CRC,microbe::Haemophilus,28,microbe,mic__Haemophilus,Haemophilus,corrected_v2_stage4c_common_microbiome,authoritative shared canonical genus
+CRC,microbe::Klebsiella,29,microbe,mic__Klebsiella,Klebsiella,corrected_v2_stage4c_common_microbiome,authoritative shared canonical genus
+CRC,microbe::Lachnobacterium,30,microbe,mic__Lachnobacterium,Lachnobacterium,corrected_v2_stage4c_common_microbiome,authoritative shared canonical genus
+CRC,microbe::Lachnospira,31,microbe,mic__Lachnospira,Lachnospira,corrected_v2_stage4c_common_microbiome,authoritative shared canonical genus
+CRC,microbe::Lactobacillus,32,microbe,mic__Lactobacillus,Lactobacillus,corrected_v2_stage4c_common_microbiome,authoritative shared canonical genus
+CRC,microbe::Lactococcus,33,microbe,mic__Lactococcus,Lactococcus,corrected_v2_stage4c_common_microbiome,authoritative shared canonical genus
+CRC,microbe::Megamonas,34,microbe,mic__Megamonas,Megamonas,corrected_v2_stage4c_common_microbiome,authoritative shared canonical genus
+CRC,microbe::Odoribacter,35,microbe,mic__Odoribacter,Odoribacter,corrected_v2_stage4c_common_microbiome,authoritative shared canonical genus
+CRC,microbe::Parabacteroides,36,microbe,mic__Parabacteroides,Parabacteroides,corrected_v2_stage4c_common_microbiome,authoritative shared canonical genus
+CRC,microbe::Paraprevotella,37,microbe,mic__Paraprevotella,Paraprevotella,corrected_v2_stage4c_common_microbiome,authoritative shared canonical genus
+CRC,microbe::Parascardovia,38,microbe,mic__Parascardovia,Parascardovia,corrected_v2_stage4c_common_microbiome,authoritative shared canonical genus
+CRC,microbe::Peptococcus,39,microbe,mic__Peptococcus,Peptococcus,corrected_v2_stage4c_common_microbiome,authoritative shared canonical genus
+CRC,microbe::Phascolarctobacterium,40,microbe,mic__Phascolarctobacterium,Phascolarctobacterium,corrected_v2_stage4c_common_microbiome,authoritative shared canonical genus
+CRC,microbe::Porphyromonas,41,microbe,mic__Porphyromonas,Porphyromonas,corrected_v2_stage4c_common_microbiome,authoritative shared canonical genus
+CRC,microbe::Prevotella,42,microbe,mic__Prevotella,Prevotella,corrected_v2_stage4c_common_microbiome,authoritative shared canonical genus
+CRC,microbe::Pseudobutyrivibrio,43,microbe,mic__Pseudobutyrivibrio,Pseudobutyrivibrio,corrected_v2_stage4c_common_microbiome,authoritative shared canonical genus
+CRC,microbe::Roseburia,44,microbe,mic__Roseburia,Roseburia,corrected_v2_stage4c_common_microbiome,authoritative shared canonical genus
+CRC,microbe::Rothia,45,microbe,mic__Rothia,Rothia,corrected_v2_stage4c_common_microbiome,authoritative shared canonical genus
+CRC,microbe::Ruminococcus,46,microbe,mic__Ruminococcus,Ruminococcus,corrected_v2_stage4c_common_microbiome,authoritative shared canonical genus
+CRC,microbe::Slackia,47,microbe,mic__Slackia,Slackia,corrected_v2_stage4c_common_microbiome,authoritative shared canonical genus
+CRC,microbe::Streptococcus,48,microbe,mic__Streptococcus,Streptococcus,corrected_v2_stage4c_common_microbiome,authoritative shared canonical genus
+CRC,microbe::Sutterella,49,microbe,mic__Sutterella,Sutterella,corrected_v2_stage4c_common_microbiome,authoritative shared canonical genus
+CRC,microbe::Turicibacter,50,microbe,mic__Turicibacter,Turicibacter,corrected_v2_stage4c_common_microbiome,authoritative shared canonical genus
+CRC,microbe::Veillonella,51,microbe,mic__Veillonella,Veillonella,corrected_v2_stage4c_common_microbiome,authoritative shared canonical genus
+CRC,metabolite::HMDB0000017,52,metabolite,met__HMDB:HMDB0000017,HMDB0000017,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0000020,53,metabolite,met__HMDB:HMDB0000020,HMDB0000020,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0000034,54,metabolite,met__HMDB:HMDB0000034,HMDB0000034,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0000050,55,metabolite,met__HMDB:HMDB0000050,HMDB0000050,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0000056,56,metabolite,met__HMDB:HMDB0000056,HMDB0000056,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0000062,57,metabolite,met__HMDB:HMDB0000062,HMDB0000062,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0000070,58,metabolite,met__HMDB:HMDB0000070,HMDB0000070,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0000076,59,metabolite,met__HMDB:HMDB0000076,HMDB0000076,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0000085,60,metabolite,met__HMDB:HMDB0000085,HMDB0000085,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0000089,61,metabolite,met__HMDB:HMDB0000089,HMDB0000089,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0000097,62,metabolite,met__HMDB:HMDB0000097,HMDB0000097,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0000123,63,metabolite,met__HMDB:HMDB0000123,HMDB0000123,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0000132,64,metabolite,met__HMDB:HMDB0000132,HMDB0000132,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0000133,65,metabolite,met__HMDB:HMDB0000133,HMDB0000133,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0000134,66,metabolite,met__HMDB:HMDB0000134,HMDB0000134,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0000138,67,metabolite,met__HMDB:HMDB0000138,HMDB0000138,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0000139,68,metabolite,met__HMDB:HMDB0000139,HMDB0000139,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0000148,69,metabolite,met__HMDB:HMDB0000148,HMDB0000148,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0000156,70,metabolite,met__HMDB:HMDB0000156,HMDB0000156,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0000157,71,metabolite,met__HMDB:HMDB0000157,HMDB0000157,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0000158,72,metabolite,met__HMDB:HMDB0000158,HMDB0000158,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0000159,73,metabolite,met__HMDB:HMDB0000159,HMDB0000159,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0000161,74,metabolite,met__HMDB:HMDB0000161,HMDB0000161,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0000162,75,metabolite,met__HMDB:HMDB0000162,HMDB0000162,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0000167,76,metabolite,met__HMDB:HMDB0000167,HMDB0000167,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0000168,77,metabolite,met__HMDB:HMDB0000168,HMDB0000168,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0000172,78,metabolite,met__HMDB:HMDB0000172,HMDB0000172,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0000177,79,metabolite,met__HMDB:HMDB0000177,HMDB0000177,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0000182,80,metabolite,met__HMDB:HMDB0000182,HMDB0000182,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0000187,81,metabolite,met__HMDB:HMDB0000187,HMDB0000187,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0000190,82,metabolite,met__HMDB:HMDB0000190,HMDB0000190,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0000191,83,metabolite,met__HMDB:HMDB0000191,HMDB0000191,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0000197,84,metabolite,met__HMDB:HMDB0000197,HMDB0000197,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0000206,85,metabolite,met__HMDB:HMDB0000206,HMDB0000206,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0000210,86,metabolite,met__HMDB:HMDB0000210,HMDB0000210,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0000214,87,metabolite,met__HMDB:HMDB0000214,HMDB0000214,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0000215,88,metabolite,met__HMDB:HMDB0000215,HMDB0000215,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0000226,89,metabolite,met__HMDB:HMDB0000226,HMDB0000226,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0000243,90,metabolite,met__HMDB:HMDB0000243,HMDB0000243,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0000251,91,metabolite,met__HMDB:HMDB0000251,HMDB0000251,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0000254,92,metabolite,met__HMDB:HMDB0000254,HMDB0000254,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0000262,93,metabolite,met__HMDB:HMDB0000262,HMDB0000262,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0000267,94,metabolite,met__HMDB:HMDB0000267,HMDB0000267,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0000273,95,metabolite,met__HMDB:HMDB0000273,HMDB0000273,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0000279,96,metabolite,met__HMDB:HMDB0000279,HMDB0000279,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0000289,97,metabolite,met__HMDB:HMDB0000289,HMDB0000289,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0000292,98,metabolite,met__HMDB:HMDB0000292,HMDB0000292,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0000294,99,metabolite,met__HMDB:HMDB0000294,HMDB0000294,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0000296,100,metabolite,met__HMDB:HMDB0000296,HMDB0000296,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0000300,101,metabolite,met__HMDB:HMDB0000300,HMDB0000300,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0000306,102,metabolite,met__HMDB:HMDB0000306,HMDB0000306,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0000448,103,metabolite,met__HMDB:HMDB0000448,HMDB0000448,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0000452,104,metabolite,met__HMDB:HMDB0000452,HMDB0000452,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0000500,105,metabolite,met__HMDB:HMDB0000500,HMDB0000500,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0000512,106,metabolite,met__HMDB:HMDB0000512,HMDB0000512,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0000517,107,metabolite,met__HMDB:HMDB0000517,HMDB0000517,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0000562,108,metabolite,met__HMDB:HMDB0000562,HMDB0000562,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0000574,109,metabolite,met__HMDB:HMDB0000574,HMDB0000574,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0000623,110,metabolite,met__HMDB:HMDB0000623,HMDB0000623,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0000630,111,metabolite,met__HMDB:HMDB0000630,HMDB0000630,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0000641,112,metabolite,met__HMDB:HMDB0000641,HMDB0000641,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0000687,113,metabolite,met__HMDB:HMDB0000687,HMDB0000687,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0000695,114,metabolite,met__HMDB:HMDB0000695,HMDB0000695,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0000696,115,metabolite,met__HMDB:HMDB0000696,HMDB0000696,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0000700,116,metabolite,met__HMDB:HMDB0000700,HMDB0000700,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0000718,117,metabolite,met__HMDB:HMDB0000718,HMDB0000718,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0000719,118,metabolite,met__HMDB:HMDB0000719,HMDB0000719,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0000759,119,metabolite,met__HMDB:HMDB0000759,HMDB0000759,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0000764,120,metabolite,met__HMDB:HMDB0000764,HMDB0000764,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0000802,121,metabolite,met__HMDB:HMDB0000802,HMDB0000802,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0000840,122,metabolite,met__HMDB:HMDB0000840,HMDB0000840,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0000870,123,metabolite,met__HMDB:HMDB0000870,HMDB0000870,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0000883,124,metabolite,met__HMDB:HMDB0000883,HMDB0000883,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0000892,125,metabolite,met__HMDB:HMDB0000892,HMDB0000892,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0000897,126,metabolite,met__HMDB:HMDB0000897,HMDB0000897,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0000904,127,metabolite,met__HMDB:HMDB0000904,HMDB0000904,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0000929,128,metabolite,met__HMDB:HMDB0000929,HMDB0000929,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0000943,129,metabolite,met__HMDB:HMDB0000943,HMDB0000943,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0000954,130,metabolite,met__HMDB:HMDB0000954,HMDB0000954,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0001015,131,metabolite,met__HMDB:HMDB0001015,HMDB0001015,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0001123,132,metabolite,met__HMDB:HMDB0001123,HMDB0001123,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0001138,133,metabolite,met__HMDB:HMDB0001138,HMDB0001138,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0001161,134,metabolite,met__HMDB:HMDB0001161,HMDB0001161,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0001325,135,metabolite,met__HMDB:HMDB0001325,HMDB0001325,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0001406,136,metabolite,met__HMDB:HMDB0001406,HMDB0001406,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0001414,137,metabolite,met__HMDB:HMDB0001414,HMDB0001414,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0001488,138,metabolite,met__HMDB:HMDB0001488,HMDB0001488,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0001539,139,metabolite,met__HMDB:HMDB0001539,HMDB0001539,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0001545,140,metabolite,met__HMDB:HMDB0001545,HMDB0001545,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0002005,141,metabolite,met__HMDB:HMDB0002005,HMDB0002005,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0002035,142,metabolite,met__HMDB:HMDB0002035,HMDB0002035,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0002064,143,metabolite,met__HMDB:HMDB0002064,HMDB0002064,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0002322,144,metabolite,met__HMDB:HMDB0002322,HMDB0002322,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0002466,145,metabolite,met__HMDB:HMDB0002466,HMDB0002466,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0002658,146,metabolite,met__HMDB:HMDB0002658,HMDB0002658,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0003072,147,metabolite,met__HMDB:HMDB0003072,HMDB0003072,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0003331,148,metabolite,met__HMDB:HMDB0003331,HMDB0003331,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0003355,149,metabolite,met__HMDB:HMDB0003355,HMDB0003355,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0003464,150,metabolite,met__HMDB:HMDB0003464,HMDB0003464,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0004827,151,metabolite,met__HMDB:HMDB0004827,HMDB0004827,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0011733,152,metabolite,met__HMDB:HMDB0011733,HMDB0011733,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0011745,153,metabolite,met__HMDB:HMDB0011745,HMDB0011745,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0011756,154,metabolite,met__HMDB:HMDB0011756,HMDB0011756,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0011757,155,metabolite,met__HMDB:HMDB0011757,HMDB0011757,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0013302,156,metabolite,met__HMDB:HMDB0013302,HMDB0013302,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0028818,157,metabolite,met__HMDB:HMDB0028818,HMDB0028818,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0032055,158,metabolite,met__HMDB:HMDB0032055,HMDB0032055,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0059655,159,metabolite,met__HMDB:HMDB0059655,HMDB0059655,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite
+CRC,metabolite::HMDB0060493,160,metabolite,met__HMDB:HMDB0060493,HMDB0060493,corrected_v2_stage4c_common_metabolome,retained Stage 4C-compatible HMDB metabolite

@@ -1,0 +1,21 @@
+cohort,representation,roc_auc,ci_low,ci_high,pr_auc,mcc,probability_warning
+Franzosa,conservative_kegg_njc19,0.578,0.483,0.67,0.689,0.075,no major warning
+Franzosa,identity,0.697,0.605,0.782,0.757,0.357,no major warning
+Franzosa,kegg_njc19,0.572,0.476,0.662,0.699,0.191,no major warning
+Franzosa,kegg_only,0.599,0.503,0.69,0.702,0.159,no major warning
+Franzosa,ridge_early_integration,0.921,0.868,0.961,0.95,0.667,compressed/saturated/one-class warning
+Sinha,conservative_kegg_njc19,0.468,0.357,0.572,0.323,-0.081,compressed/saturated/one-class warning
+Sinha,identity,0.496,0.384,0.606,0.357,0.083,no major warning
+Sinha,kegg_njc19,0.472,0.361,0.578,0.316,-0.076,compressed/saturated/one-class warning
+Sinha,kegg_only,0.471,0.362,0.575,0.322,-0.128,compressed/saturated/one-class warning
+Sinha,ridge_early_integration,0.7,0.597,0.794,0.582,0.244,no major warning
+Yachida,conservative_kegg_njc19,0.482,0.411,0.55,0.492,-0.016,compressed/saturated/one-class warning
+Yachida,identity,0.45,0.379,0.519,0.476,0.044,compressed/saturated/one-class warning
+Yachida,kegg_njc19,0.462,0.391,0.531,0.475,0.015,compressed/saturated/one-class warning
+Yachida,kegg_only,0.465,0.39,0.534,0.476,-0.005,compressed/saturated/one-class warning
+Yachida,ridge_early_integration,0.684,0.622,0.75,0.678,0.219,compressed/saturated/one-class warning
+iHMP,conservative_kegg_njc19,0.403,0.283,0.529,0.69,-0.195,compressed/saturated/one-class warning
+iHMP,identity,0.387,0.267,0.514,0.703,-0.177,no major warning
+iHMP,kegg_njc19,0.389,0.275,0.507,0.697,-0.224,compressed/saturated/one-class warning
+iHMP,kegg_only,0.376,0.262,0.498,0.691,-0.022,compressed/saturated/one-class warning
+iHMP,ridge_early_integration,0.631,0.514,0.747,0.835,0.224,compressed/saturated/one-class warning

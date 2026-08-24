@@ -1,0 +1,13 @@
+disease,cohort,view,n_samples,n_features,expected_n,expected_features,p_total_over_n,duplicate_samples,duplicate_features,nan_count,inf_count,nonfinite_or_nan_ok,zero_variance_features,all_zero_features,sample_order_hash,feature_order_hash,status
+IBD,Franzosa,microbiome,137,50,137,50,0.36496350364963503,0,0,0,0,True,0,0,b35bb860066fa74baed5a371e8ff4e3cb0a0090d89ea099fc88738b3b6c69274,aae83c4a8ac5242995e47b45f7d7cca3198d7bd7ea7d19e38edd88f198ff7886,pass
+IBD,Franzosa,metabolome,137,166,137,166,1.2116788321167884,0,0,0,0,True,0,0,b35bb860066fa74baed5a371e8ff4e3cb0a0090d89ea099fc88738b3b6c69274,95289dca0c02fae750eca0ecb08fb12f850f07d1bee70d1978d6a5552eaff093,pass
+IBD,Franzosa,phenotype_annotations_only,137,1,137,1,,0,0,0,0,True,0,0,b35bb860066fa74baed5a371e8ff4e3cb0a0090d89ea099fc88738b3b6c69274,annotation_only,pass
+IBD,iHMP,microbiome,91,50,91,50,0.5494505494505495,0,0,0,0,True,0,0,9bdd0b3a217cb4cb6a90cd5c7271b21ec36a38ee514bda7b0faf262714f12e0e,aae83c4a8ac5242995e47b45f7d7cca3198d7bd7ea7d19e38edd88f198ff7886,pass
+IBD,iHMP,metabolome,91,166,91,166,1.8241758241758241,0,0,239,0,True,0,0,9bdd0b3a217cb4cb6a90cd5c7271b21ec36a38ee514bda7b0faf262714f12e0e,95289dca0c02fae750eca0ecb08fb12f850f07d1bee70d1978d6a5552eaff093,pass
+IBD,iHMP,phenotype_annotations_only,91,1,91,1,,0,0,0,0,True,0,0,9bdd0b3a217cb4cb6a90cd5c7271b21ec36a38ee514bda7b0faf262714f12e0e,annotation_only,pass
+CRC,Sinha,microbiome,131,52,131,52,0.3969465648854962,0,0,0,0,True,0,0,deca8290438b9a21035628d71e26b103dd2faa5c9b105372d434cd1e865d2324,3495a864a140cd62ef617e662b832a24803918d3550b4a8f7434b030649cfe1d,pass
+CRC,Sinha,metabolome,131,110,131,110,0.8396946564885496,0,0,0,0,True,0,0,deca8290438b9a21035628d71e26b103dd2faa5c9b105372d434cd1e865d2324,1b836088ec6f273ceb3caef3d7e412596f56c0ba473b4bfc00198b008678c4b6,pass
+CRC,Sinha,phenotype_annotations_only,131,1,131,1,,0,0,0,0,True,0,0,deca8290438b9a21035628d71e26b103dd2faa5c9b105372d434cd1e865d2324,annotation_only,pass
+CRC,Yachida,microbiome,252,52,252,52,0.20634920634920634,0,0,0,0,True,0,0,081564c90f560a04e9ad7f6eb90490066da412cec0b5f0e852515de78f929842,3495a864a140cd62ef617e662b832a24803918d3550b4a8f7434b030649cfe1d,pass
+CRC,Yachida,metabolome,252,110,252,110,0.4365079365079365,0,0,0,0,True,1,1,081564c90f560a04e9ad7f6eb90490066da412cec0b5f0e852515de78f929842,1b836088ec6f273ceb3caef3d7e412596f56c0ba473b4bfc00198b008678c4b6,pass
+CRC,Yachida,phenotype_annotations_only,252,1,252,1,,0,0,0,0,True,0,0,081564c90f560a04e9ad7f6eb90490066da412cec0b5f0e852515de78f929842,annotation_only,pass

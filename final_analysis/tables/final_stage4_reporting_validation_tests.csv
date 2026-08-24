@@ -1,0 +1,10 @@
+test,status,observed,expected,notes
+all_authoritative_files_exist,pass,29,29,
+no_smoke_file_authoritative,pass,no smoke/dry-run authoritative paths,true,
+stage4e_table_uses_ensemble_not_fold_mean,pass,ensemble performance listed,ensemble OOF source,
+primary_and_sensitivity_comparison_families_not_mixed,pass,primary table/figures use primary paired source,separate families,
+directional_significance_logic_present,pass,"['inconclusive', 'model_a_worse']",directional categories,
+chance_reference_is_half,pass,0.5,0.5,Figures B and E draw chance reference at ROC-AUC 0.5; Figure F draws delta zero.
+participant_counts_correct,pass,"['Franzosa', 'Sinha', 'Yachida', 'iHMP']",four cohorts,
+figure_outputs_deterministic_png_pdf,pass,"{'png': 8, 'pdf': 8}",8 png and 8 pdf,
+displayed_cis_exist,pass,CI columns non-missing,all displayed CIs exist,

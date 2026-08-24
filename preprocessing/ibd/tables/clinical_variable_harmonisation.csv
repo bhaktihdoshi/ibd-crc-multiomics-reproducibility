@@ -1,0 +1,8 @@
+variable,franzosa_source_column,ihmp_source_column,unit,transformation,final_inclusion_decision,exclusion_reason_where_not_included
+age_years,Age,consent_age,years,,include,available in both cohorts in years
+log_calprotectin,Fecal.Calprotectin,fecalcal,,log1p,include,available in both; log1p transformation used
+sex,,Gender,,,exclude main,missing in Franzosa supplied metadata
+bmi,,BMI_at_baseline,,,exclude main,missing in Franzosa supplied metadata
+smoking_status,,smoking status,,,exclude main,missing in Franzosa supplied metadata
+antibiotic_flag,antibiotic,Antibiotics,,,exclude samples,microbiome/metabolome confounder; excluded where recorded
+steroid_flag,steroids,,,,exclude where recorded,Franzosa-only systemic steroid exposure; excluded where recorded

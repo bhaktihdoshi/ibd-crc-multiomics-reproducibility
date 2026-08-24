@@ -1,0 +1,9 @@
+disease,cohort,component,view,expected_rows,observed_rows,unique_feature_ids,finite_loadings,selected_flag_valid,status
+IBD,Franzosa,1,microbiome,50,50,50,True,True,pass
+IBD,Franzosa,1,metabolome,166,166,166,True,True,pass
+IBD,iHMP,1,microbiome,50,50,50,True,True,pass
+IBD,iHMP,1,metabolome,166,166,166,True,True,pass
+CRC,Sinha,1,microbiome,52,52,52,True,True,pass
+CRC,Sinha,1,metabolome,109,109,109,True,True,pass
+CRC,Yachida,1,microbiome,52,52,52,True,True,pass
+CRC,Yachida,1,metabolome,109,109,109,True,True,pass

@@ -1,0 +1,14 @@
+check,passed,detail
+master_matrix_56,True,n=56
+complete_case_55,True,n=55
+hmdb0000168_incomplete,True,expected iHMP missingness
+no_effect_imputation,True,missing effect remains NaN
+no_duplicate_hmdb_rows,True,one row per HMDB
+ibd_strict_replication_10_events,True,expected 10 full-expanded events
+ibd_strict_replication_7_unique,True,expected 7 full-expanded unique IDs
+stage3_56_contains_4_ibd_replication_events,True,4 of 10 events fall inside strict 56
+crc_strict_replication_zero,True,expected 0
+no_patient_level_matrix_loaded,True,Stage 3A reads effect and metadata tables only
+no_graph_or_latent_routines_run,True,No PCA/UMAP/latent/graph/clustering commands are called in Stage 3A
+upstream_hashes_unchanged,True,post-reopening protected hash check
+spearman_bh_family_complete,True,12 primary Spearman tests

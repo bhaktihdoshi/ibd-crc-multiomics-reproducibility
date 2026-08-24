@@ -1,0 +1,14 @@
+identifier,identifier_type,mapped_identifiers,classification,status,notes
+HMDB0000062,HMDB,C00318;C00487,one_to_many,excluded_from_rescue,one HMDB maps to multiple KEGG IDs in local inventory
+HMDB0000148,HMDB,C00025;C00302,one_to_many,excluded_from_rescue,one HMDB maps to multiple KEGG IDs in local inventory
+HMDB0000156,HMDB,C00149;C00711,one_to_many,excluded_from_rescue,one HMDB maps to multiple KEGG IDs in local inventory
+HMDB0000161,HMDB,C00041;C01401,one_to_many,excluded_from_rescue,one HMDB maps to multiple KEGG IDs in local inventory
+HMDB0000779,HMDB,C01479;C05607,one_to_many,excluded_from_rescue,one HMDB maps to multiple KEGG IDs in local inventory
+HMDB0059655,HMDB,C00026;C02630,one_to_many,excluded_from_rescue,one HMDB maps to multiple KEGG IDs in local inventory
+C00026,KEGG,HMDB0000208;HMDB0059655,one_to_many,excluded_from_rescue,one KEGG maps to multiple HMDB IDs in local inventory
+C00956,KEGG,HMDB0000510;HMDB0302754,one_to_many,excluded_from_rescue,one KEGG maps to multiple HMDB IDs in local inventory
+C00993,KEGG,HMDB0003459;HMDB0028680,one_to_many,excluded_from_rescue,one KEGG maps to multiple HMDB IDs in local inventory
+C01073,KEGG,HMDB0000766;HMDB0061880,one_to_many,excluded_from_rescue,one KEGG maps to multiple HMDB IDs in local inventory
+C03264,KEGG,HMDB0000624;HMDB0000665,one_to_many,excluded_from_rescue,one KEGG maps to multiple HMDB IDs in local inventory
+C06423,KEGG,HMDB0000482;HMDB0304443,one_to_many,excluded_from_rescue,one KEGG maps to multiple HMDB IDs in local inventory
+HMDB0001186,HMDB,C02567_N1-Acetylspermine;C02567_N1-Acetylspermine_div,many_to_one,not_silently_collapsed,Yachida: multiple source features share canonical HMDB

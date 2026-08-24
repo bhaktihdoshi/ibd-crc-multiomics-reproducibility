@@ -1,0 +1,5 @@
+diagnostic,definition,chosen_before_authoritative_results,metric_use
+compressed_probability_flag,probability_sd < 0.01 within a cohort/model/fold/seed prediction set,True,calibration_and_distribution_diagnostic_only
+saturation_flag,any predicted probability <= 1e-6 or >= 1 - 1e-6,True,calibration_and_distribution_diagnostic_only
+constant_logit_failure,unique rounded logits <= 1 within a prediction set,True,runtime_failure_or_uninterpretable_ranking_check
+one_class_prediction_flag,frozen-threshold predictions contain only one predicted class,True,threshold_diagnostic_only

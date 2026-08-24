@@ -1,0 +1,10 @@
+stage,policy,claim_text
+Stage4A,Allowed,Shared genus spaces are authoritative after no-parent-plus-descendant double counting and sample reclosure before CLR.
+Stage4B,Allowed,Microbiome-only is the principal directly transportable molecular analysis; metabolome-only and early integration are assay-scale stress tests.
+Stage4B,Disallowed,Do not claim metabolomics is quantitatively transportable across cohorts; v2c Branch B found no defensible common-scale matrix locally.
+Stage4C,Allowed,"MOFA is descriptive, unsupervised structural integration; sCCA tuning-fold correlations are diagnostics and full-data correlations are apparent."
+Stage4C,Disallowed,"Do not claim causal mechanisms, covariate independence or external prediction from MOFA/sCCA."
+Stage4D,Allowed,"NJC19 edges are curated production, consumption or transport relations; primary graph is unsigned and undirected."
+Stage4D,Disallowed,Do not call NJC19 edges positive statistical associations or treat graph connectivity as predictive utility.
+Stage4E,Allowed,"Use ensemble participant-level OOF performance, participant bootstrap CIs and paired participant bootstrap differences."
+Stage4E,Disallowed,"Do not average fold AUC as the headline result, treat seeds as independent, claim clinical prediction, or run external Stage 4E transfer."

@@ -1,0 +1,40 @@
+# Final Stage 4 Authority Report
+
+Generated: 2026-08-20T08:47:40.051047+00:00
+
+No model, CV, bootstrap, sensitivity, external transfer or permutation analysis was fitted or rerun in this freeze pass.
+
+## Frozen Stage 4E Synthesis
+- No biological graph significantly exceeded identity in the primary analysis.
+- Franzosa biological graphs were significantly worse than identity.
+- Sensitivity architectures did not reveal significant topology superiority.
+- Gated pooling improved absolute discrimination in some cohorts but also improved identity, so it is not evidence of topology value.
+- Broad/conservative graph GCNs remained inferior to ridge in the prespecified comparisons.
+- Probability pathologies limit operational interpretation; outputs are not calibrated clinical predictions.
+
+## Directional Interpretation Table
+| cohort   |   identity_roc_auc |   kegg_only_roc_auc |   kegg_njc19_roc_auc |   conservative_kegg_njc19_roc_auc |   ridge_early_integration_roc_auc | best_gcn_mode           | any_biological_graph_significantly_better_than_identity   | any_biological_graph_significantly_worse_than_identity   | any_tested_graph_gcn_significantly_better_than_ridge   | any_tested_graph_gcn_significantly_worse_than_ridge   |   significant_better_models | significant_worse_models                                                                                                                                                                                                                                                                         | interpretation_basis                                                                                                                                                              | conservative_wording                                                                                                                                                                        |
+|:---------|-------------------:|--------------------:|---------------------:|----------------------------------:|----------------------------------:|:------------------------|:----------------------------------------------------------|:---------------------------------------------------------|:-------------------------------------------------------|:------------------------------------------------------|----------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Franzosa |           0.696649 |            0.598986 |             0.57231  |                          0.578483 |                          0.920635 | identity                | False                                                     | True                                                     | False                                                  | True                                                  |                         nan | kegg_njc19 vs identity: model_a lower ROC-AUC; conservative_kegg_njc19 vs identity: model_a lower ROC-AUC; kegg_only vs identity: model_a lower ROC-AUC; kegg_njc19 vs ridge_early_integration: model_a lower ROC-AUC; conservative_kegg_njc19 vs ridge_early_integration: model_a lower ROC-AUC | Directional decision requires observed_delta_roc_auc sign, 95% bootstrap CI excluding zero in the same direction, and BH-FDR < 0.05 across the prespecified 24-comparison family. | Restricted to corrected-v2 cohorts, fixed molecular inputs, fixed graph policies and low-complexity primary GCN architecture; not evidence that GCNs or biological topology fail generally. |
+| Sinha    |           0.496255 |            0.47084  |             0.472445 |                          0.467897 |                          0.699572 | identity                | False                                                     | False                                                    | False                                                  | True                                                  |                         nan | kegg_njc19 vs ridge_early_integration: model_a lower ROC-AUC; conservative_kegg_njc19 vs ridge_early_integration: model_a lower ROC-AUC                                                                                                                                                          | Directional decision requires observed_delta_roc_auc sign, 95% bootstrap CI excluding zero in the same direction, and BH-FDR < 0.05 across the prespecified 24-comparison family. | Restricted to corrected-v2 cohorts, fixed molecular inputs, fixed graph policies and low-complexity primary GCN architecture; not evidence that GCNs or biological topology fail generally. |
+| Yachida  |           0.449512 |            0.464693 |             0.462173 |                          0.48189  |                          0.68422  | conservative_kegg_njc19 | False                                                     | False                                                    | False                                                  | True                                                  |                         nan | kegg_njc19 vs ridge_early_integration: model_a lower ROC-AUC; conservative_kegg_njc19 vs ridge_early_integration: model_a lower ROC-AUC                                                                                                                                                          | Directional decision requires observed_delta_roc_auc sign, 95% bootstrap CI excluding zero in the same direction, and BH-FDR < 0.05 across the prespecified 24-comparison family. | Restricted to corrected-v2 cohorts, fixed molecular inputs, fixed graph policies and low-complexity primary GCN architecture; not evidence that GCNs or biological topology fail generally. |
+| iHMP     |           0.386982 |            0.376331 |             0.388757 |                          0.402959 |                          0.630769 | conservative_kegg_njc19 | False                                                     | False                                                    | False                                                  | True                                                  |                         nan | kegg_njc19 vs ridge_early_integration: model_a lower ROC-AUC; conservative_kegg_njc19 vs ridge_early_integration: model_a lower ROC-AUC                                                                                                                                                          | Directional decision requires observed_delta_roc_auc sign, 95% bootstrap CI excluding zero in the same direction, and BH-FDR < 0.05 across the prespecified 24-comparison family. | Restricted to corrected-v2 cohorts, fixed molecular inputs, fixed graph policies and low-complexity primary GCN architecture; not evidence that GCNs or biological topology fail generally. |
+
+## Final Tables
+- `table1_cohort_and_assay_overview`: 4 rows
+- `table2_stage4b_transportability`: 12 rows
+- `table3_latent_and_graph_structure`: 2 rows
+- `table4_stage4e_authoritative_ensemble_performance`: 20 rows
+- `table5_stage4e_paired_topology_findings`: 16 rows
+- `supp_stage4e_primary_24_comparisons`: 24 rows
+- `supp_stage4e_sensitivity_48_comparisons`: 48 rows
+
+## Final Figures
+- Figure A: study workflow.
+- Figure B: Stage 4B transportability.
+- Figure C: Stage 4C latent integration.
+- Figure D: Stage 4D topology.
+- Figure E: Stage 4E primary performance.
+- Figure F: Stage 4E topology contrasts.
+- Figure G: architecture robustness.
+- Figure H: probability diagnostics.

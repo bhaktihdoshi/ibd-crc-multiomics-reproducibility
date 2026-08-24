@@ -1,0 +1,6 @@
+test,status,observed,expected,notes
+frozen_ihmp_population_n,pass,91,91,Authoritative Stage 4 target uses iHMP included_samples.csv.
+same_visit_mgx_metadata_rows,pass,91,>0,Metadata supports exact same-visit metagenomics candidates.
+valid_processed_taxonomic_matrix,pass,91,91,Valid MetaPhlAn 3.0 per-sample profiles assembled into unfiltered matrices.
+raw_reconstruction_manifest_written,pass,91,documented,No raw processing was executed.
+no_scientific_model_executed,pass,none,none,Only metadata mapping and script generation were run.

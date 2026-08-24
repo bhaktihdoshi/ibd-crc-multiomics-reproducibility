@@ -1,0 +1,24 @@
+{
+  "stage": "stage4c_preflight",
+  "timestamp": "2026-08-13 03:08:43",
+  "python": "3.13.5 | packaged by Anaconda, Inc. | (main, Jun 12 2025, 11:23:37) [Clang 14.0.6 ]",
+  "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+  "random_seed": 20260813,
+  "status": "pass",
+  "stage4a": {
+    "ready": true,
+    "source": "/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/stage4_multiomics_integration/reports/STAGE4A_FINAL_FROZEN_DESIGN.md",
+    "validation_source": "/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/stage4_multiomics_integration/tables/stage4a_final_freeze_validation_tests.csv",
+    "overall_feasibility": "FOUR_COHORT_MULTIOMICS_READY",
+    "stage4b_ibd": "GO",
+    "stage4b_crc": "GO",
+    "ibd_microbiome_rank": "genus",
+    "crc_microbiome_rank": "genus",
+    "ibd_shared_microbial_p": 50,
+    "crc_shared_microbial_p": 52,
+    "ibd_shared_metabolite_p": 166,
+    "crc_shared_metabolite_p": 110,
+    "eligible_external_directions": 8
+  },
+  "stage4b": "Stage 4B completed; 4B remains frozen predictive baseline"
+}

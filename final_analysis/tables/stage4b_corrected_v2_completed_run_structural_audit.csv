@@ -1,0 +1,14 @@
+check,status,detail
+external_performance_shape,PASS,"observed_shape=(12, 28)"
+tasks_pooled_only,PASS,"tasks=['CRC_vs_Control', 'IBD_vs_Control']"
+four_transfer_directions,PASS,"transfers=[('CRC', 'CRC_vs_Control', 'Sinha', 'Yachida'), ('CRC', 'CRC_vs_Control', 'Yachida', 'Sinha'), ('IBD', 'IBD_vs_Control', 'Franzosa', 'iHMP'), ('IBD', 'IBD_vs_Control', 'iHMP', 'Franzosa')]"
+three_representations_each,PASS,representation count by transfer direction checked
+representations_expected,PASS,"representations=['EARLY_INTEGRATION', 'METABOLOME', 'MICROBIOME']"
+bootstrap_ci_complete,PASS,ROC-AUC and PR-AUC CI columns non-missing
+bootstrap_count_2000,PASS,all bootstrap counts should be 2000
+threshold_rows,PASS,threshold_rows=12
+threshold_source_training_oof,PASS,sources=['full_source_cross_fitted_oof']
+external_not_used_for_threshold,PASS,external_data_used_for_threshold all False
+threshold_oof_unique_per_source_sample,PASS,duplicate context/sample rows=0
+external_predictions_have_probabilities,PASS,all external probability fields non-missing
+run_manifest_exists,PASS,/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/stage4_multiomics_integration/corrected_v2/manifests/stage4b_corrected_v2_run_manifest.json

@@ -1,0 +1,15 @@
+cohort,item,n
+Sinha,metadata_samples,131
+Sinha,metabolomics_samples,131
+Sinha,samples_in_both_metadata_and_metabolomics,131
+Sinha,metadata_only_samples,0
+Sinha,metabolomics_only_samples,0
+Sinha,unique_participants,131
+Sinha,participants_with_repeated_samples,0
+Yachida,metadata_samples,347
+Yachida,metabolomics_samples,347
+Yachida,samples_in_both_metadata_and_metabolomics,347
+Yachida,metadata_only_samples,0
+Yachida,metabolomics_only_samples,0
+Yachida,unique_participants,347
+Yachida,participants_with_repeated_samples,0

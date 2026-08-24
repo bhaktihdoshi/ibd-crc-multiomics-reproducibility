@@ -1,0 +1,19 @@
+outcome,train_cohort,external_cohort,feature_set,model,selection_used_internal_nested_cv_only,external_auc_used_for_selection,selected_for_external_validation,selected_hyperparameters_match_table,model_name_matches_prediction_file,tie_breaking_policy,status
+cd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,True,False,True,True,True,highest nested outer-fold ROC-AUC; one-standard-error simplicity rule; PR-AUC tie-breaker,passed
+cd_vs_control,Franzosa,iHMP,integrated,elastic_net_logistic,True,False,True,True,True,highest nested outer-fold ROC-AUC; one-standard-error simplicity rule; PR-AUC tie-breaker,passed
+cd_vs_control,Franzosa,iHMP,metabolomics,elastic_net_logistic,True,False,True,True,True,highest nested outer-fold ROC-AUC; one-standard-error simplicity rule; PR-AUC tie-breaker,passed
+cd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,True,False,True,True,True,highest nested outer-fold ROC-AUC; one-standard-error simplicity rule; PR-AUC tie-breaker,passed
+cd_vs_control,iHMP,Franzosa,integrated,ridge_logistic,True,False,True,True,True,highest nested outer-fold ROC-AUC; one-standard-error simplicity rule; PR-AUC tie-breaker,passed
+cd_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,True,False,True,True,True,highest nested outer-fold ROC-AUC; one-standard-error simplicity rule; PR-AUC tie-breaker,passed
+ibd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,True,False,True,True,True,highest nested outer-fold ROC-AUC; one-standard-error simplicity rule; PR-AUC tie-breaker,passed
+ibd_vs_control,Franzosa,iHMP,integrated,extra_trees,True,False,True,True,True,highest nested outer-fold ROC-AUC; one-standard-error simplicity rule; PR-AUC tie-breaker,passed
+ibd_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,True,False,True,True,True,highest nested outer-fold ROC-AUC; one-standard-error simplicity rule; PR-AUC tie-breaker,passed
+ibd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,True,False,True,True,True,highest nested outer-fold ROC-AUC; one-standard-error simplicity rule; PR-AUC tie-breaker,passed
+ibd_vs_control,iHMP,Franzosa,integrated,gradient_boosting,True,False,True,True,True,highest nested outer-fold ROC-AUC; one-standard-error simplicity rule; PR-AUC tie-breaker,passed
+ibd_vs_control,iHMP,Franzosa,metabolomics,random_forest,True,False,True,True,True,highest nested outer-fold ROC-AUC; one-standard-error simplicity rule; PR-AUC tie-breaker,passed
+uc_vs_control,Franzosa,iHMP,clinical,random_forest,True,False,True,True,True,highest nested outer-fold ROC-AUC; one-standard-error simplicity rule; PR-AUC tie-breaker,passed
+uc_vs_control,Franzosa,iHMP,integrated,random_forest,True,False,True,True,True,highest nested outer-fold ROC-AUC; one-standard-error simplicity rule; PR-AUC tie-breaker,passed
+uc_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,True,False,True,True,True,highest nested outer-fold ROC-AUC; one-standard-error simplicity rule; PR-AUC tie-breaker,passed
+uc_vs_control,iHMP,Franzosa,clinical,random_forest,True,False,True,True,True,highest nested outer-fold ROC-AUC; one-standard-error simplicity rule; PR-AUC tie-breaker,passed
+uc_vs_control,iHMP,Franzosa,integrated,ridge_logistic,True,False,True,True,True,highest nested outer-fold ROC-AUC; one-standard-error simplicity rule; PR-AUC tie-breaker,passed
+uc_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,True,False,True,True,True,highest nested outer-fold ROC-AUC; one-standard-error simplicity rule; PR-AUC tie-breaker,passed

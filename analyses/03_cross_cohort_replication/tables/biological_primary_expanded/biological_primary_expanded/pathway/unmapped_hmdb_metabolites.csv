@@ -1,0 +1,87 @@
+HMDB_ID,metabolite_name,supplied_KEGG_Compound_ID,externally_mapped_KEGG_Compound_ID,final_KEGG_Compound_ID,HMDB_superclass,HMDB_class,HMDB_subclass,SMPDB_pathways,mapping_source,source_version_or_retrieval_date,mapping_status,mapping_confidence,ambiguity_flag,ambiguity_note
+HMDB0000317,2-Hydroxy-3-methylpentanoic acid,,,,,,,,supplied HMDB ID only,2026-08-12,no_kegg_mapping,none,False,No valid KEGG compound ID available
+HMDB0000407,2-Hydroxy-3-methylbutyric acid,,,,,,,,supplied HMDB ID only,2026-08-12,no_kegg_mapping,none,False,No valid KEGG compound ID available
+HMDB0000522,3-Methylglutaconic acid,,,,,,,,supplied HMDB ID only,2026-08-12,no_kegg_mapping,none,False,No valid KEGG compound ID available
+HMDB0000529,5Z-Dodecenoic acid,,,,,,,,supplied HMDB ID only,2026-08-12,no_kegg_mapping,none,False,No valid KEGG compound ID available
+HMDB0000555,3-methyladipate-pimelate,,,,,,,,supplied HMDB ID only,2026-08-12,no_kegg_mapping,none,False,No valid KEGG compound ID available
+HMDB0000557,L-Alloisoleucine,,,,,,,,supplied HMDB ID only,2026-08-12,no_kegg_mapping,none,False,No valid KEGG compound ID available
+HMDB0000613,erythronic acid,,,,,,,,supplied HMDB ID only,2026-08-12,no_kegg_mapping,none,False,No valid KEGG compound ID available
+HMDB0000640,levoglucosan,,,,,,,,supplied HMDB ID only,2026-08-12,no_kegg_mapping,none,False,No valid KEGG compound ID available
+HMDB0000708,glycoursodeoxycholic acid,,,,,,,,supplied HMDB ID only,2026-08-12,no_kegg_mapping,none,False,No valid KEGG compound ID available
+HMDB0000848,Stearoylcarnitine,,,,,,,,supplied HMDB ID only,2026-08-12,no_kegg_mapping,none,False,No valid KEGG compound ID available
+HMDB0000874,Tauroursodeoxycholic acid,,,,,,,,supplied HMDB ID only,2026-08-12,no_kegg_mapping,none,False,No valid KEGG compound ID available
+HMDB0000884,Ribothymidine,,,,,,,,supplied HMDB ID only,2026-08-12,no_kegg_mapping,none,False,No valid KEGG compound ID available
+HMDB0000888,undecanedionate,,,,,,,,supplied HMDB ID only,2026-08-12,no_kegg_mapping,none,False,No valid KEGG compound ID available
+HMDB0000908,5alpha-cholestanol,,,,,,,,supplied HMDB ID only,2026-08-12,no_kegg_mapping,none,False,No valid KEGG compound ID available
+HMDB0000932,Tauro-b-muricholic acid,,,,,,,,supplied HMDB ID only,2026-08-12,no_kegg_mapping,none,False,No valid KEGG compound ID available
+HMDB0001390,Hydroxycotinine,,,,,,,,supplied HMDB ID only,2026-08-12,no_kegg_mapping,none,False,No valid KEGG compound ID available
+HMDB0001518,alpha-CEHC,,,,,,,,supplied HMDB ID only,2026-08-12,no_kegg_mapping,none,False,No valid KEGG compound ID available
+HMDB0001954,3-Hydroxyoctanoic acid,,,,,,,,supplied HMDB ID only,2026-08-12,no_kegg_mapping,none,False,No valid KEGG compound ID available
+HMDB0002014,cis-5-Tetradecenoylcarnitine,,,,,,,,supplied HMDB ID only,2026-08-12,no_kegg_mapping,none,False,No valid KEGG compound ID available
+HMDB0002088,N-oleoylethanolamine ,,,,,,,,supplied HMDB ID only,2026-08-12,no_kegg_mapping,none,False,No valid KEGG compound ID available
+HMDB0002203,3-Hydroxycapric acid,,,,,,,,supplied HMDB ID only,2026-08-12,no_kegg_mapping,none,False,No valid KEGG compound ID available
+HMDB0002259,heptadecanoate,,,,,,,,supplied HMDB ID only,2026-08-12,no_kegg_mapping,none,False,No valid KEGG compound ID available
+HMDB0002261,2-hydroxymyristic acid,,,,,,,,supplied HMDB ID only,2026-08-12,no_kegg_mapping,none,False,No valid KEGG compound ID available
+HMDB0002302,Indole-3-propionic acid,,,,,,,,supplied HMDB ID only,2026-08-12,no_kegg_mapping,none,False,No valid KEGG compound ID available
+HMDB0003333,8-hydroxy-deoxyguanosine,,,,,,,,supplied HMDB ID only,2026-08-12,no_kegg_mapping,none,False,No valid KEGG compound ID available
+HMDB0004620,N-acetyl-L-arginine,,,,,,,,supplied HMDB ID only,2026-08-12,no_kegg_mapping,none,False,No valid KEGG compound ID available
+HMDB0004824,"N2,N2-Dimethylguanosine",,,,,,,,supplied HMDB ID only,2026-08-12,no_kegg_mapping,none,False,No valid KEGG compound ID available
+HMDB0005065,Oleoylcarnitine,,,,,,,,supplied HMDB ID only,2026-08-12,no_kegg_mapping,none,False,No valid KEGG compound ID available
+HMDB0005066,C14 carnitine,,,,,,,,supplied HMDB ID only,2026-08-12,no_kegg_mapping,none,False,No valid KEGG compound ID available
+HMDB0005356,TG(16:0_32:0),,,,,,,,supplied HMDB ID only,2026-08-12,no_kegg_mapping,none,False,No valid KEGG compound ID available
+HMDB0005432,TG(16:1(9Z)/16:1(9Z)/16:1(9Z)),,,,,,,,supplied HMDB ID only,2026-08-12,no_kegg_mapping,none,False,No valid KEGG compound ID available
+HMDB0006023,3'-O-Methyladenosine,,,,,,,,supplied HMDB ID only,2026-08-12,no_kegg_mapping,none,False,No valid KEGG compound ID available
+HMDB0006029,N-Acetylglutamine,,,,,,,,supplied HMDB ID only,2026-08-12,no_kegg_mapping,none,False,No valid KEGG compound ID available
+HMDB0006460,Arachidyl carnitine,,,,,,,,supplied HMDB ID only,2026-08-12,no_kegg_mapping,none,False,No valid KEGG compound ID available
+HMDB0006469,C18:2 carnitine,,,,,,,,supplied HMDB ID only,2026-08-12,no_kegg_mapping,none,False,No valid KEGG compound ID available
+HMDB0006725,CE(14:0),,,,,,,,supplied HMDB ID only,2026-08-12,no_kegg_mapping,none,False,No valid KEGG compound ID available
+HMDB0007011,DG(14:0/16:0/0:0),,,,,,,,supplied HMDB ID only,2026-08-12,no_kegg_mapping,none,False,No valid KEGG compound ID available
+HMDB0007199,DG(18:1/20:4),,,,,,,,supplied HMDB ID only,2026-08-12,no_kegg_mapping,none,False,No valid KEGG compound ID available
+HMDB0007216,DG(18:1(9Z)/18:0/0:0),,,,,,,,supplied HMDB ID only,2026-08-12,no_kegg_mapping,none,False,No valid KEGG compound ID available
+HMDB0010325,ethyl glucuronide,,,,,,,,supplied HMDB ID only,2026-08-12,no_kegg_mapping,none,False,No valid KEGG compound ID available
+HMDB0010411,TG(16:0/14:0/16:0),,,,,,,,supplied HMDB ID only,2026-08-12,no_kegg_mapping,none,False,No valid KEGG compound ID available
+HMDB0010412,TG(16:0/14:0/16:1(9Z)),,,,,,,,supplied HMDB ID only,2026-08-12,no_kegg_mapping,none,False,No valid KEGG compound ID available
+HMDB0010419,TG(16:1(9Z)/14:0/16:1(9Z)),,,,,,,,supplied HMDB ID only,2026-08-12,no_kegg_mapping,none,False,No valid KEGG compound ID available
+HMDB0011131,MG(18:0/0:0/0:0),,,,,,,,supplied HMDB ID only,2026-08-12,no_kegg_mapping,none,False,No valid KEGG compound ID available
+HMDB0011208,PC(P-16:0/18:0),,,,,,,,supplied HMDB ID only,2026-08-12,no_kegg_mapping,none,False,No valid KEGG compound ID available
+HMDB0011210,PC(P-16:0/18:1(9Z)),,,,,,,,supplied HMDB ID only,2026-08-12,no_kegg_mapping,none,False,No valid KEGG compound ID available
+HMDB0011212,"PC(P-16:0/18:3(6Z,9Z,12Z))",,,,,,,,supplied HMDB ID only,2026-08-12,no_kegg_mapping,none,False,No valid KEGG compound ID available
+HMDB0011220,"PC(P-16:0/20:4(5Z,8Z,11Z,14Z))",,,,,,,,supplied HMDB ID only,2026-08-12,no_kegg_mapping,none,False,No valid KEGG compound ID available
+HMDB0011241,PC(P-18:0/18:0),,,,,,,,supplied HMDB ID only,2026-08-12,no_kegg_mapping,none,False,No valid KEGG compound ID available
+HMDB0011243,PC(P-18:0/18:1(9Z)),,,,,,,,supplied HMDB ID only,2026-08-12,no_kegg_mapping,none,False,No valid KEGG compound ID available
+HMDB0011310,"PC(P-18:1(9Z)/18:2(9Z,12Z))",,,,,,,,supplied HMDB ID only,2026-08-12,no_kegg_mapping,none,False,No valid KEGG compound ID available
+HMDB0011503,LysoPE(16:0/0:0),,,,,,,,supplied HMDB ID only,2026-08-12,no_kegg_mapping,none,False,No valid KEGG compound ID available
+HMDB0011504,LysoPE(16:1(9Z)/0:0),,,,,,,,supplied HMDB ID only,2026-08-12,no_kegg_mapping,none,False,No valid KEGG compound ID available
+HMDB0011506,LysoPE(18:1(9Z)/0:0),,,,,,,,supplied HMDB ID only,2026-08-12,no_kegg_mapping,none,False,No valid KEGG compound ID available
+HMDB0011507,"LysoPE(18:2(9Z,12Z)/0:0)",,,,,,,,supplied HMDB ID only,2026-08-12,no_kegg_mapping,none,False,No valid KEGG compound ID available
+HMDB0011511,LysoPE(20:0/0:0),,,,,,,,supplied HMDB ID only,2026-08-12,no_kegg_mapping,none,False,No valid KEGG compound ID available
+HMDB0011520,LysoPE(22:0/0:0),,,,,,,,supplied HMDB ID only,2026-08-12,no_kegg_mapping,none,False,No valid KEGG compound ID available
+HMDB0011526,"LysoPE(22:6(4Z,7Z,10Z,13Z,16Z,19Z)/0:0)",,,,,,,,supplied HMDB ID only,2026-08-12,no_kegg_mapping,none,False,No valid KEGG compound ID available
+HMDB0011564,palmitoyl glycerol,,,,,,,,supplied HMDB ID only,2026-08-12,no_kegg_mapping,none,False,No valid KEGG compound ID available
+HMDB0011565,MG(16:1(9Z)/0:0/0:0),,,,,,,,supplied HMDB ID only,2026-08-12,no_kegg_mapping,none,False,No valid KEGG compound ID available
+HMDB0011582,MG(22:1(13Z)/0:0/0:0),,,,,,,,supplied HMDB ID only,2026-08-12,no_kegg_mapping,none,False,No valid KEGG compound ID available
+HMDB0011697,SM(d18:1/24:0),,,,,,,,supplied HMDB ID only,2026-08-12,no_kegg_mapping,none,False,No valid KEGG compound ID available
+HMDB0011701,"TG(15:0/16:0/20:3(8Z,11Z,14Z))",,,,,,,,supplied HMDB ID only,2026-08-12,no_kegg_mapping,none,False,No valid KEGG compound ID available
+HMDB0012252,linoleoyl ethanolamide ,,,,,,,,supplied HMDB ID only,2026-08-12,no_kegg_mapping,none,False,No valid KEGG compound ID available
+HMDB0013078,stearoyl ethanolamide,,,,,,,,supplied HMDB ID only,2026-08-12,no_kegg_mapping,none,False,No valid KEGG compound ID available
+HMDB0013133,Methylmalonylcarnitine,,,,,,,,supplied HMDB ID only,2026-08-12,no_kegg_mapping,none,False,No valid KEGG compound ID available
+HMDB0013325,"2-trans,4-cis-Decadienoylcarnitine",,,,,,,,supplied HMDB ID only,2026-08-12,no_kegg_mapping,none,False,No valid KEGG compound ID available
+HMDB0014420,Olmesartan,,,,,,,,supplied HMDB ID only,2026-08-12,no_kegg_mapping,none,False,No valid KEGG compound ID available
+HMDB0031057,2-hydroxyhexadecanoate,,,,,,,,supplied HMDB ID only,2026-08-12,no_kegg_mapping,none,False,No valid KEGG compound ID available
+HMDB0031106,Glycerol triheptadecanoate,,,,,,,,supplied HMDB ID only,2026-08-12,no_kegg_mapping,none,False,No valid KEGG compound ID available
+HMDB0032102,"1,2,3,4-tetrahydro-b-carboline-1,3-dicarboxylic acid",,,,,,,,supplied HMDB ID only,2026-08-12,no_kegg_mapping,none,False,No valid KEGG compound ID available
+HMDB0033585,acesulfame,,,,,,,,supplied HMDB ID only,2026-08-12,no_kegg_mapping,none,False,No valid KEGG compound ID available
+HMDB0035665,"L-1,2,3,4-tetrahydro-beta-carboline-3-carboxylic acid*",,,,,,,,supplied HMDB ID only,2026-08-12,no_kegg_mapping,none,False,No valid KEGG compound ID available
+HMDB0037397,17-Methyloctadecanoic acid,,,,,,,,supplied HMDB ID only,2026-08-12,no_kegg_mapping,none,False,No valid KEGG compound ID available
+HMDB0037942,"1,2,3,4-tetrahydro-1-methyl-beta-carboline-3-carboxylic acid",,,,,,,,supplied HMDB ID only,2026-08-12,no_kegg_mapping,none,False,No valid KEGG compound ID available
+HMDB0038256,geranyl acetoacetate*,,,,,,,,supplied HMDB ID only,2026-08-12,no_kegg_mapping,none,False,No valid KEGG compound ID available
+HMDB0042063,TG(14:0/14:0/16:0),,,,,,,,supplied HMDB ID only,2026-08-12,no_kegg_mapping,none,False,No valid KEGG compound ID available
+HMDB0042093,TG(14:0/15:0/16:0),,,,,,,,supplied HMDB ID only,2026-08-12,no_kegg_mapping,none,False,No valid KEGG compound ID available
+HMDB0042226,"TG(14:0/22:0/18:2(9Z,12Z))",,,,,,,,supplied HMDB ID only,2026-08-12,no_kegg_mapping,none,False,No valid KEGG compound ID available
+HMDB0042466,"TG(14:0/22:1(13Z)/18:2(9Z,12Z))",,,,,,,,supplied HMDB ID only,2026-08-12,no_kegg_mapping,none,False,No valid KEGG compound ID available
+HMDB0043058,"TG(15:0/18:0/20:3(5Z,8Z,11Z))",,,,,,,,supplied HMDB ID only,2026-08-12,no_kegg_mapping,none,False,No valid KEGG compound ID available
+HMDB0059824,4-hydroxy-3-methylacetophenone,,,,,,,,supplied HMDB ID only,2026-08-12,no_kegg_mapping,none,False,No valid KEGG compound ID available
+HMDB0059871,ethyl 9-hexadecenoate,,,,,,,,supplied HMDB ID only,2026-08-12,no_kegg_mapping,none,False,No valid KEGG compound ID available
+HMDB0060038,10Z-Heptadecenoic acid,,,,,,,,supplied HMDB ID only,2026-08-12,no_kegg_mapping,none,False,No valid KEGG compound ID available
+HMDB0061858,7-hexadecenoic acid methyl ester,,,,,,,,supplied HMDB ID only,2026-08-12,no_kegg_mapping,none,False,No valid KEGG compound ID available
+HMDB0094696,N-methylproline,,,,,,,,supplied HMDB ID only,2026-08-12,no_kegg_mapping,none,False,No valid KEGG compound ID available

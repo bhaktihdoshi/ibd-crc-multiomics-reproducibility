@@ -1,0 +1,10 @@
+test,status,observed,expected,notes
+ihmp_91_profiles_present,pass,91,91,
+no_duplicate_sample_ids,pass,checked,unique,
+no_duplicate_primary_ibd_taxa,pass,50,50,
+no_duplicate_primary_crc_taxa,pass,52,52,
+class_labels_correct,pass,"CD,Control,UC","CD,UC,Control/IBD_control",Current IBD included-samples table uses Control.
+matched_subject_populations_deterministic,pass,exact sample_id intersections,deterministic,
+no_global_predictive_feature_filtering,pass,shared universes only,no prevalence or model filtering,
+no_model_fitted,pass,table inspection only,no scientific model,
+stage1_3_hashes_unchanged,pass,unchanged,unchanged,

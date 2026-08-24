@@ -1,0 +1,2 @@
+cohort,source_feature_id,identifier_type,identifier_value,candidate_shared_entity,mapping_source,one_to_one,conflict_flag,status
+ALL,,InChIKey/ChEBI/PubChem/SMILES,,,No structural identifiers present in local authoritative Stage 3 inputs,,False,UNRESOLVED_NO_LOCAL_STRUCTURAL_IDENTIFIER

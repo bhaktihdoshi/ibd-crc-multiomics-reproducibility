@@ -1,0 +1,6 @@
+model,full_cartesian_configurations,search_method,configurations_evaluated_per_inner_search,random_seed,selection_metric
+ridge_logistic,11,GridSearchCV,11,,roc_auc
+elastic_net_logistic,63,GridSearchCV,63,,roc_auc
+random_forest,900,RandomizedSearchCV,75,42,roc_auc
+extra_trees,900,RandomizedSearchCV,75,42,roc_auc
+gradient_boosting,2160,RandomizedSearchCV,75,42,roc_auc

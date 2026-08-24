@@ -1,0 +1,6 @@
+identifier_type,Sinha_nonmissing_unique,Yachida_nonmissing_unique,shared_unique_identifiers
+HMDB_raw,354,420,110
+KEGG_raw,189,431,107
+HMDB,354,420,110
+KEGG,189,431,107
+HMDB_or_KEGG_unified,543,851,217

@@ -1,0 +1,2 @@
+status,reason
+not_generated,Training-only OOF probabilities are unavailable until the full pipeline is rerun.

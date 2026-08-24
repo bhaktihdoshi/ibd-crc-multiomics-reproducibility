@@ -1,0 +1,16 @@
+test,critical,passed,detail
+correct_positive_class,True,True,"true labels coded 0 control / 1 disease and probabilities in [0,1]"
+probability_column_range,True,True,"saved predicted_probability within [0,1]"
+sample_level_prediction_uniqueness,True,True,one row per model/sample
+prediction_row_count_positive,True,True,each selected model has predictions
+no_duplicated_sample_ids_within_context,True,True,no duplicate sample IDs per context
+metric_recomputation_available,True,True,threshold-dependent metrics recomputed from predictions
+frozen_threshold_available,True,True,frozen threshold stored in prediction file
+selected_model_artifacts_load,True,True,all selected joblib pipelines load successfully
+feature_order_artifacts_present,True,True,selected model artifacts loaded and fitted preprocessing masks inspected
+no_external_data_in_search,True,True,diagnostic confirms external metrics are post-selection only from saved files
+no_label_inversion_flag,True,True,no positive-class inversion detected from saved predictions
+brier_recomputation_agreement,True,True,Brier recomputed from sample-level predictions
+convergence_status_recorded,False,True,post-run convergence audit table created
+selected_logistic_convergence_resolved,False,True,selected logistic models converged if n_iter_ < max_iter; unresolved/not-converged entries are documented
+calibration_policy_consistent,True,True,calibration retained as assessment-only

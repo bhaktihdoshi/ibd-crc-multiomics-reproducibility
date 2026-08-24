@@ -1,0 +1,7 @@
+check,passed,detail
+missingness_filter_inside_pipeline,True,MissingnessFilter appears in sklearn Pipeline definition.
+constant_filter_inside_pipeline,True,ConstantFeatureFilter appears in sklearn Pipeline definition.
+imputation_inside_pipeline,True,SimpleImputer appears inside pipeline definitions.
+scaling_inside_pipeline,True,StandardScaler appears inside pipeline definitions.
+external_not_used_for_search,True,Nested CV search function body does not reference external_x.
+threshold_training_only,True,Frozen threshold source is nested outer-fold OOF predictions.

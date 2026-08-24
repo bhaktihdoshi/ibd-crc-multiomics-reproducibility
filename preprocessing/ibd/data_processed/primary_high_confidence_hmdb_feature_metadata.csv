@@ -1,0 +1,167 @@
+metabolite_id,franzosa_feature,ihmp_feature,franzosa_method,ihmp_method,assay_compatibility,matching_tier
+HMDB0000017,HILIC-neg_Cluster_0335: 4-pyridoxate,HILn_QI18__4-pyridoxate,HILIC-neg,HILIC-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000019,HILIC-neg_Cluster_0062: alpha-ketoisovalerate,HILn_QI28__alpha-ketoisovalerate,HILIC-neg,HILIC-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000020,C18-neg_Cluster_0019: p-hydroxyphenylacetate,C18n_QI86__p-hydroxyphenylacetate,C18-neg,C18-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000034,HILIC-neg_Cluster_0120: adenine,HILn_QI23__adenine,HILIC-neg,HILIC-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000043,HILIC-pos_Cluster_0048: betaine,HILp_QI615__betaine,HILIC-pos,HILIC-pos,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000044,HILIC-neg_Cluster_0299: ascorbate,HILn_QI30__ascorbate,HILIC-neg,HILIC-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000054,HILIC-pos_Cluster_2052: bilirubin,HILp_QI19549__bilirubin,HILIC-pos,HILIC-pos,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000056,HILIC-pos_Cluster_0009: beta-alanine,HILp_TF37__beta-alanine,HILIC-pos,HILIC-pos,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000062,HILIC-pos_Cluster_0230: carnitine,HILp_QI2466__carnitine,HILIC-pos,HILIC-pos,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000064,HILIC-pos_Cluster_0090: creatine,HILp_QI1110__creatine,HILIC-pos,HILIC-pos,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000094,HILIC-neg_Cluster_0392: citrate,HILn_QI42__citrate,HILIC-neg,HILIC-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000097,HILIC-pos_Cluster_0022: choline,HILp_QI331__choline,HILIC-pos,HILIC-pos,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000098,HILIC-neg_Cluster_0176: xylose,HILn_QI132__xylose,HILIC-neg,HILIC-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000101,HILIC-pos_Cluster_0728: 2-deoxyadenosine,HILp_TF9__2-deoxyadenosine,HILIC-pos,HILIC-pos,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000118,HILIC-neg_Cluster_0328: homovanillate,HILn_QI69__homovanillate,HILIC-neg,HILIC-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000132,HILIC-neg_Cluster_0182: guanine,HILn_QI65__guanine,HILIC-neg,HILIC-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000133,HILIC-neg_Cluster_0909: guanosine,HILn_QI66__guanosine,HILIC-neg,HILIC-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000138,HILIC-neg_Cluster_1571: glycocholate,C18n_QI59__glycocholate,HILIC-neg,C18-neg,broadly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000139,HILIC-neg_Cluster_0036: glycerate,HILn_QI61__glycerate,HILIC-neg,HILIC-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000156,HILIC-neg_Cluster_0118: malate,HILn_QI84__malate,HILIC-neg,HILIC-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000157,HILIC-neg_Cluster_0123: hypoxanthine,HILn_QI72__hypoxanthine,HILIC-neg,HILIC-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000158,HILIC-neg_Cluster_0324: tyrosine,HILn_QI124__tyrosine,HILIC-neg,HILIC-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000161,HILIC-neg_Cluster_0015: alanine,HILn_QI25__alanine,HILIC-neg,HILIC-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000162,HILIC-neg_Cluster_0059: proline,HILn_QI101__proline,HILIC-neg,HILIC-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000167,HILIC-neg_Cluster_0073: threonine,HILn_QI120__threonine,HILIC-neg,HILIC-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000168,HILIC-neg_Cluster_0112: asparagine,HILn_QI31__asparagine,HILIC-neg,HILIC-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000172,HILIC-pos_Cluster_0092: isoleucine,HILp_TF53__isoleucine,HILIC-pos,HILIC-pos,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000174,HILIC-neg_Cluster_0237: fucose,HILn_QI54__fucose,HILIC-neg,HILIC-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000182,HILIC-pos_Cluster_0157: lysine,HILp_QI1794__lysine,HILIC-pos,HILIC-pos,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000186,HILIC-neg_Cluster_1170: lactose,HILn_QI78__lactose,HILIC-neg,HILIC-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000187,HILIC-neg_Cluster_0035: serine,HILn_QI110__serine,HILIC-neg,HILIC-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000190,HILIC-neg_Cluster_0020: lactate,HILn_QI77__lactate,HILIC-neg,HILIC-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000191,HILIC-neg_Cluster_0117: aspartate,HILn_QI32__aspartate,HILIC-neg,HILIC-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000194,HILIC-pos_Cluster_0667: anserine,HILp_QI5874__anserine,HILIC-pos,HILIC-pos,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000195,HILIC-neg_Cluster_0824: inosine,HILn_QI76__inosine,HILIC-neg,HILIC-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000201,HILIC-pos_Cluster_0453: C2 carnitine,HILp_QI4241__C2 carnitine,HILIC-pos,HILIC-pos,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000207,C18-neg_Cluster_0250: oleic acid,C18n_QI28__oleate,C18-neg,C18-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000208,HILIC-neg_Cluster_0159: alpha-ketoglutarate,HILn_TF3__alpha-ketoglutarate,HILIC-neg,HILIC-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000209,HILIC-neg_Cluster_0125: phenylacetate,HILn_QI97__phenylacetate,HILIC-neg,HILIC-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000210,HILIC-neg_Cluster_0552: pantothete,HILn_QI95__pantothenate,HILIC-neg,HILIC-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000214,HILIC-pos_Cluster_0100: ornithine,HILp_QI1169__ornithine,HILIC-pos,HILIC-pos,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000220,C18-neg_Cluster_0171: palmitic acid,C18n_QI21__palmitate,C18-neg,C18-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000222,HILIC-pos_Cluster_1486: C16 carnitine,HILp_QI11887__C16 carnitine,HILIC-pos,HILIC-pos,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000226,HILIC-neg_Cluster_0203: orotate,HILn_QI93__orotate,HILIC-neg,HILIC-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000237,HILIC-neg_Cluster_0003: propionate,HILn_QI28433__propionate,HILIC-neg,HILIC-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000244,HILIC-neg_Cluster_1300: riboflavin,HILn_QI105__riboflavin,HILIC-neg,HILIC-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000247,HILIC-neg_Cluster_0331: sorbitol,HILn_QI112__sorbitol,HILIC-neg,HILIC-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000251,HILIC-neg_Cluster_0085: taurine,HILn_QI116__taurine,HILIC-neg,HILIC-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000254,HILIC-neg_Cluster_0069: succite,HILn_QI114__succinate,HILIC-neg,HILIC-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000262,HILIC-neg_Cluster_0087: thymine,HILn_QI121__thymine,HILIC-neg,HILIC-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000269,HILIC-pos_Cluster_1017: sphinganine,HILp_QI8763__sphinganine,HILIC-pos,HILIC-pos,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000289,HILIC-neg_Cluster_0254: urate,HILn_TF18__urate,HILIC-neg,HILIC-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000292,HILIC-neg_Cluster_0187: xanthine,HILn_QI130__xanthine,HILIC-neg,HILIC-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000296,HILIC-neg_Cluster_0706: uridine,HILn_QI128__uridine,HILIC-neg,HILIC-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000300,HILIC-neg_Cluster_0049: uracil,HILn_QI126__uracil,HILIC-neg,HILIC-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000391,C18-neg_Cluster_0900: ketodeoxycholate,C18n_QI52__ketodeoxycholate,C18-neg,C18-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000452,HILIC-neg_Cluster_0032: 2-aminobutyric acid,HILn_QI3__2-aminobutyrate,HILIC-neg,HILIC-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000479,HILIC-pos_Cluster_0272: 3-methylhistidine,HILp_QI2793__3-methylhistidine,HILIC-pos,HILIC-pos,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000482,HILIC-neg_Cluster_0156: caprylic acid,HILn_QI38__caprylate,HILIC-neg,HILIC-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000506,C18-neg_Cluster_0927: alpha-muricholate,C18n_QI53__alpha-muricholate,C18-neg,C18-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000517,HILIC-neg_Cluster_0290: arginine,HILn_TF4__arginine,HILIC-neg,HILIC-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000518,C18-neg_Cluster_1045: chenodeoxycholate,C18n_QI49__chenodeoxycholate,C18-neg,C18-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000535,HILIC-neg_Cluster_0064: caproic acid,C18n_QI08__caproate,HILIC-neg,C18-neg,broadly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000555,HILIC-neg_Cluster_0220: 3-methyladipate-pimelate,HILn_QI10__3-methyladipate/pimelate,HILIC-neg,HILIC-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000562,HILIC-pos_Cluster_0036: creatinine,HILp_QI522__creatinine,HILIC-pos,HILIC-pos,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000613,HILIC-neg_Cluster_0122: erythronic acid,HILn_QI51__erythronate,HILIC-neg,HILIC-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000619,C18-neg_Cluster_1258: cholate,C18n_QI54__cholate,C18-neg,C18-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000623,C18-neg_Cluster_0111: dodecanedioic acid,C18n_TF3__dodecanedioate,C18-neg,C18-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000626,C18-neg_Cluster_0833: deoxycholic acid,C18n_QI50__deoxycholate,C18-neg,C18-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000630,HILIC-pos_Cluster_0032: cytosine,HILp_QI473__cytosine,HILIC-pos,HILIC-pos,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000631,C18-neg_Cluster_1196: glycodeoxycholic acid,C18n_QI57__glycodeoxycholate,C18-neg,C18-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000672,C18-neg_Cluster_0268: hexadecanedioic acid,C18n_QI30__hexadecanedioate,C18-neg,C18-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000673,C18-neg_Cluster_0246: linoleic acid,C18n_QI27__linoleate,C18-neg,C18-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000687,HILIC-neg_Cluster_0105: leucine,HILn_QI79__leucine,HILIC-neg,HILIC-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000691,HILIC-neg_Cluster_0033: malonate,HILn_QI85__malonate,HILIC-neg,HILIC-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000696,HILIC-neg_Cluster_0173: methionine,HILn_QI86__methionine,HILIC-neg,HILIC-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000698,C18-neg_Cluster_1081: glycolithocholic acid,C18n_QI55__glycolithocholate,C18-neg,C18-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000699,HILIC-pos_Cluster_0110: 1-methylnicotinamide,HILp_QI1320__1-methylnicotinamide,HILIC-pos,HILIC-pos,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000708,C18-neg_Cluster_1197: glycoursodeoxycholic acid,C18n_QI58__glycoursodeoxycholate,C18-neg,C18-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000715,HILIC-pos_Cluster_0383: kynurenic acid,HILp_QI3608__kynurenic acid,HILIC-pos,HILIC-pos,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000722,C18-neg_Cluster_1465: taurolithocholic acid,C18n_QI60__taurolithocholate,C18-neg,C18-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000725,HILIC-pos_Cluster_0089: hydroxyproline,HILp_QI1106__hydroxyproline,HILIC-pos,HILIC-pos,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000761,C18-neg_Cluster_0731: lithocholic acid,C18n_QI48__lithocholate,C18-neg,C18-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000764,HILIC-neg_Cluster_0181: hydrocinnamic acid,C18n_QI10__hydrocinnamate,HILIC-neg,C18-neg,broadly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000766,HILIC-neg_Cluster_0103: acetylalanine,HILn_QI22__acetylalanine,HILIC-neg,HILIC-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000767,HILIC-neg_Cluster_0707: pseudouridine,HILn_QI102__pseudouridine,HILIC-neg,HILIC-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000779,C18-neg_Cluster_0031: phenyllactate,C18n_QI85__phenyllactate,C18-neg,C18-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000784,C18-neg_Cluster_0045: azelate,C18n_QI68__azelate,C18-neg,C18-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000792,C18-neg_Cluster_0064: sebacate,C18n_QI69__sebacate,C18-neg,C18-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000806,C18-neg_Cluster_0107: myristic acid,C18n_QI18__myristate,C18-neg,C18-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000826,HILIC-neg_Cluster_0697: pentadecanoate,C18n_TF4__pentadecanoate,HILIC-neg,C18-neg,broadly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000827,C18-neg_Cluster_0256: stearic acid,C18n_QI29__stearate,C18-neg,C18-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000866,C18-neg_Cluster_0090: acetytyrosine,C18n_QI78__acetytyrosine,C18-neg,C18-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000870,HILIC-pos_Cluster_0033: histamine,HILp_QI484__histamine,HILIC-pos,HILIC-pos,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000872,C18-neg_Cluster_0177: tetradecanedioate,C18n_QI22__tetradecanedioate,C18-neg,C18-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000873,HILIC-neg_Cluster_0084: 4-methylcatechol,HILn_QI16__4-methylcatechol,HILIC-neg,HILIC-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000875,HILIC-pos_Cluster_0113: trigonelline,HILp_QI1363__trigonelline,HILIC-pos,HILIC-pos,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000888,C18-neg_Cluster_0079: undecanedionate,C18n_QI16__undecanedionate,C18-neg,C18-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000893,HILIC-neg_Cluster_0288: suberate,HILn_TF16__suberate,HILIC-neg,HILIC-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000895,HILIC-pos_Cluster_0152: acetylcholine,HILp_QI1757__acetylcholine,HILIC-pos,HILIC-pos,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000896,C18-neg_Cluster_1575: taurodeoxycholic acid,C18n_QI62__taurodeoxycholate,C18-neg,C18-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000897,HILIC-pos_Cluster_0246: 7-methylguanine,HILp_QI2601__7-methylguanine,HILIC-pos,HILIC-pos,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000904,HILIC-neg_Cluster_0296: citrulline,HILn_TF5__citrulline,HILIC-neg,HILIC-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000929,HILIC-neg_Cluster_0452: tryptophan,HILn_QI123__tryptophan,HILIC-neg,HILIC-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000951,C18-neg_Cluster_1574: taurochenodesoxycholic acid,C18n_QI61__taurochenodeoxycholate,C18-neg,C18-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000956,HILIC-neg_Cluster_0174: tartarate,HILn_TF17__tartarate,HILIC-neg,HILIC-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0000957,HILIC-neg_Cluster_0040: pyrocatechol,HILn_QI103__pyrocatechol,HILIC-neg,HILIC-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0001043,C18-neg_Cluster_0354: arachidonic acid,C18n_QI35__arachidonate,C18-neg,C18-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0001138,HILIC-neg_Cluster_0372: N-acetylglutamate,HILn_QI90__N-acetylglutamate,HILIC-neg,HILIC-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0001161,HILIC-pos_Cluster_0151: butyrobetaine,HILp_QI1759__butyrobetaine,HILIC-pos,HILIC-pos,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0001232,HILIC-neg_Cluster_0133: 4-nitrophenol,HILn_QI17__4-nitrophenol,HILIC-neg,HILIC-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0001276,HILIC-pos_Cluster_0374: N-acetylspermidine,HILp_QI3549__N1-acetylspermidine,HILIC-pos,HILIC-pos,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0001325,HILIC-pos_Cluster_0379: trimethyllysine,"HILp_QI3593__N6,N6,N6-trimethyllysine",HILIC-pos,HILIC-pos,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0001388,C18-neg_Cluster_0244: alpha-linolenic acid,C18n_QI26__alpha-linolenate,C18-neg,C18-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0001414,HILIC-pos_Cluster_0007: putrescine,HILp_QI163__putrescine,HILIC-pos,HILIC-pos,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0001488,HILIC-neg_Cluster_0082: nicotinate,HILn_QI91__nicotinate,HILIC-neg,HILIC-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0001539,HILIC-pos_Cluster_0447: ADMA,HILp_TF48__ADMA/SDMA,HILIC-pos,HILIC-pos,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0001847,HILIC-pos_Cluster_0405: caffeine,HILp_QI3770__caffeine,HILIC-pos,HILIC-pos,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0001886,HILIC-pos_Cluster_0254: 3-methylxanthine,HILp_QI2638__3-methylxanthine,HILIC-pos,HILIC-pos,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0001924,HILIC-pos_Cluster_0817: atenolol,HILp_QI7038__atenolol,HILIC-pos,HILIC-pos,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0001976,C18-neg_Cluster_0729: docosapentaenoic acid ,C18n_QI42__docosapentaenoate,C18-neg,C18-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0001999,C18-neg_Cluster_0351: eicosapentaenoic acid,C18n_QI34__eicosapentaenoate,C18-neg,C18-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0002005,HILIC-pos_Cluster_0244: methionine sulfoxide,HILp_QI2598__methionine sulfoxide,HILIC-pos,HILIC-pos,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0002064,HILIC-pos_Cluster_0086: N-acetylputrescine,HILp_QI1093__N-acetylputrescine,HILIC-pos,HILIC-pos,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0002068,C18-neg_Cluster_0530: 13-docosenoate,C18n_QI44__13-docosenoate,C18-neg,C18-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0002100,C18-neg_Cluster_0515: palmitoylethanolamide,C18n_QI84__palmitoylethanolamide,C18-neg,C18-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0002121,C18-neg_Cluster_0486: carnosol,C18n_QI80__carnosol,C18-neg,C18-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0002123,HILIC-neg_Cluster_0480: 1-3-7-trimethylurate,HILn_QI2__1-3-7-trimethylurate,HILIC-neg,HILIC-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0002172,HILIC-pos_Cluster_0936: diacetylspermine,"HILp_TF50__N1,N12-diacetylspermine",HILIC-pos,HILIC-pos,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0002183,C18-neg_Cluster_0472: docosahexaenoic acid,C18n_QI41__docosahexaenoate,C18-neg,C18-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0002226,C18-neg_Cluster_0506: adrenic acid,C18n_QI43__adrenate,C18-neg,C18-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0002231,C18-neg_Cluster_0373: eicosenoate,C18n_QI38__eicosenoate,C18-neg,C18-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0002259,HILIC-neg_Cluster_0841: heptadecanoate,HILn_QI67__heptadecanoate,HILIC-neg,HILIC-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0002261,C18-neg_Cluster_0144: 2-hydroxymyristic acid,C18n_QI19__hydroxymyristate,C18-neg,C18-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0002271,HILIC-pos_Cluster_0121: imidazole propionate,HILp_QI1508__imidazole propionate,HILIC-pos,HILIC-pos,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0002320,HILIC-neg_Cluster_0204: imidazolelactate,HILn_QI73__imidazolelactate,HILIC-neg,HILIC-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0002329,HILIC-neg_Cluster_0016: oxalate,HILn_TF13__oxalate,HILIC-neg,HILIC-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0002364,C18-neg_Cluster_1596: oleanolic acid,C18n_QI46__oleanate,C18-neg,C18-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0002368,C18-neg_Cluster_0672: nervonic acid,C18n_QI89__nervonic acid,C18-neg,C18-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0002392,C18-neg_Cluster_1680: maslinic acid,C18n_QI47__masilinate,C18-neg,C18-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0002925,C18-neg_Cluster_0591: eicosatrienoic acid,C18n_QI36__eicosatrienoate,C18-neg,C18-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0003070,HILIC-neg_Cluster_0283: shikimate,HILn_QI111__shikimate,HILIC-neg,HILIC-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0003229,C18-neg_Cluster_0164: palmitoleic acid,C18n_QI20__palmitoleate,C18-neg,C18-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0003282,HILIC-pos_Cluster_0245: 1-methylguanine,HILp_QI2602__1-methylguanine,HILIC-pos,HILIC-pos,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0003333,HILIC-pos_Cluster_0914: 8-hydroxy-deoxyguanosine,HILp_QI7860__8-hydroxy-deoxyguanosine,HILIC-pos,HILIC-pos,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0003464,HILIC-pos_Cluster_0150: 4-guanidinobutanoic acid,HILp_QI1750__4-guanidinobutanoic acid,HILIC-pos,HILIC-pos,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0004072,C18-neg_Cluster_0004: 4-hydroxystyrene,C18n_QI77__4-hydroxystyrene,C18-neg,C18-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0004160,C18-neg_Cluster_2021: urobilin,C18n_QI88__urobilin,C18-neg,C18-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0004610,HILIC-pos_Cluster_1113: phytosphingosine,HILp_TF13__phytosphingosine,HILIC-pos,HILIC-pos,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0004620,HILIC-pos_Cluster_0524: N-acetyl-L-arginine,HILp_QI4793__N-alpha-acetylarginine,HILIC-pos,HILIC-pos,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0004704,C18-neg_Cluster_0394: 9.10-diHOME,C18n_QI07__9.10-diHOME,C18-neg,C18-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0004705,C18-neg_Cluster_0393: 12.13-diHOME,C18n_QI06__12.13-diHOME,C18-neg,C18-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0004827,HILIC-pos_Cluster_0134: proline betaine,HILp_QI1646__proline betaine,HILIC-pos,HILIC-pos,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0005066,HILIC-pos_Cluster_1374: C14 carnitine,HILp_QI11212__C14 carnitine,HILIC-pos,HILIC-pos,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0006469,HILIC-pos_Cluster_1580: C18:2 carnitine,HILp_QI12459__C18:2 carnitine,HILIC-pos,HILIC-pos,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0010325,HILIC-neg_Cluster_0562: ethyl glucuronide,HILn_QI52__ethyl glucuronide,HILIC-neg,HILIC-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0011718,HILIC-neg_Cluster_0079: 4-hydroxybenzaldehyde,HILn_QI13__4-hydroxybenzaldehyde,HILIC-neg,HILIC-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0013287,HILIC-pos_Cluster_0298: dimethyllysine,"HILp_QI2981__N6,N6-dimethyllysine",HILIC-pos,HILIC-pos,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0029377,HILIC-pos_Cluster_0927: piperine,C8p_QI215__piperine,HILIC-pos,C8-pos,broadly compatible assay,Tier 1 high-confidence HMDB
+HMDB0029723,HILIC-neg_Cluster_0332: saccharin,C18n_QI67__saccharin,HILIC-neg,C18-neg,broadly compatible assay,Tier 1 high-confidence HMDB
+HMDB0031057,C18-neg_Cluster_0219: 2-hydroxyhexadecanoate,C18n_QI25__2-hydroxyhexadecanoate,C18-neg,C18-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0032055,HILIC-pos_Cluster_0419: N-acetylhistidine,HILp_QI3939__N-acetylhistidine,HILIC-pos,HILIC-pos,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0033585,C18-neg_Cluster_0025: acesulfame,C18n_QI90__acesulfame,C18-neg,C18-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0037942,"HILIC-neg_Cluster_0622: 1,2,3,4-tetrahydro-1-methyl-beta-carboline-3-carboxylic acid",HILn_QI119__tetrahydro-1-methyl-beta-carboline-3-carboxylate,HILIC-neg,HILIC-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0059655,HILIC-neg_Cluster_0169: 2-hydroxyglutarate,HILn_QI7__2-hydroxyglutarate,HILIC-neg,HILIC-neg,same or strongly compatible assay,Tier 1 high-confidence HMDB
+HMDB0059824,HILIC-pos_Cluster_0177: 4-hydroxy-3-methylacetophenone,HILp_QI1929__4-hydroxy-3-methylacetophenone,HILIC-pos,HILIC-pos,same or strongly compatible assay,Tier 1 high-confidence HMDB

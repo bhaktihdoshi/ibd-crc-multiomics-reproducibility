@@ -1,0 +1,19 @@
+kind,outcome,label,y,train_cohort,external_cohort,feature_set,feature_label,model,model_label,roc_auc,ci_low,ci_high,balanced_accuracy,f1
+model,ibd_vs_control,Metabolomics,1.72,Franzosa,iHMP,metabolomics,Metabolomics,ridge_logistic,Ridge logistic,0.6884615384615385,0.5807977649780928,0.7946500876996567,0.6884615384615385,0.7368421052631579
+model,ibd_vs_control,Integrated,2.34,Franzosa,iHMP,integrated,Integrated,extra_trees,Extra Trees,0.4976331360946745,0.3690330525981249,0.6234724417936187,0.4461538461538462,0.7111111111111111
+model,ibd_vs_control,Clinical,2.96,Franzosa,iHMP,clinical,Clinical,ridge_logistic,Ridge logistic,0.4908284023668639,0.3442019927536232,0.6299365507072394,0.4307692307692308,0.15584415584415584
+model,ibd_vs_control,Metabolomics,4.48,iHMP,Franzosa,metabolomics,Metabolomics,random_forest,Random Forest,0.7054341133004927,0.6112942271072128,0.7950341852006669,0.5,0.0
+model,ibd_vs_control,Integrated,5.1000000000000005,iHMP,Franzosa,integrated,Integrated,gradient_boosting,Gradient Boosting,0.6936576354679803,0.6235659801678108,0.7647438010043942,0.5,0.0
+model,ibd_vs_control,Clinical,5.720000000000001,iHMP,Franzosa,clinical,Clinical,ridge_logistic,Ridge logistic,0.33697660098522164,0.2586632835410557,0.42574852680794556,0.5,0.0
+model,cd_vs_control,Metabolomics,9.06,Franzosa,iHMP,metabolomics,Metabolomics,elastic_net_logistic,Elastic Net,0.680966469428008,0.5670358878144995,0.7910107142857142,0.6602564102564102,0.625
+model,cd_vs_control,Integrated,9.68,Franzosa,iHMP,integrated,Integrated,elastic_net_logistic,Elastic Net,0.5,0.5,0.5,0.5,0.0
+model,cd_vs_control,Clinical,10.299999999999999,Franzosa,iHMP,clinical,Clinical,ridge_logistic,Ridge logistic,0.7159763313609467,0.5822951311899482,0.8357347701149425,0.6282051282051282,0.5423728813559322
+model,cd_vs_control,Metabolomics,11.819999999999999,iHMP,Franzosa,metabolomics,Metabolomics,ridge_logistic,Ridge logistic,0.8905529953917051,0.8282949668249494,0.9462191631212004,0.5,0.0
+model,cd_vs_control,Integrated,12.439999999999998,iHMP,Franzosa,integrated,Integrated,ridge_logistic,Ridge logistic,0.44297235023041476,0.33945010449320795,0.5466634885322316,0.5,0.0
+model,cd_vs_control,Clinical,13.059999999999997,iHMP,Franzosa,clinical,Clinical,ridge_logistic,Ridge logistic,0.3607430875576037,0.26603952488041693,0.45984169745484393,0.40236175115207373,0.36036036036036034
+model,uc_vs_control,Metabolomics,16.399999999999995,Franzosa,iHMP,metabolomics,Metabolomics,ridge_logistic,Ridge logistic,0.5961538461538463,0.4807575757575758,0.7115384615384616,0.5961538461538461,0.46153846153846156
+model,uc_vs_control,Integrated,17.019999999999996,Franzosa,iHMP,integrated,Integrated,random_forest,Random Forest,0.66198224852071,0.5023020993343573,0.8032630319455656,0.5,0.6666666666666666
+model,uc_vs_control,Clinical,17.639999999999997,Franzosa,iHMP,clinical,Clinical,random_forest,Random Forest,0.43195266272189353,0.28345064484126986,0.5841063275180591,0.4423076923076923,0.5396825396825397
+model,uc_vs_control,Metabolomics,19.159999999999997,iHMP,Franzosa,metabolomics,Metabolomics,ridge_logistic,Ridge logistic,0.8234126984126985,0.7375102239931786,0.8974902187651017,0.5,0.6585365853658537
+model,uc_vs_control,Integrated,19.779999999999998,iHMP,Franzosa,integrated,Integrated,ridge_logistic,Ridge logistic,0.738425925925926,0.6398460774577954,0.8257426404367894,0.5,0.6585365853658537
+model,uc_vs_control,Clinical,20.4,iHMP,Franzosa,clinical,Clinical,random_forest,Random Forest,0.36937830687830686,0.26456963611044526,0.4750349875983462,0.42294973544973546,0.5362318840579711

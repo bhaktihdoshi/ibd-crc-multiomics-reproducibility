@@ -1,0 +1,10 @@
+test,passed,observed,expected,note
+Yachida local samples linked to official S2-2,True,347,347,
+Yachida unmatched official stage rows,True,0,0,
+Yachida stage conflicts,True,0,0,
+Yachida Stage III count,True,34,34,
+Yachida Stage IV count,True,20,20,
+Yachida MP not mapped to CRC,True,True,True,
+Yachida HS not mapped to Healthy,True,True,True,
+Yachida HS excluded from trajectory,True,True,True,
+Sinha supports binary CRC vs Control only after source audit,True,True,True,

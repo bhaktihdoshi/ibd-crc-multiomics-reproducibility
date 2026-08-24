@@ -1,0 +1,5 @@
+analysis,disease,cohort,n,microbiome_p,metabolome_p,cv_splits_constructed,sparsity_candidates,candidate_fit_count,final_fit_count,candidate_object_count_constructed,group_aware_common_valid_schema,sample_order_aligned,finite_after_preprocessing,phenotype_used_for_input_selection
+sCCA,IBD,Franzosa,137,50,166,5,18,90,1,18,True,True,True,False
+sCCA,IBD,iHMP,91,50,166,5,18,90,1,18,True,True,True,False
+sCCA,CRC,Sinha,131,52,109,5,18,90,1,18,True,True,True,False
+sCCA,CRC,Yachida,252,52,109,5,18,90,1,18,True,True,True,False

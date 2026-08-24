@@ -1,0 +1,6 @@
+KEGG_pathway_ID,KEGG_pathway_name,exclusion_reason
+map01100,Metabolic pathways,configured generic KEGG overview pathway ID
+map01110,Biosynthesis of secondary metabolites,configured generic KEGG overview pathway ID
+map01240,Biosynthesis of cofactors,configured generic/non-informative KEGG pathway name
+map01120,Microbial metabolism in diverse environments,configured generic KEGG overview pathway ID
+map01200,Carbon metabolism,configured generic KEGG overview pathway ID

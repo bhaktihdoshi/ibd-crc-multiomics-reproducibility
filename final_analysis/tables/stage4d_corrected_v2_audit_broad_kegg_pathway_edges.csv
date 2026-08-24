@@ -1,0 +1,749 @@
+disease,graph_mode,pathway_id,pathway_name,broad_pathway_edge_contributions
+CRC,kegg_njc19,map01100,2-Oxocarboxylic acid metabolism,23
+CRC,kegg_njc19,map01100,ABC transporters,203
+CRC,kegg_njc19,map01100,Alcoholism,1
+CRC,kegg_njc19,map01100,Aminoacyl-tRNA biosynthesis,8
+CRC,kegg_njc19,map01100,Arginine and proline metabolism,2
+CRC,kegg_njc19,map01100,Arginine biosynthesis,4
+CRC,kegg_njc19,map01100,Bile secretion,8
+CRC,kegg_njc19,map01100,"Biosynthesis of alkaloids derived from ornithine, lysine and nicotinic acid",1
+CRC,kegg_njc19,map01100,Biosynthesis of amino acids,127
+CRC,kegg_njc19,map01100,Biosynthesis of cofactors,87
+CRC,kegg_njc19,map01100,Biosynthesis of nucleotide sugars,1
+CRC,kegg_njc19,map01100,Biosynthesis of phenylpropanoids,4
+CRC,kegg_njc19,map01100,Biosynthesis of plant hormones,2
+CRC,kegg_njc19,map01100,Biosynthesis of plant secondary metabolites,106
+CRC,kegg_njc19,map01100,Biosynthesis of secondary metabolites,601
+CRC,kegg_njc19,map01100,Biosynthesis of various alkaloids,2
+CRC,kegg_njc19,map01100,Biosynthesis of various antibiotics,9
+CRC,kegg_njc19,map01100,Biosynthesis of various other secondary metabolites,7
+CRC,kegg_njc19,map01100,Biosynthesis of various plant secondary metabolites,4
+CRC,kegg_njc19,map01100,Biosynthesis of various siderophores,2
+CRC,kegg_njc19,map01100,Butanoate metabolism,1
+CRC,kegg_njc19,map01100,C5-Branched dibasic acid metabolism,1
+CRC,kegg_njc19,map01100,Carbon fixation by Calvin cycle,2
+CRC,kegg_njc19,map01100,Carbon metabolism,19
+CRC,kegg_njc19,map01100,Central carbon metabolism in cancer,24
+CRC,kegg_njc19,map01100,Citrate cycle (TCA cycle),2
+CRC,kegg_njc19,map01100,Cornified envelope formation,2
+CRC,kegg_njc19,map01100,Cyanoamino acid metabolism,4
+CRC,kegg_njc19,map01100,Cysteine and methionine metabolism,10
+CRC,kegg_njc19,map01100,D-Amino acid metabolism,31
+CRC,kegg_njc19,map01100,Degradation of aromatic compounds,17
+CRC,kegg_njc19,map01100,Diabetic cardiomyopathy,1
+CRC,kegg_njc19,map01100,GABAergic synapse,1
+CRC,kegg_njc19,map01100,Glucagon signaling pathway,4
+CRC,kegg_njc19,map01100,Glucosinolate biosynthesis,4
+CRC,kegg_njc19,map01100,Glutathione metabolism,4
+CRC,kegg_njc19,map01100,"Glycine, serine and threonine metabolism",9
+CRC,kegg_njc19,map01100,Glyoxylate and dicarboxylate metabolism,6
+CRC,kegg_njc19,map01100,Histidine metabolism,5
+CRC,kegg_njc19,map01100,Lysine biosynthesis,2
+CRC,kegg_njc19,map01100,Lysine degradation,16
+CRC,kegg_njc19,map01100,Metabolic pathways,2485
+CRC,kegg_njc19,map01100,Microbial metabolism in diverse environments,20
+CRC,kegg_njc19,map01100,Neuroactive ligand signaling,1
+CRC,kegg_njc19,map01100,Nicotinate and nicotinamide metabolism,3
+CRC,kegg_njc19,map01100,Nucleotide metabolism,37
+CRC,kegg_njc19,map01100,One carbon pool by folate,3
+CRC,kegg_njc19,map01100,Other carbon fixation pathways,1
+CRC,kegg_njc19,map01100,Pantothenate and CoA biosynthesis,6
+CRC,kegg_njc19,map01100,Phenylalanine metabolism,10
+CRC,kegg_njc19,map01100,"Phenylalanine, tyrosine and tryptophan biosynthesis",4
+CRC,kegg_njc19,map01100,Primary bile acid biosynthesis,2
+CRC,kegg_njc19,map01100,Purine metabolism,10
+CRC,kegg_njc19,map01100,Pyrimidine metabolism,30
+CRC,kegg_njc19,map01100,Sulfur metabolism,4
+CRC,kegg_njc19,map01100,Taurine and hypotaurine metabolism,3
+CRC,kegg_njc19,map01100,Tryptophan metabolism,2
+CRC,kegg_njc19,map01100,Tyrosine metabolism,3
+CRC,kegg_njc19,map01100,beta-Alanine metabolism,14
+CRC,kegg_njc19,map01110,Biosynthesis of amino acids,22
+CRC,kegg_njc19,map01110,Biosynthesis of cofactors,5
+CRC,kegg_njc19,map01110,Biosynthesis of plant secondary metabolites,31
+CRC,kegg_njc19,map01110,Biosynthesis of secondary metabolites,304
+CRC,kegg_njc19,map01110,Biosynthesis of various antibiotics,7
+CRC,kegg_njc19,map01110,Biosynthesis of various other secondary metabolites,10
+CRC,kegg_njc19,map01110,Biosynthesis of various plant secondary metabolites,6
+CRC,kegg_njc19,map01110,Biosynthesis of various siderophores,3
+CRC,kegg_njc19,map01110,Biotin metabolism,1
+CRC,kegg_njc19,map01110,Carbapenem biosynthesis,1
+CRC,kegg_njc19,map01110,Carbon metabolism,18
+CRC,kegg_njc19,map01110,Central carbon metabolism in cancer,102
+CRC,kegg_njc19,map01110,Citrate cycle (TCA cycle),1
+CRC,kegg_njc19,map01110,Cyanoamino acid metabolism,6
+CRC,kegg_njc19,map01110,Cysteine and methionine metabolism,3
+CRC,kegg_njc19,map01110,D-Amino acid metabolism,34
+CRC,kegg_njc19,map01110,Degradation of aromatic compounds,6
+CRC,kegg_njc19,map01110,Efferocytosis,4
+CRC,kegg_njc19,map01110,GABAergic synapse,1
+CRC,kegg_njc19,map01110,Glucagon signaling pathway,5
+CRC,kegg_njc19,map01110,Glutathione metabolism,4
+CRC,kegg_njc19,map01110,"Glycine, serine and threonine metabolism",13
+CRC,kegg_njc19,map01110,Glycolysis / Gluconeogenesis,1
+CRC,kegg_njc19,map01110,Glyoxylate and dicarboxylate metabolism,11
+CRC,kegg_njc19,map01110,Lipoic acid metabolism,3
+CRC,kegg_njc19,map01110,Lysine biosynthesis,6
+CRC,kegg_njc19,map01110,Lysine degradation,3
+CRC,kegg_njc19,map01110,Metabolic pathways,509
+CRC,kegg_njc19,map01110,Methane metabolism,7
+CRC,kegg_njc19,map01110,Microbial metabolism in diverse environments,16
+CRC,kegg_njc19,map01110,Neuroactive ligand-receptor interaction,1
+CRC,kegg_njc19,map01110,Nicotinate and nicotinamide metabolism,1
+CRC,kegg_njc19,map01110,Nucleotide metabolism,2
+CRC,kegg_njc19,map01110,Pantothenate and CoA biosynthesis,2
+CRC,kegg_njc19,map01110,Phenylalanine metabolism,2
+CRC,kegg_njc19,map01110,"Phenylalanine, tyrosine and tryptophan biosynthesis",1
+CRC,kegg_njc19,map01110,Phenylpropanoid biosynthesis,4
+CRC,kegg_njc19,map01110,Propanoate metabolism,2
+CRC,kegg_njc19,map01110,Protein digestion and absorption,4
+CRC,kegg_njc19,map01110,Purine metabolism,2
+CRC,kegg_njc19,map01110,Pyrimidine metabolism,1
+CRC,kegg_njc19,map01110,"Tropane, piperidine and pyridine alkaloid biosynthesis",6
+CRC,kegg_njc19,map01110,Tyrosine metabolism,3
+CRC,kegg_njc19,map01110,Ubiquinone and other terpenoid-quinone biosynthesis,1
+CRC,kegg_njc19,map01110,beta-Alanine metabolism,1
+CRC,kegg_njc19,map01120,Biosynthesis of secondary metabolites,2
+CRC,kegg_njc19,map01120,Biosynthesis of various other secondary metabolites,1
+CRC,kegg_njc19,map01120,Biosynthesis of various siderophores,1
+CRC,kegg_njc19,map01120,Central carbon metabolism in cancer,23
+CRC,kegg_njc19,map01120,Cyanoamino acid metabolism,2
+CRC,kegg_njc19,map01120,Cysteine and methionine metabolism,2
+CRC,kegg_njc19,map01120,D-Amino acid metabolism,19
+CRC,kegg_njc19,map01120,Degradation of aromatic compounds,8
+CRC,kegg_njc19,map01120,Dioxin degradation,1
+CRC,kegg_njc19,map01120,Efferocytosis,1
+CRC,kegg_njc19,map01120,Ferroptosis,1
+CRC,kegg_njc19,map01120,GABAergic synapse,1
+CRC,kegg_njc19,map01120,Glucagon signaling pathway,2
+CRC,kegg_njc19,map01120,"Glycine, serine and threonine metabolism",4
+CRC,kegg_njc19,map01120,Glyoxylate and dicarboxylate metabolism,9
+CRC,kegg_njc19,map01120,HIF-1 signaling pathway,1
+CRC,kegg_njc19,map01120,Lysine degradation,3
+CRC,kegg_njc19,map01120,Metabolic pathways,112
+CRC,kegg_njc19,map01120,Methane metabolism,4
+CRC,kegg_njc19,map01120,Microbial metabolism in diverse environments,361
+CRC,kegg_njc19,map01120,Monobactam biosynthesis,1
+CRC,kegg_njc19,map01120,Nicotinate and nicotinamide metabolism,9
+CRC,kegg_njc19,map01120,Nucleotide metabolism,1
+CRC,kegg_njc19,map01120,Other carbon fixation pathways,1
+CRC,kegg_njc19,map01120,Phenylalanine metabolism,3
+CRC,kegg_njc19,map01120,Propanoate metabolism,2
+CRC,kegg_njc19,map01120,Protein digestion and absorption,1
+CRC,kegg_njc19,map01120,Purine metabolism,7
+CRC,kegg_njc19,map01120,Pyrimidine metabolism,2
+CRC,kegg_njc19,map01120,Sulfur cycle,1
+CRC,kegg_njc19,map01120,Sulfur metabolism,2
+CRC,kegg_njc19,map01120,"Tropane, piperidine and pyridine alkaloid biosynthesis",5
+CRC,kegg_njc19,map01120,Vitamin B6 metabolism,2
+CRC,kegg_njc19,map01200,Cyanoamino acid metabolism,5
+CRC,kegg_njc19,map01200,Cysteine and methionine metabolism,1
+CRC,kegg_njc19,map01200,D-Amino acid metabolism,5
+CRC,kegg_njc19,map01200,GABAergic synapse,1
+CRC,kegg_njc19,map01200,Glutathione metabolism,2
+CRC,kegg_njc19,map01200,"Glycine, serine and threonine metabolism",1
+CRC,kegg_njc19,map01200,Glyoxylate and dicarboxylate metabolism,3
+CRC,kegg_njc19,map01200,HIF-1 signaling pathway,1
+CRC,kegg_njc19,map01200,Histidine metabolism,2
+CRC,kegg_njc19,map01200,Lipoic acid metabolism,1
+CRC,kegg_njc19,map01200,Lysine degradation,1
+CRC,kegg_njc19,map01200,Metabolic pathways,18
+CRC,kegg_njc19,map01200,Methane metabolism,3
+CRC,kegg_njc19,map01200,Microbial metabolism in diverse environments,22
+CRC,kegg_njc19,map01200,Other carbon fixation pathways,6
+CRC,kegg_njc19,map01200,Oxidative phosphorylation,1
+CRC,kegg_njc19,map01200,Pentose phosphate pathway,1
+CRC,kegg_njc19,map01200,Sulfur cycle,1
+CRC,kegg_njc19,map01200,Sulfur metabolism,2
+CRC,kegg_njc19,map01200,beta-Alanine metabolism,1
+CRC,kegg_njc19,map01210,Biosynthesis of plant secondary metabolites,12
+CRC,kegg_njc19,map01210,Biosynthesis of secondary metabolites,26
+CRC,kegg_njc19,map01210,Biosynthesis of various antibiotics,3
+CRC,kegg_njc19,map01210,Biosynthesis of various other secondary metabolites,4
+CRC,kegg_njc19,map01210,Biosynthesis of various plant secondary metabolites,3
+CRC,kegg_njc19,map01210,Biosynthesis of various siderophores,1
+CRC,kegg_njc19,map01210,Central carbon metabolism in cancer,19
+CRC,kegg_njc19,map01210,Cyanoamino acid metabolism,2
+CRC,kegg_njc19,map01210,Cysteine and methionine metabolism,3
+CRC,kegg_njc19,map01210,D-Amino acid metabolism,21
+CRC,kegg_njc19,map01210,Glucosinolate biosynthesis,8
+CRC,kegg_njc19,map01210,Glyoxylate and dicarboxylate metabolism,2
+CRC,kegg_njc19,map01210,Histidine metabolism,1
+CRC,kegg_njc19,map01210,Lipoic acid metabolism,2
+CRC,kegg_njc19,map01210,Lysine biosynthesis,1
+CRC,kegg_njc19,map01210,Metabolic pathways,22
+CRC,kegg_njc19,map01210,Microbial metabolism in diverse environments,1
+CRC,kegg_njc19,map01210,Monobactam biosynthesis,1
+CRC,kegg_njc19,map01210,Phenylalanine metabolism,1
+CRC,kegg_njc19,map01210,"Valine, leucine and isoleucine biosynthesis",3
+CRC,kegg_njc19,map01230,Biosynthesis of plant secondary metabolites,1
+CRC,kegg_njc19,map01230,Biosynthesis of secondary metabolites,29
+CRC,kegg_njc19,map01230,Biosynthesis of various antibiotics,1
+CRC,kegg_njc19,map01230,Biosynthesis of various other secondary metabolites,2
+CRC,kegg_njc19,map01230,Central carbon metabolism in cancer,51
+CRC,kegg_njc19,map01230,Cyanoamino acid metabolism,21
+CRC,kegg_njc19,map01230,D-Amino acid metabolism,44
+CRC,kegg_njc19,map01230,Efferocytosis,1
+CRC,kegg_njc19,map01230,GABAergic synapse,2
+CRC,kegg_njc19,map01230,Glucosinolate biosynthesis,9
+CRC,kegg_njc19,map01230,Glutathione metabolism,2
+CRC,kegg_njc19,map01230,"Glycine, serine and threonine metabolism",1
+CRC,kegg_njc19,map01230,Glyoxylate and dicarboxylate metabolism,6
+CRC,kegg_njc19,map01230,Histidine metabolism,5
+CRC,kegg_njc19,map01230,Lysine biosynthesis,1
+CRC,kegg_njc19,map01230,Lysine degradation,1
+CRC,kegg_njc19,map01230,Metabolic pathways,170
+CRC,kegg_njc19,map01230,Methane metabolism,1
+CRC,kegg_njc19,map01230,Microbial metabolism in diverse environments,41
+CRC,kegg_njc19,map01230,Monobactam biosynthesis,2
+CRC,kegg_njc19,map01230,Pantothenate and CoA biosynthesis,1
+CRC,kegg_njc19,map01230,Phenylalanine metabolism,1
+CRC,kegg_njc19,map01230,"Phenylalanine, tyrosine and tryptophan biosynthesis",3
+CRC,kegg_njc19,map01230,Sulfur metabolism,3
+CRC,kegg_njc19,map01230,Tryptophan metabolism,1
+CRC,kegg_njc19,map01230,"Valine, leucine and isoleucine biosynthesis",3
+CRC,kegg_njc19,map01230,"Valine, leucine and isoleucine degradation",3
+CRC,kegg_njc19,map01232,Metabolic pathways,6
+CRC,kegg_njc19,map01232,Nucleotide metabolism,45
+CRC,kegg_njc19,map01232,Purine metabolism,22
+CRC,kegg_njc19,map01232,Pyrimidine metabolism,18
+CRC,kegg_only,map01100,2-Oxocarboxylic acid metabolism,23
+CRC,kegg_only,map01100,ABC transporters,203
+CRC,kegg_only,map01100,Alcoholism,1
+CRC,kegg_only,map01100,Aminoacyl-tRNA biosynthesis,8
+CRC,kegg_only,map01100,Arginine and proline metabolism,2
+CRC,kegg_only,map01100,Arginine biosynthesis,4
+CRC,kegg_only,map01100,Bile secretion,8
+CRC,kegg_only,map01100,"Biosynthesis of alkaloids derived from ornithine, lysine and nicotinic acid",1
+CRC,kegg_only,map01100,Biosynthesis of amino acids,127
+CRC,kegg_only,map01100,Biosynthesis of cofactors,87
+CRC,kegg_only,map01100,Biosynthesis of nucleotide sugars,1
+CRC,kegg_only,map01100,Biosynthesis of phenylpropanoids,4
+CRC,kegg_only,map01100,Biosynthesis of plant hormones,2
+CRC,kegg_only,map01100,Biosynthesis of plant secondary metabolites,106
+CRC,kegg_only,map01100,Biosynthesis of secondary metabolites,601
+CRC,kegg_only,map01100,Biosynthesis of various alkaloids,2
+CRC,kegg_only,map01100,Biosynthesis of various antibiotics,9
+CRC,kegg_only,map01100,Biosynthesis of various other secondary metabolites,7
+CRC,kegg_only,map01100,Biosynthesis of various plant secondary metabolites,4
+CRC,kegg_only,map01100,Biosynthesis of various siderophores,2
+CRC,kegg_only,map01100,Butanoate metabolism,1
+CRC,kegg_only,map01100,C5-Branched dibasic acid metabolism,1
+CRC,kegg_only,map01100,Carbon fixation by Calvin cycle,2
+CRC,kegg_only,map01100,Carbon metabolism,19
+CRC,kegg_only,map01100,Central carbon metabolism in cancer,24
+CRC,kegg_only,map01100,Citrate cycle (TCA cycle),2
+CRC,kegg_only,map01100,Cornified envelope formation,2
+CRC,kegg_only,map01100,Cyanoamino acid metabolism,4
+CRC,kegg_only,map01100,Cysteine and methionine metabolism,10
+CRC,kegg_only,map01100,D-Amino acid metabolism,31
+CRC,kegg_only,map01100,Degradation of aromatic compounds,17
+CRC,kegg_only,map01100,Diabetic cardiomyopathy,1
+CRC,kegg_only,map01100,GABAergic synapse,1
+CRC,kegg_only,map01100,Glucagon signaling pathway,4
+CRC,kegg_only,map01100,Glucosinolate biosynthesis,4
+CRC,kegg_only,map01100,Glutathione metabolism,4
+CRC,kegg_only,map01100,"Glycine, serine and threonine metabolism",9
+CRC,kegg_only,map01100,Glyoxylate and dicarboxylate metabolism,6
+CRC,kegg_only,map01100,Histidine metabolism,5
+CRC,kegg_only,map01100,Lysine biosynthesis,2
+CRC,kegg_only,map01100,Lysine degradation,16
+CRC,kegg_only,map01100,Metabolic pathways,2485
+CRC,kegg_only,map01100,Microbial metabolism in diverse environments,20
+CRC,kegg_only,map01100,Neuroactive ligand signaling,1
+CRC,kegg_only,map01100,Nicotinate and nicotinamide metabolism,3
+CRC,kegg_only,map01100,Nucleotide metabolism,37
+CRC,kegg_only,map01100,One carbon pool by folate,3
+CRC,kegg_only,map01100,Other carbon fixation pathways,1
+CRC,kegg_only,map01100,Pantothenate and CoA biosynthesis,6
+CRC,kegg_only,map01100,Phenylalanine metabolism,10
+CRC,kegg_only,map01100,"Phenylalanine, tyrosine and tryptophan biosynthesis",4
+CRC,kegg_only,map01100,Primary bile acid biosynthesis,2
+CRC,kegg_only,map01100,Purine metabolism,10
+CRC,kegg_only,map01100,Pyrimidine metabolism,30
+CRC,kegg_only,map01100,Sulfur metabolism,4
+CRC,kegg_only,map01100,Taurine and hypotaurine metabolism,3
+CRC,kegg_only,map01100,Tryptophan metabolism,2
+CRC,kegg_only,map01100,Tyrosine metabolism,3
+CRC,kegg_only,map01100,beta-Alanine metabolism,14
+CRC,kegg_only,map01110,Biosynthesis of amino acids,22
+CRC,kegg_only,map01110,Biosynthesis of cofactors,5
+CRC,kegg_only,map01110,Biosynthesis of plant secondary metabolites,31
+CRC,kegg_only,map01110,Biosynthesis of secondary metabolites,304
+CRC,kegg_only,map01110,Biosynthesis of various antibiotics,7
+CRC,kegg_only,map01110,Biosynthesis of various other secondary metabolites,10
+CRC,kegg_only,map01110,Biosynthesis of various plant secondary metabolites,6
+CRC,kegg_only,map01110,Biosynthesis of various siderophores,3
+CRC,kegg_only,map01110,Biotin metabolism,1
+CRC,kegg_only,map01110,Carbapenem biosynthesis,1
+CRC,kegg_only,map01110,Carbon metabolism,18
+CRC,kegg_only,map01110,Central carbon metabolism in cancer,102
+CRC,kegg_only,map01110,Citrate cycle (TCA cycle),1
+CRC,kegg_only,map01110,Cyanoamino acid metabolism,6
+CRC,kegg_only,map01110,Cysteine and methionine metabolism,3
+CRC,kegg_only,map01110,D-Amino acid metabolism,34
+CRC,kegg_only,map01110,Degradation of aromatic compounds,6
+CRC,kegg_only,map01110,Efferocytosis,4
+CRC,kegg_only,map01110,GABAergic synapse,1
+CRC,kegg_only,map01110,Glucagon signaling pathway,5
+CRC,kegg_only,map01110,Glutathione metabolism,4
+CRC,kegg_only,map01110,"Glycine, serine and threonine metabolism",13
+CRC,kegg_only,map01110,Glycolysis / Gluconeogenesis,1
+CRC,kegg_only,map01110,Glyoxylate and dicarboxylate metabolism,11
+CRC,kegg_only,map01110,Lipoic acid metabolism,3
+CRC,kegg_only,map01110,Lysine biosynthesis,6
+CRC,kegg_only,map01110,Lysine degradation,3
+CRC,kegg_only,map01110,Metabolic pathways,509
+CRC,kegg_only,map01110,Methane metabolism,7
+CRC,kegg_only,map01110,Microbial metabolism in diverse environments,16
+CRC,kegg_only,map01110,Neuroactive ligand-receptor interaction,1
+CRC,kegg_only,map01110,Nicotinate and nicotinamide metabolism,1
+CRC,kegg_only,map01110,Nucleotide metabolism,2
+CRC,kegg_only,map01110,Pantothenate and CoA biosynthesis,2
+CRC,kegg_only,map01110,Phenylalanine metabolism,2
+CRC,kegg_only,map01110,"Phenylalanine, tyrosine and tryptophan biosynthesis",1
+CRC,kegg_only,map01110,Phenylpropanoid biosynthesis,4
+CRC,kegg_only,map01110,Propanoate metabolism,2
+CRC,kegg_only,map01110,Protein digestion and absorption,4
+CRC,kegg_only,map01110,Purine metabolism,2
+CRC,kegg_only,map01110,Pyrimidine metabolism,1
+CRC,kegg_only,map01110,"Tropane, piperidine and pyridine alkaloid biosynthesis",6
+CRC,kegg_only,map01110,Tyrosine metabolism,3
+CRC,kegg_only,map01110,Ubiquinone and other terpenoid-quinone biosynthesis,1
+CRC,kegg_only,map01110,beta-Alanine metabolism,1
+CRC,kegg_only,map01120,Biosynthesis of secondary metabolites,2
+CRC,kegg_only,map01120,Biosynthesis of various other secondary metabolites,1
+CRC,kegg_only,map01120,Biosynthesis of various siderophores,1
+CRC,kegg_only,map01120,Central carbon metabolism in cancer,23
+CRC,kegg_only,map01120,Cyanoamino acid metabolism,2
+CRC,kegg_only,map01120,Cysteine and methionine metabolism,2
+CRC,kegg_only,map01120,D-Amino acid metabolism,19
+CRC,kegg_only,map01120,Degradation of aromatic compounds,8
+CRC,kegg_only,map01120,Dioxin degradation,1
+CRC,kegg_only,map01120,Efferocytosis,1
+CRC,kegg_only,map01120,Ferroptosis,1
+CRC,kegg_only,map01120,GABAergic synapse,1
+CRC,kegg_only,map01120,Glucagon signaling pathway,2
+CRC,kegg_only,map01120,"Glycine, serine and threonine metabolism",4
+CRC,kegg_only,map01120,Glyoxylate and dicarboxylate metabolism,9
+CRC,kegg_only,map01120,HIF-1 signaling pathway,1
+CRC,kegg_only,map01120,Lysine degradation,3
+CRC,kegg_only,map01120,Metabolic pathways,112
+CRC,kegg_only,map01120,Methane metabolism,4
+CRC,kegg_only,map01120,Microbial metabolism in diverse environments,361
+CRC,kegg_only,map01120,Monobactam biosynthesis,1
+CRC,kegg_only,map01120,Nicotinate and nicotinamide metabolism,9
+CRC,kegg_only,map01120,Nucleotide metabolism,1
+CRC,kegg_only,map01120,Other carbon fixation pathways,1
+CRC,kegg_only,map01120,Phenylalanine metabolism,3
+CRC,kegg_only,map01120,Propanoate metabolism,2
+CRC,kegg_only,map01120,Protein digestion and absorption,1
+CRC,kegg_only,map01120,Purine metabolism,7
+CRC,kegg_only,map01120,Pyrimidine metabolism,2
+CRC,kegg_only,map01120,Sulfur cycle,1
+CRC,kegg_only,map01120,Sulfur metabolism,2
+CRC,kegg_only,map01120,"Tropane, piperidine and pyridine alkaloid biosynthesis",5
+CRC,kegg_only,map01120,Vitamin B6 metabolism,2
+CRC,kegg_only,map01200,Cyanoamino acid metabolism,5
+CRC,kegg_only,map01200,Cysteine and methionine metabolism,1
+CRC,kegg_only,map01200,D-Amino acid metabolism,5
+CRC,kegg_only,map01200,GABAergic synapse,1
+CRC,kegg_only,map01200,Glutathione metabolism,2
+CRC,kegg_only,map01200,"Glycine, serine and threonine metabolism",1
+CRC,kegg_only,map01200,Glyoxylate and dicarboxylate metabolism,3
+CRC,kegg_only,map01200,HIF-1 signaling pathway,1
+CRC,kegg_only,map01200,Histidine metabolism,2
+CRC,kegg_only,map01200,Lipoic acid metabolism,1
+CRC,kegg_only,map01200,Lysine degradation,1
+CRC,kegg_only,map01200,Metabolic pathways,18
+CRC,kegg_only,map01200,Methane metabolism,3
+CRC,kegg_only,map01200,Microbial metabolism in diverse environments,22
+CRC,kegg_only,map01200,Other carbon fixation pathways,6
+CRC,kegg_only,map01200,Oxidative phosphorylation,1
+CRC,kegg_only,map01200,Pentose phosphate pathway,1
+CRC,kegg_only,map01200,Sulfur cycle,1
+CRC,kegg_only,map01200,Sulfur metabolism,2
+CRC,kegg_only,map01200,beta-Alanine metabolism,1
+CRC,kegg_only,map01210,Biosynthesis of plant secondary metabolites,12
+CRC,kegg_only,map01210,Biosynthesis of secondary metabolites,26
+CRC,kegg_only,map01210,Biosynthesis of various antibiotics,3
+CRC,kegg_only,map01210,Biosynthesis of various other secondary metabolites,4
+CRC,kegg_only,map01210,Biosynthesis of various plant secondary metabolites,3
+CRC,kegg_only,map01210,Biosynthesis of various siderophores,1
+CRC,kegg_only,map01210,Central carbon metabolism in cancer,19
+CRC,kegg_only,map01210,Cyanoamino acid metabolism,2
+CRC,kegg_only,map01210,Cysteine and methionine metabolism,3
+CRC,kegg_only,map01210,D-Amino acid metabolism,21
+CRC,kegg_only,map01210,Glucosinolate biosynthesis,8
+CRC,kegg_only,map01210,Glyoxylate and dicarboxylate metabolism,2
+CRC,kegg_only,map01210,Histidine metabolism,1
+CRC,kegg_only,map01210,Lipoic acid metabolism,2
+CRC,kegg_only,map01210,Lysine biosynthesis,1
+CRC,kegg_only,map01210,Metabolic pathways,22
+CRC,kegg_only,map01210,Microbial metabolism in diverse environments,1
+CRC,kegg_only,map01210,Monobactam biosynthesis,1
+CRC,kegg_only,map01210,Phenylalanine metabolism,1
+CRC,kegg_only,map01210,"Valine, leucine and isoleucine biosynthesis",3
+CRC,kegg_only,map01230,Biosynthesis of plant secondary metabolites,1
+CRC,kegg_only,map01230,Biosynthesis of secondary metabolites,29
+CRC,kegg_only,map01230,Biosynthesis of various antibiotics,1
+CRC,kegg_only,map01230,Biosynthesis of various other secondary metabolites,2
+CRC,kegg_only,map01230,Central carbon metabolism in cancer,51
+CRC,kegg_only,map01230,Cyanoamino acid metabolism,21
+CRC,kegg_only,map01230,D-Amino acid metabolism,44
+CRC,kegg_only,map01230,Efferocytosis,1
+CRC,kegg_only,map01230,GABAergic synapse,2
+CRC,kegg_only,map01230,Glucosinolate biosynthesis,9
+CRC,kegg_only,map01230,Glutathione metabolism,2
+CRC,kegg_only,map01230,"Glycine, serine and threonine metabolism",1
+CRC,kegg_only,map01230,Glyoxylate and dicarboxylate metabolism,6
+CRC,kegg_only,map01230,Histidine metabolism,5
+CRC,kegg_only,map01230,Lysine biosynthesis,1
+CRC,kegg_only,map01230,Lysine degradation,1
+CRC,kegg_only,map01230,Metabolic pathways,170
+CRC,kegg_only,map01230,Methane metabolism,1
+CRC,kegg_only,map01230,Microbial metabolism in diverse environments,41
+CRC,kegg_only,map01230,Monobactam biosynthesis,2
+CRC,kegg_only,map01230,Pantothenate and CoA biosynthesis,1
+CRC,kegg_only,map01230,Phenylalanine metabolism,1
+CRC,kegg_only,map01230,"Phenylalanine, tyrosine and tryptophan biosynthesis",3
+CRC,kegg_only,map01230,Sulfur metabolism,3
+CRC,kegg_only,map01230,Tryptophan metabolism,1
+CRC,kegg_only,map01230,"Valine, leucine and isoleucine biosynthesis",3
+CRC,kegg_only,map01230,"Valine, leucine and isoleucine degradation",3
+CRC,kegg_only,map01232,Metabolic pathways,6
+CRC,kegg_only,map01232,Nucleotide metabolism,45
+CRC,kegg_only,map01232,Purine metabolism,22
+CRC,kegg_only,map01232,Pyrimidine metabolism,18
+IBD,kegg_njc19,map01100,2-Oxocarboxylic acid metabolism,21
+IBD,kegg_njc19,map01100,ABC transporters,221
+IBD,kegg_njc19,map01100,Aminoacyl-tRNA biosynthesis,5
+IBD,kegg_njc19,map01100,Amoebiasis,1
+IBD,kegg_njc19,map01100,Bile secretion,38
+IBD,kegg_njc19,map01100,"Biosynthesis of alkaloids derived from ornithine, lysine and nicotinic acid",1
+IBD,kegg_njc19,map01100,Biosynthesis of amino acids,66
+IBD,kegg_njc19,map01100,Biosynthesis of cofactors,65
+IBD,kegg_njc19,map01100,Biosynthesis of phenylpropanoids,1
+IBD,kegg_njc19,map01100,Biosynthesis of plant hormones,8
+IBD,kegg_njc19,map01100,Biosynthesis of plant secondary metabolites,69
+IBD,kegg_njc19,map01100,Biosynthesis of secondary metabolites,473
+IBD,kegg_njc19,map01100,Biosynthesis of terpenoids and steroids,2
+IBD,kegg_njc19,map01100,Biosynthesis of various alkaloids,1
+IBD,kegg_njc19,map01100,Biosynthesis of various antibiotics,8
+IBD,kegg_njc19,map01100,Biosynthesis of various other secondary metabolites,4
+IBD,kegg_njc19,map01100,Biosynthesis of various plant secondary metabolites,5
+IBD,kegg_njc19,map01100,Biosynthesis of various siderophores,2
+IBD,kegg_njc19,map01100,Caffeine metabolism,3
+IBD,kegg_njc19,map01100,Carbohydrate digestion and absorption,1
+IBD,kegg_njc19,map01100,Carbon fixation by Calvin cycle,2
+IBD,kegg_njc19,map01100,Carbon metabolism,8
+IBD,kegg_njc19,map01100,Central carbon metabolism in cancer,7
+IBD,kegg_njc19,map01100,Citrate cycle (TCA cycle),4
+IBD,kegg_njc19,map01100,Cyanoamino acid metabolism,1
+IBD,kegg_njc19,map01100,Cysteine and methionine metabolism,4
+IBD,kegg_njc19,map01100,D-Amino acid metabolism,19
+IBD,kegg_njc19,map01100,Degradation of aromatic compounds,10
+IBD,kegg_njc19,map01100,Fatty acid metabolism,1
+IBD,kegg_njc19,map01100,Fc epsilon RI signaling pathway,1
+IBD,kegg_njc19,map01100,GABAergic synapse,2
+IBD,kegg_njc19,map01100,Galactose metabolism,1
+IBD,kegg_njc19,map01100,Glucagon signaling pathway,3
+IBD,kegg_njc19,map01100,Glucosinolate biosynthesis,2
+IBD,kegg_njc19,map01100,Glutathione metabolism,2
+IBD,kegg_njc19,map01100,"Glycine, serine and threonine metabolism",8
+IBD,kegg_njc19,map01100,Glyoxylate and dicarboxylate metabolism,2
+IBD,kegg_njc19,map01100,Histidine metabolism,3
+IBD,kegg_njc19,map01100,Lipoic acid metabolism,3
+IBD,kegg_njc19,map01100,Lysine degradation,6
+IBD,kegg_njc19,map01100,Metabolic pathways,3755
+IBD,kegg_njc19,map01100,Microbial metabolism in diverse environments,14
+IBD,kegg_njc19,map01100,Nicotinate and nicotinamide metabolism,5
+IBD,kegg_njc19,map01100,Nucleotide metabolism,23
+IBD,kegg_njc19,map01100,Pantothenate and CoA biosynthesis,1
+IBD,kegg_njc19,map01100,Pentose and glucuronate interconversions,2
+IBD,kegg_njc19,map01100,Phenylalanine metabolism,5
+IBD,kegg_njc19,map01100,Primary bile acid biosynthesis,6
+IBD,kegg_njc19,map01100,Propanoate metabolism,1
+IBD,kegg_njc19,map01100,Purine metabolism,12
+IBD,kegg_njc19,map01100,Pyrimidine metabolism,18
+IBD,kegg_njc19,map01100,Sphingolipid metabolism,3
+IBD,kegg_njc19,map01100,Sulfur metabolism,3
+IBD,kegg_njc19,map01100,Taurine and hypotaurine metabolism,2
+IBD,kegg_njc19,map01100,Tryptophan metabolism,1
+IBD,kegg_njc19,map01100,Tyrosine metabolism,3
+IBD,kegg_njc19,map01100,beta-Alanine metabolism,12
+IBD,kegg_njc19,map01110,Biosynthesis of amino acids,17
+IBD,kegg_njc19,map01110,Biosynthesis of cofactors,11
+IBD,kegg_njc19,map01110,Biosynthesis of plant hormones,2
+IBD,kegg_njc19,map01110,Biosynthesis of plant secondary metabolites,24
+IBD,kegg_njc19,map01110,Biosynthesis of secondary metabolites,197
+IBD,kegg_njc19,map01110,Biosynthesis of various antibiotics,3
+IBD,kegg_njc19,map01110,Biosynthesis of various other secondary metabolites,3
+IBD,kegg_njc19,map01110,Biosynthesis of various plant secondary metabolites,5
+IBD,kegg_njc19,map01110,Biosynthesis of various siderophores,3
+IBD,kegg_njc19,map01110,Carbon metabolism,10
+IBD,kegg_njc19,map01110,Central carbon metabolism in cancer,50
+IBD,kegg_njc19,map01110,Cyanoamino acid metabolism,1
+IBD,kegg_njc19,map01110,Cysteine and methionine metabolism,1
+IBD,kegg_njc19,map01110,D-Amino acid metabolism,15
+IBD,kegg_njc19,map01110,Efferocytosis,4
+IBD,kegg_njc19,map01110,Glucagon signaling pathway,7
+IBD,kegg_njc19,map01110,"Glycine, serine and threonine metabolism",3
+IBD,kegg_njc19,map01110,Glyoxylate and dicarboxylate metabolism,10
+IBD,kegg_njc19,map01110,HIF-1 signaling pathway,1
+IBD,kegg_njc19,map01110,Lysine biosynthesis,2
+IBD,kegg_njc19,map01110,Metabolic pathways,431
+IBD,kegg_njc19,map01110,Methane metabolism,1
+IBD,kegg_njc19,map01110,Microbial metabolism in diverse environments,2
+IBD,kegg_njc19,map01110,Neuroactive ligand-receptor interaction,1
+IBD,kegg_njc19,map01110,Nucleotide metabolism,1
+IBD,kegg_njc19,map01110,Pantothenate and CoA biosynthesis,2
+IBD,kegg_njc19,map01110,Phenylalanine metabolism,3
+IBD,kegg_njc19,map01110,Phenylpropanoid biosynthesis,1
+IBD,kegg_njc19,map01110,Porphyrin metabolism,1
+IBD,kegg_njc19,map01110,Propanoate metabolism,2
+IBD,kegg_njc19,map01110,"Tropane, piperidine and pyridine alkaloid biosynthesis",6
+IBD,kegg_njc19,map01120,Biosynthesis of plant secondary metabolites,1
+IBD,kegg_njc19,map01120,Biosynthesis of secondary metabolites,4
+IBD,kegg_njc19,map01120,Biosynthesis of various other secondary metabolites,1
+IBD,kegg_njc19,map01120,Biosynthesis of various siderophores,1
+IBD,kegg_njc19,map01120,Carbon metabolism,1
+IBD,kegg_njc19,map01120,Central carbon metabolism in cancer,10
+IBD,kegg_njc19,map01120,Cyanoamino acid metabolism,1
+IBD,kegg_njc19,map01120,Cysteine and methionine metabolism,1
+IBD,kegg_njc19,map01120,D-Amino acid metabolism,8
+IBD,kegg_njc19,map01120,Efferocytosis,1
+IBD,kegg_njc19,map01120,Glucagon signaling pathway,3
+IBD,kegg_njc19,map01120,Glyoxylate and dicarboxylate metabolism,7
+IBD,kegg_njc19,map01120,HIF-1 signaling pathway,3
+IBD,kegg_njc19,map01120,Lysine degradation,2
+IBD,kegg_njc19,map01120,Metabolic pathways,45
+IBD,kegg_njc19,map01120,Methane metabolism,2
+IBD,kegg_njc19,map01120,Microbial metabolism in diverse environments,357
+IBD,kegg_njc19,map01120,Nicotinate and nicotinamide metabolism,3
+IBD,kegg_njc19,map01120,Phenylalanine metabolism,4
+IBD,kegg_njc19,map01120,Propanoate metabolism,2
+IBD,kegg_njc19,map01120,Protein digestion and absorption,2
+IBD,kegg_njc19,map01120,Purine metabolism,3
+IBD,kegg_njc19,map01120,Styrene degradation,1
+IBD,kegg_njc19,map01120,Toluene degradation,1
+IBD,kegg_njc19,map01120,"Tropane, piperidine and pyridine alkaloid biosynthesis",1
+IBD,kegg_njc19,map01200,Carbon metabolism,2
+IBD,kegg_njc19,map01200,Central carbon metabolism in cancer,1
+IBD,kegg_njc19,map01200,Citrate cycle (TCA cycle),2
+IBD,kegg_njc19,map01200,Cyanoamino acid metabolism,1
+IBD,kegg_njc19,map01200,Cysteine and methionine metabolism,1
+IBD,kegg_njc19,map01200,D-Amino acid metabolism,4
+IBD,kegg_njc19,map01200,"Glycine, serine and threonine metabolism",1
+IBD,kegg_njc19,map01200,Glyoxylate and dicarboxylate metabolism,2
+IBD,kegg_njc19,map01200,Histidine metabolism,1
+IBD,kegg_njc19,map01200,Lysine degradation,2
+IBD,kegg_njc19,map01200,Metabolic pathways,7
+IBD,kegg_njc19,map01200,Methane metabolism,1
+IBD,kegg_njc19,map01200,Microbial metabolism in diverse environments,11
+IBD,kegg_njc19,map01210,Biosynthesis of cofactors,1
+IBD,kegg_njc19,map01210,Biosynthesis of plant secondary metabolites,7
+IBD,kegg_njc19,map01210,Biosynthesis of secondary metabolites,29
+IBD,kegg_njc19,map01210,Biosynthesis of various antibiotics,4
+IBD,kegg_njc19,map01210,Biosynthesis of various other secondary metabolites,3
+IBD,kegg_njc19,map01210,Biosynthesis of various plant secondary metabolites,3
+IBD,kegg_njc19,map01210,Biosynthesis of various siderophores,2
+IBD,kegg_njc19,map01210,Central carbon metabolism in cancer,12
+IBD,kegg_njc19,map01210,Cyanoamino acid metabolism,1
+IBD,kegg_njc19,map01210,Cysteine and methionine metabolism,2
+IBD,kegg_njc19,map01210,D-Amino acid metabolism,12
+IBD,kegg_njc19,map01210,Glucagon signaling pathway,2
+IBD,kegg_njc19,map01210,Glucosinolate biosynthesis,1
+IBD,kegg_njc19,map01210,Histidine metabolism,2
+IBD,kegg_njc19,map01210,Lipoic acid metabolism,1
+IBD,kegg_njc19,map01210,Lysine biosynthesis,1
+IBD,kegg_njc19,map01210,Metabolic pathways,20
+IBD,kegg_njc19,map01210,"Valine, leucine and isoleucine biosynthesis",2
+IBD,kegg_njc19,map01212,Fatty acid metabolism,2
+IBD,kegg_njc19,map01212,Metabolic pathways,1
+IBD,kegg_njc19,map01230,Biosynthesis of secondary metabolites,19
+IBD,kegg_njc19,map01230,Biosynthesis of various other secondary metabolites,4
+IBD,kegg_njc19,map01230,Biosynthesis of various plant secondary metabolites,2
+IBD,kegg_njc19,map01230,Central carbon metabolism in cancer,31
+IBD,kegg_njc19,map01230,Cyanoamino acid metabolism,7
+IBD,kegg_njc19,map01230,D-Amino acid metabolism,23
+IBD,kegg_njc19,map01230,Efferocytosis,1
+IBD,kegg_njc19,map01230,Glucosinolate biosynthesis,10
+IBD,kegg_njc19,map01230,Glyoxylate and dicarboxylate metabolism,7
+IBD,kegg_njc19,map01230,Lipoic acid metabolism,2
+IBD,kegg_njc19,map01230,Lysine biosynthesis,3
+IBD,kegg_njc19,map01230,Metabolic pathways,84
+IBD,kegg_njc19,map01230,Microbial metabolism in diverse environments,13
+IBD,kegg_njc19,map01230,Monobactam biosynthesis,1
+IBD,kegg_njc19,map01230,"Valine, leucine and isoleucine biosynthesis",1
+IBD,kegg_njc19,map01230,"Valine, leucine and isoleucine degradation",2
+IBD,kegg_njc19,map01232,Metabolic pathways,3
+IBD,kegg_njc19,map01232,Nucleotide metabolism,28
+IBD,kegg_njc19,map01232,Purine metabolism,18
+IBD,kegg_njc19,map01232,Pyrimidine metabolism,6
+IBD,kegg_only,map01100,2-Oxocarboxylic acid metabolism,21
+IBD,kegg_only,map01100,ABC transporters,221
+IBD,kegg_only,map01100,Aminoacyl-tRNA biosynthesis,5
+IBD,kegg_only,map01100,Amoebiasis,1
+IBD,kegg_only,map01100,Bile secretion,38
+IBD,kegg_only,map01100,"Biosynthesis of alkaloids derived from ornithine, lysine and nicotinic acid",1
+IBD,kegg_only,map01100,Biosynthesis of amino acids,66
+IBD,kegg_only,map01100,Biosynthesis of cofactors,65
+IBD,kegg_only,map01100,Biosynthesis of phenylpropanoids,1
+IBD,kegg_only,map01100,Biosynthesis of plant hormones,8
+IBD,kegg_only,map01100,Biosynthesis of plant secondary metabolites,69
+IBD,kegg_only,map01100,Biosynthesis of secondary metabolites,473
+IBD,kegg_only,map01100,Biosynthesis of terpenoids and steroids,2
+IBD,kegg_only,map01100,Biosynthesis of various alkaloids,1
+IBD,kegg_only,map01100,Biosynthesis of various antibiotics,8
+IBD,kegg_only,map01100,Biosynthesis of various other secondary metabolites,4
+IBD,kegg_only,map01100,Biosynthesis of various plant secondary metabolites,5
+IBD,kegg_only,map01100,Biosynthesis of various siderophores,2
+IBD,kegg_only,map01100,Caffeine metabolism,3
+IBD,kegg_only,map01100,Carbohydrate digestion and absorption,1
+IBD,kegg_only,map01100,Carbon fixation by Calvin cycle,2
+IBD,kegg_only,map01100,Carbon metabolism,8
+IBD,kegg_only,map01100,Central carbon metabolism in cancer,7
+IBD,kegg_only,map01100,Citrate cycle (TCA cycle),4
+IBD,kegg_only,map01100,Cyanoamino acid metabolism,1
+IBD,kegg_only,map01100,Cysteine and methionine metabolism,4
+IBD,kegg_only,map01100,D-Amino acid metabolism,19
+IBD,kegg_only,map01100,Degradation of aromatic compounds,10
+IBD,kegg_only,map01100,Fatty acid metabolism,1
+IBD,kegg_only,map01100,Fc epsilon RI signaling pathway,1
+IBD,kegg_only,map01100,GABAergic synapse,2
+IBD,kegg_only,map01100,Galactose metabolism,1
+IBD,kegg_only,map01100,Glucagon signaling pathway,3
+IBD,kegg_only,map01100,Glucosinolate biosynthesis,2
+IBD,kegg_only,map01100,Glutathione metabolism,2
+IBD,kegg_only,map01100,"Glycine, serine and threonine metabolism",8
+IBD,kegg_only,map01100,Glyoxylate and dicarboxylate metabolism,2
+IBD,kegg_only,map01100,Histidine metabolism,3
+IBD,kegg_only,map01100,Lipoic acid metabolism,3
+IBD,kegg_only,map01100,Lysine degradation,6
+IBD,kegg_only,map01100,Metabolic pathways,3755
+IBD,kegg_only,map01100,Microbial metabolism in diverse environments,14
+IBD,kegg_only,map01100,Nicotinate and nicotinamide metabolism,5
+IBD,kegg_only,map01100,Nucleotide metabolism,23
+IBD,kegg_only,map01100,Pantothenate and CoA biosynthesis,1
+IBD,kegg_only,map01100,Pentose and glucuronate interconversions,2
+IBD,kegg_only,map01100,Phenylalanine metabolism,5
+IBD,kegg_only,map01100,Primary bile acid biosynthesis,6
+IBD,kegg_only,map01100,Propanoate metabolism,1
+IBD,kegg_only,map01100,Purine metabolism,12
+IBD,kegg_only,map01100,Pyrimidine metabolism,18
+IBD,kegg_only,map01100,Sphingolipid metabolism,3
+IBD,kegg_only,map01100,Sulfur metabolism,3
+IBD,kegg_only,map01100,Taurine and hypotaurine metabolism,2
+IBD,kegg_only,map01100,Tryptophan metabolism,1
+IBD,kegg_only,map01100,Tyrosine metabolism,3
+IBD,kegg_only,map01100,beta-Alanine metabolism,12
+IBD,kegg_only,map01110,Biosynthesis of amino acids,17
+IBD,kegg_only,map01110,Biosynthesis of cofactors,11
+IBD,kegg_only,map01110,Biosynthesis of plant hormones,2
+IBD,kegg_only,map01110,Biosynthesis of plant secondary metabolites,24
+IBD,kegg_only,map01110,Biosynthesis of secondary metabolites,197
+IBD,kegg_only,map01110,Biosynthesis of various antibiotics,3
+IBD,kegg_only,map01110,Biosynthesis of various other secondary metabolites,3
+IBD,kegg_only,map01110,Biosynthesis of various plant secondary metabolites,5
+IBD,kegg_only,map01110,Biosynthesis of various siderophores,3
+IBD,kegg_only,map01110,Carbon metabolism,10
+IBD,kegg_only,map01110,Central carbon metabolism in cancer,50
+IBD,kegg_only,map01110,Cyanoamino acid metabolism,1
+IBD,kegg_only,map01110,Cysteine and methionine metabolism,1
+IBD,kegg_only,map01110,D-Amino acid metabolism,15
+IBD,kegg_only,map01110,Efferocytosis,4
+IBD,kegg_only,map01110,Glucagon signaling pathway,7
+IBD,kegg_only,map01110,"Glycine, serine and threonine metabolism",3
+IBD,kegg_only,map01110,Glyoxylate and dicarboxylate metabolism,10
+IBD,kegg_only,map01110,HIF-1 signaling pathway,1
+IBD,kegg_only,map01110,Lysine biosynthesis,2
+IBD,kegg_only,map01110,Metabolic pathways,431
+IBD,kegg_only,map01110,Methane metabolism,1
+IBD,kegg_only,map01110,Microbial metabolism in diverse environments,2
+IBD,kegg_only,map01110,Neuroactive ligand-receptor interaction,1
+IBD,kegg_only,map01110,Nucleotide metabolism,1
+IBD,kegg_only,map01110,Pantothenate and CoA biosynthesis,2
+IBD,kegg_only,map01110,Phenylalanine metabolism,3
+IBD,kegg_only,map01110,Phenylpropanoid biosynthesis,1
+IBD,kegg_only,map01110,Porphyrin metabolism,1
+IBD,kegg_only,map01110,Propanoate metabolism,2
+IBD,kegg_only,map01110,"Tropane, piperidine and pyridine alkaloid biosynthesis",6
+IBD,kegg_only,map01120,Biosynthesis of plant secondary metabolites,1
+IBD,kegg_only,map01120,Biosynthesis of secondary metabolites,4
+IBD,kegg_only,map01120,Biosynthesis of various other secondary metabolites,1
+IBD,kegg_only,map01120,Biosynthesis of various siderophores,1
+IBD,kegg_only,map01120,Carbon metabolism,1
+IBD,kegg_only,map01120,Central carbon metabolism in cancer,10
+IBD,kegg_only,map01120,Cyanoamino acid metabolism,1
+IBD,kegg_only,map01120,Cysteine and methionine metabolism,1
+IBD,kegg_only,map01120,D-Amino acid metabolism,8
+IBD,kegg_only,map01120,Efferocytosis,1
+IBD,kegg_only,map01120,Glucagon signaling pathway,3
+IBD,kegg_only,map01120,Glyoxylate and dicarboxylate metabolism,7
+IBD,kegg_only,map01120,HIF-1 signaling pathway,3
+IBD,kegg_only,map01120,Lysine degradation,2
+IBD,kegg_only,map01120,Metabolic pathways,45
+IBD,kegg_only,map01120,Methane metabolism,2
+IBD,kegg_only,map01120,Microbial metabolism in diverse environments,357
+IBD,kegg_only,map01120,Nicotinate and nicotinamide metabolism,3
+IBD,kegg_only,map01120,Phenylalanine metabolism,4
+IBD,kegg_only,map01120,Propanoate metabolism,2
+IBD,kegg_only,map01120,Protein digestion and absorption,2
+IBD,kegg_only,map01120,Purine metabolism,3
+IBD,kegg_only,map01120,Styrene degradation,1
+IBD,kegg_only,map01120,Toluene degradation,1
+IBD,kegg_only,map01120,"Tropane, piperidine and pyridine alkaloid biosynthesis",1
+IBD,kegg_only,map01200,Carbon metabolism,2
+IBD,kegg_only,map01200,Central carbon metabolism in cancer,1
+IBD,kegg_only,map01200,Citrate cycle (TCA cycle),2
+IBD,kegg_only,map01200,Cyanoamino acid metabolism,1
+IBD,kegg_only,map01200,Cysteine and methionine metabolism,1
+IBD,kegg_only,map01200,D-Amino acid metabolism,4
+IBD,kegg_only,map01200,"Glycine, serine and threonine metabolism",1
+IBD,kegg_only,map01200,Glyoxylate and dicarboxylate metabolism,2
+IBD,kegg_only,map01200,Histidine metabolism,1
+IBD,kegg_only,map01200,Lysine degradation,2
+IBD,kegg_only,map01200,Metabolic pathways,7
+IBD,kegg_only,map01200,Methane metabolism,1
+IBD,kegg_only,map01200,Microbial metabolism in diverse environments,11
+IBD,kegg_only,map01210,Biosynthesis of cofactors,1
+IBD,kegg_only,map01210,Biosynthesis of plant secondary metabolites,7
+IBD,kegg_only,map01210,Biosynthesis of secondary metabolites,29
+IBD,kegg_only,map01210,Biosynthesis of various antibiotics,4
+IBD,kegg_only,map01210,Biosynthesis of various other secondary metabolites,3
+IBD,kegg_only,map01210,Biosynthesis of various plant secondary metabolites,3
+IBD,kegg_only,map01210,Biosynthesis of various siderophores,2
+IBD,kegg_only,map01210,Central carbon metabolism in cancer,12
+IBD,kegg_only,map01210,Cyanoamino acid metabolism,1
+IBD,kegg_only,map01210,Cysteine and methionine metabolism,2
+IBD,kegg_only,map01210,D-Amino acid metabolism,12
+IBD,kegg_only,map01210,Glucagon signaling pathway,2
+IBD,kegg_only,map01210,Glucosinolate biosynthesis,1
+IBD,kegg_only,map01210,Histidine metabolism,2
+IBD,kegg_only,map01210,Lipoic acid metabolism,1
+IBD,kegg_only,map01210,Lysine biosynthesis,1
+IBD,kegg_only,map01210,Metabolic pathways,20
+IBD,kegg_only,map01210,"Valine, leucine and isoleucine biosynthesis",2
+IBD,kegg_only,map01212,Fatty acid metabolism,2
+IBD,kegg_only,map01212,Metabolic pathways,1
+IBD,kegg_only,map01230,Biosynthesis of secondary metabolites,19
+IBD,kegg_only,map01230,Biosynthesis of various other secondary metabolites,4
+IBD,kegg_only,map01230,Biosynthesis of various plant secondary metabolites,2
+IBD,kegg_only,map01230,Central carbon metabolism in cancer,31
+IBD,kegg_only,map01230,Cyanoamino acid metabolism,7
+IBD,kegg_only,map01230,D-Amino acid metabolism,23
+IBD,kegg_only,map01230,Efferocytosis,1
+IBD,kegg_only,map01230,Glucosinolate biosynthesis,10
+IBD,kegg_only,map01230,Glyoxylate and dicarboxylate metabolism,7
+IBD,kegg_only,map01230,Lipoic acid metabolism,2
+IBD,kegg_only,map01230,Lysine biosynthesis,3
+IBD,kegg_only,map01230,Metabolic pathways,84
+IBD,kegg_only,map01230,Microbial metabolism in diverse environments,13
+IBD,kegg_only,map01230,Monobactam biosynthesis,1
+IBD,kegg_only,map01230,"Valine, leucine and isoleucine biosynthesis",1
+IBD,kegg_only,map01230,"Valine, leucine and isoleucine degradation",2
+IBD,kegg_only,map01232,Metabolic pathways,3
+IBD,kegg_only,map01232,Nucleotide metabolism,28
+IBD,kegg_only,map01232,Purine metabolism,18
+IBD,kegg_only,map01232,Pyrimidine metabolism,6

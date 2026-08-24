@@ -1,0 +1,23 @@
+test,status,observed,expected,notes
+gcn_fold_seed_performance_rows,pass,400,400,
+ridge_fold_performance_rows,pass,20,20,
+total_fold_performance_rows,pass,420,420,
+oof_prediction_rows,pass,12831,12831,
+gcn_25_fold_seed_rows_per_cohort_graph_mode,pass,"{('Franzosa', 'conservative_kegg_njc19'): 25, ('Franzosa', 'identity'): 25, ('Franzosa', 'kegg_njc19'): 25, ('Franzosa', 'kegg_only'): 25, ('Sinha', 'conservative_kegg_njc19'): 25, ('Sinha', 'identity'): 25, ('Sinha', 'kegg_njc19'): 25, ('Sinha', 'kegg_only'): 25, ('Yachida', 'conservative_kegg_njc19'): 25, ('Yachida', 'identity'): 25, ('Yachida', 'kegg_njc19'): 25, ('Yachida', 'kegg_only'): 25, ('iHMP', 'conservative_kegg_njc19'): 25, ('iHMP', 'identity'): 25, ('iHMP', 'kegg_njc19'): 25, ('iHMP', 'kegg_only'): 25}",16 groups all n=25,
+ridge_not_applicable_graph_mode,pass,['not_applicable'],not_applicable,
+four_cohorts_present,pass,"['Franzosa', 'Sinha', 'Yachida', 'iHMP']","['Franzosa', 'Sinha', 'Yachida', 'iHMP']",
+four_gcn_graph_modes_present,pass,"['conservative_kegg_njc19', 'identity', 'kegg_njc19', 'kegg_only']","['identity', 'kegg_only', 'kegg_njc19', 'conservative_kegg_njc19']",
+five_seeds_present_for_gcn,pass,"{('Franzosa', 'conservative_kegg_njc19'): 5, ('Franzosa', 'identity'): 5, ('Franzosa', 'kegg_njc19'): 5, ('Franzosa', 'kegg_only'): 5, ('Sinha', 'conservative_kegg_njc19'): 5, ('Sinha', 'identity'): 5, ('Sinha', 'kegg_njc19'): 5, ('Sinha', 'kegg_only'): 5, ('Yachida', 'conservative_kegg_njc19'): 5, ('Yachida', 'identity'): 5, ('Yachida', 'kegg_njc19'): 5, ('Yachida', 'kegg_only'): 5, ('iHMP', 'conservative_kegg_njc19'): 5, ('iHMP', 'identity'): 5, ('iHMP', 'kegg_njc19'): 5, ('iHMP', 'kegg_only'): 5}",5,
+five_outer_folds_present,pass,"{('Franzosa', 'gcn'): 5, ('Franzosa', 'ridge_early_integration'): 5, ('Sinha', 'gcn'): 5, ('Sinha', 'ridge_early_integration'): 5, ('Yachida', 'gcn'): 5, ('Yachida', 'ridge_early_integration'): 5, ('iHMP', 'gcn'): 5, ('iHMP', 'ridge_early_integration'): 5}",5,
+participant_counts,pass,"{'Franzosa': 137, 'Sinha': 131, 'Yachida': 252, 'iHMP': 91}","{'Franzosa': 137, 'iHMP': 91, 'Sinha': 131, 'Yachida': 252}",
+identical_gcn_sample_sets_across_graph_modes_by_seed,pass,,,
+ridge_same_participant_set_as_gcn,pass,,,
+no_duplicate_model_sample_records,pass,0,0,
+finite_decision_scores,pass,,,
+finite_probabilities,pass,,,
+probabilities_in_unit_interval,pass,,,
+binary_outcomes,pass,"[np.int64(0), np.int64(1)]","[0, 1]",
+ranking_metrics_from_decision_scores,pass,,,
+primary_architecture_integrity,pass,primary_one_layer_mean records,"{'architecture_id': 'primary_one_layer_mean', 'layers': 1, 'hidden_dim': 16, 'dropout': 0.2, 'learning_rate': 0.001, 'readout': 'mean'}",
+train_validation_test_sample_id_overlap_check,pass,reconstructed split membership validation passed,explicit train/validation/outer_test sample IDs are mutually disjoint and match saved OOF predictions,Resolved by deterministic reconstruction from frozen corrected-v2 Stage 4E splitter code and seeds; split IDs were not originally persisted during fitting.
+identical_outer_test_membership_across_graph_modes_and_ridge,pass,True,True,Supported by split manifest flag and OOF sample-set checks.

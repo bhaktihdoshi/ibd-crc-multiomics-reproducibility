@@ -1,0 +1,4 @@
+resource,path,exists,n_rows,identifier_namespace,mapping_type,one_to_one_or_many,approved_for_analysis,notes
+KEGG compound-pathway membership,/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/ibd_pipeline/annotation_resources/kegg_compound_pathways.tsv,True,12351,KEGG compound/pathway,local_cache_exact_identifier,many_to_many,True,Local KEGG REST-style cache; generic overview maps excluded using CRC configuration.
+KEGG pathway names,/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/ibd_pipeline/annotation_resources/kegg_pathway_names.tsv,True,587,KEGG pathway,local_cache_exact_identifier,many_to_many,True,Local pathway-name cache used for labels only.
+CRC expanded HMDB-KEGG mapping,stage2/tables/biological_primary_expanded/crc_expanded_da_feature_universe.csv,True,612,HMDB/KEGG,deterministic_supplied_mapping,,True,Expanded ORA mapping uses cohort-specific DA-tested feature universe.

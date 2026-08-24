@@ -1,0 +1,86 @@
+{
+  "stage": "CRC Stage 2",
+  "status": "REQUIRES_TARGETED_RERUN",
+  "stage1_untouched": true,
+  "primary_task": "CRC vs Control",
+  "external_validation": [
+    "Sinha_to_Yachida",
+    "Yachida_to_Sinha"
+  ],
+  "sinha_stage_policy": "binary_only_no_participant_level_stage_labels",
+  "yachida_stage_policy": "internal_secondary_only",
+  "created_at": "2026-08-12T18:01:28.247537+00:00",
+  "checks": [
+    {
+      "path": "stage2/tables/crc_stage2_contract_validation.csv",
+      "exists": true,
+      "sha256": "be203da01871413cab937079c5869bc140c5b0c41672de5c4a6902b974bc1d14"
+    },
+    {
+      "path": "stage2/tables/crc_stage2_shared_feature_space.csv",
+      "exists": true,
+      "sha256": "1a8301aad0787c7875114d737892c4e77227ed97ba3dc9b86abb99c2254a7914"
+    },
+    {
+      "path": "stage2/tables/crc_stage2_internal_cv_results.csv",
+      "exists": true,
+      "sha256": "2d021b191a52b4a9482f74a01b440c9de058de94caac51a88f968c01cb187ccf"
+    },
+    {
+      "path": "stage2/tables/crc_stage2_external_validation_results.csv",
+      "exists": true,
+      "sha256": "b366a3062187248ce0d965f3a92c9a4cd48d078c43716942160a2271fb1eeb03"
+    },
+    {
+      "path": "stage2/tables/crc_stage2_postrun_threshold_transportability_diagnostic.csv",
+      "exists": true,
+      "sha256": "a81cfe523901391f6b435507ffe45cbf445aa8fb1ec8e3d6809381c9ed9abf25"
+    },
+    {
+      "path": "stage2/tables/crc_stage2_yachida_stage_task_plan.csv",
+      "exists": true,
+      "sha256": "4e5df645b9fd3517dbc6734633d1dd17872fcfad048099d578267d6a3abfd9b1"
+    },
+    {
+      "path": "stage2/tables/crc_stage2_integration_package_manifest.csv",
+      "exists": true,
+      "sha256": "3c3ba5cfc9e5c3471ec1e4c3b595b6e6cca81a2dd50363b4f68f8ad33fbaaf51"
+    },
+    {
+      "path": "stage2/tables/crc_stage2_validate_only_report.csv",
+      "exists": true,
+      "sha256": "c2638c4ae06695a7921a9dc82ac659265b50eada37d56f0737e3275b948232a1",
+      "critical_check": "all_critical_validate_only_checks_passed",
+      "passed": true
+    },
+    {
+      "path": "stage2/tables/crc_stage2_reporting_automated_tests.csv",
+      "exists": true,
+      "sha256": "7e79fbd216398fb698596b16d948e26ad7b4ec27450ac75ef5f102ddf0ecd591",
+      "critical_check": "reporting_tests_available_and_passed",
+      "passed": true
+    },
+    {
+      "path": "stage2/tables/crc_stage2_pathway_enrichment_status.csv",
+      "exists": true,
+      "sha256": "9cecca710d975c54c1cff8f017b8d6a39c722b9982d1436efbd223c259eb0ad2",
+      "critical_check": "pathway_stage_labelled_accurately",
+      "passed": false,
+      "pathway_analysis": "not_completed"
+    },
+    {
+      "path": "stage2/tables/crc_stage2_model_deserialization_and_feature_order_audit.csv",
+      "exists": true,
+      "sha256": "a5f28200d439110d67bf727729f9e96e28130dc8b3e067f90fbe5a9112186c5e",
+      "critical_check": "selected_models_load_and_artifacts_inspectable",
+      "passed": true
+    },
+    {
+      "path": "stage2/tables/crc_stage2_logistic_convergence_audit.csv",
+      "exists": true,
+      "sha256": "a5f28200d439110d67bf727729f9e96e28130dc8b3e067f90fbe5a9112186c5e",
+      "critical_check": "selected_logistic_convergence_resolved",
+      "passed": true
+    }
+  ]
+}

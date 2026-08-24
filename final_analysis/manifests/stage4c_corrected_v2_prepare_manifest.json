@@ -1,0 +1,26 @@
+{
+  "status": "running",
+  "analysis": "scca",
+  "full_run_executed": false,
+  "mofa_factor_primary": 8,
+  "mofa_factors_sensitivity_prepared_not_run": [
+    5,
+    8,
+    10
+  ],
+  "scca_components": [
+    1,
+    2
+  ],
+  "scca_penalties": [
+    0.15,
+    0.25,
+    0.4
+  ],
+  "phenotype_annotations": [
+    "pooled_IBD_vs_Control",
+    "CRC_vs_Control"
+  ],
+  "diagnosis_used_for_fitting_or_tuning": false,
+  "authoritative_scca_tuning_fold_file": "stage4c_corrected_v2_scca_tuning_fold_correlations.csv"
+}

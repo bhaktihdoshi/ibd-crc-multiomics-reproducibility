@@ -1,0 +1,2 @@
+stage4_unique_hmdb,mimedb_hmdb_total,stage4_unique_hmdb_found_in_mimedb,ibd_hmdb_found,crc_hmdb_found,hmdb_ids_involved_in_eligible_crossomic_edges,reason_if_zero_edges
+219,3724,194,144,105,0,"Downloaded MiMeDB microbe/metabolite CSVs expose taxonomy and HMDB IDs, but no explicit microbe-metabolite pair table; metabolite microbe_relations is a count field only."

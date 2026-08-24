@@ -1,0 +1,2 @@
+source,question,answer,official_columns,local_samples,supplement_rows,local_sample_overlap,unmatched_local_samples,duplicated_official_subject_ids,stage_mismatch_records,stage_iii_local_paired_subset_n,stage_iv_local_paired_subset_n,recommended_use
+Yachida Nature supplementary Table S2-2,Can individual Stage III versus Stage IV be recovered?,Yes,Subject_ID; Group; Stage,347,406,347,0,0,0,34,20,Use for Yachida-only secondary stage analyses. These analyses are not externally validated in Sinha.

@@ -1,0 +1,3 @@
+disease,source,stage4_retained_metabolites,hmdb_with_kegg_compound,hmdb_with_kegg_pathway,pathways_with_at_least_two_retained_metabolites,unique_metabolite_metabolite_edges
+IBD,KEGG,166,151,127,123,5268
+CRC,KEGG,109,107,93,126,4101

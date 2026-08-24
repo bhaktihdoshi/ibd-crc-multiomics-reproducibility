@@ -1,0 +1,8 @@
+test,status,notes
+stage4a_final_status,pass,FOUR_COHORT_MULTIOMICS_READY
+stage4b_completion_status,pass,Stage 4B completed; 4B remains frozen predictive baseline
+four_cohort_matrix_dimensions,pass,expected n/p and annotation counts checked
+mofa_dependency_available,pass,mofapy2 available
+scca_dependencies_available,pass,sklearn CCA-based sparse-threshold implementation dependencies
+output_directories_writable,pass,write probes used in Stage 4C folders
+no_stale_stage4c_completion_markers,pass,

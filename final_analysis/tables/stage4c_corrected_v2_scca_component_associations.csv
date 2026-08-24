@@ -1,0 +1,8 @@
+disease,cohort,component,comparison,n_positive,n_control,effect_median_difference,p_value,test,phenotype_used_for_fit_or_tuning,causal_or_confounder_independent_claim,bh_fdr
+IBD,Franzosa,1,IBD_vs_Control,81,56,-0.9893591661369139,8.445751098349276e-10,Mann-Whitney U post-hoc annotation after unsupervised sCCA,False,False,5.912025768844493e-09
+IBD,iHMP,1,IBD_vs_Control,65,26,-0.33638748040153177,0.002473919570449289,Mann-Whitney U post-hoc annotation after unsupervised sCCA,False,False,0.008658718496572512
+IBD,iHMP,2,IBD_vs_Control,65,26,0.5613729066893313,0.004241839237750436,Mann-Whitney U post-hoc annotation after unsupervised sCCA,False,False,0.009897624888084352
+CRC,Sinha,1,CRC_vs_Control,42,89,0.1637577880992635,0.43152586532567183,Mann-Whitney U post-hoc annotation after unsupervised sCCA,False,False,0.476087179406156
+CRC,Sinha,2,CRC_vs_Control,42,89,-0.17504808197180005,0.4760871794061561,Mann-Whitney U post-hoc annotation after unsupervised sCCA,False,False,0.476087179406156
+CRC,Yachida,1,CRC_vs_Control,125,127,-0.14531953453186625,0.06589438940959944,Mann-Whitney U post-hoc annotation after unsupervised sCCA,False,False,0.115315181466799
+CRC,Yachida,2,CRC_vs_Control,125,127,-0.08652277997468252,0.2885494753196213,Mann-Whitney U post-hoc annotation after unsupervised sCCA,False,False,0.4039692654474698

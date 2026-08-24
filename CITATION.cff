@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the associated MSc thesis (citation to be finalised once the thesis is published)."
+type: software
+title: "IBD and CRC Multi-Omics Transportability — MSc Thesis Analysis Repository"
+authors:
+  - family-names: "[Author surname — fill in]"
+    given-names: "[Author given name — fill in]"
+    affiliation: "[Institution — fill in]"
+version: "1.0.0"
+date-released: "2026-08-24"
+license: MIT
+repository-code: "[GitHub URL once published]"
+preferred-citation:
+  type: thesis
+  title: "[Thesis title — fill in]"
+  authors:
+    - family-names: "[Author surname — fill in]"
+      given-names: "[Author given name — fill in]"
+  institution:
+    name: "[Institution — fill in]"
+  year: 2026
+  thesis-type: "MSc thesis"

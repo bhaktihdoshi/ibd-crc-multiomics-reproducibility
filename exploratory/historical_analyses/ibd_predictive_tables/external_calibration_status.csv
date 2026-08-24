@@ -1,0 +1,2 @@
+status,reason
+implemented_assessment_only,"Calibration is assessed after frozen external prediction and is not used for model selection, hyperparameter tuning or threshold optimisation."

@@ -1,0 +1,14 @@
+{
+  "feature_stability_rows": 2002,
+  "pathway_status": [
+    {
+      "analysis": "pathway enrichment",
+      "status": "not defensibly performed",
+      "reason": "Harmonisation table contains HMDB IDs and assay-compatibility/matching tiers, but no HMDB superclass/class or KEGG pathway membership. Pathway labels were not inferred from names."
+    }
+  ],
+  "internal_comparison_rows": 18,
+  "threshold_report_rows": 18,
+  "main_text_figures": 52,
+  "supplementary_figures": 144
+}

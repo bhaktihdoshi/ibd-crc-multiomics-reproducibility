@@ -1,0 +1,22 @@
+{
+  "stage": "stage4c_mofa_extract_only",
+  "timestamp": "2026-08-13 03:10:28",
+  "python": "3.13.5 | packaged by Anaconda, Inc. | (main, Jun 12 2025, 11:23:37) [Clang 14.0.6 ]",
+  "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+  "random_seed": 20260813,
+  "status": "complete",
+  "recovered": [
+    {
+      "disease": "IBD",
+      "model_path": "/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/stage4_multiomics_integration/models/stage4c_mofa_ibd_k8.hdf5",
+      "status": "EXTRACTED_VALID"
+    },
+    {
+      "disease": "CRC",
+      "model_path": "/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/stage4_multiomics_integration/models/stage4c_mofa_crc_k8.hdf5",
+      "status": "ABSENT_OR_INVALID"
+    }
+  ],
+  "score_rows": 1824,
+  "loading_rows": 1728
+}

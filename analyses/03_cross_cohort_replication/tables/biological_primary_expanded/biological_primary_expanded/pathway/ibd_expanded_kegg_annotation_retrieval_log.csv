@@ -1,0 +1,2 @@
+retrieval_date,api_endpoint,number_of_compounds_retrieved,number_of_pathways_retrieved,number_of_failed_queries,retry_attempts,status
+2026-08-12,local cache,,,0,0,cache_present

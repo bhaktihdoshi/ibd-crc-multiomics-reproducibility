@@ -1,0 +1,6 @@
+pattern,classification,location,action
+DataFrame.stack(dropna=False),ACTIVE_FAILURE_FIXED,old MOFA long serialization path,"replaced with reset_index().melt(...), preserving full sample x feature grid after preprocessing"
+groupby(level=0).sum(),SAFE,to_genus_matrix(),numeric feature collapsing uses explicit axis via transpose; no pandas-3 API change requiring edit observed
+replace(...).astype(str),SAFE,labels_for_cohort(),explicit string coercion after label harmonisation avoids nullable/object ambiguity
+reset_index(names='sample_id'),SAFE,extract_mofa_hdf5(),supported in current pandas; not on pre-training path
+merge dtype strictness,SAFE,factor_associations(),sample_id is serialized as string before MOFA; post-run association merge remains explicit

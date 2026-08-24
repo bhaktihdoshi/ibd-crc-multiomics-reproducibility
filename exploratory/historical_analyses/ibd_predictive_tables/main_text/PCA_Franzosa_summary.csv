@@ -1,0 +1,2 @@
+cohort,output,n_samples,n_features,pc1_variance_percent,pc2_variance_percent,control_n,cd_n,uc_n,caption
+Franzosa,PCA_Franzosa,172,166,12.193944264566849,10.996336305740298,56,62,54,"Exploratory within-cohort PCA only; no ComBat, SVA, Harmony or other batch correction was performed."

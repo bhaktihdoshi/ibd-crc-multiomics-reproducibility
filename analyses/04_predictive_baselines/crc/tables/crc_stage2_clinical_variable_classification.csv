@@ -1,0 +1,11 @@
+field,classification,reason
+age_years,shared-primary eligible,"passes deterministic linkage, coding, missingness and range checks in both cohorts"
+sex,shared-primary eligible,"passes deterministic linkage, coding, missingness and range checks in both cohorts"
+bmi,shared-primary eligible,"passes deterministic linkage, coding, missingness and range checks in both cohorts"
+race,cohort-specific sensitivity only,"Sinha-only source covariate; retained for description/sensitivity, not shared primary model"
+hosp1/hosp2,cohort-specific sensitivity only,"Sinha-only enrollment hospital/site covariates; retained for description/sensitivity, not shared primary model"
+Brinkman Index,cohort-specific sensitivity only,Yachida-only smoking intensity covariate; cohort-specific sensitivity only
+Alcohol,cohort-specific sensitivity only,Yachida-only alcohol covariate; cohort-specific sensitivity only
+Tumor location,prohibited due to leakage,Yachida-only disease attribute; prohibited as primary predictor because it is post-diagnosis/leakage-prone
+stage,prohibited due to leakage,Yachida-only outcome/severity descriptor; prohibited as primary CRC-vs-Control predictor
+MP/HS status,outcome/descriptive only,Yachida-only non-primary conditions excluded from CRC-vs-Control primary task

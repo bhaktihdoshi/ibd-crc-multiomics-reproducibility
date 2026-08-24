@@ -1,0 +1,11 @@
+# CRC Stage 1 Methods Summary
+
+Two stool/fecal CRC metabolomics cohorts were audited before model development: Sinha et al. 2016 and Yachida et al. 2019. Local metadata, metabolomics matrices and metabolite mapping files were inventoried, checked for sample/subject duplication, and summarized for clinical labels, missingness and feature identifier overlap. No modelling, imputation, scaling, feature selection, differential abundance or pathway analysis was performed in Stage 1.
+
+Sinha contained 131 one-sample-per-subject observations and supports binary CRC vs Control analysis using the audited `Study.Group` field. Official Sinha supporting files S1-S5, the Figshare record, curated metadata and linked source-study trail were audited for participant-level disease extent, metastatic status, tumour site and medication variables. No deterministic participant-level cancer-stage field could be linked to local sample identifiers, so publication-level stage proportions were retained only as aggregate context.
+
+Yachida contained 347 one-sample-per-subject observations. Original local metadata used coarse `Study.Group` labels including `Stage_I_II` and `Stage_III_IV`. Official Yachida Supplementary Table S2-2 was used to recover individual stage and substage labels. All local Yachida samples linked to the official table and no true stage conflicts were found. Recovered official labels support Yachida-only secondary analyses of Healthy vs Stage 0, Stage I, Stage II, Stage III and Stage IV.
+
+Identifier harmonization used cleaned HMDB and KEGG identifiers from the supplied mapping files. The frozen audit records 110 shared HMDB identifiers, 107 shared KEGG identifiers and 217 unified HMDB/KEGG shared identifiers. These shared identifiers define the future cross-cohort metabolomics feature space for external-validation modelling.
+
+The primary Stage 2 task is binary CRC vs Control. In Yachida, CRC is defined as recovered official Stage 0, Stage I, Stage II, Stage III or Stage IV; MP and HS are excluded. Secondary Yachida-only stage analyses are permitted but are not externally validated in Sinha. The exploratory ordered disease-state variable represents independently sampled disease states and must not be interpreted as longitudinal progression.

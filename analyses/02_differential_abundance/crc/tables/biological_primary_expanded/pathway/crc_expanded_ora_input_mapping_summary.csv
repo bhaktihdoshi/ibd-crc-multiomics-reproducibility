@@ -1,0 +1,7 @@
+cohort,comparison,direction,total_metabolites_tested,metabolites_with_valid_HMDB,metabolites_with_valid_KEGG,metabolites_eligible_for_ORA,significant_metabolites_BH_FDR_0_05,significant_metabolites_with_KEGG_mapping,unique_background_KEGG_compound_count,unique_significant_KEGG_compound_count,background_definition
+Sinha,CRC vs Control,all_fdr_significant,354,353,189,189,5,2,189,2,expanded cohort-specific DA-tested metabolites with deterministic KEGG mapping
+Sinha,CRC vs Control,higher_in_disease,354,353,189,189,4,2,189,2,expanded cohort-specific DA-tested metabolites with deterministic KEGG mapping
+Sinha,CRC vs Control,lower_in_disease,354,353,189,189,1,0,189,0,expanded cohort-specific DA-tested metabolites with deterministic KEGG mapping
+Yachida,CRC vs Healthy,all_fdr_significant,436,411,423,423,0,0,423,0,expanded cohort-specific DA-tested metabolites with deterministic KEGG mapping
+Yachida,CRC vs Healthy,higher_in_disease,436,411,423,423,0,0,423,0,expanded cohort-specific DA-tested metabolites with deterministic KEGG mapping
+Yachida,CRC vs Healthy,lower_in_disease,436,411,423,423,0,0,423,0,expanded cohort-specific DA-tested metabolites with deterministic KEGG mapping

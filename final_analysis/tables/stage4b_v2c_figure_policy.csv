@@ -1,0 +1,9 @@
+figure_intent,required_label,generate_now
+External Stage 4B ROC curves/forest estimates,"bootstrap CIs; microbiome principal, metabolome/integration stress-test where shown",False
+Paired early-integration delta AUC forest,stress-test comparisons,False
+MOFA variance heatmap and factor-score distributions,cohort-by-view structural analysis,False
+sCCA held-out distributions and loading reproducibility,independently fitted cohort-local sCCA,False
+Identity to KEGG to KEGG+NJC19 connectivity,connectivity not biological activity,False
+GCN paired fold/seed plots,within-cohort topology ablation,False
+External probability distributions,saturation/compression diagnostics,False
+Cross-method feature-evidence matrix,"evidence synthesis, not causal proof",False

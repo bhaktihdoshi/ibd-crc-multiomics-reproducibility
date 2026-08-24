@@ -1,0 +1,13 @@
+disease,task,training_cohort,external_cohort,representation,train_n,external_n,train_p,external_p,train_class_counts,external_class_counts,feature_order_identical,pipeline_steps,status
+IBD,IBD_vs_Control,Franzosa,iHMP,METABOLOME,137,91,166,166,"{1: 81, 0: 56}","{1: 65, 0: 26}",True,"['metabolome', 'clf']",pass
+IBD,IBD_vs_Control,Franzosa,iHMP,MICROBIOME,137,91,50,50,"{1: 81, 0: 56}","{1: 65, 0: 26}",True,"['microbiome', 'clf']",pass
+IBD,IBD_vs_Control,Franzosa,iHMP,EARLY_INTEGRATION,137,91,216,216,"{1: 81, 0: 56}","{1: 65, 0: 26}",True,"['block_preprocessor', 'clf']",pass
+IBD,IBD_vs_Control,iHMP,Franzosa,METABOLOME,91,137,166,166,"{1: 65, 0: 26}","{1: 81, 0: 56}",True,"['metabolome', 'clf']",pass
+IBD,IBD_vs_Control,iHMP,Franzosa,MICROBIOME,91,137,50,50,"{1: 65, 0: 26}","{1: 81, 0: 56}",True,"['microbiome', 'clf']",pass
+IBD,IBD_vs_Control,iHMP,Franzosa,EARLY_INTEGRATION,91,137,216,216,"{1: 65, 0: 26}","{1: 81, 0: 56}",True,"['block_preprocessor', 'clf']",pass
+CRC,CRC_vs_Control,Sinha,Yachida,METABOLOME,131,252,110,110,"{0: 89, 1: 42}","{0: 127, 1: 125}",True,"['metabolome', 'clf']",pass
+CRC,CRC_vs_Control,Sinha,Yachida,MICROBIOME,131,252,52,52,"{0: 89, 1: 42}","{0: 127, 1: 125}",True,"['microbiome', 'clf']",pass
+CRC,CRC_vs_Control,Sinha,Yachida,EARLY_INTEGRATION,131,252,162,162,"{0: 89, 1: 42}","{0: 127, 1: 125}",True,"['block_preprocessor', 'clf']",pass
+CRC,CRC_vs_Control,Yachida,Sinha,METABOLOME,252,131,110,110,"{0: 127, 1: 125}","{0: 89, 1: 42}",True,"['metabolome', 'clf']",pass
+CRC,CRC_vs_Control,Yachida,Sinha,MICROBIOME,252,131,52,52,"{0: 127, 1: 125}","{0: 89, 1: 42}",True,"['microbiome', 'clf']",pass
+CRC,CRC_vs_Control,Yachida,Sinha,EARLY_INTEGRATION,252,131,162,162,"{0: 127, 1: 125}","{0: 89, 1: 42}",True,"['block_preprocessor', 'clf']",pass

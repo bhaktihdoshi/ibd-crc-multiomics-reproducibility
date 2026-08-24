@@ -1,0 +1,19 @@
+outcome,train_cohort,external_cohort,feature_set,model,best_params,frozen_threshold,threshold_rule
+cd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,"{""clf__C"": 5}",0.48552620463188695,training-only cross-fitted Youden J
+cd_vs_control,Franzosa,iHMP,integrated,elastic_net_logistic,"{""clf__C"": 0.05, ""clf__l1_ratio"": 0.75}",0.555179242556429,training-only cross-fitted Youden J
+cd_vs_control,Franzosa,iHMP,metabolomics,elastic_net_logistic,"{""clf__C"": 0.05, ""clf__l1_ratio"": 0.05}",0.7175634181804167,training-only cross-fitted Youden J
+cd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,"{""clf__C"": 0.001}",0.49977915777034654,training-only cross-fitted Youden J
+cd_vs_control,iHMP,Franzosa,integrated,ridge_logistic,"{""clf__C"": 0.01}",0.5428943405540689,training-only cross-fitted Youden J
+cd_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,"{""clf__C"": 0.01}",0.5459169440670635,training-only cross-fitted Youden J
+ibd_vs_control,Franzosa,iHMP,clinical,ridge_logistic,"{""clf__C"": 0.5}",0.6125999399223846,training-only cross-fitted Youden J
+ibd_vs_control,Franzosa,iHMP,integrated,extra_trees,"{""clf__n_estimators"": 200, ""clf__min_samples_split"": 10, ""clf__min_samples_leaf"": 3, ""clf__max_features"": null, ""clf__max_depth"": 8}",0.5698912421891363,training-only cross-fitted Youden J
+ibd_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,"{""clf__C"": 0.01}",0.4494075143756632,training-only cross-fitted Youden J
+ibd_vs_control,iHMP,Franzosa,clinical,ridge_logistic,"{""clf__C"": 0.001}",0.5024154444912573,training-only cross-fitted Youden J
+ibd_vs_control,iHMP,Franzosa,integrated,gradient_boosting,"{""clf__subsample"": 1.0, ""clf__n_estimators"": 200, ""clf__min_samples_leaf"": 10, ""clf__max_features"": null, ""clf__max_depth"": 1, ""clf__learning_rate"": 0.03}",0.7468471599720568,training-only cross-fitted Youden J
+ibd_vs_control,iHMP,Franzosa,metabolomics,random_forest,"{""clf__n_estimators"": 1000, ""clf__min_samples_split"": 2, ""clf__min_samples_leaf"": 2, ""clf__max_features"": ""log2"", ""clf__max_depth"": 5}",0.7169285641733203,training-only cross-fitted Youden J
+uc_vs_control,Franzosa,iHMP,clinical,random_forest,"{""clf__n_estimators"": 1000, ""clf__min_samples_split"": 10, ""clf__min_samples_leaf"": 3, ""clf__max_features"": ""log2"", ""clf__max_depth"": 12}",0.4020198172251974,training-only cross-fitted Youden J
+uc_vs_control,Franzosa,iHMP,integrated,random_forest,"{""clf__n_estimators"": 500, ""clf__min_samples_split"": 2, ""clf__min_samples_leaf"": 1, ""clf__max_features"": null, ""clf__max_depth"": 8}",0.444,training-only cross-fitted Youden J
+uc_vs_control,Franzosa,iHMP,metabolomics,ridge_logistic,"{""clf__C"": 0.05}",0.6082271256778801,training-only cross-fitted Youden J
+uc_vs_control,iHMP,Franzosa,clinical,random_forest,"{""clf__n_estimators"": 500, ""clf__min_samples_split"": 5, ""clf__min_samples_leaf"": 2, ""clf__max_features"": ""log2"", ""clf__max_depth"": null}",0.327997648680774,training-only cross-fitted Youden J
+uc_vs_control,iHMP,Franzosa,integrated,ridge_logistic,"{""clf__C"": 0.01}",0.49089218019092834,training-only cross-fitted Youden J
+uc_vs_control,iHMP,Franzosa,metabolomics,ridge_logistic,"{""clf__C"": 0.01}",0.48951834798547045,training-only cross-fitted Youden J

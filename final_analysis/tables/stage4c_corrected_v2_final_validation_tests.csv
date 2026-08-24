@@ -1,0 +1,5 @@
+test,status,notes
+input_integrity,pass,rows=8
+scca_tuning_summary_migrated,pass,rows=432
+scca_tuning_fold_correlations_written,pass,rows=360
+nested_cv_estimates_not_claimed,pass,estimate_role=tuning_diagnostic; nested_outer_evaluation=False

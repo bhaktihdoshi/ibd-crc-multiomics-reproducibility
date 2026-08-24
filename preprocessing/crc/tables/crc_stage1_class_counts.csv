@@ -1,0 +1,57 @@
+cohort,label_column,class,n_samples,n_participants
+Sinha,Study.Group,0,89,89
+Sinha,Study.Group,1,42,42
+Sinha,crc_status,CRC,42,42
+Sinha,crc_status,Control,89,89
+Sinha,stage_model_label,,131,131
+Sinha,Gender,Female,50,50
+Sinha,Gender,Male,81,81
+Yachida,Study.Group,HS,30,30
+Yachida,Study.Group,Healthy,127,127
+Yachida,Study.Group,MP,40,40
+Yachida,Study.Group,Stage_0,27,27
+Yachida,Study.Group,Stage_III_IV,54,54
+Yachida,Study.Group,Stage_I_II,69,69
+Yachida,crc_status,CRC,150,150
+Yachida,crc_status,Control,127,127
+Yachida,crc_status,Non-primary/adenoma/HS,70,70
+Yachida,stage_model_label,Control,127,127
+Yachida,stage_model_label,Multiple polypoid adenoma,40,40
+Yachida,stage_model_label,Stage 0 / intramucosal carcinoma,27,27
+Yachida,stage_model_label,Stage I/II CRC,69,69
+Yachida,stage_model_label,Stage III/IV CRC,54,54
+Yachida,stage_model_label,,30,30
+Yachida,stage_refined_model_label,Control,127,127
+Yachida,stage_refined_model_label,Multiple polypoid adenoma,40,40
+Yachida,stage_refined_model_label,Stage 0 / intramucosal carcinoma,27,27
+Yachida,stage_refined_model_label,Stage I/II CRC,69,69
+Yachida,stage_refined_model_label,Stage III CRC,34,34
+Yachida,stage_refined_model_label,Stage IV CRC,20,20
+Yachida,stage_refined_model_label,,30,30
+Yachida,stage_major,Stage 0,27,27
+Yachida,stage_major,Stage I,44,44
+Yachida,stage_major,Stage II,25,25
+Yachida,stage_major,Stage III,34,34
+Yachida,stage_major,Stage IV,20,20
+Yachida,stage_major,,197,197
+Yachida,Stage,-,197,197
+Yachida,Stage,0,27,27
+Yachida,Stage,I,44,44
+Yachida,Stage,IIA,24,24
+Yachida,Stage,IIC,1,1
+Yachida,Stage,IIIA,8,8
+Yachida,Stage,IIIB,22,22
+Yachida,Stage,IIIC,4,4
+Yachida,Stage,IVA,12,12
+Yachida,Stage,IVB,6,6
+Yachida,Stage,Iva,1,1
+Yachida,Stage,Ivb,1,1
+Yachida,Tumor location,-,197,197
+Yachida,Tumor location,Left colon,32,32
+Yachida,Tumor location,Left colon and Right colon,3,3
+Yachida,Tumor location,Rectum,69,69
+Yachida,Tumor location,Rectum and Left colon,1,1
+Yachida,Tumor location,"Rectum, Left colon and Right colon",1,1
+Yachida,Tumor location,Right colon,44,44
+Yachida,Gender,Female,143,143
+Yachida,Gender,Male,204,204

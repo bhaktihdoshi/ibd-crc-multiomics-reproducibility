@@ -1,0 +1,9 @@
+disease,cohort,view,n_participants,n_features,one_observation_per_participant,sample_order_aligned,finite_transformed_values,phenotype_columns_in_view,group_variable_for_mofa,diagnosis_used_as_group,status
+IBD,Franzosa,microbiome,137,50,True,True,True,False,cohort,False,pass
+IBD,Franzosa,metabolome,137,166,True,True,True,False,cohort,False,pass
+IBD,iHMP,microbiome,91,50,True,True,True,False,cohort,False,pass
+IBD,iHMP,metabolome,91,166,True,True,True,False,cohort,False,pass
+CRC,Sinha,microbiome,131,52,True,True,True,False,cohort,False,pass
+CRC,Sinha,metabolome,131,109,True,True,True,False,cohort,False,pass
+CRC,Yachida,microbiome,252,52,True,True,True,False,cohort,False,pass
+CRC,Yachida,metabolome,252,109,True,True,True,False,cohort,False,pass

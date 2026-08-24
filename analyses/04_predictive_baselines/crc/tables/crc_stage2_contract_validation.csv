@@ -1,0 +1,38 @@
+check,observed,expected,critical,passed
+stage1_manifest_version,1.0,1.0,True,True
+stage1_manifest_status,Frozen,Frozen,True,True
+required_file_exists::CRC_STAGE1_RELEASE_MANIFEST.json,True,True,True,True
+required_file_exists::CRC_STAGE2_INPUT_SPECIFICATION.md,True,True,True,True
+required_file_exists::CRC_STAGE2_MODELLING_CHECKLIST.md,True,True,True,True
+required_file_exists::CRC_STAGE1_DATA_PROVENANCE.csv,True,True,True,True
+required_file_exists::CRC_STAGE1_COMPLETE_DATA_DICTIONARY.csv,True,True,True,True
+required_file_exists::crc_stage1_freeze_integrity_checks.csv,True,True,True,True
+required_file_exists::crc_stage2_task_eligibility.csv,True,True,True,True
+required_file_exists::crc_stage1_identifier_overlap.csv,True,True,True,True
+required_file_exists::crc_stage1_sample_flow.csv,True,True,True,True
+required_file_exists::crc_stage1_class_counts.csv,True,True,True,True
+required_file_exists::crc_stage1_shared_identifier_manifest.csv,True,True,True,True
+required_file_exists::crc_stage1_feature_mapping_manifest.csv,True,True,True,True
+required_file_exists::crc_stage2_yachida_primary_crc_vs_control_model_prep.csv,True,True,True,True
+required_file_exists::metadata.tsv,True,True,True,True
+required_file_exists::mtb.tsv,True,True,True,True
+required_file_exists::mtb.map.tsv,True,True,True,True
+stage1_hash::tables/crc_stage2_task_eligibility.csv,478bf244ec4ae2d305216dc09ff4fa11df8f7a62326c5e9f022d338aba79d9e5,478bf244ec4ae2d305216dc09ff4fa11df8f7a62326c5e9f022d338aba79d9e5,True,True
+stage1_hash::tables/crc_stage1_identifier_overlap.csv,df31230672d3a9a3aee6c41554bd01f7b41dfe6e50039bb9c81a783e786e5111,df31230672d3a9a3aee6c41554bd01f7b41dfe6e50039bb9c81a783e786e5111,True,True
+stage1_hash::tables/crc_stage1_sample_flow.csv,5daea0d91f75d13d7398e250a7f9beb25799ab7a3eeb656d9c391cdd6a963e1d,5daea0d91f75d13d7398e250a7f9beb25799ab7a3eeb656d9c391cdd6a963e1d,True,True
+stage1_hash::tables/crc_stage1_class_counts.csv,89fc9403df392bbdce553d06391f7c6e1a10c2f9fff67e914e30230d64104015,89fc9403df392bbdce553d06391f7c6e1a10c2f9fff67e914e30230d64104015,True,True
+stage1_hash::tables/stage2_model_prep/crc_stage2_yachida_primary_crc_vs_control_model_prep.csv,a43eb3902cbbfa709d52164c6de3cd3483d4cd0893e7761401b5fbb0d50c0c08,a43eb3902cbbfa709d52164c6de3cd3483d4cd0893e7761401b5fbb0d50c0c08,True,True
+all_stage1_freeze_integrity_checks_passed,True,True,True,True
+stage1_freeze_integrity_check_count,36,36,True,True
+Sinha metadata n,131,131,True,True
+Yachida metadata n,347,347,True,True
+Yachida primary task n,277,277,True,True
+Yachida primary controls,127,127,True,True
+Yachida primary CRC,150,150,True,True
+Yachida primary MP excluded,True,True,True,True
+Yachida primary HS excluded,True,True,True,True
+Sinha controls,89,89,True,True
+Sinha CRC cases,42,42,True,True
+shared_identifier_count::HMDB,110,110,True,True
+shared_identifier_count::KEGG,107,107,True,True
+shared_identifier_count::HMDB_or_KEGG_unified,217,217,True,True

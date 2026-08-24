@@ -1,0 +1,25 @@
+ibd_phenotype,ibd_cohort,crc_cohort,n,method,estimate,p_value,interpretation,BH_FDR
+ibd,Franzosa,Sinha,56,Spearman,0.1927546138072454,0.1546501879044525,Primary rank-based cross-disease effect association; coefficients are not pooled.,0.371160450970686
+ibd,Franzosa,Sinha,56,Pearson_secondary,0.23026049411552613,0.08777133835479121,Secondary descriptive sensitivity because raw effect magnitudes are platform-limited.,
+ibd,Franzosa,Yachida,56,Spearman,-0.016404647983595356,0.9044828614370451,Primary rank-based cross-disease effect association; coefficients are not pooled.,0.9525561311361
+ibd,Franzosa,Yachida,56,Pearson_secondary,-0.0024924047841268955,0.9854547353112725,Secondary descriptive sensitivity because raw effect magnitudes are platform-limited.,
+ibd,iHMP,Sinha,55,Spearman,0.29054834054834067,0.03140274892947799,Primary rank-based cross-disease effect association; coefficients are not pooled.,0.12561099571791196
+ibd,iHMP,Sinha,55,Pearson_secondary,0.2945994754073523,0.02901138667617238,Secondary descriptive sensitivity because raw effect magnitudes are platform-limited.,
+ibd,iHMP,Yachida,55,Spearman,0.06854256854256856,0.6190232761200108,Primary rank-based cross-disease effect association; coefficients are not pooled.,0.8818391403062499
+ibd,iHMP,Yachida,55,Pearson_secondary,0.09585688316234828,0.4863218096278969,Secondary descriptive sensitivity because raw effect magnitudes are platform-limited.,
+cd,Franzosa,Sinha,56,Spearman,0.31237183868762824,0.019086458394112292,Primary rank-based cross-disease effect association; coefficients are not pooled.,0.12561099571791196
+cd,Franzosa,Sinha,56,Pearson_secondary,0.3319798221458142,0.012432932124763494,Secondary descriptive sensitivity because raw effect magnitudes are platform-limited.,
+cd,Franzosa,Yachida,56,Spearman,0.046274777853725226,0.7348659502552082,Primary rank-based cross-disease effect association; coefficients are not pooled.,0.8818391403062499
+cd,Franzosa,Yachida,56,Pearson_secondary,0.06348590069763622,0.6420466642516804,Secondary descriptive sensitivity because raw effect magnitudes are platform-limited.,
+cd,iHMP,Sinha,55,Spearman,0.3048340548340549,0.02363947027039982,Primary rank-based cross-disease effect association; coefficients are not pooled.,0.12561099571791196
+cd,iHMP,Sinha,55,Pearson_secondary,0.2984819844058966,0.026864350173272534,Secondary descriptive sensitivity because raw effect magnitudes are platform-limited.,
+cd,iHMP,Yachida,55,Spearman,0.1031746031746032,0.4535003342525715,Primary rank-based cross-disease effect association; coefficients are not pooled.,0.7774291444329798
+cd,iHMP,Yachida,55,Pearson_secondary,0.12351479355018921,0.36896308131990985,Secondary descriptive sensitivity because raw effect magnitudes are platform-limited.,
+uc,Franzosa,Sinha,56,Spearman,0.008133971291866028,0.9525561311360999,Primary rank-based cross-disease effect association; coefficients are not pooled.,0.9525561311361
+uc,Franzosa,Sinha,56,Pearson_secondary,0.015567653408005012,0.9093353262554058,Secondary descriptive sensitivity because raw effect magnitudes are platform-limited.,
+uc,Franzosa,Yachida,56,Spearman,-0.13526999316473,0.32021554612867464,Primary rank-based cross-disease effect association; coefficients are not pooled.,0.6404310922573493
+uc,Franzosa,Yachida,56,Pearson_secondary,-0.12465341520387781,0.3600033721865568,Secondary descriptive sensitivity because raw effect magnitudes are platform-limited.,
+uc,iHMP,Sinha,55,Spearman,0.2601731601731602,0.05506569797782236,Primary rank-based cross-disease effect association; coefficients are not pooled.,0.1651970939334671
+uc,iHMP,Sinha,55,Pearson_secondary,0.26072503829936944,0.05453364513253994,Secondary descriptive sensitivity because raw effect magnitudes are platform-limited.,
+uc,iHMP,Yachida,55,Spearman,0.05584415584415585,0.6855105645109265,Primary rank-based cross-disease effect association; coefficients are not pooled.,0.8818391403062499
+uc,iHMP,Yachida,55,Pearson_secondary,0.05596745887857267,0.684852397394962,Secondary descriptive sensitivity because raw effect magnitudes are platform-limited.,

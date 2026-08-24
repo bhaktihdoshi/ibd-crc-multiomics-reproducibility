@@ -1,0 +1,25 @@
+disease,task,training_cohort,external_cohort,representation,train_n,external_n,train_class_counts,external_class_counts,train_p,external_p,schema_aligned,status
+IBD,IBD_vs_Control,Franzosa,iHMP,METABOLOME,137,91,"{1: 81, 0: 56}","{1: 65, 0: 26}",166,166,True,pass
+IBD,IBD_vs_Control,Franzosa,iHMP,MICROBIOME,137,91,"{1: 81, 0: 56}","{1: 65, 0: 26}",50,50,True,pass
+IBD,IBD_vs_Control,Franzosa,iHMP,EARLY_INTEGRATION,137,91,"{1: 81, 0: 56}","{1: 65, 0: 26}",216,216,True,pass
+IBD,IBD_vs_Control,iHMP,Franzosa,METABOLOME,91,137,"{1: 65, 0: 26}","{1: 81, 0: 56}",166,166,True,pass
+IBD,IBD_vs_Control,iHMP,Franzosa,MICROBIOME,91,137,"{1: 65, 0: 26}","{1: 81, 0: 56}",50,50,True,pass
+IBD,IBD_vs_Control,iHMP,Franzosa,EARLY_INTEGRATION,91,137,"{1: 65, 0: 26}","{1: 81, 0: 56}",216,216,True,pass
+IBD,CD_vs_Control,Franzosa,iHMP,METABOLOME,101,65,"{0: 56, 1: 45}","{1: 39, 0: 26}",166,166,True,pass
+IBD,CD_vs_Control,Franzosa,iHMP,MICROBIOME,101,65,"{0: 56, 1: 45}","{1: 39, 0: 26}",50,50,True,pass
+IBD,CD_vs_Control,Franzosa,iHMP,EARLY_INTEGRATION,101,65,"{0: 56, 1: 45}","{1: 39, 0: 26}",216,216,True,pass
+IBD,CD_vs_Control,iHMP,Franzosa,METABOLOME,65,101,"{1: 39, 0: 26}","{0: 56, 1: 45}",166,166,True,pass
+IBD,CD_vs_Control,iHMP,Franzosa,MICROBIOME,65,101,"{1: 39, 0: 26}","{0: 56, 1: 45}",50,50,True,pass
+IBD,CD_vs_Control,iHMP,Franzosa,EARLY_INTEGRATION,65,101,"{1: 39, 0: 26}","{0: 56, 1: 45}",216,216,True,pass
+IBD,UC_vs_Control,Franzosa,iHMP,METABOLOME,92,52,"{0: 56, 1: 36}","{1: 26, 0: 26}",166,166,True,pass
+IBD,UC_vs_Control,Franzosa,iHMP,MICROBIOME,92,52,"{0: 56, 1: 36}","{1: 26, 0: 26}",50,50,True,pass
+IBD,UC_vs_Control,Franzosa,iHMP,EARLY_INTEGRATION,92,52,"{0: 56, 1: 36}","{1: 26, 0: 26}",216,216,True,pass
+IBD,UC_vs_Control,iHMP,Franzosa,METABOLOME,52,92,"{1: 26, 0: 26}","{0: 56, 1: 36}",166,166,True,pass
+IBD,UC_vs_Control,iHMP,Franzosa,MICROBIOME,52,92,"{1: 26, 0: 26}","{0: 56, 1: 36}",50,50,True,pass
+IBD,UC_vs_Control,iHMP,Franzosa,EARLY_INTEGRATION,52,92,"{1: 26, 0: 26}","{0: 56, 1: 36}",216,216,True,pass
+CRC,CRC_vs_Control,Sinha,Yachida,METABOLOME,131,252,"{0: 89, 1: 42}","{0: 127, 1: 125}",110,110,True,pass
+CRC,CRC_vs_Control,Sinha,Yachida,MICROBIOME,131,252,"{0: 89, 1: 42}","{0: 127, 1: 125}",52,52,True,pass
+CRC,CRC_vs_Control,Sinha,Yachida,EARLY_INTEGRATION,131,252,"{0: 89, 1: 42}","{0: 127, 1: 125}",162,162,True,pass
+CRC,CRC_vs_Control,Yachida,Sinha,METABOLOME,252,131,"{0: 127, 1: 125}","{0: 89, 1: 42}",110,110,True,pass
+CRC,CRC_vs_Control,Yachida,Sinha,MICROBIOME,252,131,"{0: 127, 1: 125}","{0: 89, 1: 42}",52,52,True,pass
+CRC,CRC_vs_Control,Yachida,Sinha,EARLY_INTEGRATION,252,131,"{0: 127, 1: 125}","{0: 89, 1: 42}",162,162,True,pass

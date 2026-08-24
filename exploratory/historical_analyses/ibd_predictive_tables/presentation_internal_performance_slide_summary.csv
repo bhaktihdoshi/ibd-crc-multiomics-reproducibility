@@ -1,0 +1,4 @@
+Prediction task,Best-performing model,Internal ROC-AUC,95% CI,External ROC-AUC,Balanced accuracy,Sensitivity,Specificity,Precision,F1-score
+IBD vs Control,Integrated + Extra Trees,0.92,0.89-0.95,0.50,0.45,0.74,0.15,0.69,0.71
+CD vs Control,Integrated + Elastic-net logistic,0.92,0.89-0.94,0.50,0.50,0.00,1.00,0.00,0.00
+UC vs Control,Integrated + Random forest,0.89,0.80-0.99,0.66,0.50,1.00,0.00,0.50,0.67

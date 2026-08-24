@@ -1,0 +1,3 @@
+disease,mofa_active_factor_n,mofa_shared_factor_n,mofa_view_dominant_factor_n,scca_apparent_corr_mean,scca_loading_cosine_abs_mean,scca_jaccard_mean,graph_nodes,graph_edges_broad_kegg_njc19,microbial_coverage_broad_kegg_njc19,metabolite_subgraph_density_broad,interpretation
+IBD,5,3,2,0.7879928461937746,0.45686922112942513,0.25903119868637103,216,5473,0.74,0.3846659364731654,"latent/graph structure is descriptive; not causal, mechanistic or predictive utility evidence by itself"
+CRC,4,1,3,0.6163881589953153,0.09757346851708193,0.10429197994987466,161,4358,0.7307692307692307,0.6967380224260958,"latent/graph structure is descriptive; not causal, mechanistic or predictive utility evidence by itself"

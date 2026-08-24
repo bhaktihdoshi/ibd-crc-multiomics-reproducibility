@@ -1,0 +1,4 @@
+space,stage4_genera,genera_represented_in_MicroMap_panmodels,expected_taxonomic_coverage_percent,required_genus_panmodel_files,estimated_download_size,estimated_extracted_size,parser_runtime_estimate,ram_estimate
+IBD,50,0,0.0,0,unresolved from accessible metadata,unresolved from accessible metadata,minutes if genus-level CellDesigner XML files are accessible; no FBA,single-file streaming XML parser should stay under ~1 GB
+CRC,52,0,0.0,0,unresolved from accessible metadata,unresolved from accessible metadata,minutes if genus-level CellDesigner XML files are accessible; no FBA,single-file streaming XML parser should stay under ~1 GB
+Union,64,0,0.0,0,unresolved from accessible metadata,unresolved from accessible metadata,minutes if genus-level CellDesigner XML files are accessible; no FBA,single-file streaming XML parser should stay under ~1 GB

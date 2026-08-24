@@ -1,0 +1,36 @@
+{
+  "stage": "4C",
+  "primary_method": "MOFA/MOFA2 unsupervised latent integration",
+  "secondary_method": "sCCA sparse cross-view covariance sensitivity",
+  "views": [
+    "microbiome",
+    "metabolome"
+  ],
+  "clinical_variables": "annotations_only",
+  "mofa_factor_candidates": [
+    8
+  ],
+  "mofa_group_strategy": {
+    "IBD": [
+      "Franzosa",
+      "iHMP"
+    ],
+    "CRC": [
+      "Sinha",
+      "Yachida"
+    ]
+  },
+  "scca_components": [
+    1,
+    2
+  ],
+  "scca_penalties": [
+    0.15,
+    0.25,
+    0.4
+  ],
+  "microbiome_transform": "CLR with pseudocount; no disease-driven filtering",
+  "metabolome_transform": "median imputation plus standard scaling for unsupervised whole-cohort view construction",
+  "disease_labels_used_for": "post-hoc annotation and association only; never for feature selection or factor/component tuning",
+  "external_projection_policy": "no unseen-sample MOFA projection unless supported by the actual MOFA2 implementation"
+}

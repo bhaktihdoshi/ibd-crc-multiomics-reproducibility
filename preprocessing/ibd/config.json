@@ -1,0 +1,80 @@
+{
+  "random_seed": 42,
+  "primary_feature_missingness_threshold": 0.3,
+  "primary_iHMP_visit_rule": [
+    "earliest collection date",
+    "lowest visit/study week",
+    "sorted sample ID"
+  ],
+  "exclude_antibiotic_exposure": true,
+  "exclude_systemic_steroid_exposure_where_recorded": true,
+  "external_validation_design": [
+    "Franzosa_to_iHMP",
+    "iHMP_to_Franzosa"
+  ],
+  "outcomes": [
+    "ibd_vs_control",
+    "cd_vs_control",
+    "uc_vs_control"
+  ],
+  "feature_sets": [
+    "clinical",
+    "metabolomics",
+    "integrated"
+  ],
+  "models": [
+    "ridge_logistic",
+    "elastic_net_logistic",
+    "random_forest",
+    "extra_trees",
+    "gradient_boosting"
+  ],
+  "annotation": {
+    "annotation_resource_directories": [
+      "thesis_preprocessing_workflow/ibd_pipeline/annotation_resources",
+      "IBD-DataSet/annotation_resources"
+    ],
+    "allow_external_annotation_download": false,
+    "kegg_request_delay_seconds": 0.35,
+    "kegg_retry_count": 2,
+    "minimum_background_kegg_mappings": 10,
+    "minimum_significant_kegg_mappings": 3,
+    "minimum_pathway_background_compounds": 3,
+    "minimum_pathway_significant_compounds": 2,
+    "low_coverage_threshold": 0.5,
+    "annotation_retrieval_date": "2026-07-31",
+    "excluded_kegg_pathway_ids": [
+      "map01100",
+      "map01110",
+      "map01120",
+      "map01200"
+    ],
+    "excluded_kegg_pathway_name_patterns": [
+      "Metabolic pathways",
+      "Biosynthesis of secondary metabolites",
+      "Microbial metabolism in diverse environments",
+      "Biosynthesis of cofactors",
+      "Chemical structure transformation maps",
+      "Global and overview maps"
+    ]
+  },
+  "nested_cv": {
+    "outer_folds_requested": 5,
+    "inner_folds_requested": 5,
+    "minimum_class_count_for_requested_inner": 5,
+    "reduced_inner_folds": 3,
+    "selection_metric": "roc_auc",
+    "randomized_search_n_iter": {
+      "random_forest": 75,
+      "extra_trees": 75,
+      "gradient_boosting": 75
+    },
+    "model_simplicity_order": {
+      "ridge_logistic": 0,
+      "elastic_net_logistic": 1,
+      "random_forest": 2,
+      "extra_trees": 3,
+      "gradient_boosting": 4
+    }
+  }
+}

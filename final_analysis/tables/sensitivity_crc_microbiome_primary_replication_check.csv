@@ -1,0 +1,3 @@
+task,training_cohort,external_cohort,sensitivity_runner_roc_auc,frozen_v2b_roc_auc,roc_auc_match,sensitivity_runner_pr_auc,frozen_v2b_pr_auc,pr_auc_match
+CRC_vs_Control,Sinha,Yachida,0.5629606299212598,0.5629606299212598,True,0.5464119132601165,0.5464119132601165,True
+CRC_vs_Control,Yachida,Sinha,0.5818619582664526,0.5818619582664526,True,0.4599806621655337,0.4599806621655337,True

@@ -1,0 +1,5 @@
+stage,dependency,required,blocking_if_missing
+4D,corrected-v2 Stage 4C-compatible microbiome/metabolome matrices,True,True
+4D,local HMDB-to-KEGG mappings and KEGG compound-pathway cache,True,True
+4D,prepared NJC19 curated relation table,True,True
+4D,"no disease labels, clinical variables, correlations, coefficients or model outputs",True,True

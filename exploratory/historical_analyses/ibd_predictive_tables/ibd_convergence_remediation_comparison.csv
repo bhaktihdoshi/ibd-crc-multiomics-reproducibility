@@ -1,0 +1,2 @@
+remediation_performed,reason,old_results_preserved,corrected_results_retained,selected_logistic_models_unresolved_or_not_converged
+False,No logistic rerun was performed in this diagnostic pass. Selected logistic final fits are converged when n_iter_ < max_iter; otherwise they remain unresolved/review-required.,True,False,0

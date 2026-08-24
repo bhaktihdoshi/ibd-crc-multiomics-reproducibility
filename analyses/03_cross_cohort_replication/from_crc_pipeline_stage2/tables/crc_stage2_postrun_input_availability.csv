@@ -1,0 +1,6 @@
+item,path,exists
+external_predictions,stage2/predictions/crc_stage2_external_predictions.csv,True
+external_performance,stage2/tables/crc_stage2_external_validation_results.csv,True
+threshold_selection,stage2/tables/crc_stage2_threshold_selection.csv,True
+internal_cv_results,stage2/tables/crc_stage2_internal_cv_results.csv,True
+selected_models,stage2/models,True

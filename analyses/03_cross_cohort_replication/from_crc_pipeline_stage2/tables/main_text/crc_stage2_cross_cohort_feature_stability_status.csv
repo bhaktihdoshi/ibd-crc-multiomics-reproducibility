@@ -1,0 +1,2 @@
+status,rule,interpretation_note
+no_stable_features,No feature had n_directions >= 2 in the existing stability table.,No stability figure generated; predictive stability was not forced.

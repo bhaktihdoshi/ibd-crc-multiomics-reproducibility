@@ -1,0 +1,5 @@
+disease,cohort,microbiome_file,metabolome_file,metadata_file,n,microbiome_p,metabolome_p,sample_order_aligned,finite_after_preprocessing,phenotype_used_for_input_selection
+IBD,Franzosa,IBD_Franzosa_microbiome.csv,IBD_Franzosa_metabolome.csv,IBD_Franzosa_metadata.csv,137,50,166,True,True,False
+IBD,iHMP,IBD_iHMP_microbiome.csv,IBD_iHMP_metabolome.csv,IBD_iHMP_metadata.csv,91,50,166,True,True,False
+CRC,Sinha,CRC_Sinha_microbiome.csv,CRC_Sinha_metabolome.csv,CRC_Sinha_metadata.csv,131,52,109,True,True,False
+CRC,Yachida,CRC_Yachida_microbiome.csv,CRC_Yachida_metabolome.csv,CRC_Yachida_metadata.csv,252,52,109,True,True,False

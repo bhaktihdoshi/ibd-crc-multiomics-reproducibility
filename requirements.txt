@@ -1,0 +1,17 @@
+# Consolidated Python requirements across all pipeline stages.
+# For exact pinned versions used in the final Stage 4 analysis, see docs/software_environment_stage4.md.
+# Stage-specific requirements files (preprocessing/ibd/requirements.txt, etc.) may list a narrower subset.
+
+numpy==2.4.4
+pandas==3.0.2
+scikit-learn==1.6.1
+scipy
+matplotlib==3.10.0
+seaborn==0.13.2
+joblib
+torch==2.11.0
+h5py==3.12.1
+mofapy2==0.7.4
+pytest
+
+# R (Stage 4C sCCA only, not a Python dependency): R 4.5.1 + PMA package 1.2.4

@@ -1,0 +1,7 @@
+disease,graph_mode,n_nodes,microbe_nodes,metabolite_nodes,total_biological_edges,metabolite_metabolite_edges,microbe_metabolite_edges,microbe_microbe_edges,isolated_nodes,isolated_microbe_nodes,isolated_metabolite_nodes,connected_components,largest_component_size,largest_component_proportion,graph_density,microbial_coverage,biological_edges_exclude_self_loops
+IBD,identity,216,50,166,0,0,0,0,216,50,166,216,1,0.004629629629629629,0.0,0.0,True
+IBD,kegg_only,216,50,166,5268,5268,0,0,90,50,40,91,126,0.5833333333333334,0.2268733850129199,0.0,True
+IBD,kegg_njc19,216,50,166,5473,5268,205,0,52,13,39,53,164,0.7592592592592593,0.23570198105081827,0.74,True
+CRC,identity,161,52,109,0,0,0,0,161,52,109,161,1,0.006211180124223602,0.0,0.0,True
+CRC,kegg_only,161,52,109,4101,4101,0,0,68,52,16,69,93,0.577639751552795,0.31840062111801243,0.0,True
+CRC,kegg_njc19,161,52,109,4358,4101,257,0,29,14,15,30,132,0.8198757763975155,0.33835403726708074,0.7307692307692307,True

@@ -1,0 +1,5 @@
+disease,cohort_a,cohort_b,component_a,component_b,matched_by,view,n_common,spearman,cosine_abs,combined_similarity_for_component_pair,selected_overlap_n,selected_union_n,selected_jaccard,component_sign_oriented
+IBD,Franzosa,iHMP,1,1,maximum combined loading cosine similarity after independent PMA::CCA fits,microbiome,50,0.6608762621940784,0.31862413710712895,0.3904962319632431,8,16,0.5,True
+IBD,Franzosa,iHMP,1,1,maximum combined loading cosine similarity after independent PMA::CCA fits,metabolome,166,0.46701968263082905,0.46236832681935736,0.3904962319632431,18,57,0.3157894736842105,True
+CRC,Sinha,Yachida,1,1,maximum combined loading cosine similarity after independent PMA::CCA fits,microbiome,52,-0.3156534771842585,0.08144711513389201,0.07223020127247376,2,17,0.11764705882352941,True
+CRC,Sinha,Yachida,1,1,maximum combined loading cosine similarity after independent PMA::CCA fits,metabolome,109,0.1885041276256336,0.06301328741105552,0.07223020127247376,3,27,0.1111111111111111,True

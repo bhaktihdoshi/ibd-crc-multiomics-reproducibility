@@ -1,0 +1,5 @@
+disease,cohort,selected_n_components,penaltyx,penaltyz,heldout_tuning_criterion,canonical_correlation
+IBD,Franzosa,1,0.4,0.4,0.736773443878698,0.829602579122041
+IBD,iHMP,1,0.4,0.4,0.568830392612201,0.767620147896078
+CRC,Sinha,1,0.15,0.15,0.343883100041605,0.477485594940125
+CRC,Yachida,1,0.4,0.4,0.479669199764654,0.626257011649763

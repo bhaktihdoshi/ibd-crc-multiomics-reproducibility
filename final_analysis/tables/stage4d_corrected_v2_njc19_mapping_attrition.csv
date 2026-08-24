@@ -1,0 +1,3 @@
+disease,source,source_records,valid_relation_type,mapped_genus,mapped_metabolite,both_endpoints_retained,unique_graph_edges,terminology
+IBD,NJC19,205,205,205,205,205,205,"curated production, consumption or transport relations; not positive correlations"
+CRC,NJC19,257,257,257,257,257,257,"curated production, consumption or transport relations; not positive correlations"

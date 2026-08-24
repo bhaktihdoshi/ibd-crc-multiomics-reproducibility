@@ -1,0 +1,12 @@
+check,passed,detail
+strict_56_metabolites_started,True,n=56
+all_56_yachida_features_present,True,present=56
+hs_excluded,True,HS not included
+expected_stage_counts,True,"{""Healthy"": 127, ""MP"": 40, ""Stage 0"": 27, ""Stage I"": 44, ""Stage II"": 25, ""Stage III"": 34, ""Stage IV"": 20}"
+one_sample_per_subject,True,duplicates=0
+no_missing_ordered_state,True,ordered labels complete
+primary_bh_family_size_56,True,rows=56
+spearman_bh_family_size_56,True,rows=56
+stage3a_outputs_unchanged,True,Stage 3B reads Stage 3A context only
+no_heavy_stage3b_methods_invoked,True,No PCA/UMAP/latent/graph/clustering/predictive model code is called
+no_forbidden_positive_claims,True,reports avoid temporal inference claims

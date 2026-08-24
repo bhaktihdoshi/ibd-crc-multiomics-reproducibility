@@ -1,0 +1,6 @@
+output_file,exists,schema_status,status,notes
+/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/stage4_multiomics_integration/corrected_v2/tables/stage4d_corrected_v2_nodes.csv,True,pass,pass,
+/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/stage4_multiomics_integration/corrected_v2/tables/stage4d_corrected_v2_biological_edges.csv,True,pass,pass,
+/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/stage4_multiomics_integration/corrected_v2/tables/stage4d_corrected_v2_edge_index.csv,True,pass,pass,
+/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/stage4_multiomics_integration/corrected_v2/tables/stage4d_corrected_v2_graph_summary.csv,True,pass,pass,
+/Users/bhaktidoshi/Downloads/Thesis Data/thesis_preprocessing_workflow/stage4_multiomics_integration/corrected_v2/tables/stage4d_corrected_v2_validation_tests.csv,True,pass,pass,

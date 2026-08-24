@@ -1,0 +1,11 @@
+{
+  "new_tables": [
+    "differential_abundance_standardized_results.csv",
+    "feature_stability.csv",
+    "external_performance_ci.csv",
+    "internal_model_comparisons.csv",
+    "permutation_test.csv",
+    "significant_metabolite_overlap.csv"
+  ],
+  "figures_count": 218
+}

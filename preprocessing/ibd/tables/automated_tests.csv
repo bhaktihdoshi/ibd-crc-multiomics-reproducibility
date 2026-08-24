@@ -1,0 +1,46 @@
+test,passed,detail
+Every analysed sample originates from supplied files,True,included sample IDs checked against supplied metadata
+No participant appears in both cohorts,True,participant ID intersection checked
+Each primary participant appears only once,True,iHMP first-visit selection applied
+Raw feature names are not primary matching key,True,HMDB-based matching used
+No CD-versus-UC model enters primary results,True,outcome list excludes CD vs UC
+Nested cross-validation estimates internal performance,True,outer folds estimate training-cohort internal performance; inner folds tune hyperparameters
+External labels are not accessed during fitting,True,training and external dataframes are split before nested/final GridSearchCV; y_ext used only after fitted best_estimator predicts
+Imputation is fitted only on training data,True,SimpleImputer is inside sklearn Pipeline fitted inside inner CV and full-training refit
+Scaling is fitted only on training data,True,StandardScaler is inside sklearn Pipeline fitted inside inner CV and full-training refit
+Missingness filtering is fitted only on training data,True,MissingnessFilter is inside sklearn Pipeline fitted inside inner CV and full-training refit
+Constant-feature filtering is fitted only on training data,True,ConstantFeatureFilter is inside sklearn Pipeline fitted inside inner CV and full-training refit
+Feature selection is fitted only on training data,True,no outcome-based external feature selection; all filter steps are pipeline-contained
+PCA or autoencoders are fitted only on training data,True,PCA is used for EDA only; no autoencoder predictive model implemented
+PCA figures are cohort-specific,True,PCA is generated separately within Franzosa and iHMP; no combined-cohort PCA is generated in the current reporting layer
+Threshold selection is training-only,True,Youden J threshold is estimated from training-only cross-fitted predictions; no external threshold optimisation
+Threshold selection summary is exported,True,"threshold table reports selected threshold, sensitivity, specificity, Youden J and threshold-selection ROC-AUC when generated during full execution"
+Error analysis uses frozen external-evaluation threshold,True,model_error_analysis.csv uses the same stored frozen threshold as external_validation_performance.csv; 0.5 labels are sensitivity only
+No external outcomes are passed to threshold selection,True,frozen_threshold is computed before external prediction from training-only OOF probabilities; GBM OOF fitting uses fold-local clf__sample_weight
+Calibration is assessment-only,True,"calibration curves/intercept/slope are generated after frozen external prediction and are not used for model selection, HPO or threshold optimisation"
+Brier score remains available,True,external_validation_performance.csv retains Brier score
+Differential-abundance results are non-empty when data are adequate,True,HC3 robust metabolite models are exported
+FDR values lie between 0 and 1,True,"Benjamini-Hochberg q-values are clipped to [0, 1]"
+Calprotectin-adjusted models use complete cases,True,robust_ols_hc3 drops rows missing required model variables
+Pathway/class enrichment is annotation-backed,True,enrichment uses local/formal annotation cache where available and records why unsupported terms are excluded
+Permutation importance has no biological sign,True,tree/boosting importance rows use effect_direction=not_directional_for_permutation_importance
+Feature importance is training-only,True,logistic coefficients use final training fit; tree permutation importance uses held-out folds inside training cohort
+Stable metabolite table requires both transfer directions,True,cross-cohort agreement is reported only for harmonised HMDB features observed in both directions
+Primary 30% missingness table exists,True,only the predefined 30% threshold is reported
+Expanded hyperparameter search remains training-only,True,inner CV uses GridSearchCV for manageable logistic grids and seeded RandomizedSearchCV for larger tree/boosting grids; external cohorts are not passed to make_search
+Gradient boosting uses training-fold imbalance weights,True,"GradientBoostingClassifier receives clf__sample_weight from compute_sample_weight('balanced', y_train_fold) during nested CV, final refit, threshold cross-fitting and training-only permutation importance"
+Gradient boosting balanced weights are non-uniform under imbalance,True,compute_sample_weight('balanced') gives larger weights to the minority class
+Gradient boosting weights are computed from relevant training subset,True,fold-local labels determine clf__sample_weight; external labels are never needed
+All five candidate models have an imbalance strategy,True,ridge/elastic-net/RF/ExtraTrees use class_weight='balanced'; gradient boosting uses fit-time balanced sample_weight
+Reporting index surfaces existing interpretation outputs,True,"PCA, feature interpretation, stability, transportability and sensitivity-status outputs are referenced in the reporting layer"
+Consolidated feature figures use internal model selection only,True,plot_consolidated_top_features filters Franzosa-trained metabolomics rows and uses selected_for_external_validation or select_models_training_only; external ROC-AUC is not used
+Main-text workflow figures are exported,True,"workflow diagrams document leakage prevention, threshold freezing, external validation and feature-importance interpretation"
+Final reporting figures are indexed,True,"main-text figure index lists purpose, section, input data and output filenames"
+Final model summary is exported,True,"summary table combines nested CV, external metrics, thresholds and calibration diagnostics"
+Tree permutation importance is not labelled as signed effect direction,True,"tree and boosting permutation importance is treated as predictive magnitude, not biological direction"
+Stability plot contains only replicated signed logistic associations,True,cross-cohort stability figure excludes tree-only/non-directional rows
+Optional clusters are training-derived,True,optional clustering not implemented
+Reverse-direction validation is rebuilt independently,True,Franzosa_to_iHMP and iHMP_to_Franzosa are fitted as separate pipelines
+No sample is imported from a publication or external repository,True,Franzosa supplement repairs original supplied sample/metabolite values only; no new sample IDs admitted
+Every external prediction is generated by a frozen pipeline,True,external predictions are generated after final training-only GridSearchCV refit
+Every analysed sample can be traced to its original supplied file,True,included_samples.csv and Franzosa bridge files preserve supplied Sample IDs

@@ -1,0 +1,9 @@
+disease,task,training_cohort,external_cohort,training_n,external_n,training_class_counts,external_class_counts,shared_microbial_p,shared_metabolite_p,exact_feature_transfer_possible,eligible_for_stage4b
+IBD,IBD vs Control,Franzosa,iHMP,137,91,"{'Control': 56, 'CD': 45, 'UC': 36}","{'CD': 39, 'UC': 26, 'Control': 26}",50,166,True,True
+IBD,IBD vs Control,iHMP,Franzosa,91,137,"{'CD': 39, 'UC': 26, 'Control': 26}","{'Control': 56, 'CD': 45, 'UC': 36}",50,166,True,True
+IBD,CD vs Control,Franzosa,iHMP,137,91,"{'Control': 56, 'CD': 45, 'UC': 36}","{'CD': 39, 'UC': 26, 'Control': 26}",50,166,True,True
+IBD,CD vs Control,iHMP,Franzosa,91,137,"{'CD': 39, 'UC': 26, 'Control': 26}","{'Control': 56, 'CD': 45, 'UC': 36}",50,166,True,True
+IBD,UC vs Control,Franzosa,iHMP,137,91,"{'Control': 56, 'CD': 45, 'UC': 36}","{'CD': 39, 'UC': 26, 'Control': 26}",50,166,True,True
+IBD,UC vs Control,iHMP,Franzosa,91,137,"{'CD': 39, 'UC': 26, 'Control': 26}","{'Control': 56, 'CD': 45, 'UC': 36}",50,166,True,True
+CRC,CRC vs Control,Sinha,Yachida,131,252,"{'Control/Healthy': 89, 'CRC': 42}","{'Control/Healthy': 127, 'CRC': 125}",52,110,True,True
+CRC,CRC vs Control,Yachida,Sinha,252,131,"{'Control/Healthy': 127, 'CRC': 125}","{'Control/Healthy': 89, 'CRC': 42}",52,110,True,True

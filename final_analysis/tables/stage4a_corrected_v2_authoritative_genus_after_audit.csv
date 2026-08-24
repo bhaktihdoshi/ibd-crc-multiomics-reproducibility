@@ -1,0 +1,5 @@
+cohort,authoritative_genus_policy,sample_n,genus_p,median_row_sum_after_reclosure,min_row_sum_after_reclosure,max_row_sum_after_reclosure,row_sums_approximately_one,negative_values,infinite_or_nan_values,overall_zero_fraction,median_prevalence,features_present_ge_10pct,features_present_ge_20pct,features_present_ge_50pct
+Franzosa,aggregate_species_to_genus,137,57,1.0,0.9999999999999997,1.0000000000000004,True,0,0,0.5309258547829427,0.44525547445255476,46,40,25
+iHMP,explicit_genus_only,91,126,1.0,0.9999999999999996,1.0000000000000004,True,0,0,0.7625152625152625,0.06593406593406594,58,49,26
+Sinha,explicit_genus_only,131,57,1.0,0.9999999999999994,1.0000000000000007,True,0,0,0.5476094817195661,0.37404580152671757,57,40,20
+Yachida,explicit_genus_only,252,1941,1.0000000000000009,0.9999999999999939,1.0000000000000073,True,0,0,0.7828030061414915,0.06349206349206349,834,631,343

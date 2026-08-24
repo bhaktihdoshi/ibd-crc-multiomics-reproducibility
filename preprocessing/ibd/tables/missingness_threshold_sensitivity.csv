@@ -1,0 +1,3 @@
+threshold,cohort,features_retained_by_feature_missingness,analysis_role
+0.3,Franzosa,166,predefined_primary_threshold
+0.3,iHMP,164,predefined_primary_threshold

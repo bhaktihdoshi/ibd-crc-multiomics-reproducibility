@@ -1,0 +1,5 @@
+disease,cohort,matched_n,microbial_p,metabolomic_p,microbial_p_over_n,metabolomic_p_over_n,microbial_zero_fraction,median_taxon_prevalence
+IBD,Franzosa,0,0,,,,,
+IBD,iHMP,0,0,,,,,
+CRC,Sinha,131,220,56.0,1.6793893129770991,0.42748091603053434,0.5423317140874392,0.37404580152671757
+CRC,Yachida,0,0,56.0,,,,
