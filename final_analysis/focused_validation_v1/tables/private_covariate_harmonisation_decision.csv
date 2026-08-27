@@ -1,0 +1,2 @@
+decision,participant_level_metadata_copied,reason
+NOT_FEASIBLE_AFTER_PRIVATE_METADATA_AUDIT,False,"Candidate variables were found only as heterogeneous aggregate-audited fields; no common cross-cohort covariate set passed completeness, definition, timing and non-proxy criteria in this automated bounded audit."

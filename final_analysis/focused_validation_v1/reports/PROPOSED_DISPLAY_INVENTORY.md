@@ -1,0 +1,14 @@
+# Proposed Display Inventory
+
+| display_id              | content                                             | source                                                            |
+|:------------------------|:----------------------------------------------------|:------------------------------------------------------------------|
+| Figure 1                | study design                                        | existing/future thesis-facing                                     |
+| Figure 2                | participant eligibility and matching                | existing/future thesis-facing                                     |
+| Table 1                 | cohort and feature-space overview                   | focused_table2/table source plus frozen tables                    |
+| Figure 3                | metabolite association, replication and concordance | Stage 2/3 provenance                                              |
+| Figure 4                | external transportability and ROC curves            | focused_validation_v1                                             |
+| Table 2                 | complete external performance metrics               | focused_validation_v1                                             |
+| Figure 5                | internal/external and threshold diagnostic          | focused_validation_v1                                             |
+| Figure 6                | latent structure and stability                      | INCOMPLETE_NOT_YET_AUTHORITATIVE pending MOFA/sCCA focused stages |
+| Supplementary Figure S1 | seven replicated-metabolite distributions           | INCOMPLETE_NOT_YET_AUTHORITATIVE pending influence focused stage  |
+| Supplementary Table S1  | software, versions and functions                    | baseline_integrity.json                                           |

@@ -1,0 +1,15 @@
+disease,cohort,primary_component,view,median_jaccard,mean_jaccard,jaccard_contributing_n,successful_model_fit_n,model_fit_failed_n,ambiguous_matches_excluded_n,failed_fits_assigned_zero,ambiguous_matches_included,median_is_conditional_on_valid_alignment,denominator_display
+CRC,Sinha,1,metabolome,0.21428571428571427,0.2175920904651642,143,200,0,22,False,False,True,143 valid aligned components
+CRC,Sinha,1,microbiome,0.21428571428571427,0.253317719215985,143,200,0,22,False,False,True,143 valid aligned components
+CRC,Sinha,2,metabolome,0.24621212121212122,0.2566560998405952,86,200,0,31,False,False,True,86 valid aligned components
+CRC,Sinha,2,microbiome,0.25,0.2664714935527269,86,200,0,31,False,False,True,86 valid aligned components
+CRC,Yachida,1,metabolome,0.375,0.42739557166092146,180,200,0,13,False,False,True,180 valid aligned components
+CRC,Yachida,1,microbiome,0.6875,0.6553207253129854,180,200,0,13,False,False,True,180 valid aligned components
+CRC,Yachida,2,metabolome,0.2413793103448276,0.2602554682711972,27,200,0,16,False,False,True,27 valid aligned components
+CRC,Yachida,2,microbiome,0.43478260869565216,0.45680888751718535,27,200,0,16,False,False,True,27 valid aligned components
+IBD,Franzosa,1,metabolome,0.6382978723404256,0.5939053770345458,200,200,0,0,False,False,True,200 valid aligned components
+IBD,Franzosa,1,microbiome,0.5444444444444445,0.5229923515727627,200,200,0,0,False,False,True,200 valid aligned components
+IBD,iHMP,1,metabolome,0.5192307692307693,0.4667963472199129,185,200,0,6,False,False,True,185 valid aligned components
+IBD,iHMP,1,microbiome,0.5714285714285714,0.559318025525456,185,200,0,6,False,False,True,185 valid aligned components
+IBD,iHMP,2,metabolome,0.41379310344827586,0.42592093131995606,42,200,0,26,False,False,True,42 valid aligned components
+IBD,iHMP,2,microbiome,0.3333333333333333,0.33804553745650895,42,200,0,26,False,False,True,42 valid aligned components

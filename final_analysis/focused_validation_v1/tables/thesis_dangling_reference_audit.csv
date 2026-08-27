@@ -1,0 +1,12 @@
+reference_to_check,recommended_resolution,status
+Supplementary Table S2,Remove unless independently created; not required in final display plan.,requires_manual_manuscript_check
+Supplementary Table S3,Remove if complete metrics are represented in main Table 2.,requires_manual_manuscript_check
+Figures 7 or 8,Remove from focused thesis display plan.,requires_manual_manuscript_check
+ordered-state CRC analysis,Do not reference in focused final results.,requires_manual_manuscript_check
+graph/GCN,Do not reference as a final focused-thesis figure/table.,requires_manual_manuscript_check
+KS imputation validation,No imputation/KS figure is part of final analysis.,requires_manual_manuscript_check
+prespecified sensitivity analyses,Use post-freeze/additive validation wording unless truly prespecified.,requires_manual_manuscript_check
+co-primary language,Avoid language implying prospective prespecification of additive analyses.,requires_manual_manuscript_check
+causal attribution of rank-metabolomics,Use representation-dependent; no causal explanation.,requires_manual_manuscript_check
+sCCA correlations only apparent,Distinguish apparent full-data from nested outer C1 estimates.,requires_manual_manuscript_check
+C2 nested estimates comparable five-fold summaries,Do not present C2 as equivalent to C1; fold support is limited.,requires_manual_manuscript_check

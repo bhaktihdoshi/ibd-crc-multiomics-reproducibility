@@ -1,0 +1,10 @@
+metabolite,canonical_hmdb,definition,reference_model_presence,non_reference_eligible_hits,non_reference_eligible_denominator,frequency,denominator_definition
+putrescine,HMDB0001414,A_top15_matched_primary_factor3,True,1,1,1.0,"non-reference IBD sensitivity runs with valid, shared, non-degenerate matched factor(s); primary K=8 seed 20260813 excluded"
+putrescine,HMDB0001414,B_top15_any_shared_ibd_factor,True,3,3,1.0,"non-reference IBD sensitivity runs with valid, shared, non-degenerate matched factor(s); primary K=8 seed 20260813 excluded"
+putrescine,HMDB0001414,C_nonzero_matched_primary_factor3,True,1,1,1.0,"non-reference IBD sensitivity runs with valid, shared, non-degenerate matched factor(s); primary K=8 seed 20260813 excluded"
+N-acetylputrescine,HMDB0002064,A_top15_matched_primary_factor3,True,1,1,1.0,"non-reference IBD sensitivity runs with valid, shared, non-degenerate matched factor(s); primary K=8 seed 20260813 excluded"
+N-acetylputrescine,HMDB0002064,B_top15_any_shared_ibd_factor,True,3,3,1.0,"non-reference IBD sensitivity runs with valid, shared, non-degenerate matched factor(s); primary K=8 seed 20260813 excluded"
+N-acetylputrescine,HMDB0002064,C_nonzero_matched_primary_factor3,True,1,1,1.0,"non-reference IBD sensitivity runs with valid, shared, non-degenerate matched factor(s); primary K=8 seed 20260813 excluded"
+eicosatrienoic acid,HMDB0002925,A_top15_matched_primary_factor3,True,1,1,1.0,"non-reference IBD sensitivity runs with valid, shared, non-degenerate matched factor(s); primary K=8 seed 20260813 excluded"
+eicosatrienoic acid,HMDB0002925,B_top15_any_shared_ibd_factor,True,3,3,1.0,"non-reference IBD sensitivity runs with valid, shared, non-degenerate matched factor(s); primary K=8 seed 20260813 excluded"
+eicosatrienoic acid,HMDB0002925,C_nonzero_matched_primary_factor3,True,1,1,1.0,"non-reference IBD sensitivity runs with valid, shared, non-degenerate matched factor(s); primary K=8 seed 20260813 excluded"

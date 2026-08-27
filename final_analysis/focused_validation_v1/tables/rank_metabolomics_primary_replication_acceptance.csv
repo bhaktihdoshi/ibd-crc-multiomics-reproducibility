@@ -1,0 +1,9 @@
+disease,task,training_cohort,external_cohort,representation,recomputed_external_roc_auc,authoritative_external_roc_auc,abs_delta,acceptance_pass,sample_ids_and_labels_match,feature_order_matches,threshold_source_training_only,target_derived_parameters_absent
+IBD,IBD_vs_Control,Franzosa,iHMP,METABOLOME,0.7372781065088758,0.7372781065088758,0.0,True,True,True,True,True
+IBD,IBD_vs_Control,Franzosa,iHMP,EARLY_INTEGRATION,0.7426035502958581,0.7426035502958581,0.0,True,True,True,True,True
+IBD,IBD_vs_Control,iHMP,Franzosa,METABOLOME,0.8458994708994709,0.8458994708994709,0.0,True,True,True,True,True
+IBD,IBD_vs_Control,iHMP,Franzosa,EARLY_INTEGRATION,0.38690476190476186,0.3869047619047618,5.551115123125783e-17,True,True,True,True,True
+CRC,CRC_vs_Control,Sinha,Yachida,METABOLOME,0.5055118110236221,0.5055118110236221,0.0,True,True,True,True,True
+CRC,CRC_vs_Control,Sinha,Yachida,EARLY_INTEGRATION,0.50948031496063,0.50948031496063,0.0,True,True,True,True,True
+CRC,CRC_vs_Control,Yachida,Sinha,METABOLOME,0.41198501872659177,0.4119850187265917,5.551115123125783e-17,True,True,True,True,True
+CRC,CRC_vs_Control,Yachida,Sinha,EARLY_INTEGRATION,0.5888175494917068,0.5888175494917068,0.0,True,True,True,True,True

@@ -1,0 +1,4 @@
+canonical_display_name,canonical_hmdb,primary_feature_id,primary_feature_count,annotation_metabolite_name,kegg_id,prefix_mismatch,punctuation_mismatch,case_mismatch,synonym_mismatch,hmdb_version_mismatch,duplicate_mapping,unmapped_metabolite,sensitivity_previous_comparison_basis,corrected_comparison_basis,alignment_rows_available
+putrescine,HMDB0001414,met__HMDB0001414,1,putrescine,C00134,True,False,False,False,False,False,False,display-name lower-case strings in mofa_sensitivity.py,canonical HMDB identifier,460
+N-acetylputrescine,HMDB0002064,met__HMDB0002064,1,N-acetylputrescine,C02714,True,False,False,False,False,False,False,display-name lower-case strings in mofa_sensitivity.py,canonical HMDB identifier,460
+eicosatrienoic acid,HMDB0002925,met__HMDB0002925,1,eicosatrienoic acid,C03242,True,False,False,False,False,False,False,display-name lower-case strings in mofa_sensitivity.py,canonical HMDB identifier,460

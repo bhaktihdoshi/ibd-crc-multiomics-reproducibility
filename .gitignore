@@ -11,3 +11,11 @@ __MACOSX/
 venv/
 .venv/
 *.egg-info/
+
+# Focused-validation local-only execution artifacts.
+final_analysis/focused_validation_v1/logs/
+final_analysis/focused_validation_v1/models/
+final_analysis/focused_validation_v1/checkpoints/
+final_analysis/focused_validation_v1/predictions/
+final_analysis/focused_validation_v1/**/*.tmp
+final_analysis/focused_validation_v1/**/*.pyc

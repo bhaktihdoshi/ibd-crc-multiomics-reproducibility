@@ -1,0 +1,21 @@
+n_components,penaltyx,penaltyz,mean_abs_correlation,sd_abs_correlation,mean_selected_feature_count,disease,cohort,outer_fold,selection_rule
+1.0,0.4,0.4,0.6904214074639505,0.1960263010457206,51.0,IBD,Franzosa,1,max mean abs inner correlation; tie lower SD; tie fewer selected features; tie simpler parameters
+1.0,0.4,0.4,0.5932746904126445,0.1867052312866985,52.6,IBD,Franzosa,2,max mean abs inner correlation; tie lower SD; tie fewer selected features; tie simpler parameters
+1.0,0.25,0.4,0.7637742891125896,0.0517271929141375,44.6,IBD,Franzosa,3,max mean abs inner correlation; tie lower SD; tie fewer selected features; tie simpler parameters
+1.0,0.4,0.4,0.7234401793303145,0.1575012166920282,54.2,IBD,Franzosa,4,max mean abs inner correlation; tie lower SD; tie fewer selected features; tie simpler parameters
+1.0,0.4,0.4,0.7404923303719281,0.0562135009726583,52.2,IBD,Franzosa,5,max mean abs inner correlation; tie lower SD; tie fewer selected features; tie simpler parameters
+2.0,0.4,0.4,0.5955605934021944,0.1448336443539759,120.0,IBD,iHMP,1,max mean abs inner correlation; tie lower SD; tie fewer selected features; tie simpler parameters
+1.0,0.4,0.4,0.5584889713360377,0.1054022054810673,52.4,IBD,iHMP,2,max mean abs inner correlation; tie lower SD; tie fewer selected features; tie simpler parameters
+1.0,0.4,0.4,0.6094622267419767,0.1828244994332219,58.0,IBD,iHMP,3,max mean abs inner correlation; tie lower SD; tie fewer selected features; tie simpler parameters
+1.0,0.4,0.4,0.6228475105589261,0.1256171581968593,55.6,IBD,iHMP,4,max mean abs inner correlation; tie lower SD; tie fewer selected features; tie simpler parameters
+1.0,0.4,0.4,0.6348542735378016,0.2067866434681083,55.6,IBD,iHMP,5,max mean abs inner correlation; tie lower SD; tie fewer selected features; tie simpler parameters
+2.0,0.25,0.25,0.3099819525012898,0.1551336801881916,32.8,CRC,Sinha,1,max mean abs inner correlation; tie lower SD; tie fewer selected features; tie simpler parameters
+1.0,0.15,0.15,0.2597284104891159,0.1513074530487906,5.8,CRC,Sinha,2,max mean abs inner correlation; tie lower SD; tie fewer selected features; tie simpler parameters
+1.0,0.15,0.15,0.3661450301447417,0.0816007660775817,7.6,CRC,Sinha,3,max mean abs inner correlation; tie lower SD; tie fewer selected features; tie simpler parameters
+1.0,0.25,0.15,0.3137781948385467,0.0947712377301264,8.4,CRC,Sinha,4,max mean abs inner correlation; tie lower SD; tie fewer selected features; tie simpler parameters
+2.0,0.4,0.15,0.2910797186072222,0.0675200449428764,34.8,CRC,Sinha,5,max mean abs inner correlation; tie lower SD; tie fewer selected features; tie simpler parameters
+1.0,0.4,0.25,0.6736881940748368,0.0285418854365819,25.6,CRC,Yachida,1,max mean abs inner correlation; tie lower SD; tie fewer selected features; tie simpler parameters
+2.0,0.4,0.4,0.6166724587563672,0.1037351266507149,77.6,CRC,Yachida,2,max mean abs inner correlation; tie lower SD; tie fewer selected features; tie simpler parameters
+1.0,0.4,0.4,0.5752617051612983,0.083559681081544,38.4,CRC,Yachida,3,max mean abs inner correlation; tie lower SD; tie fewer selected features; tie simpler parameters
+1.0,0.4,0.4,0.6668078476011867,0.1381339312006973,38.8,CRC,Yachida,4,max mean abs inner correlation; tie lower SD; tie fewer selected features; tie simpler parameters
+1.0,0.4,0.4,0.6395807131824329,0.1102702538270234,39.2,CRC,Yachida,5,max mean abs inner correlation; tie lower SD; tie fewer selected features; tie simpler parameters

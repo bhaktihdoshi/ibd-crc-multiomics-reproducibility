@@ -1,0 +1,8 @@
+stage,status,reason,generated_utc
+rank_metabolomics,INCOMPLETE_NOT_YET_AUTHORITATIVE,Mandatory focused-validation stage has no registered completed output in this branch.,2026-08-25T13:07:59.237109+00:00
+mofa_sensitivity,INCOMPLETE_NOT_YET_AUTHORITATIVE,Mandatory focused-validation stage has no registered completed output in this branch.,2026-08-25T13:07:59.237866+00:00
+scca_nested,INCOMPLETE_NOT_YET_AUTHORITATIVE,Mandatory focused-validation stage has no registered completed output in this branch.,2026-08-25T13:07:59.242192+00:00
+scca_stability,INCOMPLETE_NOT_YET_AUTHORITATIVE,Mandatory focused-validation stage has no registered completed output in this branch.,2026-08-25T13:07:59.246047+00:00
+metabolite_robustness,INCOMPLETE_NOT_YET_AUTHORITATIVE,Mandatory focused-validation stage has no registered completed output in this branch.,2026-08-25T13:07:59.248184+00:00
+covariate_audit_private,INCOMPLETE_NOT_YET_AUTHORITATIVE,Mandatory focused-validation stage has no registered completed output in this branch.,2026-08-25T13:07:59.249776+00:00
+latent_figures,INCOMPLETE_NOT_YET_AUTHORITATIVE,Mandatory focused-validation stage has no registered completed output in this branch.,2026-08-25T13:07:59.251084+00:00

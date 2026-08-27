@@ -1,0 +1,16 @@
+# Final Display Inventory
+
+| display_id              | title                                          | placement     | source                                                                                              | role                                          |
+|:------------------------|:-----------------------------------------------|:--------------|:----------------------------------------------------------------------------------------------------|:----------------------------------------------|
+| Figure 1                | study design                                   | main          | planned thesis display                                                                              | study design overview                         |
+| Figure 2                | participant eligibility/matching               | main          | planned thesis display                                                                              | cohort/sample eligibility                     |
+| Table 1                 | cohorts and harmonised feature spaces          | main          | planned thesis display                                                                              | cohort and feature-space overview             |
+| Figure 3                | metabolite association/replication/concordance | main          | planned thesis display                                                                              | frozen Stage 2/3 metabolite evidence          |
+| Figure 4                | external transportability + ROC curves         | main          | final_analysis/focused_validation_v1/figures/figure4_external_transportability_composite.png        | frozen Stage 4B prediction transportability   |
+| Table 2                 | complete external performance metrics          | main          | final_analysis/focused_validation_v1/tables/focused_table2_complete_external_metrics_display.csv    | complete frozen external prediction metrics   |
+| Figure 5                | internal/external + threshold diagnostic       | main          | final_analysis/focused_validation_v1/figures/figure5_internal_external_threshold_diagnostic.png     | threshold/decision-score diagnostic           |
+| Figure 6                | latent structure and stability                 | main          | final_analysis/focused_validation_v1/figures/figure6_latent_structure_and_stability.png             | MOFA and sCCA stability synthesis             |
+| Supplementary Figure S1 | replicated-metabolite distributions            | supplementary | final_analysis/focused_validation_v1/figures/supp_figure_s1_replicated_metabolite_distributions.png | seven replicated IBD metabolite distributions |
+| Supplementary Table S1  | software/versions/functions                    | supplementary | final_analysis/focused_validation_v1/manifests/baseline_integrity.json                              | software and provenance                       |
+
+Supplementary Table S2 is not retained because it would duplicate Figure 3 / Supplementary Figure S1 evidence.
