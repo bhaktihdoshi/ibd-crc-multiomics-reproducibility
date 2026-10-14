@@ -12,7 +12,7 @@ This thesis tests whether **microbiome** and **metabolome** case-control signatu
 - **Limitations**: cross-cohort metabolomics quantitative-scale equivalence unverified; CRC microbiome platform (16S vs. shotgun) confounded with cohort — see [`docs/limitations.md`](docs/limitations.md).
 - **Every number's source**: [`docs/file_provenance_map.csv`](docs/file_provenance_map.csv) and, for the thesis's exact figures/tables, [`final_analysis/tables/final_stage4_figure_source_values.csv`](final_analysis/tables/final_stage4_figure_source_values.csv) / [`analyses/03_cross_cohort_replication/manifests/stage2_3_manuscript_claim_provenance.csv`](analyses/03_cross_cohort_replication/manifests/stage2_3_manuscript_claim_provenance.csv).
 
-Full detail in the 15 sections below.
+Full detail in the 10 sections below.
 
 ---
 
@@ -91,23 +91,3 @@ Metabolome-only is **not** a secondary analysis or "stress test" in the final re
 ## 10. Reproducibility design
 
 Fixed random seeds; nested cross-validation with all trainable preprocessing (missingness/prevalence filtering, imputation, scaling, hyperparameter selection) fit only on the training partition; decision-score (not saturated-probability) ranking metrics; Youden thresholds selected on source cross-fitted out-of-fold decision scores and frozen before external evaluation; 2,000-resample stratified participant bootstrap CIs with BH-FDR across prespecified comparison families; sha256-hash-tracked authoritative output registry; a consolidated automated QA suite; a post-freeze code-change/equivalence-verification layer. See `docs/reproducibility.md`.
-
-## 11. How to reproduce analyses
-
-See `docs/reproducibility.md` and `final_analysis/README.md` for exact commands. In brief: the Stage 4 pipeline is run via the scripts in `final_analysis/code/` (`run_stage4a_corrected_v2.py` → `run_stage4e_gcn_corrected_v2.py`, then `freeze_final_stage4_results.py`); QA via `run_final_stage4_qa.py`; the CRC sensitivity branch via `run_stage4b_crc_microbiome_sensitivity.py`. Raw data must first be obtained per `data/README.md` — it is not redistributed in this repository.
-
-## 12. Where final thesis outputs live
-
-`final_analysis/` (Stage 4) and `analyses/03_cross_cohort_replication/` (Stage 2/3). Thesis-facing copies of the final figures/tables are also collected under `results/final/`.
-
-## 13. Where exploratory/historical analyses live
-
-`exploratory/` — alternative model families, alternative preprocessing, diagnostic analyses, discarded/infeasible ideas, and the full pre-correction Stage 4 pipeline (`exploratory/historical_analyses/stage4_pre_correction_v1/`) and IBD-only predictive-modelling history. **These are not final results** — see the warning in `exploratory/README.md`.
-
-## 14. Data availability / accessions
-
-No raw participant-level data is redistributed in this repository. See `data/README.md` for each cohort's original publication, accession/repository, and how to obtain it.
-
-## 15. Software environment
-
-See `docs/software_environment.md` (general) and `docs/software_environment_stage4.md` (exact Stage 4 package versions).
