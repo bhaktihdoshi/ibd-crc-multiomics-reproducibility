@@ -12,7 +12,7 @@ This thesis tests whether **microbiome** and **metabolome** case-control signatu
 - **Limitations**: cross-cohort metabolomics quantitative-scale equivalence unverified; CRC microbiome platform (16S vs. shotgun) confounded with cohort — see [`docs/limitations.md`](docs/limitations.md).
 - **Every number's source**: [`docs/file_provenance_map.csv`](docs/file_provenance_map.csv) and, for the thesis's exact figures/tables, [`final_analysis/tables/final_stage4_figure_source_values.csv`](final_analysis/tables/final_stage4_figure_source_values.csv) / [`analyses/03_cross_cohort_replication/manifests/stage2_3_manuscript_claim_provenance.csv`](analyses/03_cross_cohort_replication/manifests/stage2_3_manuscript_claim_provenance.csv).
 
-Full detail in the 20 sections below.
+Full detail in the 15 sections below.
 
 ---
 
@@ -111,34 +111,3 @@ No raw participant-level data is redistributed in this repository. See `data/REA
 ## 15. Software environment
 
 See `docs/software_environment.md` (general) and `docs/software_environment_stage4.md` (exact Stage 4 package versions).
-
-## 16. Known limitations
-
-See `docs/limitations.md`. Headline items: metabolomics cross-cohort quantitative-scale equivalence unverified; CRC microbiome platform (16S vs. shotgun) confounded with cohort; sCCA fold correlations are tuning diagnostics, not unbiased estimates; GCN results are specific to the tested graph policies/architectures, not general evidence about GNN capability; no fully harmonised four-cohort clinical covariate set exists.
-
-## 17. Citation instructions
-
-See `CITATION.cff`.
-
-## 18. Thesis citation placeholder
-
-> Doshi, B. (2026). *[Thesis title — not yet verified against a frozen final title page]*. MSc thesis, University of Birmingham. [DOI/URL once available.]
-
-## 19. Contact / author
-
-Bhakti Doshi ([contact email — to be added by the author before publication]).
-
-## 20. Licence / data-licence disclaimer
-
-**The code in this repository is released under the MIT Licence** (see `LICENSE`). **This applies only to the original analysis code, scripts, and documentation authored for this project.** It does **not** grant any redistribution rights over, and does not apply to:
-
-- the third-party cohort datasets (Franzosa, iHMP/IBDMDB, Sinha, Yachida) — not redistributed here, see `data/README.md`;
-- third-party reference resources (KEGG, HMDB, NJC19, MiMeDB) — not redistributed here;
-- the publications cited in `docs/references_and_data_sources.md`;
-- the dissertation document itself, once added (subject to the author's institution's own policies).
-
-See `docs/data_provenance.md` for the full distinction between the code licence, third-party data licences, and third-party resources.
-
----
-
-**For examiners**: final thesis claims should be traced through the authority/provenance files described in `final_analysis/README.md` and `analyses/03_cross_cohort_replication/README.md`, not inferred from file location alone. Historical results in `exploratory/` may differ from the final analysis and must not be cited as thesis evidence.
